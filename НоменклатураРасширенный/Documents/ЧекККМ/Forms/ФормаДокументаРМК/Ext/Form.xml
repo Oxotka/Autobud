@@ -23,6 +23,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing" callType="Before">Номенклатура_ОбработкаОповещенияПеред</Event>
 		<Event name="OnOpen" callType="Before">Номенклатура_ПриОткрытииПеред</Event>
 		<Event name="OnCreateAtServer" callType="Before">Номенклатура_ПриСозданииНаСервереПеред</Event>
 	</Events>

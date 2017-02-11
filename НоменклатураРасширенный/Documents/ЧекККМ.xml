@@ -101,7 +101,6 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокументаРМК</Form>
-			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="1e6c6ef1-854b-42a5-81fa-cecadc94fb4d">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.Товары" category="TabularSection">

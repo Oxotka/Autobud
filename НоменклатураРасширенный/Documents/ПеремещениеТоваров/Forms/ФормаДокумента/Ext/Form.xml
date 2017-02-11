@@ -165,6 +165,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing" callType="Before">Номенклатура_ОбработкаОповещенияПеред</Event>
 		<Event name="OnOpen" callType="Before">Номенклатура_ПриОткрытииПеред</Event>
 		<Event name="OnCreateAtServer" callType="After">Номенклатура_ПриСозданииНаСервереПосле</Event>
 	</Events>

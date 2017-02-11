@@ -1858,7 +1858,6 @@
 											<Representation>Tree</Representation>
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
-											<VerticalScrollBar>DontUse</VerticalScrollBar>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -1891,7 +1890,7 @@
 												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
 												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 											</Period>
-											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
 											<RestoreCurrentRow>true</RestoreCurrentRow>
 											<TopLevelParent xsi:nil="true"/>
 											<ShowRoot>true</ShowRoot>

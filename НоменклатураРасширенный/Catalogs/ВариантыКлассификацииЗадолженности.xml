@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="32e9d9be-d17f-4278-b08a-779bc0027f09">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВариантыКлассификацииЗадолженности" category="Object">
+				<xr:TypeId>69918663-c0e2-4096-b252-f94a5a7cf5fc</xr:TypeId>
+				<xr:ValueId>c3d3fc19-3ffc-4232-af42-5c7b449ef2c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВариантыКлассификацииЗадолженности" category="Ref">
+				<xr:TypeId>1ac6d4e1-0796-4c9c-b385-eba45531de4e</xr:TypeId>
+				<xr:ValueId>caa25059-48e4-4033-b6e6-f381cee8792f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВариантыКлассификацииЗадолженности" category="Selection">
+				<xr:TypeId>703796ec-23bb-4c21-9caf-373c5fd36508</xr:TypeId>
+				<xr:ValueId>c12294d2-6bfe-4abb-9741-955a649f6bbc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВариантыКлассификацииЗадолженности" category="List">
+				<xr:TypeId>39fc0866-c62f-4ac0-8e55-e59daef6e982</xr:TypeId>
+				<xr:ValueId>7bd1f83d-128a-47f5-9488-b7f25985c091</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВариантыКлассификацииЗадолженности" category="Manager">
+				<xr:TypeId>d4f12005-b80c-4065-85df-4e6046de674f</xr:TypeId>
+				<xr:ValueId>5b9abb33-14ba-44a5-a3b2-5e40f75997a0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыКлассификацииЗадолженности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

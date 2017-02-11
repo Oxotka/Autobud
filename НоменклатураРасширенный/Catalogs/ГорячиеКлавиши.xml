@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="d5a0beb5-aefa-4525-af5a-cb9380f106b3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГорячиеКлавиши" category="Object">
+				<xr:TypeId>4b11551e-9475-41f7-a3c4-f0ef7a82577f</xr:TypeId>
+				<xr:ValueId>729509d7-e108-4567-bfcf-bec3b084a994</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГорячиеКлавиши" category="Ref">
+				<xr:TypeId>27839991-d12f-416b-b8fa-a8554ed7ae5a</xr:TypeId>
+				<xr:ValueId>996849cc-c3e0-4a22-9622-cf52c32c9ed0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГорячиеКлавиши" category="Selection">
+				<xr:TypeId>4ab346f7-28f3-4ad5-9c5d-4d4fb7a2a478</xr:TypeId>
+				<xr:ValueId>7f112f11-6e04-40f3-a927-64cc20184633</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГорячиеКлавиши" category="List">
+				<xr:TypeId>92c5d9a0-01c8-4d5d-9b9f-fd068645739e</xr:TypeId>
+				<xr:ValueId>b434439e-9fa3-4473-902e-7eef682ac6f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГорячиеКлавиши" category="Manager">
+				<xr:TypeId>5c5b0e86-5aab-4f24-a775-1ca229a5c5df</xr:TypeId>
+				<xr:ValueId>85d8b2e5-4ec9-42fe-a1a5-65b2aa34aab4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГорячиеКлавиши</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

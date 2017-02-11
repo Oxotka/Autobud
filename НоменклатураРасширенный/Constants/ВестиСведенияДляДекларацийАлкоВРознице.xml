@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Constant uuid="f44cf9a8-6ea0-4015-b27f-e40cd70e0ea6">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ВестиСведенияДляДекларацийАлкоВРознице" category="Manager">
+				<xr:TypeId>d11c6970-b589-4651-b347-cc5010202672</xr:TypeId>
+				<xr:ValueId>9457e598-b9f9-4f91-8918-c8c488353c12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВестиСведенияДляДекларацийАлкоВРознице" category="ValueManager">
+				<xr:TypeId>ffcb3823-6dd4-41b2-b102-80d828249b05</xr:TypeId>
+				<xr:ValueId>86545f5d-e5f7-4f9c-805c-e6d8c288ec12</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВестиСведенияДляДекларацийАлкоВРознице</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+	</Constant>
+</MetaDataObject>

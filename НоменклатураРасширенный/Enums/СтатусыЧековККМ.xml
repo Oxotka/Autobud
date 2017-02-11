@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="56cd02fd-8928-4832-baf1-7d0c5ba67289">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЧековККМ" category="Ref">
+				<xr:TypeId>a00b28fc-a9cb-4f07-870b-701c3f84941d</xr:TypeId>
+				<xr:ValueId>7eafcfea-969c-4639-82cc-1665ecc6ca15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЧековККМ" category="Manager">
+				<xr:TypeId>b0cd2388-f0aa-44b4-b034-f1e2c820102f</xr:TypeId>
+				<xr:ValueId>757c5905-a5f0-463d-b2c2-a87fce0b4775</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЧековККМ" category="List">
+				<xr:TypeId>252eba2d-88fc-4570-8c5c-b41fdfbec371</xr:TypeId>
+				<xr:ValueId>03c4631f-bf0b-4c19-91dd-187157ce5019</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыЧековККМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="55669552-af2f-467c-a36c-b74d02eec5c1">
+				<Properties>
+					<Name>Отложен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a011723d-dd6d-4203-83cf-f2c387b928bd">
+				<Properties>
+					<Name>ТоварЗарезервирован</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ae456f3b-83c3-444a-9a73-e5fa84db26b7">
+				<Properties>
+					<Name>Пробит</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

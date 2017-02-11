@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="5e59d07e-d262-4815-bb21-c3efb907d358">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМ" category="Object">
+				<xr:TypeId>3765b39c-cdb3-4155-ba58-57b3163d1dc8</xr:TypeId>
+				<xr:ValueId>9edf4c07-74e7-4867-90a9-769320f5e904</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМ" category="Ref">
+				<xr:TypeId>7806539b-d965-455f-9cb6-698fcb01f7b1</xr:TypeId>
+				<xr:ValueId>a0d50451-6574-4c0a-8523-5e1479d9ee4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМ" category="Selection">
+				<xr:TypeId>e9e47148-67f7-4cda-a901-4feb0e445621</xr:TypeId>
+				<xr:ValueId>491f7060-7427-4dcb-a7a3-7652c0f3ddc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМ" category="List">
+				<xr:TypeId>40b254bb-23a5-4476-934d-39b5dadd7df1</xr:TypeId>
+				<xr:ValueId>358275ea-62a3-4380-bfac-4530b553b0a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМ" category="Manager">
+				<xr:TypeId>d15de1c4-5c81-4f91-bc88-3d4802963181</xr:TypeId>
+				<xr:ValueId>6e322ebf-8151-49db-8c7c-d076f606d13a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЧекККМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="760dd0e0-bb8b-4902-be9c-dd91f73e4a8f">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0eee712b-bb2a-4713-a898-254f9630853e">
+				<Properties>
+					<Name>ВидЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00039764-9889-4ef1-b9d7-127ecabc4176">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e689af63-e241-40b5-b302-761f42425d52">
+				<Properties>
+					<Name>ФормаОплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b3d17270-2ad9-42b6-a91d-414af48ce340">
+				<Properties>
+					<Name>НомерЧекаККМ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d6aa306-bcd2-41d1-9ef2-988a76e1ea81">
+				<Properties>
+					<Name>КассоваяСмена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d56aa861-6744-4a8c-972a-c03b86dc0cd8">
+				<Properties>
+					<Name>Кассир</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4be8a351-ccdf-476f-8645-a756b63afba6">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fcc29d63-eb55-43a1-9446-815d48c1b9b5">
+				<Properties>
+					<Name>КартаЛояльности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b3a317b1-dbd2-448a-a26f-7fb736907d2c">
+				<Properties>
+					<Name>ПолученоНаличными</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="68dc09f4-de20-492d-bc5b-98053374e7d5">
+				<Properties>
+					<Name>НалогообложениеНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="586f8bab-fef9-47af-b5b2-86a440c73a37">
+				<Properties>
+					<Name>КассаККМ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокументаРМК</Form>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="1e6c6ef1-854b-42a5-81fa-cecadc94fb4d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.Товары" category="TabularSection">
+						<xr:TypeId>7435ebd3-eda2-4aa9-b4fb-b9cb570ab2e6</xr:TypeId>
+						<xr:ValueId>8ab9a0cb-9c3e-497e-8211-a8836f4a825b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.Товары" category="TabularSectionRow">
+						<xr:TypeId>f1e79a1e-2823-45d0-998b-458baba3acbf</xr:TypeId>
+						<xr:ValueId>a9ab3133-b9f9-4167-9a8b-a5d1dcbb0364</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7b6ebfd9-c2a2-40bc-a727-ac4235398ae2">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="78caec34-3e48-4f89-ad2e-72d6d6682e69">
+						<Properties>
+							<Name>НоменклатураЕГАИС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0f52db5e-84b4-4b0d-8547-2ab9f88879a7">
+						<Properties>
+							<Name>Помещение</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d74f2ef4-15ff-4222-a9a4-0b492aef9627">
+						<Properties>
+							<Name>НоменклатураНабора</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="aacdb69a-8401-464c-ad96-b57d04832ed3">
+						<Properties>
+							<Name>ПроцентРучнойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f1ba5cc-c7af-4ccc-a9eb-d480358a0372">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cc9f835b-3aaf-40a3-8059-99de2303c1b6">
+						<Properties>
+							<Name>СуммаБонусныхБалловКСписаниюВВалюте</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a06e00b6-4d44-43d9-9353-4f462fe29009">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fcc89237-8fde-447c-8a28-0a20f0e4521b">
+						<Properties>
+							<Name>СтатусУказанияСерий</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c99afd1e-95ba-4dcc-9679-139b2d3862bd">
+						<Properties>
+							<Name>ПроцентАвтоматическойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="84663833-29f1-4b7c-860d-0d92f9a0ed29">
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="54010d5d-7295-44b1-b4da-8690220558dc">
+						<Properties>
+							<Name>Продавец</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="71e1cdef-e184-4816-8b16-e630ff875a73">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cda58551-44a4-4641-953d-cd2b97165f8c">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0488e191-4d28-4602-acbf-153e53faf783">
+						<Properties>
+							<Name>СуммаАвтоматическойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5e804785-06d7-4f91-a143-20ee29a1b36e">
+						<Properties>
+							<Name>ХарактеристикаНабора</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="aaa78085-cee3-4e44-a9b9-5af2ee6c6f2c">
+						<Properties>
+							<Name>Серия</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="623567d7-ea6f-4d70-bbb9-e80053777f67">
+						<Properties>
+							<Name>СуммаНДС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="67f0057e-c247-4b49-9793-5555c51afb97">
+						<Properties>
+							<Name>СуммаРучнойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b2221a55-a282-4a1c-82c0-bacef78fa5f4">
+						<Properties>
+							<Name>Цена</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="94ae0e65-a3e0-4a39-923c-adc15681a4b0">
+						<Properties>
+							<Name>СтавкаНДС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9c271f45-61c5-430c-a708-ffc116b72d1e">
+						<Properties>
+							<Name>СуммаНачисленныхБонусныхБалловВВалюте</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="44b8578d-3772-4fbf-baf7-729eebd328a0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.СкидкиНаценки" category="TabularSection">
+						<xr:TypeId>16ce5c55-78fa-4e2a-89d6-08b53ca553cf</xr:TypeId>
+						<xr:ValueId>370413ce-9a5e-4112-bf16-58eb98d923e0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.СкидкиНаценки" category="TabularSectionRow">
+						<xr:TypeId>89a8325e-8be1-43ba-a295-7d18d7740023</xr:TypeId>
+						<xr:ValueId>60a087d5-9a29-49e0-b753-1f47049ea8df</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СкидкиНаценки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="b95bf232-ff39-4022-a3ae-53787a083339">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.БонусныеБаллы" category="TabularSection">
+						<xr:TypeId>1f21dd5b-5744-4111-afe7-e3bc6b296dcb</xr:TypeId>
+						<xr:ValueId>ae424ea1-9365-4f03-bb00-e253dfe7f6de</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.БонусныеБаллы" category="TabularSectionRow">
+						<xr:TypeId>4702b5bc-d979-4db4-822b-3684e401f600</xr:TypeId>
+						<xr:ValueId>d9bcf594-7e4f-4626-9104-fda8f7664804</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>БонусныеБаллы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="7c696c8d-58ca-4bf3-ab54-05cbbb5052e2">
+						<Properties>
+							<Name>СуммаБонусныхБаллов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c3aad7ab-305d-42ce-8540-afbb2a7f863d">
+						<Properties>
+							<Name>БонуснаяПрограммаЛояльности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2b69ff46-5ed4-46c6-a2d3-338835368d32">
+						<Properties>
+							<Name>ДатаСписания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="817fd9fe-662b-4261-8cb5-6e8ebaa1e0cf">
+						<Properties>
+							<Name>ДатаНачисления</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="350b0e2c-1840-48c1-9e5b-5593102bb559">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.ОплатаПлатежнымиКартами" category="TabularSection">
+						<xr:TypeId>78b67acf-2a1c-4830-a361-a20cc552d38e</xr:TypeId>
+						<xr:ValueId>151fbbe3-d4dd-4f3f-a03b-8e95f7aed986</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.ОплатаПлатежнымиКартами" category="TabularSectionRow">
+						<xr:TypeId>e661558f-bca6-4e6d-b16d-27f0a0d9d825</xr:TypeId>
+						<xr:ValueId>10ffd3f8-b883-48e0-9518-31bbe720add4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ОплатаПлатежнымиКартами</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d2fa910e-7532-42ca-acf9-6a25ee326787">
+						<Properties>
+							<Name>КодАвторизации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5b9fb7ae-e2bb-4626-94d7-712f82d8f5a4">
+						<Properties>
+							<Name>ЭквайринговыйТерминал</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e1d7ce81-0b45-412f-831e-56e856528e68">
+						<Properties>
+							<Name>НомерЧекаЭТ</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6b6277e4-a75e-48c3-bca8-3b855f892fc7">
+						<Properties>
+							<Name>СсылочныйНомер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d44028e3-eaf2-43f5-8d8d-2a9eb0b2ff27">
+						<Properties>
+							<Name>НомерПлатежнойКарты</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d8e4facf-ae02-4a95-8a1f-d070ade211d6">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="adafc5ee-2605-41cb-bb17-7131b1da2012">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.ПодарочныеСертификаты" category="TabularSection">
+						<xr:TypeId>4f5e8cbc-e9d1-4427-bb7a-42e5ddda60ce</xr:TypeId>
+						<xr:ValueId>d9ec7fea-c604-4a9b-bd90-ac54336d5906</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.ПодарочныеСертификаты" category="TabularSectionRow">
+						<xr:TypeId>406dc5e6-9405-42ee-9ad6-c6a427989717</xr:TypeId>
+						<xr:ValueId>ad2e9711-eb62-4879-bd53-2f13ee2ef867</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПодарочныеСертификаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3ffbbda6-5a04-4a78-b3ea-981f13fbd501">
+						<Properties>
+							<Name>СуммаВВалютеСертификата</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="03cc95e6-bdbf-4157-ba27-d79ebf606c18">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dc41250d-7fae-4163-be30-87572f34f5b0">
+						<Properties>
+							<Name>ПодарочныйСертификат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

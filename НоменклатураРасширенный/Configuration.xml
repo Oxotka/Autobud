@@ -241,6 +241,7 @@
 			<Enum>ТипыПодключаемогоОборудования</Enum>
 			<Enum>СтатусыЧековККМ</Enum>
 			<Enum>ФормыОплаты</Enum>
+			<Enum>СтатусыВнутреннихЗаказов</Enum>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>

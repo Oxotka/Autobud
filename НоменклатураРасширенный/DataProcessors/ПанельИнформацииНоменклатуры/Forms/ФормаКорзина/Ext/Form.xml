@@ -331,6 +331,11 @@
 									</Title>
 									<ExtendedTooltip name="ПодменюПеремещениеРасширеннаяПодсказка" id="998"/>
 									<ChildItems>
+										<Button name="СоздатьЗаказНаПеремещение" id="1003">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СоздатьЗаказНаПеремещение</CommandName>
+											<ExtendedTooltip name="СоздатьЗаказНаПеремещениеРасширеннаяПодсказка" id="1004"/>
+										</Button>
 										<Button name="СоздатьПеремещениеТоваров" id="999">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.СоздатьПеремещениеТоваров</CommandName>
@@ -708,6 +713,15 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьЧекККМ</Action>
+		</Command>
+		<Command name="СоздатьЗаказНаПеремещение" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на перемещение</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СоздатьЗаказНаПеремещение</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>

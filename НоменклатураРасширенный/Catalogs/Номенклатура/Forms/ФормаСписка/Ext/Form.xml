@@ -1221,6 +1221,11 @@
 																							</Title>
 																							<ExtendedTooltip name="ПодменюПеремещение1РасширеннаяПодсказка" id="532"/>
 																							<ChildItems>
+																								<Button name="СоздатьЗаказНаПеремещение1" id="592">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.СоздатьЗаказНаПеремещение</CommandName>
+																									<ExtendedTooltip name="СоздатьЗаказНаПеремещение1РасширеннаяПодсказка" id="593"/>
+																								</Button>
 																								<Button name="СоздатьПеремещениеТоваров1" id="533">
 																									<Type>CommandBarButton</Type>
 																									<CommandName>Form.Command.СоздатьПеремещениеТоваров</CommandName>
@@ -1429,6 +1434,11 @@
 																							</ToolTip>
 																							<ExtendedTooltip name="ПодменюПеремещениеРасширеннаяПодсказка" id="536"/>
 																							<ChildItems>
+																								<Button name="СоздатьЗаказНаПеремещение" id="594">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.СоздатьЗаказНаПеремещение</CommandName>
+																									<ExtendedTooltip name="СоздатьЗаказНаПеремещениеРасширеннаяПодсказка" id="595"/>
+																								</Button>
 																								<Button name="СоздатьПеремещениеТоваров" id="537">
 																									<Type>CommandBarButton</Type>
 																									<CommandName>Form.Command.СоздатьПеремещениеТоваров</CommandName>
@@ -3918,6 +3928,15 @@
 			</Title>
 			<Shortcut>Alt+Space</Shortcut>
 			<Action callType="Before">Номенклатура_ДобавитьВКорзинуИзСпискаСКоличествомПеред</Action>
+		</Command>
+		<Command name="СоздатьЗаказНаПеремещение" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ на перемещение</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">Номенклатура_СоздатьЗаказНаПеремещениеПеред</Action>
 		</Command>
 	</Commands>
 	<Parameters>

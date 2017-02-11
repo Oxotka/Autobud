@@ -847,6 +847,7 @@
 						</Pages>
 						<Table name="ИнформацияПоСкладам" id="548">
 							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
 							<ChangeRowSet>false</ChangeRowSet>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>

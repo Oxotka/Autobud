@@ -296,6 +296,55 @@
 															<CommandName>Form.Command.ИзменитьВыделенныеРасширенныйПоиск</CommandName>
 															<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураФормаИзменитьВыделенныеExtendedTooltip" id="195"/>
 														</Button>
+														<Popup name="ПодменюОтчеты" id="604">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отчеты</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отчеты</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Picture>
+																<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Representation>PictureAndText</Representation>
+															<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="605"/>
+															<ChildItems>
+																<ButtonGroup name="ПодменюОтчетыВажное" id="606">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты важное</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="607"/>
+																</ButtonGroup>
+																<ButtonGroup name="ПодменюОтчетыПерейти" id="608">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты перейти</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="609"/>
+																</ButtonGroup>
+																<ButtonGroup name="ПодменюОтчетыСмТакже" id="610">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты см. также</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="611"/>
+																</ButtonGroup>
+															</ChildItems>
+														</Popup>
 														<ButtonGroup name="ГруппаКомандыФормыСписокРасширенныйПоискНоменклатура" id="160">
 															<Title>
 																<v8:item>
@@ -434,7 +483,7 @@
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="264"/>
 													</SearchControlAddition>
 													<Events>
-														<Event name="OnActivateRow" callType="Before">Номенклатура_СписокРасширенныйПоискНоменклатураПриАктивизацииСтрокиПеред</Event>
+														<Event name="OnActivateRow" callType="Before">Номенклатура_СписокРасширенныйПоискНоменклатураПриАктивизацииСтрокиВместо</Event>
 													</Events>
 													<ChildItems>
 														<LabelField name="СписокРасширенныйПоискНоменклатураНаименование" id="96">
@@ -756,7 +805,7 @@
 												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="273"/>
 											</SearchControlAddition>
 											<Events>
-												<Event name="OnActivateRow" callType="Before">Номенклатура_СписокСтандартныйПоискНоменклатураПриАктивизацииСтрокиПеред</Event>
+												<Event name="OnActivateRow" callType="Before">Номенклатура_СписокСтандартныйПоискНоменклатураПриАктивизацииСтрокиВместо</Event>
 											</Events>
 											<ChildItems>
 												<LabelField name="СписокСтандартныйПоискНоменклатураНаименование" id="167">
@@ -1954,6 +2003,9 @@
 												<ContextMenu name="ИерархияНоменклатурыУправлениеПоискомКонтекстноеМеню" id="281"/>
 												<ExtendedTooltip name="ИерархияНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="282"/>
 											</SearchControlAddition>
+											<Events>
+												<Event name="OnActivateRow" callType="Override">Номенклатура_ИерархияНоменклатурыПриАктивизацииСтрокиВместо</Event>
+											</Events>
 											<ChildItems>
 												<LabelField name="ГруппаНоменклатуры" id="38">
 													<DataPath>ИерархияНоменклатуры.Ref</DataPath>

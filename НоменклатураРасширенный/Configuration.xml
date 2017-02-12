@@ -45,7 +45,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.5.2</Version>
+			<Version>1.5.3</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -242,6 +242,7 @@
 			<Enum>СтатусыЧековККМ</Enum>
 			<Enum>ФормыОплаты</Enum>
 			<Enum>СтатусыВнутреннихЗаказов</Enum>
+			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>

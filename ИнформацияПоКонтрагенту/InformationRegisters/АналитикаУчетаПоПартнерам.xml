@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="44f2a3b2-8ecb-419f-b8e8-be413cfeb10c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаУчетаПоПартнерам" category="Record">
+				<xr:TypeId>17f347a9-d3f6-4cd1-8346-12d257a64442</xr:TypeId>
+				<xr:ValueId>d2618b06-e1d1-4e5c-a105-58b114731eee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаУчетаПоПартнерам" category="Manager">
+				<xr:TypeId>90f506e6-1d04-4948-9124-93905d8b018e</xr:TypeId>
+				<xr:ValueId>ecd03d05-ce1c-4295-abfc-c1b44a097845</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаУчетаПоПартнерам" category="Selection">
+				<xr:TypeId>5237df5e-5c4e-429b-8a49-96b25ae02eea</xr:TypeId>
+				<xr:ValueId>72f271f9-f4dd-44db-9ef1-5f05dd081142</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаУчетаПоПартнерам" category="List">
+				<xr:TypeId>48412d0d-62f3-4ef9-adcf-62b70594dfeb</xr:TypeId>
+				<xr:ValueId>21e44f39-5df5-432f-9b73-ed87744cb8de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаУчетаПоПартнерам" category="RecordSet">
+				<xr:TypeId>497c931d-a20e-4625-9753-a8d8bca78e79</xr:TypeId>
+				<xr:ValueId>441c540a-2bf9-4906-a503-2a12d3d6e96f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаУчетаПоПартнерам" category="RecordKey">
+				<xr:TypeId>32289c2f-86d3-4a5c-8a91-cc7a9725764c</xr:TypeId>
+				<xr:ValueId>c4b57687-b214-44cf-9a4f-5198e3e57f41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаУчетаПоПартнерам" category="RecordManager">
+				<xr:TypeId>cbaa81ba-a0be-496b-a911-de7d0f56031a</xr:TypeId>
+				<xr:ValueId>7613a8de-f7ab-4686-acd4-3497fe2fa0dc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АналитикаУчетаПоПартнерам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="7d108e43-593f-49c9-889f-16c3cabdf4a3">
+				<Properties>
+					<Name>КлючАналитики</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаПоПартнерам</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="b7e868d7-48cc-498c-aee0-16f0fa815f0a">
+				<Properties>
+					<Name>Партнер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ed8ef6cb-d3c6-4aff-90d2-74000b190ff4">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e1d5782d-3300-44b6-8db9-61e9f3a3afdb">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="5d89ef06-106a-43ac-950f-a4b8db5f5af3">
+				<Properties>
+					<Name>Договор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4e5f3337-7d6e-4c8d-9489-19f5a1bf37dc">
+				<Properties>
+					<Name>НаправлениеДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

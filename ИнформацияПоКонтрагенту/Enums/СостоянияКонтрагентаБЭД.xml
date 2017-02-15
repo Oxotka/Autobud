@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="50834b95-5f94-499a-89c6-7c23046e4195">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияКонтрагентаБЭД" category="Ref">
+				<xr:TypeId>a8ab7548-4591-4222-a5ab-2c84ec8f7e9c</xr:TypeId>
+				<xr:ValueId>8fa72643-0250-4a72-89e7-28c2d4bf5963</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияКонтрагентаБЭД" category="Manager">
+				<xr:TypeId>0dfdaade-201c-4e60-a4e5-fddd988bf554</xr:TypeId>
+				<xr:ValueId>aa90ddbb-dd84-4f05-98c4-ddd4a3cb2e8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияКонтрагентаБЭД" category="List">
+				<xr:TypeId>8481f8c1-6e05-4c99-bd9e-9e404b91d909</xr:TypeId>
+				<xr:ValueId>564409cb-cce9-4e6b-b611-12793228b744</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтрагентаБЭД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="87b27730-0fbd-4588-9216-fc07509087ba">
+				<Properties>
+					<Name>Подключен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="323a7131-8023-4e1c-b6c3-6c8e61bbf23b">
+				<Properties>
+					<Name>НеПодключен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f948c945-b241-4527-be1e-46b7d775d943">
+				<Properties>
+					<Name>НастроенЭДО</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

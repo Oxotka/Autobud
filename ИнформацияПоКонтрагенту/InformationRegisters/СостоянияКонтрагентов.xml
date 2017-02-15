@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="3c4e06cb-7419-4022-9a9b-4acbbe205342">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияКонтрагентов" category="Record">
+				<xr:TypeId>79702784-13ba-4a69-a01b-db35875a1c6b</xr:TypeId>
+				<xr:ValueId>b1ecbfe5-47ab-493b-bb79-bc86b994f135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияКонтрагентов" category="Manager">
+				<xr:TypeId>e0b7d394-3573-49bf-8746-87f03248c9a2</xr:TypeId>
+				<xr:ValueId>62f43219-20ef-496f-9c0c-0f0c1ed6ea8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияКонтрагентов" category="Selection">
+				<xr:TypeId>636a006a-b590-4431-a2cf-a430a6ab3c3e</xr:TypeId>
+				<xr:ValueId>5df3e60f-cedf-4f15-9a7b-36f8d3b78027</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияКонтрагентов" category="List">
+				<xr:TypeId>c148cbd4-bd3a-4099-b71a-0f7fb28f8ab2</xr:TypeId>
+				<xr:ValueId>c4a078b7-37f1-49bc-b770-0cd8e1870906</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияКонтрагентов" category="RecordSet">
+				<xr:TypeId>f34a70e9-d1b6-432a-bed9-e79574b3968c</xr:TypeId>
+				<xr:ValueId>395f2ee4-d21b-4351-aab4-8ff7d1c9ebe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияКонтрагентов" category="RecordKey">
+				<xr:TypeId>13807d75-a3a4-45f4-a3d6-d49aa5244680</xr:TypeId>
+				<xr:ValueId>6977191d-4d23-4f9c-bf3d-dbb0b7f3cebc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияКонтрагентов" category="RecordManager">
+				<xr:TypeId>c81027ac-2bfa-42dc-98c7-35d85aecf357</xr:TypeId>
+				<xr:ValueId>e93f1423-2e48-4b62-ac15-8551beb247c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтрагентов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="02d29088-e701-4672-bcaa-6f8333d4d54d">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияСуществованияКонтрагента</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ad58fd60-5660-464f-a1a3-1c34b7d7f47b">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Контрагент</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

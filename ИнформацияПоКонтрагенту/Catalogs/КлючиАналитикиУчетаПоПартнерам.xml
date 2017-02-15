@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="c66eb92b-adbe-44b4-9231-677067a84647">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаПоПартнерам" category="Object">
+				<xr:TypeId>ddd0f767-4b1b-461b-9b33-150eb0b5cebf</xr:TypeId>
+				<xr:ValueId>33b768a1-5923-4308-9a20-078c398865a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаПоПартнерам" category="Ref">
+				<xr:TypeId>409dda16-b32d-4005-ba6f-cf308224bde8</xr:TypeId>
+				<xr:ValueId>9ca8be50-0a55-4bbe-8526-6ae162209e88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаПоПартнерам" category="Selection">
+				<xr:TypeId>299cc6c1-cce0-494b-a89c-b287fa8f4854</xr:TypeId>
+				<xr:ValueId>c6c79304-6c32-42c2-80f9-7eb3d760a04f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаПоПартнерам" category="List">
+				<xr:TypeId>a68e0a66-0b88-41d7-a546-8f3def96ee0c</xr:TypeId>
+				<xr:ValueId>1c825f2f-32c1-47db-a2b0-38283f557ff6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаПоПартнерам" category="Manager">
+				<xr:TypeId>837e602b-68fa-496d-a5eb-94220e017517</xr:TypeId>
+				<xr:ValueId>229691d5-59fc-4fa6-ac57-349d514c2b26</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КлючиАналитикиУчетаПоПартнерам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

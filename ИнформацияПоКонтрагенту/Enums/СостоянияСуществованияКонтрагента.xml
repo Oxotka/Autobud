@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="3a8a4931-ac17-4cea-a198-021ab1093d1e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСуществованияКонтрагента" category="Ref">
+				<xr:TypeId>5eee7a70-9882-4003-8ef3-b43b39df00b6</xr:TypeId>
+				<xr:ValueId>966b99d2-3615-4ca5-8f6c-19ec5c084bb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСуществованияКонтрагента" category="Manager">
+				<xr:TypeId>dd41f140-4dc5-42a6-9e1a-64e0564d4648</xr:TypeId>
+				<xr:ValueId>610aef72-559f-4a94-bc25-d17c17591e52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСуществованияКонтрагента" category="List">
+				<xr:TypeId>03b822d7-1b54-44ef-8014-055f3d39a318</xr:TypeId>
+				<xr:ValueId>f002fd05-8580-46f0-813f-c4967e493690</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияСуществованияКонтрагента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2a4ee4a6-400a-4da6-84e5-ab5d9965c5c2">
+				<Properties>
+					<Name>КонтрагентНеПодлежитПроверке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="12aaa6e0-91f9-4b7d-98ef-881d7ac0358d">
+				<Properties>
+					<Name>КонтрагентЕстьВБазеФНС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="58a3f735-95a0-4512-846d-bb88d1fc7ebf">
+				<Properties>
+					<Name>НеДействуетИлиИзмененКПП</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ae26081a-ad9a-41f7-a028-297db011feb5">
+				<Properties>
+					<Name>ПустойИННИлиКПП</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

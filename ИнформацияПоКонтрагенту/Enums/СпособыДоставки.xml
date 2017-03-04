@@ -50,6 +50,36 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="7b9ab08e-b68e-4fa4-a586-d2e11eb2873b">
+				<Properties>
+					<Name>ОтОтправителяОпределяетСлужбаДоставки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dba359ae-8ecd-45ac-b1c5-93cf3da2228b">
+				<Properties>
+					<Name>НашимиСиламиСАдресаОтправителя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="62b446a2-7141-4260-aecb-b712610de534">
+				<Properties>
+					<Name>СиламиПеревозчикаДоНашегоСклада</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="61515efb-b5de-4d12-b7bf-307f1f1e7fb7">
+				<Properties>
+					<Name>СиламиПеревозчикаДоПунктаПередачи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aa116913-9264-4877-b87d-c9f6ae4257d6">
+				<Properties>
+					<Name>СиламиПоставщикаДоНашегоСклада</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

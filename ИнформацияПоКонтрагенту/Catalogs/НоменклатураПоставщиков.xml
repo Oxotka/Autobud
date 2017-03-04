@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="e761f9e9-507a-48ba-bb84-8dff7b5201aa">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатураПоставщиков" category="Object">
+				<xr:TypeId>2eb16a1a-7cc2-4ba5-aa6b-0e0e0d891121</xr:TypeId>
+				<xr:ValueId>0737b95d-b89e-46e4-9136-d26b2f4fd098</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатураПоставщиков" category="Ref">
+				<xr:TypeId>4834970f-ba0b-4362-afe4-59f0f2f95560</xr:TypeId>
+				<xr:ValueId>f0965a04-f83e-475b-bc79-7710caa683ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатураПоставщиков" category="Selection">
+				<xr:TypeId>60a1f804-44f2-4df4-a77a-9d2d4ca3278c</xr:TypeId>
+				<xr:ValueId>6e4692cd-4f11-46d7-8627-c85a0cd1ea23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатураПоставщиков" category="List">
+				<xr:TypeId>d9d0a186-0ffc-4e11-a6a2-6527b8a46605</xr:TypeId>
+				<xr:ValueId>bf5f4b9e-767e-44bf-96f6-0aaafd2100b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатураПоставщиков" category="Manager">
+				<xr:TypeId>3dc2134a-d799-4bfc-ab99-35f6fa0b06be</xr:TypeId>
+				<xr:ValueId>77fb5bb1-0113-47fc-b764-803d1da7d8b7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НоменклатураПоставщиков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>11</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="45a895e4-e565-4851-976b-90706ece1799">
+				<Properties>
+					<Name>Артикул</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

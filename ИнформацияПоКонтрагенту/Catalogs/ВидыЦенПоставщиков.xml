@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="445d2764-2ad6-472c-891a-a2daef2d8bf3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЦенПоставщиков" category="Object">
+				<xr:TypeId>6e4ce57a-15c1-493c-a330-7b31bfaa3adb</xr:TypeId>
+				<xr:ValueId>16c1079f-6e17-4625-a1b7-94adb5a6d9cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЦенПоставщиков" category="Ref">
+				<xr:TypeId>bd4a49ce-7e11-4d43-9a59-34f96ce408cd</xr:TypeId>
+				<xr:ValueId>ee8902b7-1499-4098-9994-7abd1c013396</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЦенПоставщиков" category="Selection">
+				<xr:TypeId>42e41003-8b53-4d84-98f5-442eee028b07</xr:TypeId>
+				<xr:ValueId>b000239e-aa89-4096-b79a-2f84a63145d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЦенПоставщиков" category="List">
+				<xr:TypeId>05344a65-d5b0-4602-8515-cb188b245fa5</xr:TypeId>
+				<xr:ValueId>7c70061a-b872-444e-8699-e520935680a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЦенПоставщиков" category="Manager">
+				<xr:TypeId>13f48d7c-75ab-4005-957e-146119ab7898</xr:TypeId>
+				<xr:ValueId>c5baf9c6-7f51-4821-b67d-5e1c5b2ba488</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЦенПоставщиков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

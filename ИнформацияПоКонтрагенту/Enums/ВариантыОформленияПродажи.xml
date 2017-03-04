@@ -19,6 +19,19 @@
 			<Name>ВариантыОформленияПродажи</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="08c8cc28-779a-488f-a3d2-8c4657d53935">
+				<Properties>
+					<Name>АктНаПередачуПрав</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8a597557-6a52-4661-8fe9-b75ab5450a54">
+				<Properties>
+					<Name>РеализацияТоваровУслуг</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

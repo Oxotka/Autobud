@@ -45,7 +45,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.2.0</Version>
+			<Version>1.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 		</Properties>
 		<ChildObjects>
@@ -53,6 +53,8 @@
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
 			<StyleItem>ЦветФонаВыделения</StyleItem>
+			<StyleItem>ЗапрещенноеПравоДоступа</StyleItem>
+			<StyleItem>МоиВариантыОтчетовЦвет</StyleItem>
 			<CommonPicture>Предупреждение</CommonPicture>
 			<CommonPicture>ОтгрузкаЗапрещена</CommonPicture>
 			<CommonPicture>Внимание16</CommonPicture>
@@ -84,6 +86,20 @@
 			<CommonPicture>РассчитатьСкидкиНаценки</CommonPicture>
 			<CommonPicture>РазбитьСтроку</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
+			<CommonPicture>СостоянияСтрок</CommonPicture>
+			<CommonPicture>ПолучитьВес</CommonPicture>
+			<CommonPicture>ПодобратьТоварыИзЗаказа</CommonPicture>
+			<CommonPicture>СтатусыУказанияСерий</CommonPicture>
+			<CommonPicture>СерииНоменклатурыУказаны</CommonPicture>
+			<CommonPicture>ПревышениеЗаказа</CommonPicture>
+			<CommonPicture>ПроверкаКоличестваТоваров</CommonPicture>
+			<CommonPicture>СерииНоменклатурыКолонкаСтатусов</CommonPicture>
+			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
+			<CommonPicture>КартинкаПометка</CommonPicture>
+			<CommonPicture>КоллекцияПиктограммыТренда</CommonPicture>
+			<CommonPicture>НеВыполнено</CommonPicture>
+			<CommonPicture>Успешно</CommonPicture>
+			<CommonPicture>УстановитьСтатусЗаказаАвтоматически</CommonPicture>
 			<FunctionalOption>ИспользоватьЗапретОтгрузки</FunctionalOption>
 			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
 			<FunctionalOption>ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента</FunctionalOption>
@@ -95,6 +111,26 @@
 			<FunctionalOption>ИспользоватьСоглашенияСКлиентами</FunctionalOption>
 			<FunctionalOption>ИспользоватьАвтоматическиеСкидкиВПродажах</FunctionalOption>
 			<FunctionalOption>ИспользоватьМногооборотнуюТару</FunctionalOption>
+			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
+			<FunctionalOption>ИспользоватьРеализациюПоНесколькимЗаказам</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаказыКлиентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьОрдернуюСхемуПриОтгрузке</FunctionalOption>
+			<FunctionalOption>ИспользоватьСерииНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьСерииНоменклатурыСклад</FunctionalOption>
+			<FunctionalOption>ИспользоватьУправленческуюОрганизацию</FunctionalOption>
+			<FunctionalOption>ИспользоватьПодразделения</FunctionalOption>
+			<FunctionalOption>ИспользоватьСтатусыЗаказовПоставщикам</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаказыПоставщикам</FunctionalOption>
+			<FunctionalOption>ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки</FunctionalOption>
+			<FunctionalOption>ИспользоватьСоглашенияСПоставщиками</FunctionalOption>
+			<FunctionalOption>ИспользоватьРучныеСкидкиВЗакупках</FunctionalOption>
+			<FunctionalOption>ИспользоватьИмпортныеТовары</FunctionalOption>
+			<FunctionalOption>ВестиСведенияДляДекларацийАлкоВРознице</FunctionalOption>
+			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
+			<FunctionalOption>ИспользоватьНоменклатуруПоставщиков</FunctionalOption>
+			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
+			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
 			<DefinedType>Контрагент</DefinedType>
 			<DefinedType>Артикул</DefinedType>
 			<Constant>ИспользоватьПроверкуКонтрагентов</Constant>
@@ -110,6 +146,23 @@
 			<Constant>ИспользоватьМногооборотнуюТару</Constant>
 			<Constant>ИспользоватьСкладыВТабличнойЧастиДокументовПродажи</Constant>
 			<Constant>ИспользоватьНаборы</Constant>
+			<Constant>ИспользоватьУправленческуюОрганизацию</Constant>
+			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
+			<Constant>ИспользоватьСерииНоменклатуры</Constant>
+			<Constant>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Constant>
+			<Constant>ИспользоватьЗаказыКлиентов</Constant>
+			<Constant>ИспользоватьРеализациюПоНесколькимЗаказам</Constant>
+			<Constant>ИспользоватьРучныеСкидкиВЗакупках</Constant>
+			<Constant>ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки</Constant>
+			<Constant>ИспользоватьСоглашенияСПоставщиками</Constant>
+			<Constant>ИспользоватьКачествоТоваров</Constant>
+			<Constant>ИспользоватьЗаказыПоставщикам</Constant>
+			<Constant>ИспользоватьНоменклатуруПоставщиков</Constant>
+			<Constant>ИспользоватьПодразделения</Constant>
+			<Constant>ИспользоватьИмпортныеТовары</Constant>
+			<Constant>ИспользоватьСтатусыЗаказовПоставщикам</Constant>
+			<Constant>ВестиСведенияДляДекларацийАлкоВРознице</Constant>
+			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Партнеры</Catalog>
 			<Catalog>КлючиАналитикиУчетаПоПартнерам</Catalog>
@@ -141,11 +194,26 @@
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>Приоритеты</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
+			<Catalog>ОтветственныеЛицаОрганизаций</Catalog>
+			<Catalog>НоменклатураПоставщиков</Catalog>
+			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
+			<Catalog>СоглашенияСПоставщиками</Catalog>
+			<Catalog>НомераГТД</Catalog>
+			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
+			<Catalog>ВидыЗапасов</Catalog>
+			<Catalog>Назначения</Catalog>
+			<Catalog>ВидыЦенПоставщиков</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>КлючиАналитикиУчетаПартий</Catalog>
+			<Catalog>ПричиныОтменыЗаказовПоставщикам</Catalog>
 			<Document>ЗаявкаНаВозвратТоваровОтКлиента</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>АвансовыйОтчет</Document>
 			<Document>ЗаказКлиента</Document>
+			<Document>ТранспортнаяНакладная</Document>
+			<Document>ЗаказПоставщику</Document>
+			<Document>ТТНВходящаяЕГАИС</Document>
 			<DocumentJournal>РеестрТорговыхДокументов</DocumentJournal>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ЮрФизЛицо</Enum>
@@ -165,10 +233,16 @@
 			<Enum>СтавкиНДС</Enum>
 			<Enum>СостоянияЗаказовКлиентов</Enum>
 			<Enum>ВариантыОформленияПродажи</Enum>
+			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
+			<Enum>ВариантыОплатыКлиентом</Enum>
+			<Enum>СтатусыОбработкиТТНВходящейЕГАИС</Enum>
+			<Enum>СостоянияЗаказовПоставщикам</Enum>
+			<Enum>СтатусыЗаказовПоставщикам</Enum>
 			<Report>РасчетыСПоставщиками</Report>
 			<Report>РасчетыСКлиентами</Report>
 			<Report>ДвиженияДокумента</Report>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
+			<DataProcessor>ЗадолженностьПартнеров</DataProcessor>
 			<InformationRegister>АналитикаУчетаПоПартнерам</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
@@ -180,6 +254,7 @@
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

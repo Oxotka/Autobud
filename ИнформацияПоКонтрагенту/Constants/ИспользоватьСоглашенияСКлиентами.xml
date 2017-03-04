@@ -14,9 +14,6 @@
 		<Properties>
 			<Name>ИспользоватьСоглашенияСКлиентами</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
 		</Properties>
 	</Constant>
 </MetaDataObject>

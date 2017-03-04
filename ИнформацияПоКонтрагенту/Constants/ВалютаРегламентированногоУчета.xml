@@ -14,9 +14,6 @@
 		<Properties>
 			<Name>ВалютаРегламентированногоУчета</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Type>
-				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
-			</Type>
 		</Properties>
 	</Constant>
 </MetaDataObject>

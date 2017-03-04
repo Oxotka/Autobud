@@ -27,6 +27,34 @@
 			<Name>Склады</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="89f0ba9a-230e-432e-b255-b3e2697c7aa2">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриОтгрузке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a53e11ce-4ea9-4a97-8ea0-2ba4b33f3e83">
+				<Properties>
+					<Name>ИспользоватьСерииНоменклатуры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba237c20-ea76-4b43-9f61-190752ebcffa">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриПоступлении</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -1850,7 +1850,11 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeId>3619d7b7-efd0-4872-9404-4edf6475007a</v8:TypeId>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 			<Save>
 				<Field>Сегмент</Field>
@@ -2293,16 +2297,6 @@
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
-						<v8:TypeId>25cfe413-430f-45c3-8eb6-7263d4455a3f</v8:TypeId>
-						<v8:TypeId>48a4be34-4448-4065-a4f2-dce0a1d33836</v8:TypeId>
-						<v8:TypeId>5361f3f7-98e3-4747-85ac-2622fb52c4bd</v8:TypeId>
-						<v8:TypeId>7c78c2b1-4477-4d6c-9231-3baf6d7e0b48</v8:TypeId>
-						<v8:TypeId>822b7adc-7f8a-4842-9e9e-bf924325e808</v8:TypeId>
-						<v8:TypeId>82b2a7bd-be39-4cfd-8d07-e71dfbe99334</v8:TypeId>
-						<v8:TypeId>975b9b93-c99c-4fa0-a384-984d8183f2a4</v8:TypeId>
-						<v8:TypeId>a3186563-d539-403d-98fb-fe28525dbced</v8:TypeId>
-						<v8:TypeId>befc3fb1-1289-4dd5-8a1e-aacd18db1493</v8:TypeId>
-						<v8:TypeId>fbe4a245-066f-4ae8-a694-2fbfa12cf714</v8:TypeId>
 						<v8:NumberQualifiers>
 							<v8:Digits>0</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
@@ -4438,7 +4432,11 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeId>3619d7b7-efd0-4872-9404-4edf6475007a</v8:TypeId>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
 				</Type>
 				<Save>
 					<Field>Сегмент</Field>
@@ -4881,16 +4879,6 @@
 							<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 							<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 							<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
-							<v8:TypeId>25cfe413-430f-45c3-8eb6-7263d4455a3f</v8:TypeId>
-							<v8:TypeId>48a4be34-4448-4065-a4f2-dce0a1d33836</v8:TypeId>
-							<v8:TypeId>5361f3f7-98e3-4747-85ac-2622fb52c4bd</v8:TypeId>
-							<v8:TypeId>7c78c2b1-4477-4d6c-9231-3baf6d7e0b48</v8:TypeId>
-							<v8:TypeId>822b7adc-7f8a-4842-9e9e-bf924325e808</v8:TypeId>
-							<v8:TypeId>82b2a7bd-be39-4cfd-8d07-e71dfbe99334</v8:TypeId>
-							<v8:TypeId>975b9b93-c99c-4fa0-a384-984d8183f2a4</v8:TypeId>
-							<v8:TypeId>a3186563-d539-403d-98fb-fe28525dbced</v8:TypeId>
-							<v8:TypeId>befc3fb1-1289-4dd5-8a1e-aacd18db1493</v8:TypeId>
-							<v8:TypeId>fbe4a245-066f-4ae8-a694-2fbfa12cf714</v8:TypeId>
 							<v8:NumberQualifiers>
 								<v8:Digits>0</v8:Digits>
 								<v8:FractionDigits>0</v8:FractionDigits>

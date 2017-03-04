@@ -19,6 +19,19 @@
 			<Name>ФормыОплаты</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="bc429320-5bc2-4cd8-bcc6-f0989ff4db17">
+				<Properties>
+					<Name>Наличная</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="396f43e4-e881-445c-a979-5c6a7c78099b">
+				<Properties>
+					<Name>Безналичная</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

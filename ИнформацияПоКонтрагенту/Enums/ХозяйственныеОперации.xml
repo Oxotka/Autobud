@@ -50,6 +50,36 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="4e3064a3-3622-40e5-b132-2a0bde64940d">
+				<Properties>
+					<Name>РеализацияКлиентуРеглУчет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="36327b4a-dddb-4c85-8ccf-202ccccc4580">
+				<Properties>
+					<Name>ПриемНаКомиссию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21b04b0c-73e2-4fb1-aad1-6f4284d7701b">
+				<Properties>
+					<Name>ЗакупкаПоИмпорту</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18fd3272-1e0f-425b-814e-bad3f64e6a20">
+				<Properties>
+					<Name>ЗакупкаЧерезПодотчетноеЛицо</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bd25ecc2-442f-44e1-a1c4-63835f36d740">
+				<Properties>
+					<Name>ЗакупкаВСтранахЕАЭС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

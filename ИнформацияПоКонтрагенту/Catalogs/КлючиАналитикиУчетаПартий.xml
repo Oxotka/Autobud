@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="7e4a9c6c-275f-427b-bc22-a809add8570d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаПартий" category="Object">
+				<xr:TypeId>c9bd7bcb-7421-4f7a-968d-c0b6240a567b</xr:TypeId>
+				<xr:ValueId>e04f82ea-ec82-4153-ae93-a6aba3000f6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаПартий" category="Ref">
+				<xr:TypeId>264ed93e-f2a1-4268-82bd-02a79a2f4d55</xr:TypeId>
+				<xr:ValueId>b6c951e0-0f5b-4950-8542-5f341d8c568f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаПартий" category="Selection">
+				<xr:TypeId>8b9518a0-1a8d-467c-9283-9619a4808ae5</xr:TypeId>
+				<xr:ValueId>4c7c1da8-73a5-4472-a88d-c9aedb1baf57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаПартий" category="List">
+				<xr:TypeId>0545fcc4-d75c-45dc-86c8-c54bf6944c2a</xr:TypeId>
+				<xr:ValueId>275a09bc-efc3-4711-96fb-5bf347c84b0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаПартий" category="Manager">
+				<xr:TypeId>a47d68ea-31d7-4ec3-81da-a7902a54e094</xr:TypeId>
+				<xr:ValueId>d70d1fa8-1429-47f1-87c7-b62bcaf02077</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КлючиАналитикиУчетаПартий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

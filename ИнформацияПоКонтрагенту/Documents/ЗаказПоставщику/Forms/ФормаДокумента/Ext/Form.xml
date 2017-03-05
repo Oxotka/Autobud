@@ -505,20 +505,38 @@
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаОстатокВзаиморасчетовРасширеннаяПодсказка" id="1108"/>
 											<ChildItems>
-												<LabelDecoration name="ОстатокВзаиморасчетовПоставщик" id="1109">
+												<LabelDecoration name="ОстатокВзаиморасчетовПоставщикПоОрганизации" id="1109">
 													<Width>22</Width>
 													<TextColor>style:FormTextColor</TextColor>
 													<Title formatted="true">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>&lt;fontstyle -31&gt;&lt;fontsize 11&gt;Мы д&lt;/&gt;&lt;/&gt;&lt;fontstyle -31&gt;&lt;fontsize 11&gt;олжны &lt;/&gt;&lt;/&gt;&lt;fontstyle -31&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt;123&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontstyle -31&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt; 000&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontstyle -31&gt;&lt;fontsize 11&gt;&lt;colorstyle -3&gt;&lt;link Взаиморасчеты&gt;,&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontstyle -31&gt;&lt;link Взаиморасчеты&gt;0&lt;/&gt;&lt;/&gt;</v8:content>
+															<v8:content>&lt;fontsize 11&gt;По организации&lt;/&gt;&lt;fontsize 11&gt; &lt;/&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt;123&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt; 000&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;colorstyle -3&gt;&lt;link Взаиморасчеты&gt;,&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;link Взаиморасчеты&gt;0&lt;/&gt;</v8:content>
 														</v8:item>
 													</Title>
 													<HorizontalAlign>Center</HorizontalAlign>
 													<VerticalAlign>Center</VerticalAlign>
 													<BackColor>style:ToolTipBackColor</BackColor>
-													<ContextMenu name="ОстатокВзаиморасчетовПоставщикКонтекстноеМеню" id="1110"/>
-													<ExtendedTooltip name="ОстатокВзаиморасчетовПоставщикРасширеннаяПодсказка" id="1111"/>
+													<ContextMenu name="ОстатокВзаиморасчетовПоставщикПоОрганизацииКонтекстноеМеню" id="1110"/>
+													<ExtendedTooltip name="ОстатокВзаиморасчетовПоставщикПоОрганизацииРасширеннаяПодсказка" id="1111"/>
+													<Events>
+														<Event name="URLProcessing" callType="Before">КУТ_ОстатокВзаиморасчетовПоставщикОбработкаНавигационнойСсылки</Event>
+													</Events>
+												</LabelDecoration>
+												<LabelDecoration name="ОстатокВзаиморасчетовПоставщик" id="1112">
+													<Width>22</Width>
+													<TextColor>style:FormTextColor</TextColor>
+													<Title formatted="true">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>&lt;fontsize 11&gt;Должны всего&lt;/&gt;&lt;fontsize 11&gt; &lt;/&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt;123&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;link Взаиморасчеты&gt; 000&lt;/&gt;&lt;/&gt;&lt;fontsize 11&gt;&lt;colorstyle -3&gt;&lt;link Взаиморасчеты&gt;,&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;link Взаиморасчеты&gt;0&lt;/&gt;</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Center</HorizontalAlign>
+													<VerticalAlign>Center</VerticalAlign>
+													<BackColor>style:ToolTipBackColor</BackColor>
+													<ContextMenu name="ОстатокВзаиморасчетовПоставщикКонтекстноеМеню" id="1113"/>
+													<ExtendedTooltip name="ОстатокВзаиморасчетовПоставщикРасширеннаяПодсказка" id="1114"/>
 													<Events>
 														<Event name="URLProcessing" callType="Before">КУТ_ОстатокВзаиморасчетовПоставщикОбработкаНавигационнойСсылки</Event>
 													</Events>

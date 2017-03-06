@@ -174,7 +174,7 @@
 											</v8:item>
 										</ToolTip>
 										<Picture>
-											<xr:Ref>0:218de94e-366d-42e6-a0a4-12cf784d133d</xr:Ref>
+											<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</Picture>
 										<Representation>Picture</Representation>
@@ -209,14 +209,14 @@
 											</ButtonGroup>
 											<Button name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту" id="172">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:e256beb4-3b56-4179-ba72-773a3383d108</CommandName>
-												<DataPath>46:02023637-7868-4a5f-8576-835a76e0c9ba/6</DataPath>
+												<CommandName>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоКонтакту</CommandName>
+												<DataPath>Items.Список.CurrentData.Ref</DataPath>
 												<ExtendedTooltip name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтактуExtendedTooltip" id="266"/>
 											</Button>
 											<Button name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнера" id="502">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:4199353c-f8d3-4680-99d0-25240f7a8b62</CommandName>
-												<DataPath>46:02023637-7868-4a5f-8576-835a76e0c9ba/6</DataPath>
+												<CommandName>InformationRegister.ПартнерыСегмента.Command.СегментыПартнера</CommandName>
+												<DataPath>Items.Список.CurrentData.Ref</DataPath>
 												<ExtendedTooltip name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнераРасширеннаяПодсказка" id="503"/>
 											</Button>
 										</ChildItems>
@@ -324,18 +324,18 @@
 										</v8:item>
 									</ToolTip>
 									<HeaderPicture>
-										<xr:Ref>0:720d9621-6362-437c-90d5-990bb8bd46b9</xr:Ref>
+										<xr:Ref>CommonPicture.СостояниеПроверкиКонтрагента</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</HeaderPicture>
 									<ValuesPicture>
-										<xr:Ref>0:acae4817-ea12-4ff7-932b-61df66431f1f</xr:Ref>
+										<xr:Ref>CommonPicture.КрасныйЖелтыйСерыйТреугольник</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</ValuesPicture>
 									<ContextMenu name="ЕстьОшибкиПроверкаКонтрагентовКонтекстноеМеню" id="463"/>
 									<ExtendedTooltip name="ЕстьОшибкиПроверкаКонтрагентовРасширеннаяПодсказка" id="464"/>
 								</PictureField>
 								<LabelField name="Наименование" id="96">
-									<DataPath>1/9</DataPath>
+									<DataPath>Список.Description</DataPath>
 									<Width>15</Width>
 									<ContextMenu name="НаименованиеКонтекстноеМеню" id="97"/>
 									<ExtendedTooltip name="НаименованиеExtendedTooltip" id="282"/>
@@ -404,7 +404,7 @@
 									<ExtendedTooltip name="ПрочиеОтношенияExtendedTooltip" id="288"/>
 								</CheckBoxField>
 								<LabelField name="Родитель" id="144">
-									<DataPath>1/100</DataPath>
+									<DataPath>Список.Parent</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -432,14 +432,14 @@
 									<ExtendedTooltip name="ДатаРегистрацииExtendedTooltip" id="291"/>
 								</LabelField>
 								<InputField name="Код" id="75">
-									<DataPath>1/113</DataPath>
+									<DataPath>Список.Code</DataPath>
 									<Width>10</Width>
 									<Wrap>false</Wrap>
 									<ContextMenu name="КодКонтекстноеМеню" id="76"/>
 									<ExtendedTooltip name="КодExtendedTooltip" id="292"/>
 								</InputField>
 								<LabelField name="Ссылка" id="331">
-									<DataPath>1/6</DataPath>
+									<DataPath>Список.Ref</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -496,7 +496,7 @@
 										</v8:item>
 									</ToolTip>
 									<ValuesPicture>
-										<xr:Ref>0:b3fe285a-359b-4bad-9ff6-230a29897b0a</xr:Ref>
+										<xr:Ref>CommonPicture.ЭмблемаСервиса1СЭДО</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</ValuesPicture>
 									<ContextMenu name="ЭДОКонтекстноеМеню" id="505"/>
@@ -817,7 +817,7 @@
 						<Button name="ОтчетДосьеПартнера" id="185">
 							<Type>Hyperlink</Type>
 							<CommandName>0</CommandName>
-							<DataPath>46:02023637-7868-4a5f-8576-835a76e0c9ba/6</DataPath>
+							<DataPath>Items.Список.CurrentData.Ref</DataPath>
 							<ExtendedTooltip name="ОтчетДосьеПартнераExtendedTooltip" id="300"/>
 						</Button>
 						<UsualGroup name="ГруппаКонтрагентыПартнера" id="448">
@@ -915,7 +915,7 @@
 														</v8:item>
 													</ToolTip>
 													<Picture>
-														<xr:Ref>0:ae0dfa76-e086-4fff-b7ba-1e6a5b0904c0</xr:Ref>
+														<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 														<xr:LoadTransparent>true</xr:LoadTransparent>
 													</Picture>
 													<ContextMenu name="ДекорацияЕстьОшибкиКонтекстноеМеню" id="460"/>
@@ -927,6 +927,70 @@
 								</Pages>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаВзаиморасчеты" id="507">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Взаиморасчеты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Взаиморасчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаВзаиморасчетыРасширеннаяПодсказка" id="508"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияДолгНаш" id="509">
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наш долг</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияДолгНашКонтекстноеМеню" id="510"/>
+									<ExtendedTooltip name="ДекорацияДолгНашРасширеннаяПодсказка" id="511"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияДолгНам" id="512">
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Долг клиента</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияДолгНамКонтекстноеМеню" id="513"/>
+									<ExtendedTooltip name="ДекорацияДолгНамРасширеннаяПодсказка" id="514"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияДокументы" id="515">
+									<Height>1</Height>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<Font ref="style:NormalTextFont" height="11" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Открыть документы по партнёру</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="516"/>
+									<ExtendedTooltip name="ДекорацияДокументыРасширеннаяПодсказка" id="517"/>
+									<Events>
+										<Event name="Click" callType="Before">КУТ_ДекорацияДокументыНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<LabelField name="КонтактныеЛицаПартнера" id="226">
 							<DataPath>КонтактныеЛицаПартнера</DataPath>
 							<TitleLocation>None</TitleLocation>
@@ -934,77 +998,6 @@
 							<ContextMenu name="КонтактныеЛицаПартнераКонтекстноеМеню" id="227"/>
 							<ExtendedTooltip name="КонтактныеЛицаПартнераExtendedTooltip" id="302"/>
 						</LabelField>
-						<UsualGroup name="ГруппаПанельИнформации" id="529">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа панель информации</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа панель информации</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаПанельИнформацииРасширеннаяПодсказка" id="530"/>
-							<ChildItems>
-								<UsualGroup name="ГруппаВзаиморасчеты" id="507">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Взаиморасчеты</v8:content>
-										</v8:item>
-									</Title>
-									<Group>Vertical</Group>
-									<ExtendedTooltip name="ГруппаВзаиморасчетыРасширеннаяПодсказка" id="508"/>
-									<ChildItems>
-										<LabelDecoration name="ДекорацияДолгНаш" id="509">
-											<Height>1</Height>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Наш долг</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияДолгНашКонтекстноеМеню" id="510"/>
-											<ExtendedTooltip name="ДекорацияДолгНашРасширеннаяПодсказка" id="511"/>
-										</LabelDecoration>
-										<LabelDecoration name="ДекорацияДолгНам" id="512">
-											<Height>1</Height>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Долг клиента</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияДолгНамКонтекстноеМеню" id="513"/>
-											<ExtendedTooltip name="ДекорацияДолгНамРасширеннаяПодсказка" id="514"/>
-										</LabelDecoration>
-										<LabelDecoration name="ДекорацияДокументы" id="515">
-											<Height>1</Height>
-											<AutoMaxHeight>false</AutoMaxHeight>
-											<Font ref="style:NormalTextFont" height="11" kind="StyleItem"/>
-											<Title formatted="true">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>&lt;fontsize 14&gt;Документы&lt;/&gt;</v8:content>
-												</v8:item>
-											</Title>
-											<Hyperlink>true</Hyperlink>
-											<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="516"/>
-											<ExtendedTooltip name="ДекорацияДокументыРасширеннаяПодсказка" id="517"/>
-											<Events>
-												<Event name="Click" callType="Before">КУТ_ДекорацияДокументыНажатие</Event>
-											</Events>
-										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
 						<LabelDecoration name="ДекорацияПустая1" id="188">
 							<Height>2</Height>
 							<ContextMenu name="ДекорацияПустая1КонтекстноеМеню" id="189"/>
@@ -1361,7 +1354,7 @@
 											<DataPath>Свойства</DataPath>
 											<RowPictureDataPath>Свойства.НомерКартинки</RowPictureDataPath>
 											<RowsPicture>
-												<xr:Ref>0:60bc931b-c04f-4b9c-a9e8-eae432239839</xr:Ref>
+												<xr:Ref>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</RowsPicture>
 											<CommandSet>
@@ -1472,7 +1465,7 @@
 											<DataPath>Категории</DataPath>
 											<RowPictureDataPath>Категории.НомерКартинки</RowPictureDataPath>
 											<RowsPicture>
-												<xr:Ref>0:8c236eb8-9016-4797-9ca1-dbe462ba29f1</xr:Ref>
+												<xr:Ref>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</RowsPicture>
 											<CommandSet>
@@ -1581,6 +1574,7 @@
 									<OpenButton>false</OpenButton>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ChoiceListButton>true</ChoiceListButton>
+									<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 									<ContextMenu name="СегментКонтекстноеМеню" id="149"/>
 									<ExtendedTooltip name="СегментExtendedTooltip" id="330"/>
 								</InputField>
@@ -1604,87 +1598,86 @@
 			<UseAlways>
 				<Field>Список.ОбособленноеПодразделение</Field>
 				<Field>Список.ГоловнойКонтрагент</Field>
-				<Field>1/6</Field>
-				<Field>1/182</Field>
-				<Field>1/100</Field>
+				<Field>Список.Ref</Field>
+				<Field>Список.Parent</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
-    СправочникПартнеры.Ссылка КАК Ссылка,
-    СправочникПартнеры.ПометкаУдаления КАК ПометкаУдаления,
-    СправочникПартнеры.Предопределенный КАК Предопределенный,
-    СправочникПартнеры.Родитель КАК Родитель,
-    СправочникПартнеры.Код КАК Код,
-    СправочникПартнеры.Наименование КАК Наименование,
-    СправочникПартнеры.БизнесРегион КАК БизнесРегион,
-    СправочникПартнеры.ГруппаДоступа КАК ГруппаДоступа,
-    СправочникПартнеры.ДатаРегистрации КАК ДатаРегистрации,
-    СправочникПартнеры.Клиент КАК Клиент,
-    СправочникПартнеры.Комментарий КАК Комментарий,
-    СправочникПартнеры.Конкурент КАК Конкурент,
-    СправочникПартнеры.НаименованиеПолное КАК НаименованиеПолное,
-    СправочникПартнеры.ОсновнойМенеджер КАК ОсновнойМенеджер,
-    СправочникПартнеры.Поставщик КАК Поставщик,
-    СправочникПартнеры.Перевозчик КАК Перевозчик,
-    СправочникПартнеры.ПрочиеОтношения КАК ПрочиеОтношения,
-    СправочникПартнеры.ДополнительныеРеквизиты.(
-        Ссылка КАК Ссылка,
-        НомерСтроки КАК НомерСтроки,
-        Свойство КАК Свойство,
-        Значение КАК Значение,
-        ТекстоваяСтрока КАК ТекстоваяСтрока
-    ) КАК ДополнительныеРеквизиты,
-    СправочникПартнеры.КонтактнаяИнформация.(
-        Ссылка КАК Ссылка,
-        НомерСтроки КАК НомерСтроки,
-        Тип КАК Тип,
-        Вид КАК Вид,
-        Представление КАК Представление,
-        ЗначенияПолей КАК ЗначенияПолей,
-        Страна КАК Страна,
-        Регион КАК Регион,
-        Город КАК Город,
-        АдресЭП КАК АдресЭП,
-        ДоменноеИмяСервера КАК ДоменноеИмяСервера,
-        НомерТелефона КАК НомерТелефона,
-        НомерТелефонаБезКодов КАК НомерТелефонаБезКодов
-    ) КАК КонтактнаяИнформация,
-    Контрагенты.Ссылка КАК Контрагент,
-    Контрагенты.ЮрФизЛицо КАК ЮрФизЛицо,
-    ВЫБОР
-        КОГДА Контрагенты.ОбособленноеПодразделение
-            ТОГДА Контрагенты.ГоловнойКонтрагент
-        ИНАЧЕ ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
-    КОНЕЦ КАК ГоловнойКонтрагент,
-    ВЫБОР
-        КОГДА Контрагенты.ОбособленноеПодразделение
-            ТОГДА &amp;ПредставлениеОбособленногоПодразделения
-        ИНАЧЕ ПРЕДСТАВЛЕНИЕ(Контрагенты.ЮрФизЛицо)
-    КОНЕЦ КАК ВидКонтрагента,
-    Контрагенты.ОбособленноеПодразделение КАК ОбособленноеПодразделение,
-    Контрагенты.ИНН КАК ИНН,
-    Контрагенты.КПП КАК КПП,
-    Контрагенты.КодПоОКПО КАК КодПоОКПО,
-    ЗНАЧЕНИЕ(Перечисление.СостоянияСуществованияКонтрагента.ПустаяСсылка) КАК СостояниеПроверкиКонтрагента,
-    3 КАК НомерКартинкиСостояниеПроверки,
-    1 КАК ЭДО
-   ИЗ
-    Справочник.Партнеры КАК СправочникПартнеры
-        {ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Контрагенты КАК Контрагенты
-        ПО (Контрагенты.Партнер = СправочникПартнеры.Ссылка)}
+	СправочникПартнеры.Ссылка,
+	СправочникПартнеры.ПометкаУдаления,
+	СправочникПартнеры.Предопределенный,
+	СправочникПартнеры.Родитель,
+	СправочникПартнеры.Код,
+	СправочникПартнеры.Наименование,
+	СправочникПартнеры.БизнесРегион,
+	СправочникПартнеры.ГруппаДоступа,
+	СправочникПартнеры.ДатаРегистрации,
+	СправочникПартнеры.Клиент,
+	СправочникПартнеры.Комментарий,
+	СправочникПартнеры.Конкурент,
+	СправочникПартнеры.НаименованиеПолное,
+	СправочникПартнеры.ОсновнойМенеджер,
+	СправочникПартнеры.Поставщик,
+	СправочникПартнеры.Перевозчик,
+	СправочникПартнеры.ПрочиеОтношения,
+	СправочникПартнеры.ДополнительныеРеквизиты.(
+		Ссылка,
+		НомерСтроки,
+		Свойство,
+		Значение,
+		ТекстоваяСтрока
+	),
+	СправочникПартнеры.КонтактнаяИнформация.(
+		Ссылка,
+		НомерСтроки,
+		Тип,
+		Вид,
+		Представление,
+		ЗначенияПолей,
+		Страна,
+		Регион,
+		Город,
+		АдресЭП,
+		ДоменноеИмяСервера,
+		НомерТелефона,
+		НомерТелефонаБезКодов
+	),
+	Контрагенты.Ссылка КАК Контрагент,
+	Контрагенты.ЮрФизЛицо,
+	ВЫБОР
+		КОГДА Контрагенты.ОбособленноеПодразделение
+			ТОГДА Контрагенты.ГоловнойКонтрагент
+		ИНАЧЕ ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+	КОНЕЦ КАК ГоловнойКонтрагент,
+	ВЫБОР
+		КОГДА Контрагенты.ОбособленноеПодразделение
+			ТОГДА &amp;ПредставлениеОбособленногоПодразделения
+		ИНАЧЕ ПРЕДСТАВЛЕНИЕ(Контрагенты.ЮрФизЛицо)
+	КОНЕЦ КАК ВидКонтрагента,
+	Контрагенты.ОбособленноеПодразделение,
+	Контрагенты.ИНН КАК ИНН,
+	Контрагенты.КПП КАК КПП,
+	Контрагенты.КодПоОКПО КАК КодПоОКПО,
+	ЗНАЧЕНИЕ(Перечисление.СостоянияСуществованияКонтрагента.ПустаяСсылка) КАК СостояниеПроверкиКонтрагента,
+	3 НомерКартинкиСостояниеПроверки,
+	1 КАК ЭДО
+ИЗ
+	Справочник.Партнеры КАК СправочникПартнеры
+		{ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Контрагенты КАК Контрагенты
+		ПО (Контрагенты.Партнер = СправочникПартнеры.Ссылка)}
 ГДЕ
-    ВЫБОР
-            КОГДА НЕ &amp;ОтборПоСегментуУстановлен
-                ТОГДА ИСТИНА
-            ИНАЧЕ СправочникПартнеры.Ссылка В (&amp;ОтборПоСегменту)
-        КОНЕЦ
-    И ВЫБОР
-            КОГДА НЕ &amp;ОтборПоПолнотекстовомуПоискуУстановлен
-                ТОГДА ИСТИНА
-            ИНАЧЕ СправочникПартнеры.Ссылка В (&amp;ОтборПоПолнотекстовомуПоиску)
-        КОНЕЦ</QueryText>
+	ВЫБОР
+			КОГДА НЕ &amp;ОтборПоСегментуУстановлен
+				ТОГДА ИСТИНА
+			ИНАЧЕ СправочникПартнеры.Ссылка В (&amp;ОтборПоСегменту)
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА НЕ &amp;ОтборПоПолнотекстовомуПоискуУстановлен
+				ТОГДА ИСТИНА
+			ИНАЧЕ СправочникПартнеры.Ссылка В (&amp;ОтборПоПолнотекстовомуПоиску)
+		КОНЕЦ</QueryText>
 				<MainTable>Catalog.Партнеры</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -1738,7 +1731,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>1ff59158-19ba-4c84-ac05-32955f6e20da</Item>
+				<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="Основания" id="7">
@@ -1836,17 +1829,13 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>cfg:CatalogRef.СегментыПартнеров</v8:Type>
 			</Type>
 			<Save>
 				<Field>Сегмент</Field>
 			</Save>
 			<FunctionalOptions>
-				<Item>9d5e4bf3-fae5-4e75-ac7d-5c38db530b1b</Item>
+				<Item>FunctionalOption.ИспользоватьСегментыПартнеров</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="СписокЦветаСтиля" id="2">
@@ -1925,7 +1914,7 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<FunctionalOptions>
-				<Item>e416e501-498c-4439-9158-e360c35e5d05</Item>
+				<Item>FunctionalOption.ИспользоватьГруппыДоступаПартнеров</Item>
 			</FunctionalOptions>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -2139,7 +2128,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>88a8fea7-f081-46fd-a128-13da299a8199</Item>
+				<Item>FunctionalOption.ИспользоватьБизнесРегионы</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="КонтрагентыПартнера" id="26">
@@ -2157,7 +2146,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>2e188175-adbb-4b0b-91b8-978d55788ab9</Item>
+				<Item>FunctionalOption.ИспользоватьПартнеровИКонтрагентов</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="КонтактныеЛицаПартнера" id="27">
@@ -2273,14 +2262,24 @@
 						</v8:item>
 					</Title>
 					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектовИерархия</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
 						<v8:Type>xs:boolean</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:Type>xs:decimal</v8:Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
 						<v8:NumberQualifiers>
@@ -2565,7 +2564,7 @@
 				</v8:item>
 			</ToolTip>
 			<FunctionalOptions>
-				<Item>0657c9a0-8476-4434-9583-aed6d0060c36</Item>
+				<Item>FunctionalOption.ИспользоватьУправлениеДоступом</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="ИзменитьВыделенные" id="2">
@@ -2596,7 +2595,7 @@
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>0:f096b920-019c-4af3-b5b8-d5d740b637b3</xr:Ref>
+				<xr:Ref>CommonPicture.ЗагрузитьXMLФайлВИнформационнуюБазу</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 				<xr:TransparentPixel x="14" y="2"/>
 			</Picture>
@@ -2807,7 +2806,7 @@
 												</v8:item>
 											</ToolTip>
 											<Picture>
-												<xr:Ref>0:218de94e-366d-42e6-a0a4-12cf784d133d</xr:Ref>
+												<xr:Ref>CommonPicture.Отчеты</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</Picture>
 											<Representation>Picture</Representation>
@@ -2842,13 +2841,13 @@
 												</ButtonGroup>
 												<Button name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту" id="172">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:e256beb4-3b56-4179-ba72-773a3383d108</CommandName>
+													<CommandName>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоКонтакту</CommandName>
 													<DataPath>Items.Список.CurrentData.Ref</DataPath>
 													<ExtendedTooltip name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтактуExtendedTooltip" id="266"/>
 												</Button>
 												<Button name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнера" id="502">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:4199353c-f8d3-4680-99d0-25240f7a8b62</CommandName>
+													<CommandName>InformationRegister.ПартнерыСегмента.Command.СегментыПартнера</CommandName>
 													<DataPath>Items.Список.CurrentData.Ref</DataPath>
 													<ExtendedTooltip name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнераРасширеннаяПодсказка" id="503"/>
 												</Button>
@@ -2954,11 +2953,11 @@
 											</v8:item>
 										</ToolTip>
 										<HeaderPicture>
-											<xr:Ref>0:720d9621-6362-437c-90d5-990bb8bd46b9</xr:Ref>
+											<xr:Ref>CommonPicture.СостояниеПроверкиКонтрагента</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</HeaderPicture>
 										<ValuesPicture>
-											<xr:Ref>0:acae4817-ea12-4ff7-932b-61df66431f1f</xr:Ref>
+											<xr:Ref>CommonPicture.КрасныйЖелтыйСерыйТреугольник</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</ValuesPicture>
 										<ContextMenu name="ЕстьОшибкиПроверкаКонтрагентовКонтекстноеМеню" id="463"/>
@@ -3126,7 +3125,7 @@
 											</v8:item>
 										</ToolTip>
 										<ValuesPicture>
-											<xr:Ref>0:b3fe285a-359b-4bad-9ff6-230a29897b0a</xr:Ref>
+											<xr:Ref>CommonPicture.ЭмблемаСервиса1СЭДО</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</ValuesPicture>
 										<ContextMenu name="ЭДОКонтекстноеМеню" id="505"/>
@@ -3250,7 +3249,7 @@
 													</v8:item>
 												</Title>
 												<Picture>
-													<xr:Ref>0:ae0dfa76-e086-4fff-b7ba-1e6a5b0904c0</xr:Ref>
+													<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</Picture>
 												<ContextMenu name="ДекорацияКрасныйТреугольникКартинкаКонтекстноеМеню" id="470"/>
@@ -3301,7 +3300,7 @@
 													</v8:item>
 												</Title>
 												<Picture>
-													<xr:Ref>0:59883acb-aeca-4cc0-a4d3-418107c3fbc3</xr:Ref>
+													<xr:Ref>CommonPicture.Внимание16</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</Picture>
 												<ContextMenu name="ДекорацияЖелтыйТреугольникКартинкаКонтекстноеМеню" id="478"/>
@@ -3350,7 +3349,7 @@
 													</v8:item>
 												</Title>
 												<Picture>
-													<xr:Ref>0:b940c46e-73b4-4f7a-ae14-4475ccff3e7a</xr:Ref>
+													<xr:Ref>CommonPicture.ВниманиеСерый</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</Picture>
 												<ContextMenu name="ДекорацияСерыйТреугольникКартинкаКонтекстноеМеню" id="486"/>
@@ -3545,7 +3544,7 @@
 															</v8:item>
 														</ToolTip>
 														<Picture>
-															<xr:Ref>0:ae0dfa76-e086-4fff-b7ba-1e6a5b0904c0</xr:Ref>
+															<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 															<xr:LoadTransparent>true</xr:LoadTransparent>
 														</Picture>
 														<ContextMenu name="ДекорацияЕстьОшибкиКонтекстноеМеню" id="460"/>
@@ -3920,7 +3919,7 @@
 												<DataPath>Свойства</DataPath>
 												<RowPictureDataPath>Свойства.НомерКартинки</RowPictureDataPath>
 												<RowsPicture>
-													<xr:Ref>0:60bc931b-c04f-4b9c-a9e8-eae432239839</xr:Ref>
+													<xr:Ref>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</RowsPicture>
 												<CommandSet>
@@ -4031,7 +4030,7 @@
 												<DataPath>Категории</DataPath>
 												<RowPictureDataPath>Категории.НомерКартинки</RowPictureDataPath>
 												<RowsPicture>
-													<xr:Ref>0:8c236eb8-9016-4797-9ca1-dbe462ba29f1</xr:Ref>
+													<xr:Ref>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</RowsPicture>
 												<CommandSet>
@@ -4140,6 +4139,7 @@
 										<OpenButton>false</OpenButton>
 										<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 										<ChoiceListButton>true</ChoiceListButton>
+										<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 										<ContextMenu name="СегментКонтекстноеМеню" id="149"/>
 										<ExtendedTooltip name="СегментExtendedTooltip" id="330"/>
 									</InputField>
@@ -4296,7 +4296,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>1ff59158-19ba-4c84-ac05-32955f6e20da</Item>
+					<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="Основания" id="7">
@@ -4394,17 +4394,13 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>0</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
+					<v8:Type>cfg:CatalogRef.СегментыПартнеров</v8:Type>
 				</Type>
 				<Save>
 					<Field>Сегмент</Field>
 				</Save>
 				<FunctionalOptions>
-					<Item>9d5e4bf3-fae5-4e75-ac7d-5c38db530b1b</Item>
+					<Item>FunctionalOption.ИспользоватьСегментыПартнеров</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="СписокЦветаСтиля" id="2">
@@ -4483,7 +4479,7 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<FunctionalOptions>
-					<Item>e416e501-498c-4439-9158-e360c35e5d05</Item>
+					<Item>FunctionalOption.ИспользоватьГруппыДоступаПартнеров</Item>
 				</FunctionalOptions>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
@@ -4697,7 +4693,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>88a8fea7-f081-46fd-a128-13da299a8199</Item>
+					<Item>FunctionalOption.ИспользоватьБизнесРегионы</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="КонтрагентыПартнера" id="26">
@@ -4715,7 +4711,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>2e188175-adbb-4b0b-91b8-978d55788ab9</Item>
+					<Item>FunctionalOption.ИспользоватьПартнеровИКонтрагентов</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="КонтактныеЛицаПартнера" id="27">
@@ -4831,14 +4827,24 @@
 							</v8:item>
 						</Title>
 						<Type>
+							<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 							<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектовИерархия</v8:Type>
+							<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
+							<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 							<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
 							<v8:Type>xs:boolean</v8:Type>
+							<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+							<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+							<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 							<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 							<v8:Type>xs:string</v8:Type>
 							<v8:Type>xs:dateTime</v8:Type>
 							<v8:Type>xs:decimal</v8:Type>
+							<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 							<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 							<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 							<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
 							<v8:NumberQualifiers>
@@ -5123,7 +5129,7 @@
 					</v8:item>
 				</ToolTip>
 				<FunctionalOptions>
-					<Item>0657c9a0-8476-4434-9583-aed6d0060c36</Item>
+					<Item>FunctionalOption.ИспользоватьУправлениеДоступом</Item>
 				</FunctionalOptions>
 			</Command>
 			<Command name="ИзменитьВыделенные" id="2">
@@ -5154,7 +5160,7 @@
 					</v8:item>
 				</ToolTip>
 				<Picture>
-					<xr:Ref>0:f096b920-019c-4af3-b5b8-d5d740b637b3</xr:Ref>
+					<xr:Ref>CommonPicture.ЗагрузитьXMLФайлВИнформационнуюБазу</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 					<xr:TransparentPixel x="14" y="2"/>
 				</Picture>

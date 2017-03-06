@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
-	<Form uuid="658bfec1-a1af-48e1-8881-0cdfd3d653f8">
+	<Constant uuid="4a1e8c84-646c-4ad1-9fa6-144e0a74dace">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьБизнесРегионы" category="Manager">
+				<xr:TypeId>e19b13d4-84a2-400f-b8d5-4a2f4ac24486</xr:TypeId>
+				<xr:ValueId>1147c66c-a270-4ae5-a5bf-fc81b81a654e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьБизнесРегионы" category="ValueManager">
+				<xr:TypeId>e9e659d8-2542-4c2c-8960-1521054a79b1</xr:TypeId>
+				<xr:ValueId>8600d0f1-8050-420e-be6b-4a08f3ce5982</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ФормаСписка</Name>
+			<Name>ИспользоватьБизнесРегионы</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<FormType>Managed</FormType>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-	</Form>
+	</Constant>
 </MetaDataObject>

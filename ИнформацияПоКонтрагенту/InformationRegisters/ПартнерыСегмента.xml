@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="bbba074b-0d1c-4d56-99cb-2cd74067cf72">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПартнерыСегмента" category="Record">
+				<xr:TypeId>3faa8500-8688-438c-b0b2-c1c7f12676f4</xr:TypeId>
+				<xr:ValueId>f6c0298c-ceec-4f4e-8671-60b873923b91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПартнерыСегмента" category="Manager">
+				<xr:TypeId>f915ffd5-fe5c-4cba-8948-2c9282a0a9a7</xr:TypeId>
+				<xr:ValueId>da21d8da-c624-42ba-9c2b-6a90d1ade77d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПартнерыСегмента" category="Selection">
+				<xr:TypeId>f311501d-3e29-4992-bf7c-b18c94d02ab7</xr:TypeId>
+				<xr:ValueId>42b394cc-2237-4e52-a5a3-7b00430006cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПартнерыСегмента" category="List">
+				<xr:TypeId>7b0a580b-a867-483f-b168-26321daaaae0</xr:TypeId>
+				<xr:ValueId>91bec04c-69a9-475a-8b13-1fbfab31c388</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПартнерыСегмента" category="RecordSet">
+				<xr:TypeId>a7d91b7d-998e-42f9-8795-2a43d9af7529</xr:TypeId>
+				<xr:ValueId>6bb085d0-3aa0-4351-8e2e-06805a650dae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПартнерыСегмента" category="RecordKey">
+				<xr:TypeId>8bd97602-8b6c-4f97-9898-77be3597c42a</xr:TypeId>
+				<xr:ValueId>ce1af546-4ff1-46ff-99a8-4c119870a183</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПартнерыСегмента" category="RecordManager">
+				<xr:TypeId>be39dd10-0c9f-48da-867c-b8e2426d4d86</xr:TypeId>
+				<xr:ValueId>63ee5ef9-2451-4652-8a5d-76ac4c145f70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПартнерыСегмента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="2d8fb62b-f837-4836-bb58-8fffd8f7e1d3">
+				<Properties>
+					<Name>СегментыПартнера</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

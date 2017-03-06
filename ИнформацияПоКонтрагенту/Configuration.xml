@@ -131,6 +131,12 @@
 			<FunctionalOption>ИспользоватьНоменклатуруПоставщиков</FunctionalOption>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
+			<FunctionalOption>ИспользоватьПартнеровИКонтрагентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьУправлениеДоступом</FunctionalOption>
+			<FunctionalOption>ИспользоватьСегментыПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьБизнесРегионы</FunctionalOption>
+			<FunctionalOption>ИспользоватьГруппыДоступаПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьПолнотекстовыйПоиск</FunctionalOption>
 			<DefinedType>Контрагент</DefinedType>
 			<DefinedType>Артикул</DefinedType>
 			<Constant>ИспользоватьПроверкуКонтрагентов</Constant>
@@ -163,6 +169,12 @@
 			<Constant>ИспользоватьСтатусыЗаказовПоставщикам</Constant>
 			<Constant>ВестиСведенияДляДекларацийАлкоВРознице</Constant>
 			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
+			<Constant>ИспользоватьУправлениеДоступом</Constant>
+			<Constant>ИспользоватьГруппыДоступаПартнеров</Constant>
+			<Constant>ИспользоватьПолнотекстовыйПоиск</Constant>
+			<Constant>ИспользоватьБизнесРегионы</Constant>
+			<Constant>ИспользоватьСегментыПартнеров</Constant>
+			<Constant>ИспользоватьПартнеровИКонтрагентов</Constant>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Партнеры</Catalog>
 			<Catalog>КлючиАналитикиУчетаПоПартнерам</Catalog>
@@ -206,6 +218,10 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КлючиАналитикиУчетаПартий</Catalog>
 			<Catalog>ПричиныОтменыЗаказовПоставщикам</Catalog>
+			<Catalog>Файлы</Catalog>
+			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
+			<Catalog>СегментыПартнеров</Catalog>
 			<Document>ЗаявкаНаВозвратТоваровОтКлиента</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ПоступлениеТоваровУслуг</Document>
@@ -215,6 +231,7 @@
 			<Document>ЗаказПоставщику</Document>
 			<Document>ТТНВходящаяЕГАИС</Document>
 			<DocumentJournal>РеестрТорговыхДокументов</DocumentJournal>
+			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ЮрФизЛицо</Enum>
 			<Enum>СостоянияСуществованияКонтрагента</Enum>
@@ -246,6 +263,7 @@
 			<InformationRegister>АналитикаУчетаПоПартнерам</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентов</InformationRegister>
 			<InformationRegister>СостоянияКонтрагентовБЭД</InformationRegister>
+			<InformationRegister>ПартнерыСегмента</InformationRegister>
 			<AccumulationRegister>РасчетыСКлиентами</AccumulationRegister>
 			<AccumulationRegister>РасчетыСПоставщиками</AccumulationRegister>
 			<AccumulationRegister>РасчетыСКлиентамиПоДокументам</AccumulationRegister>
@@ -255,6 +273,7 @@
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

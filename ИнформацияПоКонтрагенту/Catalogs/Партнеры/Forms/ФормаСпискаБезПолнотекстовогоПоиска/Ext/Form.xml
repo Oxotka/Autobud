@@ -217,13 +217,13 @@
 											</ButtonGroup>
 											<Button name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту1" id="373">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:4473acf0-9d2a-40cf-9d0a-48875acd97ee</CommandName>
+												<CommandName>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоКонтакту</CommandName>
 												<DataPath>Items.Список.CurrentData.Ref</DataPath>
 												<ExtendedTooltip name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту1РасширеннаяПодсказка" id="374"/>
 											</Button>
 											<Button name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнера" id="511">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:4199353c-f8d3-4680-99d0-25240f7a8b62</CommandName>
+												<CommandName>InformationRegister.ПартнерыСегмента.Command.СегментыПартнера</CommandName>
 												<DataPath>Items.Список.CurrentData.Ref</DataPath>
 												<ExtendedTooltip name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнераРасширеннаяПодсказка" id="512"/>
 											</Button>
@@ -944,81 +944,68 @@
 							<ContextMenu name="КонтактныеЛицаПартнераКонтекстноеМеню" id="227"/>
 							<ExtendedTooltip name="КонтактныеЛицаПартнераExtendedTooltip" id="302"/>
 						</LabelField>
-						<UsualGroup name="ГруппаПанельИнформации" id="516">
+						<UsualGroup name="ГруппаВзаиморасчеты" id="516">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа панель информации</v8:content>
+									<v8:content>Взаиморасчеты</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа панель информации</v8:content>
+									<v8:content>Взаиморасчеты</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаПанельИнформацииРасширеннаяПодсказка" id="517"/>
+							<ExtendedTooltip name="ГруппаВзаиморасчетыРасширеннаяПодсказка" id="517"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаВзаиморасчеты" id="526">
-									<Title>
+								<LabelDecoration name="ДекорацияДолгНаш" id="518">
+									<Height>1</Height>
+									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Взаиморасчеты</v8:content>
+											<v8:content>Наш долг</v8:content>
 										</v8:item>
 									</Title>
-									<Group>Vertical</Group>
-									<ExtendedTooltip name="ГруппаВзаиморасчетыРасширеннаяПодсказка" id="527"/>
-									<ChildItems>
-										<LabelDecoration name="ДекорацияДолгНаш" id="528">
-											<Height>1</Height>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Наш долг</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияДолгНашКонтекстноеМеню" id="529"/>
-											<ExtendedTooltip name="ДекорацияДолгНашРасширеннаяПодсказка" id="530"/>
-										</LabelDecoration>
-										<LabelDecoration name="ДекорацияДолгНам" id="531">
-											<Height>1</Height>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Долг клиента</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="ДекорацияДолгНамКонтекстноеМеню" id="532"/>
-											<ExtendedTooltip name="ДекорацияДолгНамРасширеннаяПодсказка" id="533"/>
-										</LabelDecoration>
-										<LabelDecoration name="ДекорацияДокументы" id="534">
-											<Height>1</Height>
-											<AutoMaxHeight>false</AutoMaxHeight>
-											<Font ref="style:NormalTextFont" height="11" kind="StyleItem"/>
-											<Title formatted="true">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>&lt;fontsize 14&gt;Документы&lt;/&gt;</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Открыть документы по партнёру</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Hyperlink>true</Hyperlink>
-											<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="535"/>
-											<ExtendedTooltip name="ДекорацияДокументыРасширеннаяПодсказка" id="536"/>
-											<Events>
-												<Event name="Click" callType="Before">КУТ_ДекорацияДокументыНажатие</Event>
-											</Events>
-										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
+									<ContextMenu name="ДекорацияДолгНашКонтекстноеМеню" id="519"/>
+									<ExtendedTooltip name="ДекорацияДолгНашРасширеннаяПодсказка" id="520"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияДолгНам" id="521">
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Долг клиента</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияДолгНамКонтекстноеМеню" id="522"/>
+									<ExtendedTooltip name="ДекорацияДолгНамРасширеннаяПодсказка" id="523"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияДокументы" id="524">
+									<Height>1</Height>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<Font ref="style:NormalTextFont" height="11" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Открыть документы по партнёру</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ДекорацияДокументыКонтекстноеМеню" id="525"/>
+									<ExtendedTooltip name="ДекорацияДокументыРасширеннаяПодсказка" id="526"/>
+									<Events>
+										<Event name="Click" callType="Before">КУТ_ДекорацияДокументыНажатие</Event>
+									</Events>
+								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="ДекорацияПустая1" id="188">
@@ -1594,8 +1581,10 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<ClearButton>true</ClearButton>
 									<OpenButton>false</OpenButton>
+									<QuickChoice>true</QuickChoice>
 									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 									<ChoiceListButton>true</ChoiceListButton>
+									<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 									<ContextMenu name="СегментКонтекстноеМеню" id="149"/>
 									<ExtendedTooltip name="СегментExtendedTooltip" id="330"/>
 								</InputField>
@@ -1752,7 +1741,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>3db4e1dc-ec44-4fbb-a6e8-2d1bbc8f558b</Item>
+				<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="Основания" id="7">
@@ -1850,17 +1839,13 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>cfg:CatalogRef.СегментыПартнеров</v8:Type>
 			</Type>
 			<Save>
 				<Field>Сегмент</Field>
 			</Save>
 			<FunctionalOptions>
-				<Item>f26bcb23-1f1a-4119-8641-7c8d448f0c88</Item>
+				<Item>FunctionalOption.ИспользоватьСегментыПартнеров</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="СписокЦветаСтиля" id="2">
@@ -1939,7 +1924,7 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<FunctionalOptions>
-				<Item>255315ea-d2a8-45d2-8fa5-9ed2219bd6b2</Item>
+				<Item>FunctionalOption.ИспользоватьГруппыДоступаПартнеров</Item>
 			</FunctionalOptions>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -2153,7 +2138,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>aaabb1a8-0268-4e95-b8f5-d55b071b52ec</Item>
+				<Item>FunctionalOption.ИспользоватьБизнесРегионы</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="КонтрагентыПартнера" id="26">
@@ -2171,7 +2156,7 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>20bfedb2-b352-4058-9cba-8b53a31b90cc</Item>
+				<Item>FunctionalOption.ИспользоватьПартнеровИКонтрагентов</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="КонтактныеЛицаПартнера" id="27">
@@ -2287,14 +2272,24 @@
 						</v8:item>
 					</Title>
 					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектовИерархия</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
 						<v8:Type>xs:boolean</v8:Type>
+						<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:Type>xs:decimal</v8:Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
 						<v8:NumberQualifiers>
@@ -2563,21 +2558,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СвернутьПанель" id="42">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Свернуть панель</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<SavedData>true</SavedData>
-			<Save>
-				<Field>СвернутьПанель</Field>
-			</Save>
-		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="СоздатьНового" id="1">
@@ -2594,7 +2574,7 @@
 				</v8:item>
 			</ToolTip>
 			<FunctionalOptions>
-				<Item>ba7ece4e-fb86-45f8-be98-0fe43e9e40f2</Item>
+				<Item>FunctionalOption.ИспользоватьУправлениеДоступом</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="ИзменитьВыделенные" id="2">
@@ -2879,13 +2859,13 @@
 												</ButtonGroup>
 												<Button name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту1" id="373">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:4473acf0-9d2a-40cf-9d0a-48875acd97ee</CommandName>
+													<CommandName>DocumentJournal.Взаимодействия.Command.ВзаимодействияПоКонтакту</CommandName>
 													<DataPath>Items.Список.CurrentData.Ref</DataPath>
 													<ExtendedTooltip name="СписокЖурналДокументовВзаимодействияВзаимодействияПоКонтакту1РасширеннаяПодсказка" id="374"/>
 												</Button>
 												<Button name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнера" id="511">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:4199353c-f8d3-4680-99d0-25240f7a8b62</CommandName>
+													<CommandName>InformationRegister.ПартнерыСегмента.Command.СегментыПартнера</CommandName>
 													<DataPath>Items.Список.CurrentData.Ref</DataPath>
 													<ExtendedTooltip name="СписокРегистрСведенийПартнерыСегментаКомандаСегментыПартнераРасширеннаяПодсказка" id="512"/>
 												</Button>
@@ -4176,8 +4156,10 @@
 										<HorizontalStretch>false</HorizontalStretch>
 										<ClearButton>true</ClearButton>
 										<OpenButton>false</OpenButton>
+										<QuickChoice>true</QuickChoice>
 										<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 										<ChoiceListButton>true</ChoiceListButton>
+										<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 										<ContextMenu name="СегментКонтекстноеМеню" id="149"/>
 										<ExtendedTooltip name="СегментExtendedTooltip" id="330"/>
 									</InputField>
@@ -4334,7 +4316,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>3db4e1dc-ec44-4fbb-a6e8-2d1bbc8f558b</Item>
+					<Item>FunctionalOption.ИспользоватьПолнотекстовыйПоиск</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="Основания" id="7">
@@ -4432,17 +4414,13 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>0</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
+					<v8:Type>cfg:CatalogRef.СегментыПартнеров</v8:Type>
 				</Type>
 				<Save>
 					<Field>Сегмент</Field>
 				</Save>
 				<FunctionalOptions>
-					<Item>f26bcb23-1f1a-4119-8641-7c8d448f0c88</Item>
+					<Item>FunctionalOption.ИспользоватьСегментыПартнеров</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="СписокЦветаСтиля" id="2">
@@ -4521,7 +4499,7 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<FunctionalOptions>
-					<Item>255315ea-d2a8-45d2-8fa5-9ed2219bd6b2</Item>
+					<Item>FunctionalOption.ИспользоватьГруппыДоступаПартнеров</Item>
 				</FunctionalOptions>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
@@ -4735,7 +4713,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>aaabb1a8-0268-4e95-b8f5-d55b071b52ec</Item>
+					<Item>FunctionalOption.ИспользоватьБизнесРегионы</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="КонтрагентыПартнера" id="26">
@@ -4753,7 +4731,7 @@
 					</v8:StringQualifiers>
 				</Type>
 				<FunctionalOptions>
-					<Item>20bfedb2-b352-4058-9cba-8b53a31b90cc</Item>
+					<Item>FunctionalOption.ИспользоватьПартнеровИКонтрагентов</Item>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="КонтактныеЛицаПартнера" id="27">
@@ -4869,14 +4847,24 @@
 							</v8:item>
 						</Title>
 						<Type>
+							<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
 							<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+							<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектовИерархия</v8:Type>
+							<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиДоходов</v8:Type>
+							<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиРасходов</v8:Type>
 							<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
 							<v8:Type>xs:boolean</v8:Type>
+							<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+							<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+							<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
 							<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 							<v8:Type>xs:string</v8:Type>
 							<v8:Type>xs:dateTime</v8:Type>
 							<v8:Type>xs:decimal</v8:Type>
+							<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 							<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+							<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 							<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
 							<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
 							<v8:NumberQualifiers>
@@ -5161,7 +5149,7 @@
 					</v8:item>
 				</ToolTip>
 				<FunctionalOptions>
-					<Item>ba7ece4e-fb86-45f8-be98-0fe43e9e40f2</Item>
+					<Item>FunctionalOption.ИспользоватьУправлениеДоступом</Item>
 				</FunctionalOptions>
 			</Command>
 			<Command name="ИзменитьВыделенные" id="2">

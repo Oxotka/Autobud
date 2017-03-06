@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
-	<Form uuid="658bfec1-a1af-48e1-8881-0cdfd3d653f8">
+	<Constant uuid="a93f4481-3f70-49fb-94d8-06a735b30a94">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьУправлениеДоступом" category="Manager">
+				<xr:TypeId>66867a64-66dd-4645-9ca2-2e72d4f707fa</xr:TypeId>
+				<xr:ValueId>f544c770-7683-4a72-94b2-8580a30e7778</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьУправлениеДоступом" category="ValueManager">
+				<xr:TypeId>d2e05ea5-c568-4fed-a8b6-949a56860031</xr:TypeId>
+				<xr:ValueId>4fdc4ddd-0c0e-4627-a9c3-645660a408e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ФормаСписка</Name>
+			<Name>ИспользоватьУправлениеДоступом</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<FormType>Managed</FormType>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-	</Form>
+	</Constant>
 </MetaDataObject>

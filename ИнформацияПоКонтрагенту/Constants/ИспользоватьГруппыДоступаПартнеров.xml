@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
-	<Form uuid="658bfec1-a1af-48e1-8881-0cdfd3d653f8">
+	<Constant uuid="985c0102-84e9-404e-9628-a8fb1fdc183f">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьГруппыДоступаПартнеров" category="Manager">
+				<xr:TypeId>d293bff6-d717-4284-abff-e5d4e991886f</xr:TypeId>
+				<xr:ValueId>7a690d05-25d1-43a6-9479-4fb30c6b6a93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьГруппыДоступаПартнеров" category="ValueManager">
+				<xr:TypeId>c74b78c0-e5f7-48da-b9ff-250a199eb045</xr:TypeId>
+				<xr:ValueId>d48b2c2a-4d09-421f-a81e-9e753bb240a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ФормаСписка</Name>
+			<Name>ИспользоватьГруппыДоступаПартнеров</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<FormType>Managed</FormType>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-	</Form>
+	</Constant>
 </MetaDataObject>

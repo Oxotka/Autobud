@@ -4,12 +4,19 @@
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
 		<ChildItems>
-			<Button name="ФормаЗарегистрироватьОбъекты" id="33">
+			<Button name="ФормаВыгрузитьОбъекты" id="33">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.Command.ЗарегистрироватьОбъекты</CommandName>
-				<ExtendedTooltip name="ФормаЗарегистрироватьОбъектыРасширеннаяПодсказка" id="34"/>
+				<CommandName>Form.Command.ВыгрузитьОбъекты</CommandName>
+				<ExtendedTooltip name="ФормаВыгрузитьОбъектыРасширеннаяПодсказка" id="34"/>
+			</Button>
+			<Button name="ФормаПоказатьСправочники" id="38">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.ПоказатьСправочники</CommandName>
+				<ExtendedTooltip name="ФормаПоказатьСправочникиРасширеннаяПодсказка" id="39"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -19,19 +26,19 @@
 	<ChildItems>
 		<InputField name="УзелОбмена" id="35">
 			<DataPath>УзелОбмена</DataPath>
-			<UserVisible>
-				<xr:Common>false</xr:Common>
-			</UserVisible>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="УзелОбменаКонтекстноеМеню" id="36"/>
 			<ExtendedTooltip name="УзелОбменаРасширеннаяПодсказка" id="37"/>
 		</InputField>
 		<InputField name="Организация" id="1">
 			<DataPath>Организация</DataPath>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Период" id="4">
 			<DataPath>Период</DataPath>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="ПериодКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="6"/>
 		</InputField>
@@ -106,12 +113,6 @@
 		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
-			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.ВыгрузкаВБухгалтерию</v8:Type>
-			</Type>
-			<MainAttribute>true</MainAttribute>
-		</Attribute>
 		<Attribute name="Организация" id="2">
 			<Title>
 				<v8:item>
@@ -136,9 +137,6 @@
 			<Type>
 				<v8:Type>v8:StandardPeriod</v8:Type>
 			</Type>
-			<Save>
-				<Field>Период</Field>
-			</Save>
 		</Attribute>
 		<Attribute name="ОбъектыКОбмену" id="6">
 			<Title>
@@ -161,26 +159,41 @@
 			<Type>
 				<v8:Type>cfg:ExchangePlanRef.СинхронизацияДанныхЧерезУниверсальныйФормат</v8:Type>
 			</Type>
-			<Save>
-				<Field>УзелОбмена</Field>
-			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗарегистрироватьОбъекты" id="1">
+		<Command name="ВыгрузитьОбъекты" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузить объекты</v8:content>
 				</v8:item>
 			</Title>
+			<Picture>
+				<xr:Ref>CommonPicture.ВыполнитьОбменГИСМ</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыгрузитьОбъекты</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПоказатьСправочники" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать справочники</v8:content>
+				</v8:item>
+			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Зарегистрировать объекты</v8:content>
+					<v8:content>Показать справочники</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ЗарегистрироватьОбъекты</Action>
+			<Picture>
+				<xr:Ref>StdPicture.Catalog</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПоказатьСправочники</Action>
 		</Command>
 	</Commands>
 </Form>

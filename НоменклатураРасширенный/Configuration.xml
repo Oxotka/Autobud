@@ -45,7 +45,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.5.3</Version>
+			<Version>1.6</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -243,11 +243,13 @@
 			<Enum>ФормыОплаты</Enum>
 			<Enum>СтатусыВнутреннихЗаказов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
+			<Report>ПоступлениеИОтгрузкаТоваров</Report>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
+			<AccumulationRegister>ГрафикПоступленияТоваров</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>

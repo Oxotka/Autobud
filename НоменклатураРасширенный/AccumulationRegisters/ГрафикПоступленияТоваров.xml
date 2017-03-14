@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<AccumulationRegister uuid="910e982d-5dd0-46af-b861-077564ec4b7b">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ГрафикПоступленияТоваров" category="Record">
+				<xr:TypeId>3920128f-5ec2-444e-9274-94908d1d29b9</xr:TypeId>
+				<xr:ValueId>62c65c1e-d052-43e9-9f69-83253804729c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ГрафикПоступленияТоваров" category="Manager">
+				<xr:TypeId>0afd4379-26ea-4394-b022-21e60751ffe5</xr:TypeId>
+				<xr:ValueId>bd38dc28-554e-4032-ac74-afaec8c4c8ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ГрафикПоступленияТоваров" category="Selection">
+				<xr:TypeId>87a29cce-cb9c-424f-a5a3-4b1df5064466</xr:TypeId>
+				<xr:ValueId>4bb45b5e-529d-4175-89b3-f1944c3b0e12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ГрафикПоступленияТоваров" category="List">
+				<xr:TypeId>8d9d9bbd-922d-4153-8ac7-04f60d3c1d12</xr:TypeId>
+				<xr:ValueId>8305a34b-599e-4930-8a14-8cd2994ceff8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ГрафикПоступленияТоваров" category="RecordSet">
+				<xr:TypeId>7d3d59aa-3bb6-4b2e-a3a6-ada3f99da8c0</xr:TypeId>
+				<xr:ValueId>ee32feb4-48d8-4fa4-bda5-cd22ae1b5baf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ГрафикПоступленияТоваров" category="RecordKey">
+				<xr:TypeId>ce6ef351-920d-491a-a0e7-d30b078bb06f</xr:TypeId>
+				<xr:ValueId>817ed508-3866-4e70-ad56-6464ee3e53e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикПоступленияТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="876cf856-2968-4bd9-a027-567b1cdb61f6">
+				<Properties>
+					<Name>КоличествоИзЗаказов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d28d1f2c-ccd7-4ce3-b19a-9cc0264ba71a">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f44a2ba1-2aaf-4b49-8764-be54aa18252c">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -407,8 +407,6 @@
 				</ChildObjects>
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
-			<Form>ФормаСписка</Form>
-			<Form>ФормаСпискаБезПолнотекстовогоПоиска</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -331,8 +331,6 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Form>ФормаСписка</Form>
-			<Form>ФормаСпискаПараметрическая</Form>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>

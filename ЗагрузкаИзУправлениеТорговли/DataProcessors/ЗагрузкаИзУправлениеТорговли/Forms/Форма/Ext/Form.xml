@@ -6,6 +6,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -41,6 +42,10 @@
 					<ExtendedTooltip name="СтраницаОжиданиеРасширеннаяПодсказка" id="9"/>
 					<ChildItems>
 						<PictureDecoration name="Декорация1" id="12">
+							<Picture>
+								<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
 							<ContextMenu name="Декорация1КонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="14"/>
 						</PictureDecoration>

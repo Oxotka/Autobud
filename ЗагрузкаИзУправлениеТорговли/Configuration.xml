@@ -60,6 +60,7 @@
 			<CommonPicture>Предупреждение</CommonPicture>
 			<CommonPicture>Информация</CommonPicture>
 			<CommonPicture>СинхронизацияДанныхВыполнение</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<ExchangePlan>СинхронизацияДанныхЧерезУниверсальныйФормат</ExchangePlan>
 			<CommonCommand>Загрузка_ЗагрузкаИзУправлениеТорговлей</CommonCommand>
 			<CommonForm>СинхронизацияДанных</CommonForm>

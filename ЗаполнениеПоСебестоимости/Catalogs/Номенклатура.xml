@@ -26,6 +26,9 @@
 		<Properties>
 			<Name>Номенклатура</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>11</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="e55710c0-107d-4a05-867d-5342a8869052">

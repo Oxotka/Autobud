@@ -32,6 +32,18 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="8137ce29-664f-482a-8af3-9155ef67356b">
+				<Properties>
+					<Name>ВозвратТоваровМеждуОрганизациями</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="db52ad68-faa4-4ea1-9a68-a7709631b6f2">
+				<Properties>
+					<Name>ВозвратПоКомиссииМеждуОрганизациями</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

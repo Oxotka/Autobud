@@ -44,11 +44,9 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<Vendor/>
-			<Version/>
+			<Vendor>mrXoxot</Vendor>
+			<Version>1.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_6</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -62,10 +60,17 @@
 			<CommonPicture>Отчеты</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
 			<CommonPicture>РазбитьСтроку</CommonPicture>
+			<CommonPicture>ПроверкаКоличестваТоваров</CommonPicture>
+			<CommonPicture>ПолучитьВес</CommonPicture>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьИмпортныеТовары</FunctionalOption>
+			<FunctionalOption>ИспользоватьПодключаемоеОборудованиеИОплатуПлатежнымиКартами</FunctionalOption>
+			<FunctionalOption>ИспользоватьОбменЭД</FunctionalOption>
+			<DefinedType>Артикул</DefinedType>
 			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
 			<Constant>ИспользоватьИмпортныеТовары</Constant>
+			<Constant>ИспользоватьОбменЭД</Constant>
+			<Constant>ИспользоватьПодключаемоеОборудованиеИОплатуПлатежнымиКартами</Constant>
 			<Catalog>ВидыЗапасов</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Валюты</Catalog>
@@ -87,6 +92,7 @@
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
 			<Document>ПередачаТоваровМеждуОрганизациями</Document>
+			<Document>ВозвратТоваровМеждуОрганизациями</Document>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>ХозяйственныеОперации</Enum>

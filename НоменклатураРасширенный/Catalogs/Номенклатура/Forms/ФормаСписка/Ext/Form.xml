@@ -569,6 +569,18 @@
 															<ContextMenu name="СписокРасширенныйПоискИспользуютсяХарактеристикиКонтекстноеМеню" id="519"/>
 															<ExtendedTooltip name="СписокРасширенныйПоискИспользуютсяХарактеристикиРасширеннаяПодсказка" id="520"/>
 														</CheckBoxField>
+														<CheckBoxField name="АБ_СнятоСПроизводства1" id="618">
+															<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Снято</v8:content>
+																</v8:item>
+															</Title>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="АБ_СнятоСПроизводства1КонтекстноеМеню" id="619"/>
+															<ExtendedTooltip name="АБ_СнятоСПроизводства1РасширеннаяПодсказка" id="620"/>
+														</CheckBoxField>
 													</ChildItems>
 												</Table>
 											</ChildItems>
@@ -888,6 +900,18 @@
 													<ContextMenu name="СписокСтандартныйПоискРодительКонтекстноеМеню" id="516"/>
 													<ExtendedTooltip name="СписокСтандартныйПоискРодительРасширеннаяПодсказка" id="517"/>
 												</LabelField>
+												<CheckBoxField name="АБ_СнятоСПроизводства" id="615">
+													<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Снято</v8:content>
+														</v8:item>
+													</Title>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="АБ_СнятоСПроизводстваКонтекстноеМеню" id="616"/>
+													<ExtendedTooltip name="АБ_СнятоСПроизводстваРасширеннаяПодсказка" id="617"/>
+												</CheckBoxField>
 											</ChildItems>
 										</Table>
 									</ChildItems>
@@ -1768,6 +1792,16 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<CheckBoxField name="ПоказыватьСнятыеСПроизводства" id="621">
+							<DataPath>ПоказыватьСнятыеСПроизводства</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказыватьСнятыеСПроизводстваКонтекстноеМеню" id="622"/>
+							<ExtendedTooltip name="ПоказыватьСнятыеСПроизводстваРасширеннаяПодсказка" id="623"/>
+							<Events>
+								<Event name="OnChange" callType="Before">Номенклатура_ПоказыватьСнятыеСПроизводстваПриИзмененииПеред</Event>
+							</Events>
+						</CheckBoxField>
 						<UsualGroup name="ГруппаФильтрыНоменклатуры" id="89">
 							<Title>
 								<v8:item>
@@ -2012,6 +2046,7 @@
 												<ExtendedTooltip name="ИерархияНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="282"/>
 											</SearchControlAddition>
 											<Events>
+												<Event name="Selection" callType="Before">Номенклатура_ИерархияНоменклатурыВыборПеред</Event>
 												<Event name="OnActivateRow" callType="Override">Номенклатура_ИерархияНоменклатурыПриАктивизацииСтрокиВместо</Event>
 											</Events>
 											<ChildItems>
@@ -2471,6 +2506,7 @@
 				<Field>СписокНоменклатура.ВидНоменклатуры</Field>
 				<Field>СписокНоменклатура.ВНаличии</Field>
 				<Field>СписокНоменклатура.Артикул</Field>
+				<Field>СписокНоменклатура.АБ_СнятоСПроизводства</Field>
 				<Field>СписокНоменклатура.Parent</Field>
 				<Field>1/30</Field>
 			</UseAlways>
@@ -2514,7 +2550,8 @@
 		КОГДА СпрНоменклатура.ИспользованиеХарактеристик &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
 			ТОГДА ИСТИНА
 		ИНАЧЕ ЛОЖЬ
-	КОНЕЦ КАК ИспользуютсяХарактеристики
+	КОНЕЦ КАК ИспользуютсяХарактеристики,
+	СпрНоменклатура.АБ_СнятоСПроизводства
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
 		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(, Склад В ИЕРАРХИИ (&amp;ОтборСклад)) КАК ТоварыНаСкладахОстатки
@@ -3721,6 +3758,20 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьСнятыеСПроизводства" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать снятые с производства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьСнятыеСПроизводства</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>

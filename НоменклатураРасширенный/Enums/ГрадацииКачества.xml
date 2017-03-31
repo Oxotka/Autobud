@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="06b0b298-c48b-459e-b4c5-303fbe1bd59a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ГрадацииКачества" category="Ref">
+				<xr:TypeId>cdf7432a-5da4-4a16-99a2-884d63f22e5d</xr:TypeId>
+				<xr:ValueId>a36195a0-c2e6-427a-ad43-ddbd73dd5d64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ГрадацииКачества" category="Manager">
+				<xr:TypeId>7bc6f11c-39f9-4cbd-aa6e-5784defee01b</xr:TypeId>
+				<xr:ValueId>394be2a5-8cf0-4f59-bab0-cbe0fe50c945</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ГрадацииКачества" category="List">
+				<xr:TypeId>19a1fa3a-4648-412a-8fc1-ec9f350488b1</xr:TypeId>
+				<xr:ValueId>8dd15e7d-b219-4d25-8a25-4d87347f8a84</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрадацииКачества</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="2aa6509a-469b-4d2c-a7d0-d0554fe2d81d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыФормированияСегментов" category="Ref">
+				<xr:TypeId>1b3538cc-1798-4c7d-a583-33fbb59b5dfb</xr:TypeId>
+				<xr:ValueId>f60a9e2b-6807-4c35-8a71-1587ce8b177b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыФормированияСегментов" category="Manager">
+				<xr:TypeId>3cb98e08-0d3e-4f90-b8f2-176527f47b30</xr:TypeId>
+				<xr:ValueId>b8b7b57e-5320-4464-9b38-31226ff7904f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыФормированияСегментов" category="List">
+				<xr:TypeId>2c6394f8-6110-4797-ae8c-0b829c340b13</xr:TypeId>
+				<xr:ValueId>7e011302-f039-49b5-b446-1530a37cfcd0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыФормированияСегментов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="749b137e-12e6-415a-80ff-37ea53498164">
+				<Properties>
+					<Name>ПериодическиОбновлять</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f3570c46-4bd1-4ca1-851c-e1e49ff38b41">
+				<Properties>
+					<Name>ФормироватьВручную</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

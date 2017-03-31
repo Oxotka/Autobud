@@ -26,6 +26,9 @@
 		<Properties>
 			<Name>ВариантыКомплектацииНоменклатуры</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+			</Owners>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="a32615e0-0462-4fc1-9340-b079a9b2fe26">
@@ -52,6 +55,24 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВариантыРасчетаЦенНаборов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6a4f6e97-db1e-43bd-a523-92b6eb08b387">
+				<Properties>
+					<Name>СодержитТовары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e48c0aa-9594-45df-b473-f9b2cc77aed1">
+				<Properties>
+					<Name>СодержитУслуги</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>

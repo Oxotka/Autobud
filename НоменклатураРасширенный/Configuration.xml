@@ -39,10 +39,6 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>Номенклатура_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
-			<DefaultRunMode>ManagedApplication</DefaultRunMode>
-			<UsePurposes>
-				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
-			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
 			<Version>1.6</Version>
@@ -55,6 +51,8 @@
 			<StyleItem>ЗапрещенноеПравоДоступа</StyleItem>
 			<StyleItem>МоиВариантыОтчетовЦвет</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
+			<StyleItem>ЦветТекстаЗаголовокОтчетаВТакси</StyleItem>
 			<CommonPicture>ФильтрПоВидамИСвойствамНоменклатуры</CommonPicture>
 			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
 			<CommonPicture>ФильтрПоТоварамДругогоКачества</CommonPicture>
@@ -98,6 +96,9 @@
 			<CommonPicture>МаркируемаяАлкогольнаяПродукцияШапка</CommonPicture>
 			<CommonPicture>Внимание</CommonPicture>
 			<CommonPicture>МаркируемаяАлкогольнаяПродукцияТЧ</CommonPicture>
+			<CommonPicture>СтрелкаВнизЗеленая</CommonPicture>
+			<CommonPicture>Внимание16</CommonPicture>
+			<CommonPicture>СтрелкаВправоЗеленая</CommonPicture>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаказыКлиентов</FunctionalOption>
@@ -133,7 +134,15 @@
 			<FunctionalOption>ИспользоватьПеремещениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаказыНаВнутреннееПотребление</FunctionalOption>
 			<FunctionalOption>ИспользоватьОплатуПлатежнымиКартами</FunctionalOption>
+			<FunctionalOption>ИспользоватьУпаковкиНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьСборкуРазборку</FunctionalOption>
+			<FunctionalOption>ИспользоватьСертификатыНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьХарактеристикиНоменклатуры</FunctionalOption>
 			<DefinedType>Артикул</DefinedType>
+			<DefinedType>GTIN</DefinedType>
+			<CommonCommand>ЗадачиПоПредмету</CommonCommand>
+			<CommonCommand>ИсторияИзменений</CommonCommand>
+			<CommonCommand>МоиЗаметкиПоПредмету</CommonCommand>
 			<Constant>ИспользоватьКачествоТоваров</Constant>
 			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
 			<Constant>ИспользоватьЗаказыКлиентов</Constant>
@@ -166,6 +175,10 @@
 			<Constant>ИспользоватьЗаказыНаВнутреннееПотребление</Constant>
 			<Constant>ИспользоватьЗаказыНаПеремещение</Constant>
 			<Constant>ИспользоватьОплатуПлатежнымиКартами</Constant>
+			<Constant>ИспользоватьСборкуРазборку</Constant>
+			<Constant>ИспользоватьХарактеристикиНоменклатуры</Constant>
+			<Constant>ИспользоватьУпаковкиНоменклатуры</Constant>
+			<Constant>ИспользоватьСертификатыНоменклатуры</Constant>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -214,6 +227,26 @@
 			<Catalog>ПодключаемоеОборудование</Catalog>
 			<Catalog>ПодарочныеСертификаты</Catalog>
 			<Catalog>БонусныеПрограммыЛояльности</Catalog>
+			<Catalog>ВидыАлкогольнойПродукции</Catalog>
+			<Catalog>КлассификаторОрганизацийЕГАИС</Catalog>
+			<Catalog>ГруппыАналитическогоУчетаНоменклатуры</Catalog>
+			<Catalog>Производители</Catalog>
+			<Catalog>КлассификаторВидовЭкономическойДеятельности</Catalog>
+			<Catalog>Марки</Catalog>
+			<Catalog>КоллекцииНоменклатуры</Catalog>
+			<Catalog>ЦеновыеГруппы</Catalog>
+			<Catalog>РейтингиПродажНоменклатуры</Catalog>
+			<Catalog>КлассификаторТНВЭД</Catalog>
+			<Catalog>СхемыОбеспечения</Catalog>
+			<Catalog>ГруппыДоступаНоменклатуры</Catalog>
+			<Catalog>ТоварныеКатегории</Catalog>
+			<Catalog>НаборыУпаковок</Catalog>
+			<Catalog>ГруппыФинансовогоУчетаНоменклатуры</Catalog>
+			<Catalog>СпособыОбеспеченияПотребностей</Catalog>
+			<Catalog>СкладскиеГруппыНоменклатуры</Catalog>
+			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
+			<Catalog>ОбщероссийскийКлассификаторПродукции</Catalog>
+			<Catalog>СезонныеГруппы</Catalog>
 			<Document>ЗаказКлиента</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>РеализацияТоваровУслуг</Document>
@@ -243,6 +276,13 @@
 			<Enum>ФормыОплаты</Enum>
 			<Enum>СтатусыВнутреннихЗаказов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
+			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>ВариантыОказанияУслуг</Enum>
+			<Enum>ЕдиницыИзмеренияВремени</Enum>
+			<Enum>РазмерыКиЗГИСМ</Enum>
+			<Enum>СпособыВыпускаВОборотГИСМ</Enum>
+			<Enum>ГрадацииКачества</Enum>
+			<Enum>ВидыКиЗГИСМ</Enum>
 			<Report>ПоступлениеИОтгрузкаТоваров</Report>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>

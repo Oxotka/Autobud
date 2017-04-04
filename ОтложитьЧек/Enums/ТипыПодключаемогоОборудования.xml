@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="80d4f520-611b-43ae-ac70-8a9a5c3bcb69">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПодключаемогоОборудования" category="Ref">
+				<xr:TypeId>fe75eadf-a123-4ad6-8319-9f9443b3f2d0</xr:TypeId>
+				<xr:ValueId>63f86a57-48b5-4faf-84df-93a647cf1c7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПодключаемогоОборудования" category="Manager">
+				<xr:TypeId>0588101e-d3b5-4447-97ff-2b5ef1e97846</xr:TypeId>
+				<xr:ValueId>15b859b9-e95d-4bd9-81a4-3fc03b83e65a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПодключаемогоОборудования" category="List">
+				<xr:TypeId>d28fb2a7-3e15-4621-a4f0-c7a509bfb53d</xr:TypeId>
+				<xr:ValueId>736e7d08-af5c-47dd-b4ef-cf050b010e58</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыПодключаемогоОборудования</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

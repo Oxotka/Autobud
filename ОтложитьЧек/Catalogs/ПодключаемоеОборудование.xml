@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="1c992140-275d-4388-ba92-220571cbe575">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПодключаемоеОборудование" category="Object">
+				<xr:TypeId>5d1c6344-3a09-4e3c-916a-99407eff882e</xr:TypeId>
+				<xr:ValueId>c00f2a90-576d-4353-abd8-37e5ab4317f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПодключаемоеОборудование" category="Ref">
+				<xr:TypeId>396f1f87-efb0-4b35-b61a-8bb41c26f111</xr:TypeId>
+				<xr:ValueId>beb94f2e-636d-423d-92fc-74df27a3f34d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПодключаемоеОборудование" category="Selection">
+				<xr:TypeId>711dc1ab-0555-4451-a5dc-c6ddedc623d2</xr:TypeId>
+				<xr:ValueId>96b1e7fb-8f8e-4ac0-9c13-3930713decbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПодключаемоеОборудование" category="List">
+				<xr:TypeId>12200c18-8bed-4c2c-8bdb-9183e755d99e</xr:TypeId>
+				<xr:ValueId>3b96f82a-54e4-4bf9-9ac5-747bb86f27af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПодключаемоеОборудование" category="Manager">
+				<xr:TypeId>2d64e28e-2350-4673-b8d0-e7c8cd55bfed</xr:TypeId>
+				<xr:ValueId>95d3ff4c-bf47-4227-9b16-504fe8499a1a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодключаемоеОборудование</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

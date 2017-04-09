@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="9e8a74ed-7d35-4de4-b136-d794abe46290">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатураПоставщиков" category="Object">
+				<xr:TypeId>312af46a-f9ab-4354-a0d9-51353fe36f32</xr:TypeId>
+				<xr:ValueId>200982d8-210f-4ee4-b131-d246cbbb6b76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатураПоставщиков" category="Ref">
+				<xr:TypeId>d75a6d02-5242-431a-a5e9-8b3d7c68e5d1</xr:TypeId>
+				<xr:ValueId>4fe43e04-fc29-408b-9e0b-91701b085216</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатураПоставщиков" category="Selection">
+				<xr:TypeId>d7839042-2ab3-4dad-a9a8-fd256a4391da</xr:TypeId>
+				<xr:ValueId>e2923a4a-ce05-4620-9738-9a1b72249f70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатураПоставщиков" category="List">
+				<xr:TypeId>dd248b63-5ab2-493b-b6d6-b388aa6f90fd</xr:TypeId>
+				<xr:ValueId>64d1c086-8b6a-43d1-a520-2eb304c46135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатураПоставщиков" category="Manager">
+				<xr:TypeId>53670733-7e46-4826-85df-787c8aad5085</xr:TypeId>
+				<xr:ValueId>902b103b-4be9-4939-889b-ddc860841d7b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НоменклатураПоставщиков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

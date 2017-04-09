@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="b254eed1-b7aa-4f0b-8153-0efbe1b6ee9c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НоменклатураСегмента" category="Record">
+				<xr:TypeId>9f38020f-3e0c-4308-9411-debd8c856b08</xr:TypeId>
+				<xr:ValueId>8e6305c1-c0bf-4826-899b-fadfb4fccddc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НоменклатураСегмента" category="Manager">
+				<xr:TypeId>b7f2e8dc-bd52-413c-99b6-6c5ce65718e8</xr:TypeId>
+				<xr:ValueId>2b35e224-85ce-4c0c-87fe-328606102950</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НоменклатураСегмента" category="Selection">
+				<xr:TypeId>7f05503f-520e-442b-91ac-14993e47bad4</xr:TypeId>
+				<xr:ValueId>9eefd55b-76b8-41eb-b12c-bf6450af2019</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НоменклатураСегмента" category="List">
+				<xr:TypeId>6a8ecc16-6d3c-46ac-8046-fb89471d5c63</xr:TypeId>
+				<xr:ValueId>05058e12-951a-4796-80f8-d560b9a91ff8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НоменклатураСегмента" category="RecordSet">
+				<xr:TypeId>7f158097-317e-4862-b900-a3abf40284a0</xr:TypeId>
+				<xr:ValueId>bbde7957-9198-4c39-8b03-744b398d6469</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НоменклатураСегмента" category="RecordKey">
+				<xr:TypeId>17b3f8a5-c83d-4cd6-b415-00c791ce2e2d</xr:TypeId>
+				<xr:ValueId>9b59c5af-522f-4ee1-a7af-0a159ded9f2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НоменклатураСегмента" category="RecordManager">
+				<xr:TypeId>6f8b8cd5-d325-4a9c-9ee1-e46f1db0df23</xr:TypeId>
+				<xr:ValueId>070afb23-1271-44b5-931a-db15e79d0cab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НоменклатураСегмента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="05ebe7bb-c514-49ba-8ba6-6e61dc750dcf">
+				<Properties>
+					<Name>Сегмент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="25ebc562-4ced-4f0b-a221-5392792bda0b">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

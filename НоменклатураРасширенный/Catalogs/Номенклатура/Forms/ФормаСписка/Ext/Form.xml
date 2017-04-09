@@ -1792,16 +1792,6 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<CheckBoxField name="ПоказыватьСнятыеСПроизводства" id="621">
-							<DataPath>ПоказыватьСнятыеСПроизводства</DataPath>
-							<TitleLocation>Right</TitleLocation>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ПоказыватьСнятыеСПроизводстваКонтекстноеМеню" id="622"/>
-							<ExtendedTooltip name="ПоказыватьСнятыеСПроизводстваРасширеннаяПодсказка" id="623"/>
-							<Events>
-								<Event name="OnChange" callType="Before">Номенклатура_ПоказыватьСнятыеСПроизводстваПриИзмененииПеред</Event>
-							</Events>
-						</CheckBoxField>
 						<UsualGroup name="ГруппаФильтрыНоменклатуры" id="89">
 							<Title>
 								<v8:item>
@@ -3758,20 +3748,6 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
-		</Attribute>
-		<Attribute name="ПоказыватьСнятыеСПроизводства" id="49">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показывать снятые с производства</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<Save>
-				<Field>ПоказыватьСнятыеСПроизводства</Field>
-			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>

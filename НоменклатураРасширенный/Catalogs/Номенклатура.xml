@@ -745,9 +745,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
-			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

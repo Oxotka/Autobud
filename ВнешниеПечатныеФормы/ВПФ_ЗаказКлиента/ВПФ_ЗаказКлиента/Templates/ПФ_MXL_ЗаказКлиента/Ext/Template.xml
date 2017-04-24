@@ -5929,10 +5929,308 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>69</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+			<c>
+				<i>23</i>
+				<c>
+					<f>2</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>70</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>71</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>57</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация по доставке:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>72</index>
+		<row>
+			<formatIndex>58</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>73</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>59</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ доставки: [СпособДоставки]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>74</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>59</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес доставки: [АдресДоставки]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>76</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>60</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация: [ДополнительнаяИнформацияПоДоставке]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>55</formatIndex>
+		<formatIndex>61</formatIndex>
 		<beginRow>7</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>12</endRow>
@@ -5949,7 +6247,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>6</id>
-		<formatIndex>56</formatIndex>
+		<formatIndex>62</formatIndex>
 		<beginRow>0</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>3</endRow>
@@ -5964,9 +6262,9 @@
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>57</defaultFormatIndex>
-	<height>73</height>
-	<vgRows>73</vgRows>
+	<defaultFormatIndex>63</defaultFormatIndex>
+	<height>78</height>
+	<vgRows>78</vgRows>
 	<merge>
 		<r>4</r>
 		<c>1</c>
@@ -6330,6 +6628,27 @@
 		<c>6</c>
 		<w>12</w>
 	</merge>
+	<merge>
+		<r>71</r>
+		<c>1</c>
+		<w>38</w>
+	</merge>
+	<merge>
+		<r>73</r>
+		<c>1</c>
+		<w>39</w>
+	</merge>
+	<merge>
+		<r>74</r>
+		<c>1</c>
+		<w>39</w>
+	</merge>
+	<merge>
+		<r>76</r>
+		<c>1</c>
+		<h>1</h>
+		<w>39</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>АдресДоставки</name>
 		<area>
@@ -6523,6 +6842,16 @@
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>119ba54b-b3b6-4e88-b3d5-93546845b743</columnsID>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СпособДоставки</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>70</beginRow>
+			<endRow>77</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -7058,6 +7387,29 @@
 		<width>24</width>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
+		<font>4</font>
+	</format>
+	<format>
+		<height>24</height>
+	</format>
+	<format>
+		<font>6</font>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>6</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<fillType>Template</fillType>
 	</format>
 	<format>
 		<drawingBorder>3</drawingBorder>

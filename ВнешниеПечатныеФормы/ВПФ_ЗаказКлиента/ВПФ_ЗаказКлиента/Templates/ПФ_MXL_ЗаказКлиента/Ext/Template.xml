@@ -6199,7 +6199,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>59</f>
+					<f>60</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6216,7 +6216,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>60</f>
+					<f>61</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -6230,7 +6230,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>61</formatIndex>
+		<formatIndex>62</formatIndex>
 		<beginRow>7</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>12</endRow>
@@ -6247,7 +6247,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>6</id>
-		<formatIndex>62</formatIndex>
+		<formatIndex>63</formatIndex>
 		<beginRow>0</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>3</endRow>
@@ -6262,7 +6262,7 @@
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>63</defaultFormatIndex>
+	<defaultFormatIndex>64</defaultFormatIndex>
 	<height>78</height>
 	<vgRows>78</vgRows>
 	<merge>
@@ -7403,6 +7403,11 @@
 	</format>
 	<format>
 		<font>6</font>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>6</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
 		<fillType>Template</fillType>
 	</format>
 	<format>

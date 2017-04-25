@@ -1025,13 +1025,13 @@
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0.000</v8:content>
 										</v8:item>
 									</Format>
 									<EditFormat>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0.000</v8:content>
 										</v8:item>
 									</EditFormat>
 									<ContextMenu name="ИнформацияПоСкладамВНаличииКонтекстноеМеню" id="565"/>

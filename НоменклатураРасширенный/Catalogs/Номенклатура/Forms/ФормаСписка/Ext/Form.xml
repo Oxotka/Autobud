@@ -571,6 +571,24 @@
 															<ContextMenu name="СписокРасширенныйПоискИспользуютсяХарактеристикиКонтекстноеМеню" id="519"/>
 															<ExtendedTooltip name="СписокРасширенныйПоискИспользуютсяХарактеристикиРасширеннаяПодсказка" id="520"/>
 														</CheckBoxField>
+														<CheckBoxField name="АБ_СнятоСПроизводства" id="629">
+															<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сн.</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Снято с производства</v8:content>
+																</v8:item>
+															</ToolTip>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="АБ_СнятоСПроизводстваКонтекстноеМеню" id="630"/>
+															<ExtendedTooltip name="АБ_СнятоСПроизводстваРасширеннаяПодсказка" id="631"/>
+														</CheckBoxField>
 													</ChildItems>
 												</Table>
 											</ChildItems>
@@ -893,6 +911,24 @@
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СписокСтандартныйИспользуютсяХарактеристикиКонтекстноеМеню" id="522"/>
 													<ExtendedTooltip name="СписокСтандартныйИспользуютсяХарактеристикиРасширеннаяПодсказка" id="523"/>
+												</CheckBoxField>
+												<CheckBoxField name="АБ_СнятоСПроизводства1" id="632">
+													<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сн.</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Снято с производства</v8:content>
+														</v8:item>
+													</ToolTip>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="АБ_СнятоСПроизводства1КонтекстноеМеню" id="633"/>
+													<ExtendedTooltip name="АБ_СнятоСПроизводства1РасширеннаяПодсказка" id="634"/>
 												</CheckBoxField>
 											</ChildItems>
 										</Table>

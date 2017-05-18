@@ -390,6 +390,7 @@
 												<Table name="СписокРасширенныйПоискНоменклатура" id="1">
 													<Representation>List</Representation>
 													<CommandBarLocation>None</CommandBarLocation>
+													<VerticalScrollBar>DontUse</VerticalScrollBar>
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -511,9 +512,6 @@
 														</LabelField>
 														<LabelField name="СписокРасширенныйПоискНоменклатураВСвободныйОстаток" id="586">
 															<DataPath>СписокНоменклатура.СвободныйОстаток</DataPath>
-															<UserVisible>
-																<xr:Common>false</xr:Common>
-															</UserVisible>
 															<Format>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -539,16 +537,17 @@
 															<UserVisible>
 																<xr:Common>false</xr:Common>
 															</UserVisible>
+															<Width>1</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>1</MaxWidth>
 															<ContextMenu name="СписокРасширенныйПоискНоменклатураСсылкаКонтекстноеМеню" id="60"/>
 															<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСсылкаExtendedTooltip" id="204"/>
 														</LabelField>
-														<LabelField name="СписокРасширенныйПоискРодитель" id="512">
-															<DataPath>СписокНоменклатура.Parent</DataPath>
-															<ContextMenu name="СписокРасширенныйПоискРодительКонтекстноеМеню" id="513"/>
-															<ExtendedTooltip name="СписокРасширенныйПоискРодительРасширеннаяПодсказка" id="514"/>
-														</LabelField>
 														<LabelField name="СписокРасширенныйПоискВидНоменклатуры" id="506">
 															<DataPath>СписокНоменклатура.ВидНоменклатуры</DataPath>
+															<UserVisible>
+																<xr:Common>false</xr:Common>
+															</UserVisible>
 															<Width>2</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>2</MaxWidth>
@@ -559,6 +558,9 @@
 														</LabelField>
 														<CheckBoxField name="СписокРасширенныйПоискИспользуютсяХарактеристики" id="518">
 															<DataPath>СписокНоменклатура.ИспользуютсяХарактеристики</DataPath>
+															<UserVisible>
+																<xr:Common>false</xr:Common>
+															</UserVisible>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -568,18 +570,6 @@
 															<CheckBoxType>Auto</CheckBoxType>
 															<ContextMenu name="СписокРасширенныйПоискИспользуютсяХарактеристикиКонтекстноеМеню" id="519"/>
 															<ExtendedTooltip name="СписокРасширенныйПоискИспользуютсяХарактеристикиРасширеннаяПодсказка" id="520"/>
-														</CheckBoxField>
-														<CheckBoxField name="АБ_СнятоСПроизводства1" id="618">
-															<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Снято</v8:content>
-																</v8:item>
-															</Title>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="АБ_СнятоСПроизводства1КонтекстноеМеню" id="619"/>
-															<ExtendedTooltip name="АБ_СнятоСПроизводства1РасширеннаяПодсказка" id="620"/>
 														</CheckBoxField>
 													</ChildItems>
 												</Table>
@@ -870,14 +860,20 @@
 													<UserVisible>
 														<xr:Common>false</xr:Common>
 													</UserVisible>
+													<Width>1</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>1</MaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="СписокСтандартныйПоискНоменклатураСсылкаКонтекстноеМеню" id="172"/>
 													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСсылкаExtendedTooltip" id="220"/>
 												</LabelField>
 												<LabelField name="СписокСтандартныйПоискВидНоменклатуры" id="509">
 													<DataPath>СписокНоменклатура.ВидНоменклатуры</DataPath>
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
 													<Width>2</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
-													<MaxWidth>2</MaxWidth>
 													<AutoMaxHeight>false</AutoMaxHeight>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="СписокСтандартныйПоискВидНоменклатурыКонтекстноеМеню" id="510"/>
@@ -885,6 +881,9 @@
 												</LabelField>
 												<CheckBoxField name="СписокСтандартныйИспользуютсяХарактеристики" id="521">
 													<DataPath>СписокНоменклатура.ИспользуютсяХарактеристики</DataPath>
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -894,23 +893,6 @@
 													<CheckBoxType>Auto</CheckBoxType>
 													<ContextMenu name="СписокСтандартныйИспользуютсяХарактеристикиКонтекстноеМеню" id="522"/>
 													<ExtendedTooltip name="СписокСтандартныйИспользуютсяХарактеристикиРасширеннаяПодсказка" id="523"/>
-												</CheckBoxField>
-												<LabelField name="СписокСтандартныйПоискРодитель" id="515">
-													<DataPath>СписокНоменклатура.Parent</DataPath>
-													<ContextMenu name="СписокСтандартныйПоискРодительКонтекстноеМеню" id="516"/>
-													<ExtendedTooltip name="СписокСтандартныйПоискРодительРасширеннаяПодсказка" id="517"/>
-												</LabelField>
-												<CheckBoxField name="АБ_СнятоСПроизводства" id="615">
-													<DataPath>СписокНоменклатура.АБ_СнятоСПроизводства</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Снято</v8:content>
-														</v8:item>
-													</Title>
-													<CheckBoxType>Auto</CheckBoxType>
-													<ContextMenu name="АБ_СнятоСПроизводстваКонтекстноеМеню" id="616"/>
-													<ExtendedTooltip name="АБ_СнятоСПроизводстваРасширеннаяПодсказка" id="617"/>
 												</CheckBoxField>
 											</ChildItems>
 										</Table>
@@ -1025,13 +1007,13 @@
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0.000</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0,000</v8:content>
 										</v8:item>
 									</Format>
 									<EditFormat>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0.000</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0,000</v8:content>
 										</v8:item>
 									</EditFormat>
 									<ContextMenu name="ИнформацияПоСкладамВНаличииКонтекстноеМеню" id="565"/>
@@ -1039,21 +1021,18 @@
 								</InputField>
 								<InputField name="ИнформацияПоСкладамСвободныйОстаток" id="567">
 									<DataPath>ИнформацияПоСкладам.СвободныйОстаток</DataPath>
-									<UserVisible>
-										<xr:Common>false</xr:Common>
-									</UserVisible>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0,000</v8:content>
 										</v8:item>
 									</Format>
 									<EditFormat>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0</v8:content>
+											<v8:content>ЧЦ=15; ЧДЦ=3; ЧН=0,000</v8:content>
 										</v8:item>
 									</EditFormat>
 									<ContextMenu name="ИнформацияПоСкладамСвободныйОстатокКонтекстноеМеню" id="568"/>
@@ -1612,22 +1591,6 @@
 										<Event name="OnChange" callType="Before">Номенклатура_ОтборОстаткиПриИзменении</Event>
 									</Events>
 								</RadioButtonField>
-								<InputField name="ОтборОрганизация" id="524">
-									<DataPath>ОтборОрганизация</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<ClearButton>true</ClearButton>
-									<InputHint>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>По всем организациям</v8:content>
-										</v8:item>
-									</InputHint>
-									<ContextMenu name="ОтборОрганизацияКонтекстноеМеню" id="525"/>
-									<ExtendedTooltip name="ОтборОрганизацияРасширеннаяПодсказка" id="526"/>
-									<Events>
-										<Event name="OnChange" callType="Before">Номенклатура_ОтборОрганизацияПриИзмененииПеред</Event>
-									</Events>
-								</InputField>
 								<InputField name="ОтборСклад" id="462">
 									<DataPath>ОтборСклад</DataPath>
 									<TitleLocation>None</TitleLocation>
@@ -1644,16 +1607,25 @@
 										<Event name="OnChange" callType="Before">Номенклатура_ОтборСкладПриИзменении</Event>
 									</Events>
 								</InputField>
-								<CheckBoxField name="ПоказыватьСклады" id="543">
-									<DataPath>ПоказыватьИнформациюПоСкладам</DataPath>
-									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ПоказыватьСкладыКонтекстноеМеню" id="544"/>
-									<ExtendedTooltip name="ПоказыватьСкладыРасширеннаяПодсказка" id="545"/>
+								<InputField name="ОтборПроизводитель" id="621">
+									<DataPath>ОтборПроизводитель</DataPath>
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<TitleLocation>None</TitleLocation>
+									<ClearButton>true</ClearButton>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Любой производитель</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="ОтборПроизводительКонтекстноеМеню" id="622"/>
+									<ExtendedTooltip name="ОтборПроизводительРасширеннаяПодсказка" id="623"/>
 									<Events>
-										<Event name="OnChange" callType="Before">Номенклатура_ПоказыватьСкладыПриИзмененииПеред</Event>
+										<Event name="OnChange" callType="Before">Номенклатура_ОтборПроизводительПриИзмененииПеред</Event>
 									</Events>
-								</CheckBoxField>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаОтборВидыЦен" id="477">
@@ -1688,6 +1660,7 @@
 									<ChildItems>
 										<InputField name="ОтборВидЦен" id="479">
 											<DataPath>ОтборВидЦен</DataPath>
+											<ClearButton>true</ClearButton>
 											<InputHint>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1790,6 +1763,40 @@
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройки" id="627">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="628"/>
+							<ChildItems>
+								<CheckBoxField name="ПоказыватьСклады" id="543">
+									<DataPath>ПоказыватьИнформациюПоСкладам</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказыватьСкладыКонтекстноеМеню" id="544"/>
+									<ExtendedTooltip name="ПоказыватьСкладыРасширеннаяПодсказка" id="545"/>
+									<Events>
+										<Event name="OnChange" callType="Before">Номенклатура_ПоказыватьСкладыПриИзмененииПеред</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="ПоказыватьСвободныеОстатки" id="624">
+									<DataPath>ПоказыватьСвободныеОстатки</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказыватьСвободныеОстаткиКонтекстноеМеню" id="625"/>
+									<ExtendedTooltip name="ПоказыватьСвободныеОстаткиРасширеннаяПодсказка" id="626"/>
+									<Events>
+										<Event name="OnChange" callType="Before">Номенклатура_ПоказыватьСвободныеОстаткиПриИзмененииПеред</Event>
+									</Events>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаФильтрыНоменклатуры" id="89">
@@ -1939,6 +1946,8 @@
 											<Representation>Tree</Representation>
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
+											<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+											<VerticalScrollBar>DontUse</VerticalScrollBar>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
@@ -2491,6 +2500,7 @@
 				<Field>СписокНоменклатура.Цена2</Field>
 				<Field>СписокНоменклатура.Цена</Field>
 				<Field>СписокНоменклатура.Ссылка</Field>
+				<Field>СписокНоменклатура.СвободныйОстаток</Field>
 				<Field>СписокНоменклатура.Наименование</Field>
 				<Field>СписокНоменклатура.ИспользуютсяХарактеристики</Field>
 				<Field>СписокНоменклатура.ВидНоменклатуры</Field>
@@ -2504,64 +2514,71 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-	СпрНоменклатура.Ссылка КАК Ссылка,
-	СпрНоменклатура.Код КАК Код,
-	СпрНоменклатура.Наименование КАК Наименование,
-	СпрНоменклатура.Артикул КАК Артикул,
-	СпрНоменклатура.ВидНоменклатуры КАК ВидНоменклатуры,
-	СпрНоменклатура.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
-	СпрНоменклатура.Родитель,
-	ВЫБОР
-		КОГДА СпрНоменклатура.ЕстьТоварыДругогоКачества
-			ТОГДА 4 + ВЫБОР
-					КОГДА СпрНоменклатура.ПометкаУдаления
-						ТОГДА 1
-					ИНАЧЕ 0
-				КОНЕЦ + ВЫБОР
-					КОГДА СпрНоменклатура.ИспользованиеХарактеристик = ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
-						ТОГДА 0
-					ИНАЧЕ 2
-				КОНЕЦ
-		ИНАЧЕ ВЫБОР
-				КОГДА СпрНоменклатура.ПометкаУдаления
-					ТОГДА 1
-				ИНАЧЕ 0
-			КОНЕЦ + ВЫБОР
-				КОГДА СпрНоменклатура.ИспользованиеХарактеристик = ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
-					ТОГДА 0
-				ИНАЧЕ 2
-			КОНЕЦ
-	КОНЕЦ КАК ИндексКартинки,
-	ЕСТЬNULL(ТоварыНаСкладахОстатки.ВНаличииОстаток, 0) КАК ВНаличии,
-	ЕСТЬNULL(ТоварыНаСкладахОстатки.ВНаличииОстаток, 0) - ЕСТЬNULL(ТоварыНаСкладахОстатки.КОтгрузкеОстаток, 0) КАК СвободныйОстаток,
-	ЕСТЬNULL(ЦеныНоменклатурыСрезПоследних.Цена, 0) КАК Цена,
-	ЕСТЬNULL(ЦеныНоменклатурыСрезПоследних.Цена, 0) КАК Цена2,
-	ВЫБОР
-		КОГДА СпрНоменклатура.ИспользованиеХарактеристик &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
-			ТОГДА ИСТИНА
-		ИНАЧЕ ЛОЖЬ
-	КОНЕЦ КАК ИспользуютсяХарактеристики,
-	СпрНоменклатура.АБ_СнятоСПроизводства
+    СпрНоменклатура.Ссылка КАК Ссылка,
+    СпрНоменклатура.Код КАК Код,
+    СпрНоменклатура.Наименование КАК Наименование,
+    СпрНоменклатура.Артикул КАК Артикул,
+    СпрНоменклатура.ВидНоменклатуры КАК ВидНоменклатуры,
+    СпрНоменклатура.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+    СпрНоменклатура.Родитель,
+    ВЫБОР
+        КОГДА СпрНоменклатура.ЕстьТоварыДругогоКачества
+            ТОГДА 4 + ВЫБОР
+                    КОГДА СпрНоменклатура.ПометкаУдаления
+                        ТОГДА 1
+                    ИНАЧЕ 0
+                КОНЕЦ + ВЫБОР
+                    КОГДА СпрНоменклатура.ИспользованиеХарактеристик = ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
+                        ТОГДА 0
+                    ИНАЧЕ 2
+                КОНЕЦ
+        ИНАЧЕ ВЫБОР
+                КОГДА СпрНоменклатура.ПометкаУдаления
+                    ТОГДА 1
+                ИНАЧЕ 0
+            КОНЕЦ + ВЫБОР
+                КОГДА СпрНоменклатура.ИспользованиеХарактеристик = ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
+                    ТОГДА 0
+                ИНАЧЕ 2
+            КОНЕЦ
+    КОНЕЦ КАК ИндексКартинки,
+    ЕСТЬNULL(ТоварыНаСкладахОстатки.ВНаличииОстаток, 0) КАК ВНаличии,
+    ВЫБОР
+        КОГДА ЕСТЬNULL(СвободныеОстаткиОстатки.ВНаличииОстаток, ЛОЖЬ) = ЛОЖЬ
+            ТОГДА ТоварыНаСкладахОстатки.ВНаличииОстаток
+        ИНАЧЕ СвободныеОстаткиОстатки.ВНаличииОстаток - СвободныеОстаткиОстатки.ВРезервеСоСкладаОстаток
+    КОНЕЦ КАК СвободныйОстаток,
+    ЕСТЬNULL(ЦеныНоменклатурыСрезПоследних.Цена, 0) КАК Цена,
+    ЕСТЬNULL(ЦеныНоменклатурыСрезПоследних.Цена, 0) КАК Цена2,
+    ВЫБОР
+        КОГДА СпрНоменклатура.ИспользованиеХарактеристик &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВариантыИспользованияХарактеристикНоменклатуры.НеИспользовать)
+            ТОГДА ИСТИНА
+        ИНАЧЕ ЛОЖЬ
+    КОНЕЦ КАК ИспользуютсяХарактеристики,
+    СпрНоменклатура.Производитель,
+    СпрНоменклатура.АБ_СнятоСПроизводства
 ИЗ
-	Справочник.Номенклатура КАК СпрНоменклатура
-		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(, Склад В ИЕРАРХИИ (&amp;ОтборСклад)) КАК ТоварыНаСкладахОстатки
-		ПО (ТоварыНаСкладахОстатки.Номенклатура = СпрНоменклатура.Ссылка)
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры.СрезПоследних(
-				,
-				ВидЦены = &amp;ВидЦены
-					И Характеристика = ЗНАЧЕНИЕ(Справочник.ХарактеристикиНоменклатуры.ПустаяСсылка)) КАК ЦеныНоменклатурыСрезПоследних
-		ПО (ЦеныНоменклатурыСрезПоследних.Номенклатура = СпрНоменклатура.Ссылка)
-			И (&amp;ВидЦены &lt;&gt; ЗНАЧЕНИЕ(Справочник.ВидыЦен.ПустаяСсылка))}
+    Справочник.Номенклатура КАК СпрНоменклатура
+        {ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(, Склад В ИЕРАРХИИ (&amp;ОтборСклад)) КАК ТоварыНаСкладахОстатки
+        ПО (ТоварыНаСкладахОстатки.Номенклатура = СпрНоменклатура.Ссылка)
+        ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры.СрезПоследних(
+                ,
+                ВидЦены = &amp;ВидЦены
+                    И Характеристика = ЗНАЧЕНИЕ(Справочник.ХарактеристикиНоменклатуры.ПустаяСсылка)) КАК ЦеныНоменклатурыСрезПоследних
+        ПО (ЦеныНоменклатурыСрезПоследних.Номенклатура = СпрНоменклатура.Ссылка)
+            И (&amp;ВидЦены &lt;&gt; ЗНАЧЕНИЕ(Справочник.ВидыЦен.ПустаяСсылка))
+        ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.СвободныеОстатки.Остатки(, Склад В ИЕРАРХИИ (&amp;ОтборСклад)) КАК СвободныеОстаткиОстатки
+        ПО (СвободныеОстаткиОстатки.Номенклатура = СпрНоменклатура.Ссылка)}
 ГДЕ
-	НЕ СпрНоменклатура.ЭтоГруппа
+    НЕ СпрНоменклатура.ЭтоГруппа
 {ГДЕ
-	(СпрНоменклатура.Ссылка В
-			(ВЫБРАТЬ
-				Сегменты.Номенклатура
-			ИЗ
-				РегистрСведений.НоменклатураСегмента КАК Сегменты
-			ГДЕ
-				Сегменты.Сегмент = &amp;СегментНоменклатуры))}</QueryText>
+    (СпрНоменклатура.Ссылка В
+            (ВЫБРАТЬ
+                Сегменты.Номенклатура
+            ИЗ
+                РегистрСведений.НоменклатураСегмента КАК Сегменты
+            ГДЕ
+                Сегменты.Сегмент = &amp;СегментНоменклатуры))}</QueryText>
 				<MainTable>Catalog.Номенклатура</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -2926,7 +2943,11 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeId>240e7bad-0e6f-4092-a71e-3f3e2c144b39</v8:TypeId>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="ИспользоватьФильтры" id="13">
@@ -3528,7 +3549,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вид цены</v8:content>
+					<v8:content>Цена</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3600,20 +3621,6 @@
 			<FunctionalOptions>
 				<Item>7cea9abf-c8a8-46d0-b900-517484d5b908</Item>
 			</FunctionalOptions>
-		</Attribute>
-		<Attribute name="ОтборОрганизация" id="44">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Отбор организация</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
-			</Type>
-			<Save>
-				<Field>ОтборОрганизация</Field>
-			</Save>
 		</Attribute>
 		<Attribute name="ДоступныЦены" id="45">
 			<Title>
@@ -3748,6 +3755,31 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ОтборПроизводитель" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор производитель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Производители</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьСвободныеОстатки" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать свободные остатки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьСвободныеОстатки</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -5861,7 +5893,11 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeId>240e7bad-0e6f-4092-a71e-3f3e2c144b39</v8:TypeId>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
 			<Attribute name="ИспользоватьФильтры" id="13">

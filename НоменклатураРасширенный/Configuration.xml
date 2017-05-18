@@ -41,7 +41,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.6</Version>
+			<Version>2.0</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -290,6 +290,7 @@
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<AccumulationRegister>ГрафикПоступленияТоваров</AccumulationRegister>
+			<AccumulationRegister>СвободныеОстатки</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 		</ChildObjects>

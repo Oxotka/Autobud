@@ -390,7 +390,7 @@
 												<Table name="СписокРасширенныйПоискНоменклатура" id="1">
 													<Representation>List</Representation>
 													<CommandBarLocation>None</CommandBarLocation>
-													<VerticalScrollBar>DontUse</VerticalScrollBar>
+													<VerticalScrollBar>UseAlways</VerticalScrollBar>
 													<UseAlternationRowColor>true</UseAlternationRowColor>
 													<SearchOnInput>DontUse</SearchOnInput>
 													<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -734,6 +734,7 @@
 										<Table name="СписокСтандартныйПоискНоменклатура" id="164">
 											<Representation>List</Representation>
 											<CommandBarLocation>None</CommandBarLocation>
+											<VerticalScrollBar>UseAlways</VerticalScrollBar>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<SearchOnInput>Use</SearchOnInput>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -940,6 +941,7 @@
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
 							<ChangeRowSet>false</ChangeRowSet>
+							<VerticalScrollBar>UseAlways</VerticalScrollBar>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>ИнформацияПоСкладам</DataPath>
@@ -1983,7 +1985,7 @@
 											<SelectionMode>SingleRow</SelectionMode>
 											<Header>false</Header>
 											<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-											<VerticalScrollBar>DontUse</VerticalScrollBar>
+											<VerticalScrollBar>UseAlways</VerticalScrollBar>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>

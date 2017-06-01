@@ -52,6 +52,25 @@
 			<dataPath>Архивный</dataPath>
 			<field>Архивный</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДЛФ=D</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
     ЧекККМВозврат.ЧекККМ
@@ -68,7 +87,8 @@
     ЧекККМТовары.Ссылка.Организация,
     ЧекККМТовары.Ссылка.КассаККМ,
     ЧекККМТовары.Номенклатура,
-    ЧекККМТовары.Ссылка.Архивный
+    ЧекККМТовары.Ссылка.Архивный,
+    ЧекККМТовары.Ссылка.Дата
 ИЗ
     Документ.ЧекККМ.Товары КАК ЧекККМТовары
 ГДЕ
@@ -202,6 +222,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ЧекККМ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СредняяСумма</dcsset:field>

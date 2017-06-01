@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
-	<Title>
-		<v8:item>
-			<v8:lang>ru</v8:lang>
-			<v8:content>Выгрузка остатков номенклатуры</v8:content>
-		</v8:item>
-	</Title>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
-	<CommandBarLocation>Top</CommandBarLocation>
+	<CommandBarLocation>Bottom</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
 		<Autofill>false</Autofill>
@@ -31,6 +25,9 @@
 	<ChildItems>
 		<InputField name="BUYER" id="6">
 			<DataPath>BUYER</DataPath>
+			<UserVisible>
+				<xr:Common>false</xr:Common>
+			</UserVisible>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Mask>9999999999999</Mask>
 			<ContextMenu name="BUYERКонтекстноеМеню" id="7"/>
@@ -38,6 +35,9 @@
 		</InputField>
 		<InputField name="SUPPLIER" id="26">
 			<DataPath>SUPPLIER</DataPath>
+			<UserVisible>
+				<xr:Common>false</xr:Common>
+			</UserVisible>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Mask>9999999999999</Mask>
 			<ContextMenu name="SUPPLIERКонтекстноеМеню" id="27"/>
@@ -51,7 +51,8 @@
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
-			<Representation>NormalSeparation</Representation>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="49"/>
 			<ChildItems>
 				<InputField name="ВидЦены" id="18">

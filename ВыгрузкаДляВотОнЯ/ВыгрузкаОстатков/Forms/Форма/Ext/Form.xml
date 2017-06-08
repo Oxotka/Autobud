@@ -25,9 +25,6 @@
 	<ChildItems>
 		<InputField name="BUYER" id="6">
 			<DataPath>BUYER</DataPath>
-			<UserVisible>
-				<xr:Common>false</xr:Common>
-			</UserVisible>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Mask>9999999999999</Mask>
 			<ContextMenu name="BUYERКонтекстноеМеню" id="7"/>
@@ -35,9 +32,6 @@
 		</InputField>
 		<InputField name="SUPPLIER" id="26">
 			<DataPath>SUPPLIER</DataPath>
-			<UserVisible>
-				<xr:Common>false</xr:Common>
-			</UserVisible>
 			<HorizontalStretch>false</HorizontalStretch>
 			<Mask>9999999999999</Mask>
 			<ContextMenu name="SUPPLIERКонтекстноеМеню" id="27"/>

@@ -114,6 +114,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="da3a8388-bb82-4924-b0e5-35b43c6000b8">
+				<Properties>
+					<Name>ЦеноваяГруппа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЦеновыеГруппы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

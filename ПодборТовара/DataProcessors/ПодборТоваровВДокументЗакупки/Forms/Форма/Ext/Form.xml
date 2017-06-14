@@ -1228,6 +1228,7 @@
 																<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="1136"/>
 															</SearchControlAddition>
 															<Events>
+																<Event name="Selection" callType="Override">ПодборТоваров_СписокРасширенныйПоискНоменклатураВыборВместо</Event>
 																<Event name="OnActivateRow" callType="Override">ПодборТоваров_СписокРасширенныйПоискНоменклатураПриАктивизацииСтрокиВместо</Event>
 															</Events>
 															<ChildItems>
@@ -2410,9 +2411,15 @@
 										</InputField>
 										<InputField name="ГруппаСкладов" id="1299">
 											<DataPath>ГруппаСкладов</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Склад</v8:content>
+												</v8:item>
+											</Title>
 											<ClearButton>true</ClearButton>
 											<OpenButton>false</OpenButton>
-											<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+											<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 											<ContextMenu name="ГруппаСкладовКонтекстноеМеню" id="1300"/>
 											<ExtendedTooltip name="ГруппаСкладовРасширеннаяПодсказка" id="1301"/>
 											<Events>
@@ -5482,6 +5489,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Группа складов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СкладДляСоединения" id="89">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склад для соединения</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

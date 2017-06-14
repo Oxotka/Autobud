@@ -59,14 +59,28 @@
 			<CommonPicture>КарточкаТовара</CommonPicture>
 			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
 			<CommonPicture>Номенклатура</CommonPicture>
+			<CommonPicture>Набор</CommonPicture>
+			<CommonPicture>НоменклатураПродаваемаяСовместно</CommonPicture>
+			<CommonPicture>ЗаполнитьЦеныВыделенныхСтрокПоВидуЦен</CommonPicture>
+			<CommonPicture>Наборы</CommonPicture>
+			<CommonPicture>ЗаполнитьЦеныПоСоглашению</CommonPicture>
+			<CommonPicture>СостояниеНоменклатурыПродаваемойСовместно</CommonPicture>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ИспользоватьНоменклатуруПоставщиков</FunctionalOption>
 			<FunctionalOption>ИспользоватьХарактеристикиНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьСоглашенияСКлиентами</FunctionalOption>
+			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
+			<FunctionalOption>ИспользоватьРучныеСкидкиВПродажах</FunctionalOption>
+			<FunctionalOption>ИспользоватьНоменклатуруПродаваемуюСовместно</FunctionalOption>
 			<Constant>ИспользоватьКачествоТоваров</Constant>
 			<Constant>ИспользоватьНоменклатуруПоставщиков</Constant>
 			<Constant>ИспользоватьХарактеристикиНоменклатуры</Constant>
 			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
+			<Constant>ИспользоватьНаборы</Constant>
+			<Constant>ИспользоватьСоглашенияСКлиентами</Constant>
+			<Constant>ИспользоватьНоменклатуруПродаваемуюСовместно</Constant>
+			<Constant>ИспользоватьРучныеСкидкиВПродажах</Constant>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Валюты</Catalog>
 			<Catalog>СоглашенияСПоставщиками</Catalog>
@@ -78,13 +92,27 @@
 			<Catalog>Партнеры</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>СегментыНоменклатуры</Catalog>
+			<Catalog>СерииНоменклатуры</Catalog>
+			<Catalog>СоглашенияСКлиентами</Catalog>
+			<Catalog>ЦеновыеГруппы</Catalog>
+			<Catalog>НаправленияДеятельности</Catalog>
+			<Catalog>ВидыЦен</Catalog>
+			<Catalog>ФорматыМагазинов</Catalog>
+			<Catalog>Назначения</Catalog>
+			<Catalog>Организации</Catalog>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
 			<Enum>ГрадацииКачества</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
+			<Enum>ВариантыРасчетаЦенНаборов</Enum>
+			<Enum>ВариантыОбеспечения</Enum>
+			<Enum>СтатусыЗаказовКлиентов</Enum>
+			<Enum>ВариантыРасчетаЦенПоСоглашениямСКлиентами</Enum>
+			<Enum>ВариантыАнализаНоменклатурыПродаваемойСовместно</Enum>
 			<DataProcessor>ПодборТоваровВДокументЗакупки</DataProcessor>
+			<DataProcessor>ПодборТоваровВДокументПродажи</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

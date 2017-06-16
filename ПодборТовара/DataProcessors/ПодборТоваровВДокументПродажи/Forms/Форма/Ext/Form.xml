@@ -1271,6 +1271,7 @@
 																	</SearchControlAddition>
 																	<Events>
 																		<Event name="Selection" callType="Override">ПодборТоваров_СписокРасширенныйПоискНоменклатураВыборВместо</Event>
+																		<Event name="OnActivateRow" callType="Override">ПодборТоваров_СписокРасширенныйПоискНоменклатураПриАктивизацииСтрокиВместо</Event>
 																	</Events>
 																	<ChildItems>
 																		<LabelField name="СписокРасширенныйПоискНоменклатураНаименование" id="735">
@@ -1317,6 +1318,7 @@
 																		</LabelField>
 																		<LabelField name="СписокРасширенныйПоискНоменклатураОжидается" id="1205">
 																			<DataPath>СписокНоменклатура.Ожидается</DataPath>
+																			<CellHyperlink>true</CellHyperlink>
 																			<ContextMenu name="СписокРасширенныйПоискНоменклатураОжидаетсяКонтекстноеМеню" id="1206"/>
 																			<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураОжидаетсяРасширеннаяПодсказка" id="1207"/>
 																		</LabelField>
@@ -1735,6 +1737,9 @@
 														<ContextMenu name="ОстаткиТоваровУправлениеПоискомКонтекстноеМеню" id="1027"/>
 														<ExtendedTooltip name="ОстаткиТоваровУправлениеПоискомРасширеннаяПодсказка" id="1028"/>
 													</SearchControlAddition>
+													<Events>
+														<Event name="Selection" callType="Before">ПодборТоваров_ОстаткиТоваровВыборПеред</Event>
+													</Events>
 													<ChildItems>
 														<InputField name="ОстаткиТоваровСкладОписание" id="503">
 															<DataPath>ОстаткиТоваров.СкладОписание</DataPath>
@@ -1963,6 +1968,9 @@
 																		<ContextMenu name="ИерархияНоменклатурыУправлениеПоискомКонтекстноеМеню" id="1036"/>
 																		<ExtendedTooltip name="ИерархияНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="1037"/>
 																	</SearchControlAddition>
+																	<Events>
+																		<Event name="Selection" callType="Before">ПодборТоваров_ИерархияНоменклатурыВыборПеред</Event>
+																	</Events>
 																	<ChildItems>
 																		<LabelField name="ИерархияНоменклатурыНаименование" id="301">
 																			<DataPath>ИерархияНоменклатуры.Description</DataPath>
@@ -2546,6 +2554,17 @@
 													<ChoiceListButton>true</ChoiceListButton>
 													<ContextMenu name="СегментНоменклатурыКонтекстноеМеню" id="527"/>
 													<ExtendedTooltip name="СегментНоменклатурыExtendedTooltip" id="932"/>
+												</InputField>
+												<InputField name="ГруппаСкладов" id="1208">
+													<DataPath>ГруппаСкладов</DataPath>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ClearButton>true</ClearButton>
+													<OpenButton>false</OpenButton>
+													<ContextMenu name="ГруппаСкладовКонтекстноеМеню" id="1209"/>
+													<ExtendedTooltip name="ГруппаСкладовРасширеннаяПодсказка" id="1210"/>
+													<Events>
+														<Event name="OnChange" callType="Override">ПодборТоваров_ГруппаСкладовПриИзмененииВместо</Event>
+													</Events>
 												</InputField>
 												<CheckBoxField name="ТолькоВНаличии" id="538">
 													<DataPath>ТолькоВНаличии</DataPath>
@@ -5139,22 +5158,33 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ГруппаСкладов" id="103">
+		<Attribute name="СкладДляСоединения" id="104">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Склад</v8:content>
+					<v8:content>Склад для соединения</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СкладДляСоединения" id="104">
+		<Attribute name="ЕстьПравоДоступаКОтчету" id="105">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Склад для соединения</v8:content>
+					<v8:content>Есть право доступа к отчету</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ГруппаСкладов" id="106">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -5521,6 +5551,7 @@
 					<v8:content>Изменить вариант навигации</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action callType="Override">ПодборТоваров_ИзменитьВариантНавигацииВместо</Action>
 		</Command>
 		<Command name="ИзменитьНеЗапрашиватьКоличество" id="22">
 			<Title>

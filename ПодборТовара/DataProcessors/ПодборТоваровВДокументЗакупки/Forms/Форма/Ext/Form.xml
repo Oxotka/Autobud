@@ -1276,6 +1276,7 @@
 																</LabelField>
 																<LabelField name="СписокРасширенныйПоискНоменклатураОжидается" id="1296">
 																	<DataPath>СписокНоменклатура.Ожидается</DataPath>
+																	<CellHyperlink>true</CellHyperlink>
 																	<ContextMenu name="СписокРасширенныйПоискНоменклатураОжидаетсяКонтекстноеМеню" id="1297"/>
 																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураОжидаетсяРасширеннаяПодсказка" id="1298"/>
 																</LabelField>
@@ -1689,6 +1690,9 @@
 												<ContextMenu name="ОстаткиТоваровУправлениеПоискомКонтекстноеМеню" id="1153"/>
 												<ExtendedTooltip name="ОстаткиТоваровУправлениеПоискомРасширеннаяПодсказка" id="1154"/>
 											</SearchControlAddition>
+											<Events>
+												<Event name="Selection" callType="Before">ПодборТоваров_ОстаткиТоваровВыборПеред</Event>
+											</Events>
 											<ChildItems>
 												<InputField name="ОстаткиТоваровОписание" id="527">
 													<DataPath>ОстаткиТоваров.СкладОписание</DataPath>
@@ -1911,6 +1915,9 @@
 																<ContextMenu name="ИерархияНоменклатурыУправлениеПоискомКонтекстноеМеню" id="1162"/>
 																<ExtendedTooltip name="ИерархияНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="1163"/>
 															</SearchControlAddition>
+															<Events>
+																<Event name="Selection" callType="Before">ПодборТоваров_ИерархияНоменклатурыВыборПеред</Event>
+															</Events>
 															<ChildItems>
 																<LabelField name="ИерархияНоменклатурыНаименование" id="569">
 																	<DataPath>ИерархияНоменклатуры.Description</DataPath>
@@ -5506,6 +5513,17 @@
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ЕстьПравоДоступаКОтчету" id="90">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть право доступа к отчету</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПеренестиВДокумент" id="1">
@@ -5821,6 +5839,7 @@
 					<v8:content>Изменить вариант навигации</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action callType="Override">ПодборТоваров_ИзменитьВариантНавигацииВместо</Action>
 		</Command>
 	</Commands>
 	<Parameters>

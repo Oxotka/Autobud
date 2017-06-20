@@ -5,7 +5,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="After">ПодборТоваров_ПриСозданииНаСервереПосле</Event>
+		<Event name="OnCreateAtServer" callType="Override">ПодборТоваров_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаКоманднаяПанельФормы" id="657">
@@ -2528,6 +2528,24 @@
 														</LabelField>
 													</ChildItems>
 												</UsualGroup>
+												<InputField name="ВидЦеныПоСкладу" id="1211">
+													<DataPath>ВидЦеныПоСкладу</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Вид цены</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ClearButton>true</ClearButton>
+													<OpenButton>false</OpenButton>
+													<ContextMenu name="ВидЦеныПоСкладуКонтекстноеМеню" id="1212"/>
+													<ExtendedTooltip name="ВидЦеныПоСкладуРасширеннаяПодсказка" id="1213"/>
+													<Events>
+														<Event name="OnChange" callType="Override">ПодборТоваров_ВидЦеныПриИзмененииВместо</Event>
+													</Events>
+												</InputField>
 												<InputField name="СегментНоменклатуры" id="526">
 													<DataPath>СегментНоменклатуры</DataPath>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -5189,6 +5207,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВидЦеныПоСкладу" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид цены по складу</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

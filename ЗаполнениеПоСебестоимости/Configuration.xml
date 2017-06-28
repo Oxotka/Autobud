@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Configuration uuid="985a7681-6b24-4f0b-b3f3-61ea5eec5f11">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -36,6 +36,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>Себестоимость_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
@@ -45,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.1</Version>
+			<Version>1.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 		</Properties>
 		<ChildObjects>
@@ -62,15 +63,7 @@
 			<CommonPicture>РазбитьСтроку</CommonPicture>
 			<CommonPicture>ПроверкаКоличестваТоваров</CommonPicture>
 			<CommonPicture>ПолучитьВес</CommonPicture>
-			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
-			<FunctionalOption>ИспользоватьИмпортныеТовары</FunctionalOption>
-			<FunctionalOption>ИспользоватьПодключаемоеОборудованиеИОплатуПлатежнымиКартами</FunctionalOption>
-			<FunctionalOption>ИспользоватьОбменЭД</FunctionalOption>
 			<DefinedType>Артикул</DefinedType>
-			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
-			<Constant>ИспользоватьИмпортныеТовары</Constant>
-			<Constant>ИспользоватьОбменЭД</Constant>
-			<Constant>ИспользоватьПодключаемоеОборудованиеИОплатуПлатежнымиКартами</Constant>
 			<Catalog>ВидыЗапасов</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Валюты</Catalog>
@@ -91,6 +84,8 @@
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>ДоговорыМеждуОрганизациями</Catalog>
 			<Document>ПередачаТоваровМеждуОрганизациями</Document>
 			<Document>ВозвратТоваровМеждуОрганизациями</Document>
 			<Enum>СтавкиНДС</Enum>
@@ -100,6 +95,8 @@
 			<Enum>ВариантыОформленияПродажи</Enum>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>РазделыУчетаСебестоимостиТоваров</Enum>
+			<Enum>ПорядокОплатыПоСоглашениям</Enum>
+			<Enum>СтатусыДействияВидовЦен</Enum>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 		</ChildObjects>

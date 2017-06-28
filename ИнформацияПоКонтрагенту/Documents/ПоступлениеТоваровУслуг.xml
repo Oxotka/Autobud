@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Document uuid="4c16352e-c7b3-45ea-a9c9-8db139dedd2f">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПоступлениеТоваровУслуг" category="Object">
@@ -550,15 +550,6 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="c3c72d0a-1000-434c-aaec-b72dfa42c3e3">
-						<Properties>
-							<Name>АналитикаУчетаПартий</Name>
-							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаПартий</v8:Type>
-							</Type>
-						</Properties>
-					</Attribute>
 					<Attribute uuid="55e618c1-1324-41c8-b822-089c94c98d6a">
 						<Properties>
 							<Name>ИдентификаторСтроки</Name>
@@ -874,40 +865,6 @@
 						</Properties>
 					</Attribute>
 				</ChildObjects>
-			</TabularSection>
-			<TabularSection uuid="9c862db0-13e6-4c70-bdd1-4a75126c323a">
-				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваровУслуг.УдалитьРасхождения" category="TabularSection">
-						<xr:TypeId>91aa91a0-2555-4847-814c-8157aadf539d</xr:TypeId>
-						<xr:ValueId>b1795dc6-dcdc-4dd7-9f93-c1f9dc5bbc20</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваровУслуг.УдалитьРасхождения" category="TabularSectionRow">
-						<xr:TypeId>58498777-feb3-438f-9606-a5de29fba28a</xr:TypeId>
-						<xr:ValueId>e4573fdf-2a53-4a73-b639-45644e7f1504</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
-				<Properties>
-					<Name>УдалитьРасхождения</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-				<ChildObjects/>
-			</TabularSection>
-			<TabularSection uuid="e8cccb38-25f3-46d7-8b6d-02f4291a7dfb">
-				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваровУслуг.УдалитьТоварыПоДаннымПоставщика" category="TabularSection">
-						<xr:TypeId>f63f50f0-8c97-47dc-baf6-239ac7086208</xr:TypeId>
-						<xr:ValueId>5034ece5-3b0c-4a9f-bfd5-7a29e7b5d5e8</xr:ValueId>
-					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваровУслуг.УдалитьТоварыПоДаннымПоставщика" category="TabularSectionRow">
-						<xr:TypeId>2f63171a-a87c-4db5-8b65-2e32badb8620</xr:TypeId>
-						<xr:ValueId>bcb10882-0a16-47f4-80ca-4257c53c7c92</xr:ValueId>
-					</xr:GeneratedType>
-				</InternalInfo>
-				<Properties>
-					<Name>УдалитьТоварыПоДаннымПоставщика</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-				<ChildObjects/>
 			</TabularSection>
 		</ChildObjects>
 	</Document>

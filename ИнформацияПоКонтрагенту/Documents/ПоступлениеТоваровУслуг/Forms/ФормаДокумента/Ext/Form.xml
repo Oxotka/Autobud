@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<CommandSet>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
 	</CommandSet>
@@ -866,9 +866,6 @@
 													<BackColor>style:ToolTipBackColor</BackColor>
 													<ContextMenu name="ОстатокВзаиморасчетовПоставщикПоОрганизацииКонтекстноеМеню" id="1837"/>
 													<ExtendedTooltip name="ОстатокВзаиморасчетовПоставщикПоОрганизацииРасширеннаяПодсказка" id="1838"/>
-													<Events>
-														<Event name="URLProcessing" callType="Before">КУТ_ОстатокВзаиморасчетовПоставщикОбработкаНавигационнойСсылки</Event>
-													</Events>
 												</LabelDecoration>
 												<LabelDecoration name="ОстатокВзаиморасчетовПоставщик" id="1839">
 													<Width>22</Width>
@@ -884,9 +881,6 @@
 													<BackColor>style:ToolTipBackColor</BackColor>
 													<ContextMenu name="ОстатокВзаиморасчетовПоставщикКонтекстноеМеню" id="1840"/>
 													<ExtendedTooltip name="ОстатокВзаиморасчетовПоставщикРасширеннаяПодсказка" id="1841"/>
-													<Events>
-														<Event name="URLProcessing" callType="Before">КУТ_ОстатокВзаиморасчетовПоставщикОбработкаНавигационнойСсылки</Event>
-													</Events>
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
@@ -2045,7 +2039,7 @@
 									<ExtendedTooltip name="ТоварыВидЗапасовExtendedTooltip" id="1131"/>
 								</InputField>
 								<InputField name="ТоварыФинансоваяПартия" id="958">
-									<DataPath>Объект.Товары.АналитикаУчетаПартий</DataPath>
+									<DataPath>1/0:0e6efb5c-ad0f-485e-a139-5acaeb2729fc/0:c3c72d0a-1000-434c-aaec-b72dfa42c3e3</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -4181,7 +4175,7 @@
 						</Type>
 					</Column>
 				</AdditionalColumns>
-				<AdditionalColumns table="Объект.УдалитьРасхождения">
+				<AdditionalColumns table="1/0:9c862db0-13e6-4c70-bdd1-4a75126c323a">
 					<Column name="ТипНоменклатуры" id="1">
 						<Title>
 							<v8:item>
@@ -4220,7 +4214,7 @@
 						</Type>
 					</Column>
 				</AdditionalColumns>
-				<AdditionalColumns table="Объект.УдалитьТоварыПоДаннымПоставщика">
+				<AdditionalColumns table="1/0:e8cccb38-25f3-46d7-8b6d-02f4291a7dfb">
 					<Column name="ТипНоменклатуры" id="2">
 						<Title>
 							<v8:item>
@@ -5799,7 +5793,7 @@
 			</ToolTip>
 		</Command>
 	</Commands>
-	<BaseForm version="2.3">
+	<BaseForm version="2.4">
 		<CommandSet>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
 		</CommandSet>
@@ -7781,7 +7775,7 @@
 										<ExtendedTooltip name="ТоварыВидЗапасовExtendedTooltip" id="1131"/>
 									</InputField>
 									<InputField name="ТоварыФинансоваяПартия" id="958">
-										<DataPath>Объект.Товары.АналитикаУчетаПартий</DataPath>
+										<DataPath>1/0:0e6efb5c-ad0f-485e-a139-5acaeb2729fc/0:c3c72d0a-1000-434c-aaec-b72dfa42c3e3</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9917,7 +9911,7 @@
 							</Type>
 						</Column>
 					</AdditionalColumns>
-					<AdditionalColumns table="Объект.УдалитьРасхождения">
+					<AdditionalColumns table="1/0:9c862db0-13e6-4c70-bdd1-4a75126c323a">
 						<Column name="ТипНоменклатуры" id="1">
 							<Title>
 								<v8:item>
@@ -9956,7 +9950,7 @@
 							</Type>
 						</Column>
 					</AdditionalColumns>
-					<AdditionalColumns table="Объект.УдалитьТоварыПоДаннымПоставщика">
+					<AdditionalColumns table="1/0:e8cccb38-25f3-46d7-8b6d-02f4291a7dfb">
 						<Column name="ТипНоменклатуры" id="2">
 							<Title>
 								<v8:item>

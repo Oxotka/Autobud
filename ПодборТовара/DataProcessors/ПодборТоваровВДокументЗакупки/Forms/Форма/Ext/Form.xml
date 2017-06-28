@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -2546,7 +2546,7 @@
 															<SearchOnInput>Use</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<DataPath>СписокНоменклатураПоставщика</DataPath>
-															<RowPictureDataPath>24/62</RowPictureDataPath>
+															<RowPictureDataPath/>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2703,7 +2703,7 @@
 																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
 																</LabelField>
 																<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
-																	<DataPath>24/27/304</DataPath>
+																	<DataPath/>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -2820,7 +2820,7 @@
 															<SearchOnInput>DontUse</SearchOnInput>
 															<EnableStartDrag>true</EnableStartDrag>
 															<DataPath>СписокНоменклатураПоставщика</DataPath>
-															<RowPictureDataPath>24/62</RowPictureDataPath>
+															<RowPictureDataPath/>
 															<RowsPicture>
 																<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2978,7 +2978,7 @@
 																	<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
 																</LabelField>
 																<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
-																	<DataPath>24/27/304</DataPath>
+																	<DataPath/>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -3673,10 +3673,6 @@
 				<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
 				<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
 				<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-				<Field>11/74</Field>
-				<Field>11/72</Field>
-				<Field>11/71</Field>
-				<Field>11/2</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -3745,10 +3741,6 @@
 				<Field>СписокХарактеристики.ПометкаУдаления</Field>
 				<Field>СписокХарактеристики.Номенклатура</Field>
 				<Field>СписокХарактеристики.ВладелецХарактеристик</Field>
-				<Field>12/46</Field>
-				<Field>12/31</Field>
-				<Field>12/29</Field>
-				<Field>12/2</Field>
 			</UseAlways>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьХарактеристикиНоменклатуры</Item>
@@ -3885,7 +3877,7 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>4/1</Field>
+				<Field>~СегментыНоменклатуры.СпособФормирования</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -4001,7 +3993,6 @@
 				<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
 				<Field>СписокНоменклатураПоставщика.Родитель</Field>
 				<Field>СписокНоменклатураПоставщика.ПометкаУдаления</Field>
-				<Field>24/311</Field>
 			</UseAlways>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
@@ -6005,7 +5996,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.3">
+	<BaseForm version="2.4">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -8507,7 +8498,7 @@
 																<SearchOnInput>Use</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<DataPath>СписокНоменклатураПоставщика</DataPath>
-																<RowPictureDataPath>24/62</RowPictureDataPath>
+																<RowPictureDataPath/>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -8664,7 +8655,7 @@
 																		<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1049"/>
 																	</LabelField>
 																	<LabelField name="СписокСтандартныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="855">
-																		<DataPath>24/27/304</DataPath>
+																		<DataPath/>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -8781,7 +8772,7 @@
 																<SearchOnInput>DontUse</SearchOnInput>
 																<EnableStartDrag>true</EnableStartDrag>
 																<DataPath>СписокНоменклатураПоставщика</DataPath>
-																<RowPictureDataPath>24/62</RowPictureDataPath>
+																<RowPictureDataPath/>
 																<RowsPicture>
 																	<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -8939,7 +8930,7 @@
 																		<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураПоставщикаЦенаExtendedTooltip" id="1068"/>
 																	</LabelField>
 																	<LabelField name="СписокРасширенныйПоискНоменклатураПоставщикаЕдиницаИзмерения" id="427">
-																		<DataPath>24/27/304</DataPath>
+																		<DataPath/>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -9633,10 +9624,6 @@
 					<Field>СписокНоменклатура.ИспользованиеХарактеристик</Field>
 					<Field>СписокНоменклатура.ВладелецХарактеристик</Field>
 					<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-					<Field>11/74</Field>
-					<Field>11/72</Field>
-					<Field>11/71</Field>
-					<Field>11/2</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -9704,10 +9691,6 @@
 					<Field>СписокХарактеристики.ПометкаУдаления</Field>
 					<Field>СписокХарактеристики.Номенклатура</Field>
 					<Field>СписокХарактеристики.ВладелецХарактеристик</Field>
-					<Field>12/46</Field>
-					<Field>12/31</Field>
-					<Field>12/29</Field>
-					<Field>12/2</Field>
 				</UseAlways>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьХарактеристикиНоменклатуры</Item>
@@ -9844,7 +9827,7 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>4/1</Field>
+					<Field>~СегментыНоменклатуры.СпособФормирования</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -9960,7 +9943,6 @@
 					<Field>СписокНоменклатураПоставщика.ЭтоТовар</Field>
 					<Field>СписокНоменклатураПоставщика.Родитель</Field>
 					<Field>СписокНоменклатураПоставщика.ПометкаУдаления</Field>
-					<Field>24/311</Field>
 				</UseAlways>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>

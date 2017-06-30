@@ -37,8 +37,6 @@
 					<v8:content>Страницы настроек</v8:content>
 				</v8:item>
 			</ToolTip>
-			<HorizontalStretch>true</HorizontalStretch>
-			<VerticalStretch>true</VerticalStretch>
 			<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
 				<Page name="СтраницаСоставГруппировки" id="585">
@@ -61,33 +59,9 @@
 					<ExtendedTooltip name="СтраницаСоставГруппировкиРасширеннаяПодсказка" id="586"/>
 					<ChildItems>
 						<CommandBar name="КомандыСоставаГруппировки" id="604">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="КомандыСоставаГруппировкиРасширеннаяПодсказка" id="605"/>
 							<ChildItems>
 								<ButtonGroup name="КомандыСоставаГруппировки_ДобавлениеУдаление" id="606">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="КомандыСоставаГруппировки_ДобавлениеУдалениеРасширеннаяПодсказка" id="607"/>
 									<ChildItems>
 										<Button name="СоставГруппировки_Добавить" id="608">
@@ -113,18 +87,6 @@
 									</ChildItems>
 								</ButtonGroup>
 								<ButtonGroup name="КомандыСоставаГруппировки_Приоритет" id="612">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="КомандыСоставаГруппировки_ПриоритетРасширеннаяПодсказка" id="613"/>
 									<ChildItems>
 										<Button name="СоставГруппировки_ПереместитьВверх" id="614">
@@ -181,18 +143,6 @@
 								<Autofill>false</Autofill>
 								<ChildItems>
 									<ButtonGroup name="КомандыСоставаГруппировки_ДобавлениеУдаление1" id="647">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСоставаГруппировки_ДобавлениеУдаление1РасширеннаяПодсказка" id="648"/>
 										<ChildItems>
 											<Button name="СоставГруппировки_Добавить1" id="649">
@@ -218,18 +168,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСоставаГруппировки_Приоритет1" id="653">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСоставаГруппировки_Приоритет1РасширеннаяПодсказка" id="654"/>
 										<ChildItems>
 											<Button name="СоставГруппировки_ПереместитьВверх1" id="655">
@@ -278,18 +216,6 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<ColumnGroup name="СоставГруппировкиГруппа1" id="643">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="СоставГруппировкиГруппа1РасширеннаяПодсказка" id="644"/>
 									<ChildItems>
@@ -368,18 +294,6 @@
 							<ExtendedTooltip name="БыстрыеОтборыРасширеннаяПодсказка" id="99"/>
 						</UsualGroup>
 						<UsualGroup name="ОбычныеОтборы" id="39">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -440,18 +354,6 @@
 										<Autofill>false</Autofill>
 										<ChildItems>
 											<ButtonGroup name="КомандыОтборов_ДобавлениеУдаление1" id="403">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_ДобавлениеУдаление1РасширеннаяПодсказка" id="404"/>
 												<ChildItems>
 													<Button name="Отборы_Добавить1" id="405">
@@ -477,18 +379,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыОтборов_Приоритет1" id="421">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_Приоритет1РасширеннаяПодсказка" id="422"/>
 												<ChildItems>
 													<Button name="Отборы_ПереместитьВверх1" id="423">
@@ -504,18 +394,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыОтборов_Группы1" id="409">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_Группы1РасширеннаяПодсказка" id="410"/>
 												<ChildItems>
 													<Button name="Отборы_Сгруппировать1" id="411">
@@ -569,18 +447,6 @@
 										<Autofill>false</Autofill>
 										<ChildItems>
 											<ButtonGroup name="КомандыОтборов_ДобавлениеУдаление" id="324">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_ДобавлениеУдалениеРасширеннаяПодсказка" id="325"/>
 												<ChildItems>
 													<Button name="Отборы_Добавить" id="326">
@@ -606,18 +472,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыОтборов_Приоритет" id="415">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_ПриоритетРасширеннаяПодсказка" id="416"/>
 												<ChildItems>
 													<Button name="Отборы_ПереместитьВверх" id="417">
@@ -633,18 +487,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыОтборов_Группы" id="336">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОтборов_ГруппыРасширеннаяПодсказка" id="337"/>
 												<ChildItems>
 													<Button name="Отборы_Сгруппировать" id="338">
@@ -721,18 +563,6 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<ColumnGroup name="ОтборыГруппа1" id="361">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>InCell</Group>
 											<ExtendedTooltip name="ОтборыГруппа1РасширеннаяПодсказка" id="362"/>
 											<ChildItems>
@@ -837,8 +667,6 @@
 									<ExtendedTooltip name="ГруппаЕстьВложенныеОтборыРасширеннаяПодсказка" id="807"/>
 									<ChildItems>
 										<PictureDecoration name="КартинкаИнформация1" id="808">
-											<Width>2</Width>
-											<Height>1</Height>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -946,18 +774,6 @@
 										<Autofill>false</Autofill>
 										<ChildItems>
 											<ButtonGroup name="КомандыВыбранныхПолей_ДобавлениеУдаление1" id="397">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыВыбранныхПолей_ДобавлениеУдаление1РасширеннаяПодсказка" id="398"/>
 												<ChildItems>
 													<Button name="ВыбранныеПоля_Добавить1" id="399">
@@ -983,18 +799,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыВыбранныхПолей_Приоритет1" id="391">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыВыбранныхПолей_Приоритет1РасширеннаяПодсказка" id="392"/>
 												<ChildItems>
 													<Button name="ВыбранныеПоля_ПереместитьВверх1" id="393">
@@ -1077,18 +881,6 @@
 										<Autofill>false</Autofill>
 										<ChildItems>
 											<ButtonGroup name="КомандыВыбранныхПолей_ДобавлениеУдаление" id="212">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыВыбранныхПолей_ДобавлениеУдалениеРасширеннаяПодсказка" id="213"/>
 												<ChildItems>
 													<Button name="ВыбранныеПоля_Добавить" id="214">
@@ -1114,18 +906,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыВыбранныхПолей_Приоритет" id="218">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыВыбранныхПолей_ПриоритетРасширеннаяПодсказка" id="219"/>
 												<ChildItems>
 													<Button name="ВыбранныеПоля_ПереместитьВверх" id="220">
@@ -1301,11 +1081,6 @@
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="КомандыПолейИСортировокРасширеннаяПодсказка" id="903"/>
 											<ChildItems>
-												<LabelDecoration name="Декорация1" id="904">
-													<VerticalStretch>true</VerticalStretch>
-													<ContextMenu name="Декорация1КонтекстноеМеню" id="905"/>
-													<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="906"/>
-												</LabelDecoration>
 												<Button name="ВыбранныеПоля_Сортировка_Вправо" id="907">
 													<Type>UsualButton</Type>
 													<CommandName>Form.Command.ВыбранныеПоля_Сортировка_Вправо</CommandName>
@@ -1321,15 +1096,6 @@
 													<CommandName>Form.Command.ВыбранныеПоля_Сортировка_ВлевоВсе</CommandName>
 													<ExtendedTooltip name="ВыбранныеПоля_Сортировка_ВлевоВсеРасширеннаяПодсказка" id="912"/>
 												</Button>
-												<LabelDecoration name="Декорация2" id="913">
-													<VerticalStretch>true</VerticalStretch>
-													<ContextMenu name="Декорация2КонтекстноеМеню" id="914"/>
-													<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="915"/>
-												</LabelDecoration>
-												<LabelDecoration name="Декорация3" id="1010">
-													<ContextMenu name="Декорация3КонтекстноеМеню" id="1011"/>
-													<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="1012"/>
-												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
 										<Table name="Сортировка" id="130">
@@ -1674,8 +1440,6 @@
 							<ExtendedTooltip name="ГруппаЕстьВложенныеПоляИлиСортировкиРасширеннаяПодсказка" id="1003"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаИнформация3" id="1004">
-									<Width>2</Width>
-									<Height>1</Height>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1724,54 +1488,18 @@
 					<ExtendedTooltip name="СтраницаОформлениеРасширеннаяПодсказка" id="591"/>
 					<ChildItems>
 						<UsualGroup name="СтраницаДополнительноПодвал" id="51">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="СтраницаДополнительноПодвалРасширеннаяПодсказка" id="52"/>
 						</UsualGroup>
 						<UsualGroup name="СтраницаДополнительноГруппировки" id="49">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="СтраницаДополнительноГруппировкиРасширеннаяПодсказка" id="50"/>
 						</UsualGroup>
 						<UsualGroup name="СтраницаДополнительноШапка" id="47">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content> </v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -1830,18 +1558,6 @@
 										<Autofill>false</Autofill>
 										<ChildItems>
 											<ButtonGroup name="КомандыОформления_ДобавлениеУдаление" id="826">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОформления_ДобавлениеУдалениеРасширеннаяПодсказка" id="827"/>
 												<ChildItems>
 													<Button name="Оформление_Добавить" id="828">
@@ -1867,18 +1583,6 @@
 												</ChildItems>
 											</ButtonGroup>
 											<ButtonGroup name="КомандыОформления_Приоритет" id="832">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КомандыОформления_ПриоритетРасширеннаяПодсказка" id="833"/>
 												<ChildItems>
 													<Button name="Оформление_ПереместитьВверх" id="834">
@@ -1981,8 +1685,6 @@
 							<ExtendedTooltip name="ГруппаЕстьВложенноеОформлениеРасширеннаяПодсказка" id="927"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаИнформация2" id="928">
-									<Width>2</Width>
-									<Height>1</Height>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2067,18 +1769,6 @@
 								<Autofill>false</Autofill>
 								<ChildItems>
 									<ButtonGroup name="КомандыСтруктурыВарианта_Добавление1" id="741">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_Добавление1РасширеннаяПодсказка" id="742"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_Добавить1" id="743">
@@ -2155,18 +1845,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеПоИерархии1" id="755">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеПоИерархии1РасширеннаяПодсказка" id="756"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_ПереместитьВышеИЛевее1" id="757">
@@ -2182,18 +1860,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя1" id="761">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя1РасширеннаяПодсказка" id="762"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_ПереместитьВверх1" id="763">
@@ -2243,18 +1909,6 @@
 								<Autofill>false</Autofill>
 								<ChildItems>
 									<ButtonGroup name="КомандыСтруктурыВарианта_Добавление" id="468">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_ДобавлениеРасширеннаяПодсказка" id="469"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_Добавить" id="508">
@@ -2331,18 +1985,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеПоИерархии" id="456">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеПоИерархииРасширеннаяПодсказка" id="457"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_ПереместитьВышеИЛевее" id="500">
@@ -2358,18 +2000,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя" id="462">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителяРасширеннаяПодсказка" id="463"/>
 										<ChildItems>
 											<Button name="СтруктураВарианта_ПереместитьВверх" id="504">
@@ -2446,18 +2076,6 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<ColumnGroup name="СтруктураВариантаГруппа2" id="448">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content> </v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="СтруктураВариантаГруппа2РасширеннаяПодсказка" id="449"/>
 									<ChildItems>
@@ -2575,18 +2193,10 @@
 							<v8:content>Страница нет пользовательских настроек</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
-						</v8:item>
-					</ToolTip>
 					<Group>Horizontal</Group>
 					<ExtendedTooltip name="СтраницаНетПользовательскихНастроекРасширеннаяПодсказка" id="1072"/>
 					<ChildItems>
 						<PictureDecoration name="КартинкаИнформация4" id="1078">
-							<Width>2</Width>
-							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2621,12 +2231,6 @@
 							<v8:content>Не отсортированные</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="НеОтсортированноеРасширеннаяПодсказка" id="63"/>
 				</Page>
 			</ChildItems>
@@ -2650,8 +2254,6 @@
 			<ExtendedTooltip name="ГруппаЕстьВложенныеОтчетыРасширеннаяПодсказка" id="792"/>
 			<ChildItems>
 				<PictureDecoration name="КартинкаИнформация" id="793">
-					<Width>2</Width>
-					<Height>1</Height>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2680,20 +2282,7 @@
 		</UsualGroup>
 		<UsualGroup name="КомандыФормы" id="73">
 			<EnableContentChange>true</EnableContentChange>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content> </v8:content>
-				</v8:item>
-			</ToolTip>
 			<Group>Horizontal</Group>
-			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="74"/>
 			<ChildItems>
@@ -2749,22 +2338,11 @@
 				</RadioButtonField>
 				<CommandBar name="КомандыФормы_Правая" id="80">
 					<EnableContentChange>true</EnableContentChange>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> </v8:content>
-						</v8:item>
-					</ToolTip>
 					<HorizontalLocation>Right</HorizontalLocation>
 					<ExtendedTooltip name="КомандыФормы_ПраваяРасширеннаяПодсказка" id="81"/>
 					<ChildItems>
 						<ButtonGroup name="Группа1" id="1033">
+							<Visible>false</Visible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2775,7 +2353,6 @@
 							<ChildItems>
 								<Button name="ИзменитьФорму" id="318">
 									<Type>CommandBarButton</Type>
-									<Visible>false</Visible>
 									<Representation>Picture</Representation>
 									<OnlyInAllActions>true</OnlyInAllActions>
 									<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
@@ -2831,9 +2408,6 @@
 				</v8:item>
 			</Title>
 			<Type/>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 		<Attribute name="ПостоянныеКоманды" id="3">
 			<Title>
@@ -2845,12 +2419,6 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
-			<View>
-				<xr:Common>false</xr:Common>
-			</View>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 		<Attribute name="ПостоянныеРеквизиты" id="4">
 			<Title>
@@ -2862,12 +2430,6 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
-			<View>
-				<xr:Common>false</xr:Common>
-			</View>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 		<Attribute name="ВариантНаименование" id="11">
 			<Title>
@@ -3933,6 +3495,12 @@
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 						<v8:StringQualifiers>
 							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -4168,9 +3736,6 @@
 				</v8:item>
 			</Title>
 			<Type/>
-			<Edit>
-				<xr:Common>false</xr:Common>
-			</Edit>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
@@ -4981,8 +4546,6 @@
 						<v8:content>Страницы настроек</v8:content>
 					</v8:item>
 				</ToolTip>
-				<HorizontalStretch>true</HorizontalStretch>
-				<VerticalStretch>true</VerticalStretch>
 				<ExtendedTooltip name="СтраницыНастроекРасширеннаяПодсказка" id="36"/>
 				<ChildItems>
 					<Page name="СтраницаСоставГруппировки" id="585">
@@ -5005,33 +4568,9 @@
 						<ExtendedTooltip name="СтраницаСоставГруппировкиРасширеннаяПодсказка" id="586"/>
 						<ChildItems>
 							<CommandBar name="КомандыСоставаГруппировки" id="604">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</ToolTip>
 								<ExtendedTooltip name="КомандыСоставаГруппировкиРасширеннаяПодсказка" id="605"/>
 								<ChildItems>
 									<ButtonGroup name="КомандыСоставаГруппировки_ДобавлениеУдаление" id="606">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСоставаГруппировки_ДобавлениеУдалениеРасширеннаяПодсказка" id="607"/>
 										<ChildItems>
 											<Button name="СоставГруппировки_Добавить" id="608">
@@ -5057,18 +4596,6 @@
 										</ChildItems>
 									</ButtonGroup>
 									<ButtonGroup name="КомандыСоставаГруппировки_Приоритет" id="612">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="КомандыСоставаГруппировки_ПриоритетРасширеннаяПодсказка" id="613"/>
 										<ChildItems>
 											<Button name="СоставГруппировки_ПереместитьВверх" id="614">
@@ -5125,18 +4652,6 @@
 									<Autofill>false</Autofill>
 									<ChildItems>
 										<ButtonGroup name="КомандыСоставаГруппировки_ДобавлениеУдаление1" id="647">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСоставаГруппировки_ДобавлениеУдаление1РасширеннаяПодсказка" id="648"/>
 											<ChildItems>
 												<Button name="СоставГруппировки_Добавить1" id="649">
@@ -5162,18 +4677,6 @@
 											</ChildItems>
 										</ButtonGroup>
 										<ButtonGroup name="КомандыСоставаГруппировки_Приоритет1" id="653">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСоставаГруппировки_Приоритет1РасширеннаяПодсказка" id="654"/>
 											<ChildItems>
 												<Button name="СоставГруппировки_ПереместитьВверх1" id="655">
@@ -5222,18 +4725,6 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<ColumnGroup name="СоставГруппировкиГруппа1" id="643">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="СоставГруппировкиГруппа1РасширеннаяПодсказка" id="644"/>
 										<ChildItems>
@@ -5312,18 +4803,6 @@
 								<ExtendedTooltip name="БыстрыеОтборыРасширеннаяПодсказка" id="99"/>
 							</UsualGroup>
 							<UsualGroup name="ОбычныеОтборы" id="39">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -5384,18 +4863,6 @@
 											<Autofill>false</Autofill>
 											<ChildItems>
 												<ButtonGroup name="КомандыОтборов_ДобавлениеУдаление1" id="403">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_ДобавлениеУдаление1РасширеннаяПодсказка" id="404"/>
 													<ChildItems>
 														<Button name="Отборы_Добавить1" id="405">
@@ -5421,18 +4888,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыОтборов_Приоритет1" id="421">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_Приоритет1РасширеннаяПодсказка" id="422"/>
 													<ChildItems>
 														<Button name="Отборы_ПереместитьВверх1" id="423">
@@ -5448,18 +4903,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыОтборов_Группы1" id="409">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_Группы1РасширеннаяПодсказка" id="410"/>
 													<ChildItems>
 														<Button name="Отборы_Сгруппировать1" id="411">
@@ -5513,18 +4956,6 @@
 											<Autofill>false</Autofill>
 											<ChildItems>
 												<ButtonGroup name="КомандыОтборов_ДобавлениеУдаление" id="324">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_ДобавлениеУдалениеРасширеннаяПодсказка" id="325"/>
 													<ChildItems>
 														<Button name="Отборы_Добавить" id="326">
@@ -5550,18 +4981,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыОтборов_Приоритет" id="415">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_ПриоритетРасширеннаяПодсказка" id="416"/>
 													<ChildItems>
 														<Button name="Отборы_ПереместитьВверх" id="417">
@@ -5577,18 +4996,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыОтборов_Группы" id="336">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОтборов_ГруппыРасширеннаяПодсказка" id="337"/>
 													<ChildItems>
 														<Button name="Отборы_Сгруппировать" id="338">
@@ -5665,18 +5072,6 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<ColumnGroup name="ОтборыГруппа1" id="361">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content> </v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>InCell</Group>
 												<ExtendedTooltip name="ОтборыГруппа1РасширеннаяПодсказка" id="362"/>
 												<ChildItems>
@@ -5781,8 +5176,6 @@
 										<ExtendedTooltip name="ГруппаЕстьВложенныеОтборыРасширеннаяПодсказка" id="807"/>
 										<ChildItems>
 											<PictureDecoration name="КартинкаИнформация1" id="808">
-												<Width>2</Width>
-												<Height>1</Height>
 												<Title formatted="false">
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5797,6 +5190,7 @@
 												<ExtendedTooltip name="КартинкаИнформация1РасширеннаяПодсказка" id="810"/>
 											</PictureDecoration>
 											<LabelDecoration name="ПодсказкаЕстьВложенныеОтборы" id="811">
+												<AutoMaxWidth>false</AutoMaxWidth>
 												<TextColor>style:ПоясняющийТекст</TextColor>
 												<Title formatted="true">
 													<v8:item>
@@ -5890,18 +5284,6 @@
 											<Autofill>false</Autofill>
 											<ChildItems>
 												<ButtonGroup name="КомандыВыбранныхПолей_ДобавлениеУдаление1" id="397">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыВыбранныхПолей_ДобавлениеУдаление1РасширеннаяПодсказка" id="398"/>
 													<ChildItems>
 														<Button name="ВыбранныеПоля_Добавить1" id="399">
@@ -5927,18 +5309,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыВыбранныхПолей_Приоритет1" id="391">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыВыбранныхПолей_Приоритет1РасширеннаяПодсказка" id="392"/>
 													<ChildItems>
 														<Button name="ВыбранныеПоля_ПереместитьВверх1" id="393">
@@ -6021,18 +5391,6 @@
 											<Autofill>false</Autofill>
 											<ChildItems>
 												<ButtonGroup name="КомандыВыбранныхПолей_ДобавлениеУдаление" id="212">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыВыбранныхПолей_ДобавлениеУдалениеРасширеннаяПодсказка" id="213"/>
 													<ChildItems>
 														<Button name="ВыбранныеПоля_Добавить" id="214">
@@ -6058,18 +5416,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыВыбранныхПолей_Приоритет" id="218">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыВыбранныхПолей_ПриоритетРасширеннаяПодсказка" id="219"/>
 													<ChildItems>
 														<Button name="ВыбранныеПоля_ПереместитьВверх" id="220">
@@ -6240,16 +5586,12 @@
 														<v8:content>Команды полей и сортировок</v8:content>
 													</v8:item>
 												</ToolTip>
+												<GroupVerticalAlign>Center</GroupVerticalAlign>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="КомандыПолейИСортировокРасширеннаяПодсказка" id="903"/>
 												<ChildItems>
-													<LabelDecoration name="Декорация1" id="904">
-														<VerticalStretch>true</VerticalStretch>
-														<ContextMenu name="Декорация1КонтекстноеМеню" id="905"/>
-														<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="906"/>
-													</LabelDecoration>
 													<Button name="ВыбранныеПоля_Сортировка_Вправо" id="907">
 														<Type>UsualButton</Type>
 														<CommandName>Form.Command.ВыбранныеПоля_Сортировка_Вправо</CommandName>
@@ -6265,15 +5607,6 @@
 														<CommandName>Form.Command.ВыбранныеПоля_Сортировка_ВлевоВсе</CommandName>
 														<ExtendedTooltip name="ВыбранныеПоля_Сортировка_ВлевоВсеРасширеннаяПодсказка" id="912"/>
 													</Button>
-													<LabelDecoration name="Декорация2" id="913">
-														<VerticalStretch>true</VerticalStretch>
-														<ContextMenu name="Декорация2КонтекстноеМеню" id="914"/>
-														<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="915"/>
-													</LabelDecoration>
-													<LabelDecoration name="Декорация3" id="1010">
-														<ContextMenu name="Декорация3КонтекстноеМеню" id="1011"/>
-														<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="1012"/>
-													</LabelDecoration>
 												</ChildItems>
 											</UsualGroup>
 											<Table name="Сортировка" id="130">
@@ -6618,8 +5951,6 @@
 								<ExtendedTooltip name="ГруппаЕстьВложенныеПоляИлиСортировкиРасширеннаяПодсказка" id="1003"/>
 								<ChildItems>
 									<PictureDecoration name="КартинкаИнформация3" id="1004">
-										<Width>2</Width>
-										<Height>1</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6634,6 +5965,7 @@
 										<ExtendedTooltip name="КартинкаИнформация3РасширеннаяПодсказка" id="1006"/>
 									</PictureDecoration>
 									<LabelDecoration name="ПодсказкаЕстьВложенныеПоляИлиСортировки" id="1007">
+										<AutoMaxWidth>false</AutoMaxWidth>
 										<TextColor>style:ПоясняющийТекст</TextColor>
 										<Title formatted="true">
 											<v8:item>
@@ -6668,54 +6000,18 @@
 						<ExtendedTooltip name="СтраницаОформлениеРасширеннаяПодсказка" id="591"/>
 						<ChildItems>
 							<UsualGroup name="СтраницаДополнительноПодвал" id="51">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="СтраницаДополнительноПодвалРасширеннаяПодсказка" id="52"/>
 							</UsualGroup>
 							<UsualGroup name="СтраницаДополнительноГруппировки" id="49">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="СтраницаДополнительноГруппировкиРасширеннаяПодсказка" id="50"/>
 							</UsualGroup>
 							<UsualGroup name="СтраницаДополнительноШапка" id="47">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content> </v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
@@ -6774,18 +6070,6 @@
 											<Autofill>false</Autofill>
 											<ChildItems>
 												<ButtonGroup name="КомандыОформления_ДобавлениеУдаление" id="826">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОформления_ДобавлениеУдалениеРасширеннаяПодсказка" id="827"/>
 													<ChildItems>
 														<Button name="Оформление_Добавить" id="828">
@@ -6811,18 +6095,6 @@
 													</ChildItems>
 												</ButtonGroup>
 												<ButtonGroup name="КомандыОформления_Приоритет" id="832">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content> </v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="КомандыОформления_ПриоритетРасширеннаяПодсказка" id="833"/>
 													<ChildItems>
 														<Button name="Оформление_ПереместитьВверх" id="834">
@@ -6925,8 +6197,6 @@
 								<ExtendedTooltip name="ГруппаЕстьВложенноеОформлениеРасширеннаяПодсказка" id="927"/>
 								<ChildItems>
 									<PictureDecoration name="КартинкаИнформация2" id="928">
-										<Width>2</Width>
-										<Height>1</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6941,6 +6211,7 @@
 										<ExtendedTooltip name="КартинкаИнформация2РасширеннаяПодсказка" id="930"/>
 									</PictureDecoration>
 									<LabelDecoration name="ПодсказкаЕстьВложенноеОформление" id="931">
+										<AutoMaxWidth>false</AutoMaxWidth>
 										<TextColor>style:ПоясняющийТекст</TextColor>
 										<Title formatted="true">
 											<v8:item>
@@ -7011,18 +6282,6 @@
 									<Autofill>false</Autofill>
 									<ChildItems>
 										<ButtonGroup name="КомандыСтруктурыВарианта_Добавление1" id="741">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_Добавление1РасширеннаяПодсказка" id="742"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_Добавить1" id="743">
@@ -7099,18 +6358,6 @@
 											</ChildItems>
 										</ButtonGroup>
 										<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеПоИерархии1" id="755">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеПоИерархии1РасширеннаяПодсказка" id="756"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_ПереместитьВышеИЛевее1" id="757">
@@ -7126,18 +6373,6 @@
 											</ChildItems>
 										</ButtonGroup>
 										<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя1" id="761">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя1РасширеннаяПодсказка" id="762"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_ПереместитьВверх1" id="763">
@@ -7187,18 +6422,6 @@
 									<Autofill>false</Autofill>
 									<ChildItems>
 										<ButtonGroup name="КомандыСтруктурыВарианта_Добавление" id="468">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_ДобавлениеРасширеннаяПодсказка" id="469"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_Добавить" id="508">
@@ -7275,18 +6498,6 @@
 											</ChildItems>
 										</ButtonGroup>
 										<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеПоИерархии" id="456">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеПоИерархииРасширеннаяПодсказка" id="457"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_ПереместитьВышеИЛевее" id="500">
@@ -7302,18 +6513,6 @@
 											</ChildItems>
 										</ButtonGroup>
 										<ButtonGroup name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителя" id="462">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content> </v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КомандыСтруктурыВарианта_ДвижениеВнутриРодителяРасширеннаяПодсказка" id="463"/>
 											<ChildItems>
 												<Button name="СтруктураВарианта_ПереместитьВверх" id="504">
@@ -7390,18 +6589,6 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<ColumnGroup name="СтруктураВариантаГруппа2" id="448">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content> </v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="СтруктураВариантаГруппа2РасширеннаяПодсказка" id="449"/>
 										<ChildItems>
@@ -7519,18 +6706,10 @@
 								<v8:content>Страница нет пользовательских настроек</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content> </v8:content>
-							</v8:item>
-						</ToolTip>
 						<Group>Horizontal</Group>
 						<ExtendedTooltip name="СтраницаНетПользовательскихНастроекРасширеннаяПодсказка" id="1072"/>
 						<ChildItems>
 							<PictureDecoration name="КартинкаИнформация4" id="1078">
-								<Width>2</Width>
-								<Height>1</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7545,6 +6724,7 @@
 								<ExtendedTooltip name="КартинкаИнформация4РасширеннаяПодсказка" id="1080"/>
 							</PictureDecoration>
 							<LabelDecoration name="ПодсказкаНетПользовательскихНастроек" id="1081">
+								<AutoMaxWidth>false</AutoMaxWidth>
 								<Title formatted="true">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7565,12 +6745,6 @@
 								<v8:content>Не отсортированные</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content> </v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="НеОтсортированноеРасширеннаяПодсказка" id="63"/>
 					</Page>
 				</ChildItems>
@@ -7594,8 +6768,6 @@
 				<ExtendedTooltip name="ГруппаЕстьВложенныеОтчетыРасширеннаяПодсказка" id="792"/>
 				<ChildItems>
 					<PictureDecoration name="КартинкаИнформация" id="793">
-						<Width>2</Width>
-						<Height>1</Height>
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -7610,6 +6782,7 @@
 						<ExtendedTooltip name="КартинкаИнформацияРасширеннаяПодсказка" id="795"/>
 					</PictureDecoration>
 					<LabelDecoration name="ПодсказкаЕстьВложенныеОтчеты" id="796">
+						<AutoMaxWidth>false</AutoMaxWidth>
 						<Title formatted="true">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -7624,20 +6797,7 @@
 			</UsualGroup>
 			<UsualGroup name="КомандыФормы" id="73">
 				<EnableContentChange>true</EnableContentChange>
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content> </v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content> </v8:content>
-					</v8:item>
-				</ToolTip>
 				<Group>Horizontal</Group>
-				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="74"/>
 				<ChildItems>
@@ -7693,22 +6853,11 @@
 					</RadioButtonField>
 					<CommandBar name="КомандыФормы_Правая" id="80">
 						<EnableContentChange>true</EnableContentChange>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content> </v8:content>
-							</v8:item>
-						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content> </v8:content>
-							</v8:item>
-						</ToolTip>
 						<HorizontalLocation>Right</HorizontalLocation>
 						<ExtendedTooltip name="КомандыФормы_ПраваяРасширеннаяПодсказка" id="81"/>
 						<ChildItems>
 							<ButtonGroup name="Группа1" id="1033">
+								<Visible>false</Visible>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7719,7 +6868,6 @@
 								<ChildItems>
 									<Button name="ИзменитьФорму" id="318">
 										<Type>CommandBarButton</Type>
-										<Visible>false</Visible>
 										<Representation>Picture</Representation>
 										<OnlyInAllActions>true</OnlyInAllActions>
 										<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
@@ -7775,9 +6923,6 @@
 					</v8:item>
 				</Title>
 				<Type/>
-				<Edit>
-					<xr:Common>false</xr:Common>
-				</Edit>
 			</Attribute>
 			<Attribute name="ПостоянныеКоманды" id="3">
 				<Title>
@@ -7789,12 +6934,6 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
-				<View>
-					<xr:Common>false</xr:Common>
-				</View>
-				<Edit>
-					<xr:Common>false</xr:Common>
-				</Edit>
 			</Attribute>
 			<Attribute name="ПостоянныеРеквизиты" id="4">
 				<Title>
@@ -7806,12 +6945,6 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
-				<View>
-					<xr:Common>false</xr:Common>
-				</View>
-				<Edit>
-					<xr:Common>false</xr:Common>
-				</Edit>
 			</Attribute>
 			<Attribute name="ВариантНаименование" id="11">
 				<Title>
@@ -8877,6 +8010,12 @@
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
 							<v8:StringQualifiers>
 								<v8:Length>0</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -9112,81 +8251,7 @@
 					</v8:item>
 				</Title>
 				<Type/>
-				<Edit>
-					<xr:Common>false</xr:Common>
-				</Edit>
 			</Attribute>
-			<ConditionalAppearance>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>СтруктураВариантаПредставление</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">СтруктураВарианта.ЭтоГруппа</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>СтруктураВариантаПредставление</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">СтруктураВарианта.Подсвечивать</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>СтруктураВариантаИспользование</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">СтруктураВарианта.ФлажокДоступен</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-						</dcsset:item>
-					</dcsset:filter>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:use>false</dcscor:use>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Видимость</dcscor:parameter>
-							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>Отображать</dcscor:parameter>
-							<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
-			</ConditionalAppearance>
 		</Attributes>
 		<Commands>
 			<Command name="ЗакрытьБезФормирования" id="1">

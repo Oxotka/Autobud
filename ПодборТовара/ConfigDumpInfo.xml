@@ -1,6 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions>
-		<Metadata name="Configuration.ПодборТоваровВДокументЗакупкиИПродажи" id="73ac66f4-50bc-43a7-8375-28e7834a5456" configVersion="6bb50ac92fcf52abae8d1ef31f4c02371f3028c2"/>
-	</ConfigVersions>
+	<ConfigVersions/>
 </ConfigDumpInfo>

@@ -2366,6 +2366,7 @@
 											<TitleLocation>Left</TitleLocation>
 											<TitleHeight>1</TitleHeight>
 											<HorizontalAlign>Left</HorizontalAlign>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ClearButton>true</ClearButton>
 											<OpenButton>false</OpenButton>
 											<ChooseType>false</ChooseType>
@@ -2392,6 +2393,7 @@
 													<v8:content>Сегмент</v8:content>
 												</v8:item>
 											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ClearButton>true</ClearButton>
 											<OpenButton>false</OpenButton>
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -2424,6 +2426,7 @@
 													<v8:content>Склад</v8:content>
 												</v8:item>
 											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ClearButton>true</ClearButton>
 											<OpenButton>false</OpenButton>
 											<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>

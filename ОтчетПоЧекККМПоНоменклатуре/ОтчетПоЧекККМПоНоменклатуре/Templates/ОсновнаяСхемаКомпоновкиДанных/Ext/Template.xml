@@ -81,6 +81,27 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СреднийЧек</dataPath>
+			<field>СреднийЧек</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средний чек</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ЧекККМВозврат.ЧекККМ
@@ -99,7 +120,8 @@
 	ЧекККМТовары.Номенклатура,
 	ЧекККМТовары.Ссылка.Архивный,
 	НАЧАЛОПЕРИОДА(ЧекККМТовары.Ссылка.Дата, ДЕНЬ) КАК Дата,
-	1 КАК КоличествоЧеков
+	1 КАК КоличествоЧеков,
+	1 КАК СреднийЧек
 ИЗ
 	Документ.ЧекККМ.Товары КАК ЧекККМТовары
 ГДЕ
@@ -164,6 +186,10 @@
 	<totalField>
 		<dataPath>КоличествоЧеков</dataPath>
 		<expression>Количество(Различные ЧекККМ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СреднийЧек</dataPath>
+		<expression>Сумма(СуммаПродажи) / Количество (Различные ЧекККМ)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -248,10 +274,10 @@
 					<dcsset:field>СреднееКоличествоВЧеке</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЧекДляКоличества</dcsset:field>
+					<dcsset:field>КоличествоЧеков</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КоличествоЧеков</dcsset:field>
+					<dcsset:field>СреднийЧек</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаПродажи</dcsset:field>

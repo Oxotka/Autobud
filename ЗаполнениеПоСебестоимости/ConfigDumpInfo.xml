@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Configuration.ЗаполнениеПоСебестоимости" id="985a7681-6b24-4f0b-b3f3-61ea5eec5f11" configVersion="c47c31f0f7133979837e634c2089b1e645cf1bb3"/>
+		<Metadata name="Configuration.ЗаполнениеПоСебестоимости" id="985a7681-6b24-4f0b-b3f3-61ea5eec5f11" configVersion="7514dfc46a6005fe277b9ee422f5e50e8825ce78"/>
+		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента" id="000194f4-41dd-41df-a629-75eb6974878c" configVersion="bb85c409cb90422fec305c995c6bee86d77e8c1d"/>
+		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="000194f4-41dd-41df-a629-75eb6974878c.0" configVersion="e2355979bac78624935889d3fd1a5dfaf39c38ed"/>
+		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2" configVersion="f093498fd9e7a376de08f3b3133dd34ef6bb4302"/>
+		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2.0" configVersion="ca3ca5d7c605964c4ad52cfeb7600211343189dc"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

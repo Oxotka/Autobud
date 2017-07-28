@@ -203,6 +203,12 @@
 					<ContextMenu name="ОстаткиНоменклатурыЦенаЗакупкиКонтекстноеМеню" id="84"/>
 					<ExtendedTooltip name="ОстаткиНоменклатурыЦенаЗакупкиРасширеннаяПодсказка" id="85"/>
 				</InputField>
+				<InputField name="ОстаткиНоменклатурыШтрихкод" id="86">
+					<DataPath>ОстаткиНоменклатуры.Штрихкод</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОстаткиНоменклатурыШтрихкодКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ОстаткиНоменклатурыШтрихкодРасширеннаяПодсказка" id="88"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -341,6 +347,21 @@
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Штрихкод" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>

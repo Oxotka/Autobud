@@ -1,4 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions/>
+	<ConfigVersions>
+		<Metadata name="Document.ЧекККМ" id="5e59d07e-d262-4815-bb21-c3efb907d358" configVersion="9b36743a0ae38483fca7d41f7b9c23805b807379">
+			<Metadata name="Document.ЧекККМ.Attribute.Статус" id="00039764-9889-4ef1-b9d7-127ecabc4176"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ПодарочныеСертификаты.Attribute.Сумма" id="03cc95e6-bdbf-4157-ba27-d79ebf606c18"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаАвтоматическойСкидки" id="0488e191-4d28-4602-acbf-153e53faf783"/>
+			<Metadata name="Document.ЧекККМ.Attribute.ВидЦены" id="0eee712b-bb2a-4713-a898-254f9630853e"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Помещение" id="0f52db5e-84b4-4b0d-8547-2ab9f88879a7"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары" id="1e6c6ef1-854b-42a5-81fa-cecadc94fb4d"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.БонусныеБаллы.Attribute.ДатаСписания" id="2b69ff46-5ed4-46c6-a2d3-338835368d32"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами" id="350b0e2c-1840-48c1-9e5b-5593102bb559"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ПодарочныеСертификаты.Attribute.СуммаВВалютеСертификата" id="3ffbbda6-5a04-4a78-b3ea-981f13fbd501"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.СкидкиНаценки" id="44b8578d-3772-4fbf-baf7-729eebd328a0"/>
+			<Metadata name="Document.ЧекККМ.Attribute.Комментарий" id="4be8a351-ccdf-476f-8645-a756b63afba6"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Продавец" id="54010d5d-7295-44b1-b4da-8690220558dc"/>
+			<Metadata name="Document.ЧекККМ.Attribute.КассаККМ" id="586f8bab-fef9-47af-b5b2-86a440c73a37"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.ЭквайринговыйТерминал" id="5b9fb7ae-e2bb-4626-94d7-712f82d8f5a4"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.ХарактеристикаНабора" id="5e804785-06d7-4f91-a143-20ee29a1b36e"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаНДС" id="623567d7-ea6f-4d70-bbb9-e80053777f67"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаРучнойСкидки" id="67f0057e-c247-4b49-9793-5555c51afb97"/>
+			<Metadata name="Document.ЧекККМ.Attribute.НалогообложениеНДС" id="68dc09f4-de20-492d-bc5b-98053374e7d5"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.СсылочныйНомер" id="6b6277e4-a75e-48c3-bca8-3b855f892fc7"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Упаковка" id="71e1cdef-e184-4816-8b16-e630ff875a73"/>
+			<Metadata name="Document.ЧекККМ.Attribute.Склад" id="760dd0e0-bb8b-4902-be9c-dd91f73e4a8f"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.НоменклатураЕГАИС" id="78caec34-3e48-4f89-ad2e-72d6d6682e69"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Сумма" id="7b6ebfd9-c2a2-40bc-a727-ac4235398ae2"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.БонусныеБаллы.Attribute.СуммаБонусныхБаллов" id="7c696c8d-58ca-4bf3-ab54-05cbbb5052e2"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.БонусныеБаллы.Attribute.ДатаНачисления" id="817fd9fe-662b-4261-8cb5-6e8ebaa1e0cf"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.КоличествоУпаковок" id="84663833-29f1-4b7c-860d-0d92f9a0ed29"/>
+			<Metadata name="Document.ЧекККМ.Attribute.КассоваяСмена" id="8d6aa306-bcd2-41d1-9ef2-988a76e1ea81"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СтавкаНДС" id="94ae0e65-a3e0-4a39-923c-adc15681a4b0"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаНачисленныхБонусныхБалловВВалюте" id="9c271f45-61c5-430c-a708-ffc116b72d1e"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Штрихкод" id="9f1ba5cc-c7af-4ccc-a9eb-d480358a0372"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Характеристика" id="a06e00b6-4d44-43d9-9353-4f462fe29009"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Серия" id="aaa78085-cee3-4e44-a9b9-5af2ee6c6f2c"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.ПроцентРучнойСкидки" id="aacdb69a-8401-464c-ad96-b57d04832ed3"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ПодарочныеСертификаты" id="adafc5ee-2605-41cb-bb17-7131b1da2012"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Цена" id="b2221a55-a282-4a1c-82c0-bacef78fa5f4"/>
+			<Metadata name="Document.ЧекККМ.Attribute.ПолученоНаличными" id="b3a317b1-dbd2-448a-a26f-7fb736907d2c"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.БонусныеБаллы" id="b95bf232-ff39-4022-a3ae-53787a083339"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.БонусныеБаллы.Attribute.БонуснаяПрограммаЛояльности" id="c3aad7ab-305d-42ce-8540-afbb2a7f863d"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.ПроцентАвтоматическойСкидки" id="c99afd1e-95ba-4dcc-9679-139b2d3862bd"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаБонусныхБалловКСписаниюВВалюте" id="cc9f835b-3aaf-40a3-8059-99de2303c1b6"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.Номенклатура" id="cda58551-44a4-4641-953d-cd2b97165f8c"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.КодАвторизации" id="d2fa910e-7532-42ca-acf9-6a25ee326787"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.НомерПлатежнойКарты" id="d44028e3-eaf2-43f5-8d8d-2a9eb0b2ff27"/>
+			<Metadata name="Document.ЧекККМ.Attribute.Кассир" id="d56aa861-6744-4a8c-972a-c03b86dc0cd8"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.НоменклатураНабора" id="d74f2ef4-15ff-4222-a9a4-0b492aef9627"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.Сумма" id="d8e4facf-ae02-4a95-8a1f-d070ade211d6"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ПодарочныеСертификаты.Attribute.ПодарочныйСертификат" id="dc41250d-7fae-4163-be30-87572f34f5b0"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.ОплатаПлатежнымиКартами.Attribute.НомерЧекаЭТ" id="e1d7ce81-0b45-412f-831e-56e856528e68"/>
+			<Metadata name="Document.ЧекККМ.Attribute.ФормаОплаты" id="e689af63-e241-40b5-b302-761f42425d52"/>
+			<Metadata name="Document.ЧекККМ.Attribute.КартаЛояльности" id="fcc29d63-eb55-43a1-9446-815d48c1b9b5"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Товары.Attribute.СтатусУказанияСерий" id="fcc89237-8fde-447c-8a28-0a20f0e4521b"/>
+		</Metadata>
+	</ConfigVersions>
 </ConfigDumpInfo>

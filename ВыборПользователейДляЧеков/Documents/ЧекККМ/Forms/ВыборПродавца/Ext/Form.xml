@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выбор текущего продавца</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаВыбрать" id="13">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Выбрать</CommandName>
+				<ExtendedTooltip name="ФормаВыбратьExtendedTooltip" id="14"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="7">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьExtendedTooltip" id="15"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаГоризонтально" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа горизонтально</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа горизонтально</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаГоризонтальноExtendedTooltip" id="16"/>
+			<ChildItems>
+				<LabelDecoration name="Информация" id="5">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<TextColor>style:ТекстСправочнойНадписи</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Считайте карту при помощи считывателя магнитных
+карт или сканера штрихкодов</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИнформацияКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ИнформацияExtendedTooltip" id="17"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Пользователь" id="11">
+			<DataPath>Пользователь</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>28</MaxWidth>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ПользовательExtendedTooltip" id="18"/>
+		</InputField>
+		<LabelDecoration name="Информация1" id="35">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Height>2</Height>
+			<TextColor>style:ТекстСправочнойНадписи</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавьте в список кассиров для быстрого выбора.
+Из списка кассиров можно выбирать двойным кликом или по кнопке "Выбрать"</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Информация1КонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="Информация1РасширеннаяПодсказка" id="37"/>
+		</LabelDecoration>
+		<Table name="ВыбранныеПользователи" id="19">
+			<Representation>List</Representation>
+			<Header>false</Header>
+			<HorizontalLines>false</HorizontalLines>
+			<VerticalLines>false</VerticalLines>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<DataPath>ВыбранныеПользователи</DataPath>
+			<RowPictureDataPath>ВыбранныеПользователи.Picture</RowPictureDataPath>
+			<ContextMenu name="ВыбранныеПользователиКонтекстноеМеню" id="20"/>
+			<AutoCommandBar name="ВыбранныеПользователиКоманднаяПанель" id="21"/>
+			<ExtendedTooltip name="ВыбранныеПользователиРасширеннаяПодсказка" id="22"/>
+			<SearchStringAddition name="ВыбранныеПользователиСтрокаПоиска" id="23">
+				<AdditionSource>
+					<Item>ВыбранныеПользователи</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбранныеПользователиСтрокаПоискаКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ВыбранныеПользователиСтрокаПоискаРасширеннаяПодсказка" id="25"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВыбранныеПользователиСостояниеПросмотра" id="26">
+				<AdditionSource>
+					<Item>ВыбранныеПользователи</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбранныеПользователиСостояниеПросмотраКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ВыбранныеПользователиСостояниеПросмотраРасширеннаяПодсказка" id="28"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВыбранныеПользователиУправлениеПоиском" id="29">
+				<AdditionSource>
+					<Item>ВыбранныеПользователи</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбранныеПользователиУправлениеПоискомКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ВыбранныеПользователиУправлениеПоискомРасширеннаяПодсказка" id="31"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection" callType="After">ПользователиЧеков_ВыбранныеПользователиВыборПосле</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ВыбранныеПользователиЗначение" id="32">
+					<DataPath>ВыбранныеПользователи.Value</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ВыбранныеПользователиЗначениеКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ВыбранныеПользователиЗначениеРасширеннаяПодсказка" id="34"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Пользователь" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьПодключаемоеОборудование" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать подключаемое оборудование</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поддерживаемые типы подключаемого обрудования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыбранныеПользователи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные пользователи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Save>
+				<Field>ВыбранныеПользователи</Field>
+			</Save>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Выбрать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Override">ПользователиЧеков_ВыбратьВместо</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="Режим">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+	<BaseForm version="2.4">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выбор текущего продавца</v8:content>
+			</v8:item>
+		</Title>
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<CommandBarLocation>Bottom</CommandBarLocation>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="ФормаВыбрать" id="13">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.Выбрать</CommandName>
+					<ExtendedTooltip name="ФормаВыбратьExtendedTooltip" id="14"/>
+				</Button>
+				<Button name="ФормаЗакрыть" id="7">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.StandardCommand.Close</CommandName>
+					<ExtendedTooltip name="ФормаЗакрытьExtendedTooltip" id="15"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаГоризонтально" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа горизонтально</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа горизонтально</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаГоризонтальноExtendedTooltip" id="16"/>
+				<ChildItems>
+					<LabelDecoration name="Информация" id="5">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Height>2</Height>
+						<TextColor>style:ТекстСправочнойНадписи</TextColor>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Считайте карту при помощи считывателя магнитных
+карт или сканера штрихкодов</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ИнформацияКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ИнформацияExtendedTooltip" id="17"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="Пользователь" id="11">
+				<DataPath>Пользователь</DataPath>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MaxWidth>28</MaxWidth>
+				<ContextMenu name="ПользовательКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПользовательExtendedTooltip" id="18"/>
+			</InputField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Пользователь" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Пользователь</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьПодключаемоеОборудование" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать подключаемое оборудование</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поддерживаемые типы подключаемого обрудования</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="Выбрать" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выбрать</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выбрать</v8:content>
+					</v8:item>
+				</ToolTip>
+			</Command>
+		</Commands>
+		<Parameters>
+			<Parameter name="Режим">
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Parameter>
+		</Parameters>
+	</BaseForm>
+</Form>

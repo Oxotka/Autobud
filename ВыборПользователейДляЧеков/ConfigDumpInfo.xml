@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Configuration.ВыборПользователейДляЧеков" id="c52576ab-963a-481f-8b27-aa53ef2f4479" configVersion="d4e17438274ee55047db2bd018f59b1be568b7a8"/>
+		<Metadata name="Document.ЧекККМ.Form.ВыборПродавца" id="29d7037b-c9c6-48ae-882a-a6d36901ee15" configVersion="af749e1ccaa1ce29acf9277310d5894ecc280c70"/>
+		<Metadata name="Document.ЧекККМ.Form.ВыборПродавца.Form" id="29d7037b-c9c6-48ae-882a-a6d36901ee15.0" configVersion="a0c99920d6ac6602f8a3641b2f692f6991d02ecd"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

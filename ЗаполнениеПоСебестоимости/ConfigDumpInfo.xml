@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
-	<ConfigVersions/>
+	<ConfigVersions>
+		<Metadata name="Configuration.ЗаполнениеПоСебестоимости" id="985a7681-6b24-4f0b-b3f3-61ea5eec5f11" configVersion="66abf8ff19c4ee12a2a9f61c12d8b20dc21815d0"/>
+	</ConfigVersions>
 </ConfigDumpInfo>

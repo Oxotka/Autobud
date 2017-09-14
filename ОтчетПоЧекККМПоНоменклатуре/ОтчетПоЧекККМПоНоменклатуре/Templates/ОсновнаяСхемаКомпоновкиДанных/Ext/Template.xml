@@ -102,6 +102,37 @@
 				</dcscor:item>
 			</appearance>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаРучнойСкидки</dataPath>
+			<field>СуммаРучнойСкидки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма скидки</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентРучнойСкидки</dataPath>
+			<field>ПроцентРучнойСкидки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент скидки</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ЧекККМВозврат.ЧекККМ
@@ -121,7 +152,9 @@
 	ЧекККМТовары.Ссылка.Архивный,
 	НАЧАЛОПЕРИОДА(ЧекККМТовары.Ссылка.Дата, ДЕНЬ) КАК Дата,
 	1 КАК КоличествоЧеков,
-	1 КАК СреднийЧек
+	1 КАК СреднийЧек,
+	ЧекККМТовары.ПроцентРучнойСкидки,
+	ЧекККМТовары.СуммаРучнойСкидки
 ИЗ
 	Документ.ЧекККМ.Товары КАК ЧекККМТовары
 ГДЕ
@@ -190,6 +223,15 @@
 	<totalField>
 		<dataPath>СреднийЧек</dataPath>
 		<expression>Сумма(СуммаПродажи) / Количество (Различные ЧекККМ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРучнойСкидки</dataPath>
+		<expression>Сумма(СуммаРучнойСкидки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентРучнойСкидки</dataPath>
+		<expression>Сумма(ПроцентРучнойСкидки)</expression>
+		<group>Номенклатура</group>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -281,6 +323,12 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаРучнойСкидки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентРучнойСкидки</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>

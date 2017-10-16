@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Document uuid="e5fe20be-4faf-4415-81db-7344b59b5d38">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УпаковочныйЛист" category="Object">
+				<xr:TypeId>a628e1e1-1153-432b-a3e8-e738bd6e51ca</xr:TypeId>
+				<xr:ValueId>4649d14f-ef86-4bfe-98f4-d8e869f82719</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УпаковочныйЛист" category="Ref">
+				<xr:TypeId>377079d8-6265-43b9-a1e4-7b8440f08c88</xr:TypeId>
+				<xr:ValueId>87ad618d-87e7-4a4a-a24d-583d0b52834d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УпаковочныйЛист" category="Selection">
+				<xr:TypeId>27fc9957-4d3a-49bf-9d1c-349090ee1954</xr:TypeId>
+				<xr:ValueId>42ccdbd7-e8e3-4fdf-b8ce-ed5bd16ba294</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УпаковочныйЛист" category="List">
+				<xr:TypeId>40d945f2-e51c-44b0-acf9-f27b0690716f</xr:TypeId>
+				<xr:ValueId>9bee34d7-7192-4558-927a-e49a2fdaee5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УпаковочныйЛист" category="Manager">
+				<xr:TypeId>a0419a47-3090-4135-b534-6ca0b2703b02</xr:TypeId>
+				<xr:ValueId>9e29ca54-766c-4aa2-8b73-a746f6c7664a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УпаковочныйЛист</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

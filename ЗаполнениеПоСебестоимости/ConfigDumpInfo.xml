@@ -91,7 +91,7 @@
 			<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Attribute.Контрагент" id="f11495fc-37ea-4886-8fe0-c107eb182374"/>
 		</Metadata>
 		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента" id="000194f4-41dd-41df-a629-75eb6974878c" configVersion="bb85c409cb90422fec305c995c6bee86d77e8c1d"/>
-		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="000194f4-41dd-41df-a629-75eb6974878c.0" configVersion="c12f3e13a72c0c5d1879eccc789bd51ccc690cff"/>
+		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="000194f4-41dd-41df-a629-75eb6974878c.0" configVersion="b33003a093686230fa51d4842b9373352f1944ac"/>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями" id="d987a95e-4896-47cc-a32b-1d77df9caa52" configVersion="dc542522a59d56b8a1716ebde6486dfe6b80aaac">
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Attribute.Организация" id="0453cdd8-86e8-46a4-bbf9-c0aebf7863b3"/>
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Attribute.ГруппаФинансовогоУчета" id="073f1698-b9a8-4bab-aa8d-3bebc1df6e73"/>
@@ -153,7 +153,7 @@
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.TabularSection.Товары.Attribute.Сумма" id="f77524d7-8016-4fcc-9660-293b895f68ea"/>
 		</Metadata>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2" configVersion="f093498fd9e7a376de08f3b3133dd34ef6bb4302"/>
-		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2.0" configVersion="55a7eb0d4b2d85a4325febd46171685cd3d98b46"/>
+		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2.0" configVersion="d618f828a446b9ec22b1b5ff5181f522fc78b947"/>
 		<Metadata name="Enum.ВариантыОформленияПродажи" id="95899bf1-737a-4505-85c2-d3cb31940d9a" configVersion="dfaec19a4ab0bc34928c0fc78827b2e454488786">
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.РеализацияТоваровУслуг" id="1154517d-ce55-4181-81db-8e0c6150323d"/>
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.АктНаПередачуПрав" id="3409d236-7fc5-4911-b0f6-3485721bbc81"/>

@@ -38,7 +38,7 @@
 		<Metadata name="CommonPicture.ПолучитьВес" id="a4fc9225-921b-4469-912a-2fab2b77a927" configVersion="7046669a1d58cfc567281d05b71b93ac1d43d4ab"/>
 		<Metadata name="CommonPicture.ПроверкаКоличестваТоваров" id="8b1e334b-d151-41a9-8036-d1002c0b9556" configVersion="7ac33cdadf14f927ba4b682d0a8d24dd70ef5795"/>
 		<Metadata name="CommonPicture.РазбитьСтроку" id="00c47503-0271-438e-abe5-e69b6e549ab7" configVersion="467a60e30e186cdaed6609cb5f78799fa7d6b1a7"/>
-		<Metadata name="Configuration.ЗаполнениеПоСебестоимости" id="985a7681-6b24-4f0b-b3f3-61ea5eec5f11" configVersion="0c9d0df8491a2b4bbadcfea0a871b62d73bbb366"/>
+		<Metadata name="Configuration.ЗаполнениеПоСебестоимости" id="985a7681-6b24-4f0b-b3f3-61ea5eec5f11" configVersion="e536ee837f0707ebcad8edd3a08e36237d5123eb"/>
 		<Metadata name="DataProcessor.ПомощникЗачетаОплат" id="1c20f440-82aa-4d35-9903-55c7b679c171" configVersion="58588665e3e30666e67b7b0e156b773e0b063043">
 			<Metadata name="DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплатыЗеркальныйМеждуОрганизациями" id="3ec4324d-c690-4eff-a31e-86122d9c5f69"/>
 			<Metadata name="DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты" id="bf9ead1c-6d58-4ff2-9f0a-f1373f9cbaac"/>
@@ -91,7 +91,7 @@
 			<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Attribute.Контрагент" id="f11495fc-37ea-4886-8fe0-c107eb182374"/>
 		</Metadata>
 		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента" id="000194f4-41dd-41df-a629-75eb6974878c" configVersion="bb85c409cb90422fec305c995c6bee86d77e8c1d"/>
-		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="000194f4-41dd-41df-a629-75eb6974878c.0" configVersion="b33003a093686230fa51d4842b9373352f1944ac"/>
+		<Metadata name="Document.ВозвратТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="000194f4-41dd-41df-a629-75eb6974878c.0" configVersion="192aec2babfac7453acfa24df18a1265ca2f2455"/>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями" id="d987a95e-4896-47cc-a32b-1d77df9caa52" configVersion="dc542522a59d56b8a1716ebde6486dfe6b80aaac">
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Attribute.Организация" id="0453cdd8-86e8-46a4-bbf9-c0aebf7863b3"/>
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Attribute.ГруппаФинансовогоУчета" id="073f1698-b9a8-4bab-aa8d-3bebc1df6e73"/>
@@ -153,7 +153,7 @@
 			<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.TabularSection.Товары.Attribute.Сумма" id="f77524d7-8016-4fcc-9660-293b895f68ea"/>
 		</Metadata>
 		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2" configVersion="f093498fd9e7a376de08f3b3133dd34ef6bb4302"/>
-		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2.0" configVersion="d618f828a446b9ec22b1b5ff5181f522fc78b947"/>
+		<Metadata name="Document.ПередачаТоваровМеждуОрганизациями.Form.ФормаДокумента.Form" id="359f16ee-1ee7-44cd-99a0-892096e2a3c2.0" configVersion="a90bbfafd24ff780b61cc0c49b4837197c4a9dac"/>
 		<Metadata name="Enum.ВариантыОформленияПродажи" id="95899bf1-737a-4505-85c2-d3cb31940d9a" configVersion="dfaec19a4ab0bc34928c0fc78827b2e454488786">
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.РеализацияТоваровУслуг" id="1154517d-ce55-4181-81db-8e0c6150323d"/>
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.АктНаПередачуПрав" id="3409d236-7fc5-4911-b0f6-3485721bbc81"/>

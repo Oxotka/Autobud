@@ -25,7 +25,6 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
-			<Template>ПФ_MXL_СчетНаОплатуКосячный</Template>
 			<Template>ПФ_MXL_СчетНаОплату</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>

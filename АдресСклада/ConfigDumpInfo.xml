@@ -43,7 +43,7 @@
 		<Metadata name="CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных16" id="be3bf563-5cf9-467d-9607-98111db9ca37" configVersion="123c8ef0e3db2335f30cf9398d6f862421900d6e"/>
 		<Metadata name="CommonPicture.ПодобратьТовары" id="2dc43ae9-d4a2-4056-8971-a85badd84c9a" configVersion="52d5795df389383afdcc8e8395acc30c7eff27f7"/>
 		<Metadata name="CommonPicture.РазбитьСтроку" id="762d5d15-73d1-4c79-8173-edc707ee49c2" configVersion="c3131bcaae080aa51e892ac0fe566d94d330e8d1"/>
-		<Metadata name="Configuration.АдресСкладаВЗаказеПоставщику" id="a190747d-d842-4269-b678-3745e6c2abb8" configVersion="65e2f2f50e168f3a02e6368bced4bf920ae479f9"/>
+		<Metadata name="Configuration.АдресСкладаВЗаказеПоставщику" id="a190747d-d842-4269-b678-3745e6c2abb8" configVersion="434750bf1b66764af9b50f179e47ee573aca5613"/>
 		<Metadata name="Constant.ВестиУчетМаркировкиПродукцииВГИСМ" id="0b2c76ee-70b9-4689-8230-7d1705b41f9b" configVersion="432ab43b243331cc04efa6f23ff7a1af07d73786"/>
 		<Metadata name="Constant.ИспользоватьМногооборотнуюТару" id="d97e23e2-4d89-48e6-9b7b-af0120eaaaa5" configVersion="cde1b819309664ae2cf1616e441a36c291cc716a"/>
 		<Metadata name="Constant.ИспользоватьНоменклатуруПоставщиков" id="5af437be-b301-4190-8808-5d1d41b5ad02" configVersion="13eb77f1d35da2118c92bbe47dd57a626cfdce12"/>
@@ -127,7 +127,7 @@
 			<Metadata name="Document.ЗаказПоставщику.Attribute.ДополнительнаяИнформацияПоДоставке" id="fe514254-e00b-498f-8286-3b9c58f10826"/>
 		</Metadata>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="b93b1969-13cf-41f7-835a-27074927eac1" configVersion="4b17da95b05e752131e680d30c4df4d0b5ca5d36"/>
-		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="b93b1969-13cf-41f7-835a-27074927eac1.0" configVersion="d94b403e3d04172779063d91c8d2256a8f7ab881"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="b93b1969-13cf-41f7-835a-27074927eac1.0" configVersion="038119d2b2b2eefb38dfd1441b9fef76631c2239"/>
 		<Metadata name="Enum.ПорядокРасчетов" id="3677bed7-8fbc-411a-9980-6593d844eb1b" configVersion="d06670405420001859b23418c96daa2ec88bfec1"/>
 		<Metadata name="Enum.СостоянияЗаказовПоставщикам" id="3022e43f-e3d2-4a12-937e-5a47d00556c8" configVersion="93a3d1a7020b24964637c53c8dd092465e09037a"/>
 		<Metadata name="Enum.СпособыДоставки" id="eba00c2a-4a6c-4d0a-b2e3-c4ba775cc9a6" configVersion="85fc57c52aa2ab6adef78c3fc3ffb52691edc07a">

@@ -191,6 +191,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnLoadDataFromSettingsAtServer" callType="After">АдресСклада_ПриЗагрузкеДанныхИзНастроекНаСервереПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">АдресСклада_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>

@@ -349,26 +349,6 @@
     Цены.Склад.*,
     ШтрихкодыНоменклатуры.Штрихкод}</query>
 	</dataSet>
-	<calculatedField>
-		<dataPath>ПолеШтрихкода</dataPath>
-		<expression>"%Штрихкод%"</expression>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Картинка штрихкода</v8:content>
-			</v8:item>
-		</title>
-		<appearance>
-			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-				<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
-			</dcscor:item>
-			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-				<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
-			</dcscor:item>
-		</appearance>
-	</calculatedField>
 	<totalField>
 		<dataPath>Цена</dataPath>
 		<expression>Максимум(Цена)</expression>
@@ -1217,13 +1197,6 @@
 								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>ПолеШтрихкода</dcsset:field>
-								<dcsset:groupType>Items</dcsset:groupType>
-								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-							</dcsset:item>
-							<dcsset:item xsi:type="dcsset:GroupItemField">
 								<dcsset:field>Штрихкод</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
@@ -1260,9 +1233,6 @@
 								<dcsset:placement>Together</dcsset:placement>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:SelectedItemFolder">
-								<dcsset:item xsi:type="dcsset:SelectedItemField">
-									<dcsset:field>ПолеШтрихкода</dcsset:field>
-								</dcsset:item>
 								<dcsset:item xsi:type="dcsset:SelectedItemField">
 									<dcsset:field>Штрихкод</dcsset:field>
 								</dcsset:item>

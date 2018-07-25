@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
 	<ConfigVersions>
 		<Metadata name="Catalog.Валюты" id="098210d6-bebb-48dd-851b-e4c4205c3829" configVersion="cfd5502541bb1e8ea1b52dcb784c0f84246dc301"/>
 		<Metadata name="Catalog.ВидыЦенПоставщиков" id="d12d283d-6cd8-4538-a14c-a83908442e42" configVersion="3663b7e60382e4edff3b616bb576273978bd03e5"/>
@@ -127,7 +127,7 @@
 			<Metadata name="Document.ЗаказПоставщику.Attribute.ДополнительнаяИнформацияПоДоставке" id="fe514254-e00b-498f-8286-3b9c58f10826"/>
 		</Metadata>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="b93b1969-13cf-41f7-835a-27074927eac1" configVersion="4b17da95b05e752131e680d30c4df4d0b5ca5d36"/>
-		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="b93b1969-13cf-41f7-835a-27074927eac1.0" configVersion="038119d2b2b2eefb38dfd1441b9fef76631c2239"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="b93b1969-13cf-41f7-835a-27074927eac1.0" configVersion="9f8aa0088df37e742a2890328f39970a00edb638"/>
 		<Metadata name="Enum.ПорядокРасчетов" id="3677bed7-8fbc-411a-9980-6593d844eb1b" configVersion="d06670405420001859b23418c96daa2ec88bfec1"/>
 		<Metadata name="Enum.СостоянияЗаказовПоставщикам" id="3022e43f-e3d2-4a12-937e-5a47d00556c8" configVersion="93a3d1a7020b24964637c53c8dd092465e09037a"/>
 		<Metadata name="Enum.СпособыДоставки" id="eba00c2a-4a6c-4d0a-b2e3-c4ba775cc9a6" configVersion="85fc57c52aa2ab6adef78c3fc3ffb52691edc07a">

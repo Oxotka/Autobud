@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -462,6 +462,9 @@
 											<ChoiceForm>538c3a93-bff8-4923-a1fc-5f6d5d527ecf</ChoiceForm>
 											<ContextMenu name="СоглашениеКонтекстноеМеню" id="135"/>
 											<ExtendedTooltip name="СоглашениеExtendedTooltip" id="587"/>
+											<Events>
+												<Event name="OnChange" callType="After">АдресСклада_СоглашениеПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
@@ -3941,6 +3944,7 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьЦеныПоСоглашению" id="2">
 			<Title>
@@ -3963,6 +3967,7 @@
 				<Item>FunctionalOption.ИспользоватьСоглашенияСПоставщиками</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьЦеныВыделенныхСтрокПоВидуЦеныПоставщика" id="3">
 			<Title>
@@ -3982,6 +3987,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьВыделенныеСтроки" id="4">
 			<Title>
@@ -4001,6 +4007,7 @@
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодобратьТовары" id="5">
 			<Title>
@@ -4021,6 +4028,7 @@
 			</Picture>
 			<Representation>TextPicture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СкрыватьОтмененныеСтроки" id="6">
 			<Title>
@@ -4038,6 +4046,7 @@
 			<FunctionalOptions>
 				<Item/>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьНепоставленныеСтроки" id="7">
 			<Title>
@@ -4056,6 +4065,7 @@
 				<Item/>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказатьНоменклатуруПоставщика" id="8">
 			<Title>
@@ -4073,6 +4083,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="9">
 			<Title>
@@ -4087,6 +4098,7 @@
 					<v8:content>Не выполнять проверку сопоставленной номенклатуры поставщика</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РазбитьСтроку" id="10">
 			<Title>
@@ -4107,6 +4119,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоискПоШтрихкоду" id="11">
 			<Title>
@@ -4128,6 +4141,7 @@
 			</Picture>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьСкладВВыделенныхСтроках" id="12">
 			<Title>
@@ -4146,6 +4160,7 @@
 				<Item>FunctionalOption.ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗагрузитьДанныеИзТСД" id="13">
 			<Title>
@@ -4169,6 +4184,7 @@
 				<Item>FunctionalOption.ИспользоватьПодключаемоеОборудование</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтменитьРучныеСкидки" id="15">
 			<Title>
@@ -4187,6 +4203,7 @@
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НазначитьРучнуюСкидкуВыделенныхСтрок" id="16">
 			<Title>
@@ -4205,6 +4222,7 @@
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="17">
 			<Title>
@@ -4223,6 +4241,7 @@
 				<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СкорректироватьЦеныПоПоступлениям" id="18">
 			<Title>
@@ -4238,6 +4257,7 @@
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СкопироватьСтроки" id="20">
 			<Title>
@@ -4257,6 +4277,7 @@
 				<xr:Ref>CommonPicture.КопированиеСтрок</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВставитьСтроки" id="21">
 			<Title>
@@ -4277,6 +4298,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДополнитьМногооборотнойТарой" id="22">
 			<Title>
@@ -4295,6 +4317,7 @@
 				<Item>FunctionalOption.ИспользоватьМногооборотнуюТару</Item>
 			</FunctionalOptions>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗагрузитьИзВнешнегоФайла" id="23">
 			<Title>
@@ -4315,6 +4338,7 @@
 			</Picture>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаполнитьПодразделение" id="24">
 			<Title>
@@ -4332,6 +4356,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьПодразделения</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПровестиИЗакрыть" id="14">
 			<Title>
@@ -4351,6 +4376,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="25">
 			<Title>
@@ -4371,6 +4397,7 @@
 			</Picture>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗакрытьЗаказ" id="19">
 			<Title>
@@ -4385,6 +4412,7 @@
 					<v8:content>Закрыть заказ</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗаписатьДокумент" id="26">
 			<Title>
@@ -4405,6 +4433,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПровестиДокумент" id="27">
 			<Title>
@@ -4424,9 +4453,10 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.5">
+	<BaseForm version="2.6">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
@@ -8355,6 +8385,7 @@
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьЦеныПоСоглашению" id="2">
 				<Title>
@@ -8377,6 +8408,7 @@
 					<Item>FunctionalOption.ИспользоватьСоглашенияСПоставщиками</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьЦеныВыделенныхСтрокПоВидуЦеныПоставщика" id="3">
 				<Title>
@@ -8396,6 +8428,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОтменитьВыделенныеСтроки" id="4">
 				<Title>
@@ -8415,6 +8448,7 @@
 				</FunctionalOptions>
 				<Representation>TextPicture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПодобратьТовары" id="5">
 				<Title>
@@ -8435,6 +8469,7 @@
 				</Picture>
 				<Representation>TextPicture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СкрыватьОтмененныеСтроки" id="6">
 				<Title>
@@ -8452,6 +8487,7 @@
 				<FunctionalOptions>
 					<Item/>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОтменитьНепоставленныеСтроки" id="7">
 				<Title>
@@ -8470,6 +8506,7 @@
 					<Item/>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказатьНоменклатуруПоставщика" id="8">
 				<Title>
@@ -8487,6 +8524,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="9">
 				<Title>
@@ -8501,6 +8539,7 @@
 						<v8:content>Не выполнять проверку сопоставленной номенклатуры поставщика</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РазбитьСтроку" id="10">
 				<Title>
@@ -8521,6 +8560,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоискПоШтрихкоду" id="11">
 				<Title>
@@ -8542,6 +8582,7 @@
 				</Picture>
 				<Representation>Picture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьСкладВВыделенныхСтроках" id="12">
 				<Title>
@@ -8560,6 +8601,7 @@
 					<Item>FunctionalOption.ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗагрузитьДанныеИзТСД" id="13">
 				<Title>
@@ -8583,6 +8625,7 @@
 					<Item>FunctionalOption.ИспользоватьПодключаемоеОборудование</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОтменитьРучныеСкидки" id="15">
 				<Title>
@@ -8601,6 +8644,7 @@
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="НазначитьРучнуюСкидкуВыделенныхСтрок" id="16">
 				<Title>
@@ -8619,6 +8663,7 @@
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="17">
 				<Title>
@@ -8637,6 +8682,7 @@
 					<Item>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СкорректироватьЦеныПоПоступлениям" id="18">
 				<Title>
@@ -8652,6 +8698,7 @@
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СкопироватьСтроки" id="20">
 				<Title>
@@ -8671,6 +8718,7 @@
 					<xr:Ref>CommonPicture.КопированиеСтрок</xr:Ref>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ВставитьСтроки" id="21">
 				<Title>
@@ -8691,6 +8739,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ДополнитьМногооборотнойТарой" id="22">
 				<Title>
@@ -8709,6 +8758,7 @@
 					<Item>FunctionalOption.ИспользоватьМногооборотнуюТару</Item>
 				</FunctionalOptions>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗагрузитьИзВнешнегоФайла" id="23">
 				<Title>
@@ -8729,6 +8779,7 @@
 				</Picture>
 				<Representation>Picture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаполнитьПодразделение" id="24">
 				<Title>
@@ -8746,6 +8797,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьПодразделения</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПровестиИЗакрыть" id="14">
 				<Title>
@@ -8765,6 +8817,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="25">
 				<Title>
@@ -8785,6 +8838,7 @@
 				</Picture>
 				<Representation>Picture</Representation>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗакрытьЗаказ" id="19">
 				<Title>
@@ -8799,6 +8853,7 @@
 						<v8:content>Закрыть заказ</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗаписатьДокумент" id="26">
 				<Title>
@@ -8819,6 +8874,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПровестиДокумент" id="27">
 				<Title>
@@ -8838,6 +8894,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 	</BaseForm>

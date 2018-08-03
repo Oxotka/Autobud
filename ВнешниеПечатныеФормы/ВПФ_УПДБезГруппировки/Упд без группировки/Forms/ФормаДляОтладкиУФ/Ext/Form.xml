@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="Сформировать" id="4">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Сформировать</CommandName>
+				<BackColor>#FFCC00</BackColor>
+				<BorderColor>#FFCC00</BorderColor>
+				<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="5"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СсылкаИдентификатор" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка идентификатор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СсылкаИдентификаторРасширеннаяПодсказка" id="65"/>
+			<ChildItems>
+				<InputField name="СсылкаНаОбъект" id="1">
+					<DataPath>СсылкаНаОбъект</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="СсылкаНаОбъектКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СсылкаНаОбъектРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СведенияОРегистрации" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о регистрации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о регистрации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СведенияОРегистрацииРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<Table name="Команды" id="25">
+					<Representation>List</Representation>
+					<TitleLocation>Auto</TitleLocation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<SelectionMode>SingleRow</SelectionMode>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>КомандыТЗ</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды печатной формы</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="КомандыКонтекстноеМеню" id="26"/>
+					<AutoCommandBar name="КомандыКоманднаяПанель" id="27"/>
+					<ExtendedTooltip name="КомандыРасширеннаяПодсказка" id="28"/>
+					<SearchStringAddition name="КомандыСтрокаПоиска" id="29">
+						<AdditionSource>
+							<Item>Команды</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КомандыСтрокаПоискаКонтекстноеМеню" id="30"/>
+						<ExtendedTooltip name="КомандыСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="КомандыСостояниеПросмотра" id="32">
+						<AdditionSource>
+							<Item>Команды</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="КомандыСостояниеПросмотраКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="КомандыСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="КомандыУправлениеПоиском" id="35">
+						<AdditionSource>
+							<Item>Команды</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="КомандыУправлениеПоискомКонтекстноеМеню" id="36"/>
+						<ExtendedTooltip name="КомандыУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ValueChoice">КомандыВыборЗначения</Event>
+						<Event name="OnActivateRow">КомандыПриАктивизацииСтроки</Event>
+						<Event name="OnChange">КомандыПриИзменении</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="КомандыПредставление" id="38">
+							<DataPath>КомандыТЗ.Представление</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыПредставлениеКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="КомандыПредставлениеРасширеннаяПодсказка" id="40"/>
+						</InputField>
+						<InputField name="КомандыИдентификатор" id="41">
+							<DataPath>КомандыТЗ.Идентификатор</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыИдентификаторКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="КомандыИдентификаторРасширеннаяПодсказка" id="43"/>
+						</InputField>
+						<InputField name="КомандыИспользование" id="44">
+							<DataPath>КомандыТЗ.Использование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыИспользованиеКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="КомандыИспользованиеРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<LabelField name="КомандыПоказыватьОповещение" id="47">
+							<DataPath>КомандыТЗ.ПоказыватьОповещение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыПоказыватьОповещениеКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="КомандыПоказыватьОповещениеРасширеннаяПодсказка" id="49"/>
+						</LabelField>
+						<InputField name="КомандыМодификатор" id="50">
+							<DataPath>КомандыТЗ.Модификатор</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыМодификаторКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="КомандыМодификаторРасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="КомандыЗаменяемыеКоманды" id="53">
+							<DataPath>КомандыТЗ.ЗаменяемыеКоманды</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомандыЗаменяемыеКомандыКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="КомандыЗаменяемыеКомандыРасширеннаяПодсказка" id="55"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="СведенияООбработке" id="66">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о обработке</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о обработке</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СведенияООбработкеРасширеннаяПодсказка" id="67"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.УПДБезГруппировки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СсылкаНаОбъект" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+			<SavedData>true</SavedData>
+			<Save>
+				<Field>СсылкаНаОбъект</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СведениеООбработке" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведение о обработке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Сведение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Параметр" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметр</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КомандыТЗ" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды ТЗ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Представление" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Идентификатор" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Использование" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПоказыватьОповещение" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показывать оповещение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Модификатор" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Модификатор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЗаменяемыеКоманды" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заменяемые команды</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Идентификатор" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>Идентификатор</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="АдресВоВременномХранилище" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес во временном хранилище</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сформировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сформировать</Action>
+		</Command>
+	</Commands>
+</Form>

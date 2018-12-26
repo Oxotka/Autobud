@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -53,10 +53,10 @@
 					<EnableDrag>true</EnableDrag>
 					<DataPath>Корзина</DataPath>
 					<CommandSet>
-						<ExcludedCommand>Copy</ExcludedCommand>
-						<ExcludedCommand>EndEdit</ExcludedCommand>
 						<ExcludedCommand>Add</ExcludedCommand>
 						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
 					</CommandSet>
 					<SearchStringLocation>None</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
@@ -637,6 +637,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьКорзину</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПродолжитьПодбор" id="6">
 			<Title>
@@ -652,6 +653,7 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПродолжитьПодбор</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьРеализацияТоваровУслуг" id="2">
 			<Title>
@@ -661,15 +663,17 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьРеализацияТоваровУслуг</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьПоступлениеТоваровУслуг" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Поступление (акт, накладная)</v8:content>
+					<v8:content>Приобретение товаров и услуг</v8:content>
 				</v8:item>
 			</Title>
 			<Action>СоздатьПоступлениеТоваровУслуг</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЗаказКлиента" id="1">
 			<Title>
@@ -688,6 +692,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЗаказПоставщику" id="3">
 			<Title>
@@ -706,6 +711,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьЗаказыПоставщикам</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьПеремещениеТоваров" id="7">
 			<Title>
@@ -715,6 +721,7 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьПеремещениеТоваров</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЧекККМ" id="8">
 			<Title>
@@ -724,6 +731,7 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьЧекККМ</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЗаказНаПеремещение" id="9">
 			<Title>
@@ -733,6 +741,7 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьЗаказНаПеремещение</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<CommandInterface>

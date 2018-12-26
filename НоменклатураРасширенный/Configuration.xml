@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Configuration uuid="62972231-c3fa-4c0c-9604-7f6a014507dc">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -42,7 +42,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>2.2</Version>
+			<Version>2.3</Version>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -95,11 +95,13 @@
 			<CommonPicture>Успешно</CommonPicture>
 			<CommonPicture>ПодключаемоеОборудованиеФискальныйРегистратор16</CommonPicture>
 			<CommonPicture>МаркируемаяАлкогольнаяПродукцияШапка</CommonPicture>
-			<CommonPicture>Внимание</CommonPicture>
 			<CommonPicture>МаркируемаяАлкогольнаяПродукцияТЧ</CommonPicture>
 			<CommonPicture>СтрелкаВнизЗеленая</CommonPicture>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>СтрелкаВправоЗеленая</CommonPicture>
+			<CommonPicture>Органайзер</CommonPicture>
+			<CommonPicture>ДлительнаяОперация16</CommonPicture>
+			<CommonPicture>НовостиВнимание</CommonPicture>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаказыКлиентов</FunctionalOption>
@@ -139,11 +141,23 @@
 			<FunctionalOption>ИспользоватьСборкуРазборку</FunctionalOption>
 			<FunctionalOption>ИспользоватьСертификатыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьХарактеристикиНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетНДС</FunctionalOption>
+			<FunctionalOption>ИспользоватьНесколькоВалют</FunctionalOption>
+			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
 			<DefinedType>Артикул</DefinedType>
 			<DefinedType>GTIN</DefinedType>
+			<DefinedType>ДенежноеПолеНеотрицательное</DefinedType>
+			<DefinedType>ДенежноеПолеЛюбойЗнак</DefinedType>
 			<CommonCommand>ЗадачиПоПредмету</CommonCommand>
 			<CommonCommand>ИсторияИзменений</CommonCommand>
 			<CommonCommand>МоиЗаметкиПоПредмету</CommonCommand>
+			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
+			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
+			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
+			<CommonCommand>СоздатьЗаметкуПоПредмету</CommonCommand>
+			<CommonCommand>СозданиеСвязанныхОбъектов</CommonCommand>
+			<CommonCommand>Напомнить</CommonCommand>
+			<CommandGroup>Органайзер</CommandGroup>
 			<Constant>ИспользоватьКачествоТоваров</Constant>
 			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
 			<Constant>ИспользоватьЗаказыКлиентов</Constant>
@@ -180,6 +194,9 @@
 			<Constant>ИспользоватьХарактеристикиНоменклатуры</Constant>
 			<Constant>ИспользоватьУпаковкиНоменклатуры</Constant>
 			<Constant>ИспользоватьСертификатыНоменклатуры</Constant>
+			<Constant>ИспользоватьУчетНДС</Constant>
+			<Constant>ИспользоватьНесколькоВалют</Constant>
+			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
@@ -251,7 +268,6 @@
 			<Document>ЗаказКлиента</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>РеализацияТоваровУслуг</Document>
-			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>ТранспортнаяНакладная</Document>
 			<Document>ЗаявкаНаВозвратТоваровОтКлиента</Document>
 			<Document>КоммерческоеПредложениеКлиенту</Document>
@@ -259,6 +275,8 @@
 			<Document>ПеремещениеТоваров</Document>
 			<Document>ЗаказНаПеремещение</Document>
 			<Document>КассоваяСмена</Document>
+			<Document>ПриобретениеТоваровУслуг</Document>
+			<Document>ТТНВходящаяЕГАИС</Document>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>СпособыДоставки</Enum>
@@ -278,12 +296,16 @@
 			<Enum>СтатусыВнутреннихЗаказов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
-			<Enum>ВариантыОказанияУслуг</Enum>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>РазмерыКиЗГИСМ</Enum>
 			<Enum>СпособыВыпускаВОборотГИСМ</Enum>
 			<Enum>ГрадацииКачества</Enum>
 			<Enum>ВидыКиЗГИСМ</Enum>
+			<Enum>СтатусыДоговоровКонтрагентов</Enum>
+			<Enum>ПорядокРасчетов</Enum>
+			<Enum>СтатусыДействияВидовЦен</Enum>
+			<Enum>СостоянияЗаказовКлиентов</Enum>
+			<Enum>СостоянияЗаказовПоставщикам</Enum>
 			<Report>ПоступлениеИОтгрузкаТоваров</Report>
 			<DataProcessor>ПанельИнформацииНоменклатуры</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
@@ -294,6 +316,7 @@
 			<AccumulationRegister>СвободныеОстатки</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
+			<BusinessProcess>Задание</BusinessProcess>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

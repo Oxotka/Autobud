@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Document uuid="e1fe1e9c-9317-4750-b902-7fd5ea029cdb">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.РеализацияТоваровУслуг" category="Object">
@@ -26,6 +26,7 @@
 		<Properties>
 			<Name>РеализацияТоваровУслуг</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="3458f03c-0cc9-4817-a4b7-0cfaa7085d79">
@@ -415,14 +416,6 @@
 						<Properties>
 							<Name>СуммаНДС</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="c381b6f1-f54f-4e51-beff-720a50792d64">
@@ -438,14 +431,6 @@
 						<Properties>
 							<Name>СуммаАвтоматическойСкидки</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="606f8ca2-7666-4743-9e6b-84674e92deda">
@@ -466,14 +451,6 @@
 						<Properties>
 							<Name>Сумма</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="3e4fbab4-c820-4a29-ab8b-361c4fa79ed5">
@@ -521,14 +498,6 @@
 						<Properties>
 							<Name>Цена</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="d84303ae-a371-4010-9da9-55168e5c8900">
@@ -599,14 +568,6 @@
 						<Properties>
 							<Name>СуммаРучнойСкидки</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b0d996d8-4b71-4005-b7d0-ca279e055267">
@@ -622,14 +583,6 @@
 						<Properties>
 							<Name>СуммаВзаиморасчетов</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="1340c018-0990-42e4-9ac8-7f64d8a07ca2">
@@ -650,14 +603,6 @@
 						<Properties>
 							<Name>СуммаСНДС</Name>
 							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>15</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="104d4444-e09d-4021-a818-0ee634f3b99a">

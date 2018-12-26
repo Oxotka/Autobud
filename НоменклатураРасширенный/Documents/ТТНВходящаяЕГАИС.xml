@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Document uuid="9d27f47f-0320-4455-b8bd-1aa288656a2f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТТНВходящаяЕГАИС" category="Object">
+				<xr:TypeId>e4e0a714-e3a5-4195-b1c8-f063f6f4e64b</xr:TypeId>
+				<xr:ValueId>f17af39e-876e-4cea-8f16-8e5b62eb74fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТТНВходящаяЕГАИС" category="Ref">
+				<xr:TypeId>7d26e416-2bb1-4d60-be13-e1c90bdd344a</xr:TypeId>
+				<xr:ValueId>9f5570ab-9599-40b5-972d-901503e9fd3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТТНВходящаяЕГАИС" category="Selection">
+				<xr:TypeId>d24c4637-f087-4262-b0f8-1ce1b8a8af89</xr:TypeId>
+				<xr:ValueId>6bd3a6ef-59c5-447b-9e25-eaa2d26ad975</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТТНВходящаяЕГАИС" category="List">
+				<xr:TypeId>eeb38d6a-efa4-4003-9dfe-a308bbc7c307</xr:TypeId>
+				<xr:ValueId>dfa2489d-d441-471e-80f2-9ac8b1f9ff02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТТНВходящаяЕГАИС" category="Manager">
+				<xr:TypeId>14a6faf3-4eef-4064-aa07-d605753129c2</xr:TypeId>
+				<xr:ValueId>bb58b131-1b94-461a-b295-52b70f3f91cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТТНВходящаяЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

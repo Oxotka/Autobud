@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
 		<Metadata name="AccumulationRegister.ГрафикПоступленияТоваров" id="910e982d-5dd0-46af-b861-077564ec4b7b" configVersion="5d824b843776d7aa1c464d9a4392756ff303fe26">
 			<Metadata name="AccumulationRegister.ГрафикПоступленияТоваров.Resource.КоличествоИзЗаказов" id="876cf856-2968-4bd9-a027-567b1cdb61f6"/>
@@ -139,7 +139,7 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.ВесИспользовать" id="fed45e45-92eb-423e-9a26-451cda58b2c7"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="2ebdcb12-840a-4acc-8fc1-cd3bf3fa0fdd" configVersion="4d9fd65ea75be2361a6ee7242e2167578d3ddecf"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="2ebdcb12-840a-4acc-8fc1-cd3bf3fa0fdd.0" configVersion="b57599677325a352b9fc2f4e8be5969669a6b45a"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="2ebdcb12-840a-4acc-8fc1-cd3bf3fa0fdd.0" configVersion="25d1aee3e6fef907996915ae8813a8b348df0368"/>
 		<Metadata name="Catalog.НоменклатураПоставщиков" id="0fd870fd-01ef-4480-8f1c-6ece2267e498" configVersion="0524a62b17d2129c5551751c4c22180e6b98b1a3">
 			<Metadata name="Catalog.НоменклатураПоставщиков.Attribute.Артикул" id="b7adfaaa-3464-4a94-b30e-348677239162"/>
 		</Metadata>
@@ -250,7 +250,7 @@
 		<Metadata name="CommonPicture.ФильтрПоВидамИСвойствамНоменклатуры" id="5443c6bd-1b1d-4742-9ddc-9e2a7dbd76e6" configVersion="db5654d2588cf3dd3323da74dea6abb7c4273db9"/>
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="c57afb77-4032-498c-8e1f-1c9760eed0a2" configVersion="ad2ca24b7f2b85ee036c892d6ec819179b37d6ac"/>
 		<Metadata name="CommonPicture.ФильтрПоТоварамДругогоКачества" id="613595e2-2d1d-45f7-8919-37914a19f37c" configVersion="a29630381d8ea4c7e269c006d7c4f48b1cc0c6a0"/>
-		<Metadata name="Configuration.НоменклатураРасширенный" id="62972231-c3fa-4c0c-9604-7f6a014507dc" configVersion="2dd8c3e45533b615206a191604a077e747dfb76b"/>
+		<Metadata name="Configuration.НоменклатураРасширенный" id="62972231-c3fa-4c0c-9604-7f6a014507dc" configVersion="53c4e75a123a3f3981a95a304aa92ed3156d7937"/>
 		<Metadata name="Constant.ВестиСведенияДляДекларацийАлкоВРознице" id="f44cf9a8-6ea0-4015-b27f-e40cd70e0ea6" configVersion="9c64fd0be86969651948c34f0876e881a2f69ae4"/>
 		<Metadata name="Constant.ВестиУчетМаркировкиПродукцииВГИСМ" id="44b31601-833b-4d06-956e-74fe31a17e0e" configVersion="7c0dad0ddc2cfbe745072160ccece999791d4968"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="70e203c4-f247-44ea-b2fc-33109099eee4" configVersion="3c976846741cba456d03117f4aaf122676082306"/>

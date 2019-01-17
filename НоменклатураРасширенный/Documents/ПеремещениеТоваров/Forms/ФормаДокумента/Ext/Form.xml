@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -258,12 +258,13 @@
 										<xr:Ref>CommonPicture.Информация</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаИнформацияНеобходимыСтатусыКонтекстноеМеню" id="488"/>
 									<ExtendedTooltip name="КартинкаИнформацияНеобходимыСтатусыРасширеннаяПодсказка" id="489"/>
 								</PictureDecoration>
 								<LabelDecoration name="ДекорацияНеобходимыСтатусы" id="490">
 									<AutoMaxWidth>false</AutoMaxWidth>
-									<TextColor>style:ПоясняющийТекст</TextColor>
+									<TextColor>0:b1ccc649-6537-4fa3-9256-6d278a41058a</TextColor>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -375,6 +376,7 @@
 														<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаРасхождениеЗаказКонтекстноеМеню" id="660"/>
 													<ExtendedTooltip name="КартинкаРасхождениеЗаказExtendedTooltip" id="661"/>
 												</PictureDecoration>
@@ -459,6 +461,7 @@
 														<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаРасхождениеЗаказыКонтекстноеМеню" id="666"/>
 													<ExtendedTooltip name="КартинкаРасхождениеЗаказыExtendedTooltip" id="667"/>
 												</PictureDecoration>
@@ -668,6 +671,7 @@
 							<SkipOnInput>false</SkipOnInput>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<AutoAddIncomplete>false</AutoAddIncomplete>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
 							<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 							<RowsPicture>
@@ -964,6 +968,7 @@
 												<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="139"/>
 											<ExtendedTooltip name="ТоварыСтатусУказанияСерийExtendedTooltip" id="331"/>
 										</PictureField>
@@ -1838,7 +1843,7 @@
 													</xr:Value>
 												</xr:Item>
 											</ChoiceList>
-											<BackColor>style:ЦветФонаВыделения</BackColor>
+											<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 											<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="170"/>
 											<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="383"/>
 										</InputField>
@@ -2907,7 +2912,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<CommandSet>
 			<ExcludedCommand>Post</ExcludedCommand>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -3161,12 +3166,13 @@
 											<xr:Ref>CommonPicture.Информация</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</Picture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаИнформацияНеобходимыСтатусыКонтекстноеМеню" id="488"/>
 										<ExtendedTooltip name="КартинкаИнформацияНеобходимыСтатусыРасширеннаяПодсказка" id="489"/>
 									</PictureDecoration>
 									<LabelDecoration name="ДекорацияНеобходимыСтатусы" id="490">
 										<AutoMaxWidth>false</AutoMaxWidth>
-										<TextColor>style:ПоясняющийТекст</TextColor>
+										<TextColor>0:b1ccc649-6537-4fa3-9256-6d278a41058a</TextColor>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -3278,6 +3284,7 @@
 															<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
+														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаРасхождениеЗаказКонтекстноеМеню" id="660"/>
 														<ExtendedTooltip name="КартинкаРасхождениеЗаказExtendedTooltip" id="661"/>
 													</PictureDecoration>
@@ -3362,6 +3369,7 @@
 															<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
+														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаРасхождениеЗаказыКонтекстноеМеню" id="666"/>
 														<ExtendedTooltip name="КартинкаРасхождениеЗаказыExtendedTooltip" id="667"/>
 													</PictureDecoration>
@@ -3571,6 +3579,7 @@
 								<SkipOnInput>false</SkipOnInput>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<AutoAddIncomplete>false</AutoAddIncomplete>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
 								<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 								<RowsPicture>
@@ -3867,6 +3876,7 @@
 													<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="139"/>
 												<ExtendedTooltip name="ТоварыСтатусУказанияСерийExtendedTooltip" id="331"/>
 											</PictureField>
@@ -4741,7 +4751,7 @@
 														</xr:Value>
 													</xr:Item>
 												</ChoiceList>
-												<BackColor>style:ЦветФонаВыделения</BackColor>
+												<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 												<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="170"/>
 												<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="383"/>
 											</InputField>

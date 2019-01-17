@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -418,6 +418,7 @@
 						<Table name="Товары" id="15">
 							<SkipOnInput>false</SkipOnInput>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
 							<Title>
 								<v8:item>
@@ -1559,7 +1560,7 @@
 											</xr:Value>
 										</xr:Item>
 									</ChoiceList>
-									<BackColor>style:ЦветФонаВыделения</BackColor>
+									<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 									<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="121"/>
 									<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="209"/>
 								</InputField>
@@ -2300,7 +2301,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<CommandSet>
 			<ExcludedCommand>Post</ExcludedCommand>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -2729,6 +2730,7 @@
 							<Table name="Товары" id="15">
 								<SkipOnInput>false</SkipOnInput>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
 								<Title>
 									<v8:item>
@@ -3914,7 +3916,7 @@
 												</xr:Value>
 											</xr:Item>
 										</ChoiceList>
-										<BackColor>style:ЦветФонаВыделения</BackColor>
+										<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 										<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="121"/>
 										<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="209"/>
 									</InputField>

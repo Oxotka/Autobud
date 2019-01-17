@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
@@ -512,7 +512,7 @@
 													</xr:Value>
 												</xr:Item>
 											</ChoiceList>
-											<BackColor>style:ЦветФонаВыделения</BackColor>
+											<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 											<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="795"/>
 											<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="1271"/>
 										</InputField>
@@ -552,6 +552,7 @@
 														<xr:Ref>CommonPicture.ОтгрузкаЗапрещена</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаОтгрузкаПартнеруЗапрещенаКонтекстноеМеню" id="1101"/>
 													<ExtendedTooltip name="КартинкаОтгрузкаПартнеруЗапрещенаExtendedTooltip" id="1133"/>
 												</PictureDecoration>
@@ -603,6 +604,7 @@
 														<xr:Ref>CommonPicture.ОтгрузкаЗапрещена</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаОтгрузкаЗапрещенаКонтекстноеМеню" id="1080"/>
 													<ExtendedTooltip name="КартинкаОтгрузкаЗапрещенаExtendedTooltip" id="1138"/>
 												</PictureDecoration>
@@ -693,6 +695,7 @@
 										<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="1735"/>
 									<ExtendedTooltip name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиРасширеннаяПодсказка" id="1736"/>
 								</PictureDecoration>
@@ -787,6 +790,7 @@
 										<xr:Ref>CommonPicture.Информация</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаПодпискаНаОповещенияКонтекстноеМеню" id="1401"/>
 									<ExtendedTooltip name="КартинкаПодпискаНаОповещенияРасширеннаяПодсказка" id="1402"/>
 								</PictureDecoration>
@@ -821,6 +825,7 @@
 							<HeightInTableRows>3</HeightInTableRows>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<AutoAddIncomplete>false</AutoAddIncomplete>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
 							<Title>
 								<v8:item>
@@ -1248,6 +1253,7 @@
 										<xr:Ref>CommonPicture.Наборы</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</ValuesPicture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ТоварыИндексНабораКонтекстноеМеню" id="1382"/>
 									<ExtendedTooltip name="ТоварыИндексНабораРасширеннаяПодсказка" id="1383"/>
 								</PictureField>
@@ -1690,6 +1696,7 @@
 												<xr:Ref>CommonPicture.Информация</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="932"/>
 											<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1143"/>
 										</PictureDecoration>
@@ -2773,7 +2780,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>style:ИтогиФон</BackColor>
+							<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
 							<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="1422"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВсегоСкидка" id="1455">
@@ -4945,7 +4952,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandSet>
 			<ExcludedCommand>Post</ExcludedCommand>
@@ -5465,7 +5472,7 @@
 														</xr:Value>
 													</xr:Item>
 												</ChoiceList>
-												<BackColor>style:ЦветФонаВыделения</BackColor>
+												<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 												<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="795"/>
 												<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="1271"/>
 											</InputField>
@@ -5510,6 +5517,7 @@
 															<xr:Ref>CommonPicture.ОтгрузкаЗапрещена</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
+														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаОтгрузкаПартнеруЗапрещенаКонтекстноеМеню" id="1101"/>
 														<ExtendedTooltip name="КартинкаОтгрузкаПартнеруЗапрещенаExtendedTooltip" id="1133"/>
 													</PictureDecoration>
@@ -5568,6 +5576,7 @@
 															<xr:Ref>CommonPicture.ОтгрузкаЗапрещена</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
+														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаОтгрузкаЗапрещенаКонтекстноеМеню" id="1080"/>
 														<ExtendedTooltip name="КартинкаОтгрузкаЗапрещенаExtendedTooltip" id="1138"/>
 													</PictureDecoration>
@@ -5660,6 +5669,7 @@
 											<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</Picture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="1735"/>
 										<ExtendedTooltip name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиРасширеннаяПодсказка" id="1736"/>
 									</PictureDecoration>
@@ -5759,6 +5769,7 @@
 											<xr:Ref>CommonPicture.Информация</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</Picture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаПодпискаНаОповещенияКонтекстноеМеню" id="1401"/>
 										<ExtendedTooltip name="КартинкаПодпискаНаОповещенияРасширеннаяПодсказка" id="1402"/>
 									</PictureDecoration>
@@ -5793,6 +5804,7 @@
 								<HeightInTableRows>3</HeightInTableRows>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<AutoAddIncomplete>false</AutoAddIncomplete>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
 								<Title>
 									<v8:item>
@@ -6220,6 +6232,7 @@
 											<xr:Ref>CommonPicture.Наборы</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</ValuesPicture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="ТоварыИндексНабораКонтекстноеМеню" id="1382"/>
 										<ExtendedTooltip name="ТоварыИндексНабораРасширеннаяПодсказка" id="1383"/>
 									</PictureField>
@@ -6669,6 +6682,7 @@
 													<xr:Ref>CommonPicture.Информация</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</Picture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="932"/>
 												<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1143"/>
 											</PictureDecoration>
@@ -7803,7 +7817,7 @@
 								<VerticalAlign>Center</VerticalAlign>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<BackColor>style:ИтогиФон</BackColor>
+								<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
 								<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="1422"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаВсегоСкидка" id="1455">

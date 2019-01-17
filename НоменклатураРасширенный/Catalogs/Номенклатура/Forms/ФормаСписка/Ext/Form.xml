@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -243,6 +243,55 @@
 															<CommandName>Form.Command.ИзменитьВыделенныеРасширенныйПоиск</CommandName>
 															<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураФормаИзменитьВыделенныеExtendedTooltip" id="195"/>
 														</Button>
+														<Popup name="ПодменюОтчеты" id="710">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отчеты</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Отчеты</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Picture>
+																<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<Representation>PictureAndText</Representation>
+															<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="711"/>
+															<ChildItems>
+																<ButtonGroup name="ПодменюОтчетыВажное" id="712">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты важное</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="713"/>
+																</ButtonGroup>
+																<ButtonGroup name="ПодменюОтчетыПерейти" id="714">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты перейти</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="715"/>
+																</ButtonGroup>
+																<ButtonGroup name="ПодменюОтчетыСмТакже" id="716">
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Подменю отчеты см. также</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="717"/>
+																</ButtonGroup>
+															</ChildItems>
+														</Popup>
 														<ButtonGroup name="ГруппаКомандыФормыСписокРасширенныйПоискНоменклатура" id="160">
 															<Title>
 																<v8:item>
@@ -304,6 +353,7 @@
 													<SearchOnInput>DontUse</SearchOnInput>
 													<InitialTreeView>ExpandTopLevel</InitialTreeView>
 													<EnableStartDrag>true</EnableStartDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокНоменклатура</DataPath>
 													<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 													<RowsPicture>
@@ -535,6 +585,7 @@
 											<SearchOnInput>Use</SearchOnInput>
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>СписокНоменклатура</DataPath>
 											<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 											<RowsPicture>
@@ -908,6 +959,7 @@
 							<VerticalScrollBar>UseAlways</VerticalScrollBar>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>ИнформацияПоСкладам</DataPath>
 							<CommandSet>
 								<ExcludedCommand>CancelSearch</ExcludedCommand>
@@ -1139,6 +1191,7 @@
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
 															<BorderColor>style:FormBackColor</BorderColor>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="ДекорацияКорзинаПустаяКонтекстноеМеню" id="382"/>
 															<ExtendedTooltip name="ДекорацияКорзинаПустаяРасширеннаяПодсказка" id="383"/>
 															<Events>
@@ -1346,6 +1399,7 @@
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
 															<BorderColor>style:FormBackColor</BorderColor>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="ДекорацияКорзинаКонтекстноеМеню" id="385"/>
 															<ExtendedTooltip name="ДекорацияКорзинаРасширеннаяПодсказка" id="386"/>
 															<Events>
@@ -1963,6 +2017,7 @@
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ИерархияНоменклатуры</DataPath>
 											<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 											<Title>
@@ -2107,6 +2162,7 @@
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ВидыНоменклатуры</DataPath>
 											<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 											<Title>
@@ -2252,6 +2308,7 @@
 											<VerticalLines>false</VerticalLines>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
 											<InitialTreeView>ExpandAllLevels</InitialTreeView>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ДеревоОтборов</DataPath>
 											<Title>
 												<v8:item>
@@ -2338,7 +2395,7 @@
 													<CellHyperlink>true</CellHyperlink>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
-													<TextColor>style:ЦветГиперссылки</TextColor>
+													<TextColor>0:7910327a-6bf8-4a35-aafa-3d16cfd18af6</TextColor>
 													<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="67"/>
 													<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораExtendedTooltip" id="249"/>
 												</LabelField>
@@ -2377,6 +2434,7 @@
 											<VerticalLines>false</VerticalLines>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>СписокКачества</DataPath>
 											<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 											<Title>
@@ -4219,7 +4277,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<CommandSet>
 			<ExcludedCommand>CancelSearch</ExcludedCommand>
 			<ExcludedCommand>Change</ExcludedCommand>
@@ -4504,6 +4562,7 @@
 												<SearchOnInput>DontUse</SearchOnInput>
 												<InitialTreeView>ExpandTopLevel</InitialTreeView>
 												<EnableStartDrag>true</EnableStartDrag>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>СписокНоменклатура</DataPath>
 												<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 												<RowsPicture>
@@ -4628,6 +4687,7 @@
 										<SearchOnInput>Use</SearchOnInput>
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>СписокНоменклатура</DataPath>
 										<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 										<RowsPicture>
@@ -5028,6 +5088,7 @@
 												<InitialTreeView>ExpandTopLevel</InitialTreeView>
 												<EnableStartDrag>true</EnableStartDrag>
 												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ИерархияНоменклатуры</DataPath>
 												<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
 												<Title>
@@ -5167,6 +5228,7 @@
 												<UseAlternationRowColor>true</UseAlternationRowColor>
 												<EnableStartDrag>true</EnableStartDrag>
 												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ВидыНоменклатуры</DataPath>
 												<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
 												<Title>
@@ -5311,6 +5373,7 @@
 												<VerticalLines>false</VerticalLines>
 												<AutoInsertNewRow>true</AutoInsertNewRow>
 												<InitialTreeView>ExpandAllLevels</InitialTreeView>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ДеревоОтборов</DataPath>
 												<Title>
 													<v8:item>
@@ -5397,7 +5460,7 @@
 														<CellHyperlink>true</CellHyperlink>
 														<Width>15</Width>
 														<HorizontalStretch>false</HorizontalStretch>
-														<TextColor>style:ЦветГиперссылки</TextColor>
+														<TextColor>0:7910327a-6bf8-4a35-aafa-3d16cfd18af6</TextColor>
 														<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="67"/>
 														<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораExtendedTooltip" id="249"/>
 													</LabelField>
@@ -5436,6 +5499,7 @@
 												<VerticalLines>false</VerticalLines>
 												<UseAlternationRowColor>true</UseAlternationRowColor>
 												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>СписокКачества</DataPath>
 												<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
 												<Title>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<CommandSet>
 		<ExcludedCommand>Post</ExcludedCommand>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -328,6 +328,7 @@
 																<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="КартинкаОтклонениеЦенЗаказКонтекстноеМеню" id="894"/>
 															<ExtendedTooltip name="КартинкаОтклонениеЦенЗаказExtendedTooltip" id="1012"/>
 														</PictureDecoration>
@@ -357,6 +358,7 @@
 																<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="КартинкаРасхождениеЗаказКонтекстноеМеню" id="949"/>
 															<ExtendedTooltip name="КартинкаРасхождениеЗаказExtendedTooltip" id="1014"/>
 														</PictureDecoration>
@@ -441,6 +443,7 @@
 																<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="КартинкаОтклонениеЦенЗаказыКонтекстноеМеню" id="892"/>
 															<ExtendedTooltip name="КартинкаОтклонениеЦенЗаказыExtendedTooltip" id="1021"/>
 														</PictureDecoration>
@@ -476,6 +479,7 @@
 																<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
+															<FileDragMode>AsFile</FileDragMode>
 															<ContextMenu name="КартинкаРасхождениеЗаказыКонтекстноеМеню" id="957"/>
 															<ExtendedTooltip name="КартинкаРасхождениеЗаказыExtendedTooltip" id="1023"/>
 														</PictureDecoration>
@@ -631,6 +635,7 @@
 																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаПартнерКонтекстноеМеню" id="1473"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="1474"/>
 																</PictureDecoration>
@@ -709,6 +714,7 @@
 																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</Picture>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="1490"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="1491"/>
 																</PictureDecoration>
@@ -817,7 +823,7 @@
 													</xr:Value>
 												</xr:Item>
 											</ChoiceList>
-											<BackColor>style:ЦветФонаВыделения</BackColor>
+											<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 											<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="6"/>
 											<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="1246"/>
 										</InputField>
@@ -1008,6 +1014,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<AutoAddIncomplete>false</AutoAddIncomplete>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
 							<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 							<RowsPicture>
@@ -1430,6 +1437,7 @@
 												<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="707"/>
 											<ExtendedTooltip name="ТоварыСтатусУказанияСерийExtendedTooltip" id="1099"/>
 										</PictureField>
@@ -1544,6 +1552,7 @@
 												<xr:Ref>CommonPicture.КоллекцияПиктограммыТренда</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ТоварыИндексКартинкиКонтекстноеМеню" id="885"/>
 											<ExtendedTooltip name="ТоварыИндексКартинкиExtendedTooltip" id="1110"/>
 										</PictureField>
@@ -1864,6 +1873,7 @@
 										<xr:Ref>CommonPicture.Информация</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
 									<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
 								</PictureDecoration>
@@ -2849,7 +2859,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>style:ИтогиФон</BackColor>
+							<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
 							<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="1280"/>
 							<ChildItems>
 								<Pages name="ГруппаСтраницыНДС" id="311">
@@ -3063,6 +3073,7 @@
 								<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="1638"/>
 							<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="1639"/>
 						</PictureDecoration>
@@ -4967,7 +4978,7 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<CommandSet>
 			<ExcludedCommand>Post</ExcludedCommand>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
@@ -5290,6 +5301,7 @@
 																	<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</Picture>
+																<FileDragMode>AsFile</FileDragMode>
 																<ContextMenu name="КартинкаОтклонениеЦенЗаказКонтекстноеМеню" id="894"/>
 																<ExtendedTooltip name="КартинкаОтклонениеЦенЗаказExtendedTooltip" id="1012"/>
 															</PictureDecoration>
@@ -5319,6 +5331,7 @@
 																	<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</Picture>
+																<FileDragMode>AsFile</FileDragMode>
 																<ContextMenu name="КартинкаРасхождениеЗаказКонтекстноеМеню" id="949"/>
 																<ExtendedTooltip name="КартинкаРасхождениеЗаказExtendedTooltip" id="1014"/>
 															</PictureDecoration>
@@ -5403,6 +5416,7 @@
 																	<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</Picture>
+																<FileDragMode>AsFile</FileDragMode>
 																<ContextMenu name="КартинкаОтклонениеЦенЗаказыКонтекстноеМеню" id="892"/>
 																<ExtendedTooltip name="КартинкаОтклонениеЦенЗаказыExtendedTooltip" id="1021"/>
 															</PictureDecoration>
@@ -5438,6 +5452,7 @@
 																	<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
 																</Picture>
+																<FileDragMode>AsFile</FileDragMode>
 																<ContextMenu name="КартинкаРасхождениеЗаказыКонтекстноеМеню" id="957"/>
 																<ExtendedTooltip name="КартинкаРасхождениеЗаказыExtendedTooltip" id="1023"/>
 															</PictureDecoration>
@@ -5593,6 +5608,7 @@
 																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
 																		</Picture>
+																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаПартнерКонтекстноеМеню" id="1473"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="1474"/>
 																	</PictureDecoration>
@@ -5671,6 +5687,7 @@
 																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
 																		</Picture>
+																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="1490"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="1491"/>
 																	</PictureDecoration>
@@ -5779,7 +5796,7 @@
 														</xr:Value>
 													</xr:Item>
 												</ChoiceList>
-												<BackColor>style:ЦветФонаВыделения</BackColor>
+												<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
 												<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="6"/>
 												<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="1246"/>
 											</InputField>
@@ -5970,6 +5987,7 @@
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<AutoAddIncomplete>false</AutoAddIncomplete>
 								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
 								<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 								<RowsPicture>
@@ -6392,6 +6410,7 @@
 													<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="707"/>
 												<ExtendedTooltip name="ТоварыСтатусУказанияСерийExtendedTooltip" id="1099"/>
 											</PictureField>
@@ -6506,6 +6525,7 @@
 													<xr:Ref>CommonPicture.КоллекцияПиктограммыТренда</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ТоварыИндексКартинкиКонтекстноеМеню" id="885"/>
 												<ExtendedTooltip name="ТоварыИндексКартинкиExtendedTooltip" id="1110"/>
 											</PictureField>
@@ -6826,6 +6846,7 @@
 											<xr:Ref>CommonPicture.Информация</xr:Ref>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</Picture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
 										<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
 									</PictureDecoration>
@@ -7811,7 +7832,7 @@
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<BackColor>style:ИтогиФон</BackColor>
+								<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
 								<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="1280"/>
 								<ChildItems>
 									<Pages name="ГруппаСтраницыНДС" id="311">
@@ -8025,6 +8046,7 @@
 									<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
 								</Picture>
+								<FileDragMode>AsFile</FileDragMode>
 								<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="1638"/>
 								<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="1639"/>
 							</PictureDecoration>

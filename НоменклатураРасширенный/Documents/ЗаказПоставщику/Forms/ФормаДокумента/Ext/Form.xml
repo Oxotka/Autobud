@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -87,15 +87,15 @@
 			</ButtonGroup>
 			<Button name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="465">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщикаExtendedTooltip" id="575"/>
 			</Button>
 			<Button name="ЗачетОплаты" id="457">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 				<DataPath>Объект.Ref</DataPath>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ЗачетОплатыРасширеннаяПодсказка" id="576"/>
 			</Button>
 			<Popup name="ПодменюЗаполнить" id="1189">
@@ -764,9 +764,9 @@
 								</LabelField>
 								<Button name="ЗачетОплатыФорма" id="921">
 									<Type>UsualButton</Type>
-									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 									<DataPath>Объект.Ref</DataPath>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ЗачетОплатыФормаРасширеннаяПодсказка" id="922"/>
 								</Button>
 							</ChildItems>
@@ -976,21 +976,21 @@
 											</Button>
 											<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="505">
 												<Type>CommandBarButton</Type>
-												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>Form.Command.ЗаполнитьНоменклатуруПоНоменклатуреПоставщика</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщикаExtendedTooltip" id="644"/>
 											</Button>
 											<Button name="ТоварыЗаполнитьСкладВВыделенныхСтроках" id="482">
 												<Type>CommandBarButton</Type>
-												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>Form.Command.ЗаполнитьСкладВВыделенныхСтроках</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ТоварыЗаполнитьСкладВВыделенныхСтрокахExtendedTooltip" id="643"/>
 											</Button>
 											<Button name="ЗаполнитьДатуПоступленияДляВыделенныхСтрок" id="214">
 												<Type>CommandBarButton</Type>
 												<SkipOnInput>false</SkipOnInput>
-												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>Form.Command.ЗаполнитьДатуПоступленияДляВыделенныхСтрок</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ЗаполнитьДатуПоступленияДляВыделенныхСтрокExtendedTooltip" id="636"/>
 											</Button>
 										</ChildItems>
@@ -2607,7 +2607,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
+							<BackColor>style:ИтогиФон</BackColor>
 							<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="821"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВсегоСкидка" id="854">
@@ -2786,7 +2786,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаСНДСОтменено" id="4">
@@ -2797,7 +2797,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаРучнойСкидкиОтменено" id="5">
@@ -2808,7 +2808,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаОтменено" id="6">
@@ -2819,7 +2819,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="Артикул" id="7">
@@ -2841,7 +2841,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаСНДСОтмененоБезВозвратнойТары" id="9">
@@ -2852,7 +2852,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаРучнойСкидкиОтмененоБезВозвратнойТары" id="10">
@@ -2863,7 +2863,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаОтмененоБезВозвратнойТары" id="11">
@@ -2874,7 +2874,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="ОтмененоБезВозвратнойТары" id="12">
@@ -2896,7 +2896,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаСНДСБезВозвратнойТары" id="14">
@@ -2907,7 +2907,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаРучнойСкидкиБезВозвратнойТары" id="15">
@@ -2918,7 +2918,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+							<v8:TypeId>32e7e82b-b73c-4d21-acd4-ea558ef3cd75</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="СуммаБезВозвратнойТары" id="16">
@@ -2929,7 +2929,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="БезВозвратнойТары" id="17">
@@ -2976,7 +2976,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаЗаказано" id="5">
@@ -2987,7 +2987,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="ВалютаДокумента" id="7">
@@ -3089,7 +3089,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаКредитаПослеПоступления" id="24">
@@ -3100,7 +3100,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаОплаты" id="25">
@@ -3111,7 +3111,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаПредоплатыДоПоступления" id="27">
@@ -3122,7 +3122,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаНДСЗаказано" id="31">
@@ -3133,7 +3133,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаРучнойСкидки" id="20">
@@ -3144,7 +3144,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+				<v8:TypeId>32e7e82b-b73c-4d21-acd4-ea558ef3cd75</v8:TypeId>
 			</Type>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
@@ -3300,7 +3300,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаЗаказаноСЗалоговойТарой" id="35">
@@ -3311,7 +3311,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="Расчеты" id="44">
@@ -4169,7 +4169,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.7">
+	<BaseForm version="2.9">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
@@ -4257,15 +4257,15 @@
 				</ButtonGroup>
 				<Button name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="465">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщикаExtendedTooltip" id="575"/>
 				</Button>
 				<Button name="ЗачетОплаты" id="457">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 					<DataPath>Объект.Ref</DataPath>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ЗачетОплатыРасширеннаяПодсказка" id="576"/>
 				</Button>
 				<Popup name="ПодменюЗаполнить" id="877">
@@ -4952,9 +4952,9 @@
 									</LabelField>
 									<Button name="ЗачетОплатыФорма" id="921">
 										<Type>UsualButton</Type>
-										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 										<DataPath>Объект.Ref</DataPath>
+										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="ЗачетОплатыФормаРасширеннаяПодсказка" id="922"/>
 									</Button>
 								</ChildItems>
@@ -5166,21 +5166,21 @@
 												</Button>
 												<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="505">
 													<Type>CommandBarButton</Type>
-													<OnlyInAllActions>false</OnlyInAllActions>
 													<CommandName>Form.Command.ЗаполнитьНоменклатуруПоНоменклатуреПоставщика</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщикаExtendedTooltip" id="644"/>
 												</Button>
 												<Button name="ТоварыЗаполнитьСкладВВыделенныхСтроках" id="482">
 													<Type>CommandBarButton</Type>
-													<OnlyInAllActions>false</OnlyInAllActions>
 													<CommandName>Form.Command.ЗаполнитьСкладВВыделенныхСтроках</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ТоварыЗаполнитьСкладВВыделенныхСтрокахExtendedTooltip" id="643"/>
 												</Button>
 												<Button name="ЗаполнитьДатуПоступленияДляВыделенныхСтрок" id="214">
 													<Type>CommandBarButton</Type>
 													<SkipOnInput>false</SkipOnInput>
-													<OnlyInAllActions>false</OnlyInAllActions>
 													<CommandName>Form.Command.ЗаполнитьДатуПоступленияДляВыделенныхСтрок</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ЗаполнитьДатуПоступленияДляВыделенныхСтрокExtendedTooltip" id="636"/>
 												</Button>
 											</ChildItems>
@@ -6801,7 +6801,7 @@
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
+								<BackColor>style:ИтогиФон</BackColor>
 								<ExtendedTooltip name="ГруппаИтогоРасширеннаяПодсказка" id="821"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаВсегоСкидка" id="854">
@@ -6981,7 +6981,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаСНДСОтменено" id="4">
@@ -6992,7 +6992,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаРучнойСкидкиОтменено" id="5">
@@ -7003,7 +7003,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаОтменено" id="6">
@@ -7014,7 +7014,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="Артикул" id="7">
@@ -7036,7 +7036,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаСНДСОтмененоБезВозвратнойТары" id="9">
@@ -7047,7 +7047,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаРучнойСкидкиОтмененоБезВозвратнойТары" id="10">
@@ -7058,7 +7058,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаОтмененоБезВозвратнойТары" id="11">
@@ -7069,7 +7069,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="ОтмененоБезВозвратнойТары" id="12">
@@ -7091,7 +7091,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаСНДСБезВозвратнойТары" id="14">
@@ -7102,7 +7102,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаРучнойСкидкиБезВозвратнойТары" id="15">
@@ -7113,7 +7113,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+								<v8:TypeId>32e7e82b-b73c-4d21-acd4-ea558ef3cd75</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="СуммаБезВозвратнойТары" id="16">
@@ -7124,7 +7124,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="БезВозвратнойТары" id="17">
@@ -7171,7 +7171,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаЗаказано" id="5">
@@ -7182,7 +7182,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="ВалютаДокумента" id="7">
@@ -7284,7 +7284,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаКредитаПослеПоступления" id="24">
@@ -7295,7 +7295,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаОплаты" id="25">
@@ -7306,7 +7306,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаПредоплатыДоПоступления" id="27">
@@ -7317,7 +7317,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаНДСЗаказано" id="31">
@@ -7328,7 +7328,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаРучнойСкидки" id="20">
@@ -7339,7 +7339,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
+					<v8:TypeId>32e7e82b-b73c-4d21-acd4-ea558ef3cd75</v8:TypeId>
 				</Type>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьРучныеСкидкиВЗакупках</Item>
@@ -7504,7 +7504,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаЗаказаноСЗалоговойТарой" id="35">
@@ -7515,7 +7515,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>ad804011-138d-46e2-89be-204e8b63a2fe</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="Расчеты" id="44">

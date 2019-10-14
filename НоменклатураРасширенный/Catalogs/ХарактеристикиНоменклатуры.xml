@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<Catalog uuid="c494ae4b-a33a-4554-8e83-ac45b0137219">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ХарактеристикиНоменклатуры" category="Object">
@@ -25,6 +25,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>ХарактеристикиНоменклатуры</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Owners>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНоменклатуры</xr:Item>
@@ -33,20 +34,26 @@
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="9ce9a20b-f994-4c72-8d4c-393880073376">
+				<InternalInfo/>
 				<Properties>
 					<Name>Принципал</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="e8490a58-0288-49c6-83b3-9a214fe4b740">
+				<InternalInfo/>
 				<Properties>
 					<Name>НаименованиеПолное</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="e519e54f-71fc-4b8e-ac8a-f221dc27307d">
+				<InternalInfo/>
 				<Properties>
 					<Name>Контрагент</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Attribute>
@@ -63,24 +70,31 @@
 				</InternalInfo>
 				<Properties>
 					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="2618935b-a0ff-43bc-99fc-9dfbd7ab8d28">
+						<InternalInfo/>
 						<Properties>
 							<Name>Свойство</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="e003a9e7-393f-41cd-b8e7-024e0d616620">
+						<InternalInfo/>
 						<Properties>
 							<Name>Значение</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b7db4459-4df8-486b-b20a-21cd8dc8bdd1">
+						<InternalInfo/>
 						<Properties>
 							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 						</Properties>
 					</Attribute>

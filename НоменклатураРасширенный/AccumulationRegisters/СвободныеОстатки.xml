@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<AccumulationRegister uuid="93c20498-52fc-4891-a98e-f97a5a619b5d">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.СвободныеОстатки" category="Record">
@@ -29,6 +29,7 @@
 		</InternalInfo>
 		<Properties>
 			<Name>СвободныеОстатки</Name>
+			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<DefaultListForm/>
 			<AuxiliaryListForm/>
@@ -36,8 +37,10 @@
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="90cd5df3-5419-40bc-be8f-96765b4b96f0">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВНаличии</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -50,8 +53,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="a11e7b3f-60f5-490a-9389-22cb0d0aba1a">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВРезервеСоСклада</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -64,8 +69,10 @@
 				</Properties>
 			</Resource>
 			<Resource uuid="05dfded9-e823-41c8-aba4-f7de0359d394">
+				<InternalInfo/>
 				<Properties>
 					<Name>ВРезервеПодЗаказ</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -78,8 +85,10 @@
 				</Properties>
 			</Resource>
 			<Dimension uuid="7735181c-86c3-4ba7-abcf-3a4ed50a2a66">
+				<InternalInfo/>
 				<Properties>
 					<Name>Номенклатура</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -87,8 +96,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="31371879-7282-42f4-94b6-4ba8124e8a95">
+				<InternalInfo/>
 				<Properties>
 					<Name>Характеристика</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
@@ -96,8 +107,10 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="aadb29e3-33a8-4aab-9675-fb5d101f4f2b">
+				<InternalInfo/>
 				<Properties>
 					<Name>Склад</Name>
+					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Склады</v8:Type>

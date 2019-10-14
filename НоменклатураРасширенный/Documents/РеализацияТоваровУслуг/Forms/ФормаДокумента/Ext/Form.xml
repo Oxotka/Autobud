@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
 	<CommandSet>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
 	</CommandSet>
@@ -149,28 +149,28 @@
 			</Popup>
 			<Button name="ФормаОбработкаПомощникЗачетаОплатЗачетОплаты" id="494">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 				<DataPath>Объект.Ref</DataPath>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаОбработкаПомощникЗачетаОплатЗачетОплатыExtendedTooltip" id="717"/>
 			</Button>
 			<Button name="ОткрытьВидыЗапасов" id="340">
 				<Type>CommandBarButton</Type>
 				<SkipOnInput>false</SkipOnInput>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ОткрытьВидыЗапасов</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ОткрытьВидыЗапасовExtendedTooltip" id="797"/>
 			</Button>
 			<Button name="ФормаОткрытьВзаиморасчетыПоУпрОрганизации" id="495">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ОткрытьВзаиморасчетыПоУпрОрганизации</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаОткрытьВзаиморасчетыПоУпрОрганизацииExtendedTooltip" id="718"/>
 			</Button>
 			<Button name="СчитатьКартуЛояльности" id="556">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.СчитатьКартуЛояльности</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="СчитатьКартуЛояльностиExtendedTooltip" id="719"/>
 			</Button>
 			<Popup name="ПодменюДополнительныхОбработокЗаполнения" id="1112">
@@ -199,8 +199,8 @@
 			</Button>
 			<Button name="ФормаПроверитьКонтрагента" id="1397">
 				<Type>CommandBarButton</Type>
-				<OnlyInAllActions>false</OnlyInAllActions>
 				<CommandName>Form.Command.ПроверитьКонтрагентов</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПроверитьКонтрагентаРасширеннаяПодсказка" id="1398"/>
 			</Button>
 		</ChildItems>
@@ -898,7 +898,7 @@
 														</xr:Item>
 													</ChoiceList>
 													<DropListWidth>28</DropListWidth>
-													<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
+													<BackColor>style:ЦветФонаВыделения</BackColor>
 													<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="1006"/>
 													<ExtendedTooltip name="ХозяйственнаяОперацияРасширеннаяПодсказка" id="1007"/>
 												</InputField>
@@ -1586,8 +1586,8 @@
 									</Popup>
 									<Button name="ТоварыЗаполнитьСкладВВыделенныхСтроках" id="507">
 										<Type>CommandBarButton</Type>
-										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>Form.Command.ЗаполнитьСкладВВыделенныхСтроках</CommandName>
+										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 										<ExtendedTooltip name="ТоварыЗаполнитьСкладВВыделенныхСтрокахExtendedTooltip" id="796"/>
 									</Button>
 									<Button name="ТоварыВыделитьВсе" id="946">
@@ -3353,7 +3353,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
+							<BackColor>style:ИтогиФон</BackColor>
 							<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="905"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаВсегоСкидка" id="446">
@@ -5787,7 +5787,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.7">
+	<BaseForm version="2.9">
 		<CommandSet>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
 		</CommandSet>
@@ -5937,28 +5937,28 @@
 				</Popup>
 				<Button name="ФормаОбработкаПомощникЗачетаОплатЗачетОплаты" id="494">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>DataProcessor.ПомощникЗачетаОплат.Command.ЗачетОплаты</CommandName>
 					<DataPath>Объект.Ref</DataPath>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаОбработкаПомощникЗачетаОплатЗачетОплатыExtendedTooltip" id="717"/>
 				</Button>
 				<Button name="ОткрытьВидыЗапасов" id="340">
 					<Type>CommandBarButton</Type>
 					<SkipOnInput>false</SkipOnInput>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.ОткрытьВидыЗапасов</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ОткрытьВидыЗапасовExtendedTooltip" id="797"/>
 				</Button>
 				<Button name="ФормаОткрытьВзаиморасчетыПоУпрОрганизации" id="495">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.ОткрытьВзаиморасчетыПоУпрОрганизации</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаОткрытьВзаиморасчетыПоУпрОрганизацииExtendedTooltip" id="718"/>
 				</Button>
 				<Button name="СчитатьКартуЛояльности" id="556">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.СчитатьКартуЛояльности</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="СчитатьКартуЛояльностиExtendedTooltip" id="719"/>
 				</Button>
 				<Popup name="ПодменюДополнительныхОбработокЗаполнения" id="1112">
@@ -5987,8 +5987,8 @@
 				</Button>
 				<Button name="ФормаПроверитьКонтрагента" id="1397">
 					<Type>CommandBarButton</Type>
-					<OnlyInAllActions>false</OnlyInAllActions>
 					<CommandName>Form.Command.ПроверитьКонтрагентов</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПроверитьКонтрагентаРасширеннаяПодсказка" id="1398"/>
 				</Button>
 			</ChildItems>
@@ -6681,7 +6681,7 @@
 															</xr:Item>
 														</ChoiceList>
 														<DropListWidth>28</DropListWidth>
-														<BackColor>0:505452af-a630-4f00-adf7-24e30de3811c</BackColor>
+														<BackColor>style:ЦветФонаВыделения</BackColor>
 														<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="1006"/>
 														<ExtendedTooltip name="ХозяйственнаяОперацияРасширеннаяПодсказка" id="1007"/>
 													</InputField>
@@ -7369,8 +7369,8 @@
 										</Popup>
 										<Button name="ТоварыЗаполнитьСкладВВыделенныхСтроках" id="507">
 											<Type>CommandBarButton</Type>
-											<OnlyInAllActions>false</OnlyInAllActions>
 											<CommandName>Form.Command.ЗаполнитьСкладВВыделенныхСтроках</CommandName>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТоварыЗаполнитьСкладВВыделенныхСтрокахExtendedTooltip" id="796"/>
 										</Button>
 										<Button name="ТоварыВыделитьВсе" id="946">
@@ -9136,7 +9136,7 @@
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<BackColor>0:eab80cc8-eddf-4881-a782-a31559353c0b</BackColor>
+								<BackColor>style:ИтогиФон</BackColor>
 								<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="905"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаВсегоСкидка" id="446">

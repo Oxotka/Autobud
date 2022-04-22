@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<CommandSet>
-		<ExcludedCommand>Tree</ExcludedCommand>
-		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-		<ExcludedCommand>Copy</ExcludedCommand>
-		<ExcludedCommand>Delete</ExcludedCommand>
-		<ExcludedCommand>Create</ExcludedCommand>
+		<ExcludedCommand>CancelSearch</ExcludedCommand>
 		<ExcludedCommand>Change</ExcludedCommand>
 		<ExcludedCommand>Choose</ExcludedCommand>
-		<ExcludedCommand>CancelSearch</ExcludedCommand>
-		<ExcludedCommand>List</ExcludedCommand>
-		<ExcludedCommand>LevelDown</ExcludedCommand>
-		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-		<ExcludedCommand>Find</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>Create</ExcludedCommand>
 		<ExcludedCommand>CreateFolder</ExcludedCommand>
-		<ExcludedCommand>LevelUp</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Find</ExcludedCommand>
+		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 		<ExcludedCommand>HierarchicalList</ExcludedCommand>
+		<ExcludedCommand>LevelDown</ExcludedCommand>
+		<ExcludedCommand>LevelUp</ExcludedCommand>
+		<ExcludedCommand>List</ExcludedCommand>
+		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+		<ExcludedCommand>Tree</ExcludedCommand>
 	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -29,16 +29,11 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа форма таблицы</v8:content>
+					<v8:content>Форма таблицы</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа форма таблицы</v8:content>
-				</v8:item>
-			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ChildItemsWidth>LeftWide</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
@@ -51,12 +46,6 @@
 							<v8:content>Страницы списков</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Страницы списков</v8:content>
-						</v8:item>
-					</ToolTip>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыСписковExtendedTooltip" id="213"/>
 					<ChildItems>
@@ -67,136 +56,17 @@
 									<v8:content>Страница стандартный поиск номенклатура</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Страница стандартный поиск номенклатура</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураExtendedTooltip" id="214"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаКоманднаяПанельСписокСтандартныйПоискНоменклатураКнопкаВыбора" id="209">
+								<CommandBar name="ГруппаПользовательскихНастроек" id="394">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа командная панель список стандартный поиск номенклатура кнопка выбора</v8:content>
+											<v8:content>Группа пользовательских настроек</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа командная панель список стандартный поиск номенклатура кнопка выбора</v8:content>
-										</v8:item>
-									</ToolTip>
-									<Group>Horizontal</Group>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаКоманднаяПанельСписокСтандартныйПоискНоменклатураКнопкаВыбораExtendedTooltip" id="215"/>
-									<ChildItems>
-										<Button name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="193">
-											<Type>UsualButton</Type>
-											<DefaultButton>true</DefaultButton>
-											<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
-											<Font bold="true" kind="AutoFont"/>
-											<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="216"/>
-										</Button>
-										<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатура" id="208">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Командная панель списка стандартного поиска по номенклатуре</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Командная панель списка стандартного поиска по номенклатуре</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураExtendedTooltip" id="217"/>
-											<ChildItems>
-												<Button name="СписокСтандартныйПоискНоменклатураСоздать" id="195">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Create</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСоздатьExtendedTooltip" id="218"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураСкопировать" id="196">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Copy</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСкопироватьExtendedTooltip" id="219"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураИзменить" id="197">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Change</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураИзменитьExtendedTooltip" id="220"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаления" id="198">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.SetDeletionMark</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="221"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураНайти" id="199">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Find</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНайтиExtendedTooltip" id="222"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураОтменитьПоиск" id="200">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.CancelSearch</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураОтменитьПоискExtendedTooltip" id="223"/>
-												</Button>
-												<Popup name="СтандартныйПоискКомандаяПанельУстановитьФильтр" id="387">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-														</v8:item>
-													</ToolTip>
-													<Picture>
-														<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</Picture>
-													<Representation>Picture</Representation>
-													<ExtendedTooltip name="СтандартныйПоискКомандаяПанельУстановитьФильтрРасширеннаяПодсказка" id="388"/>
-													<ChildItems>
-														<Button name="СтандартныйПоискКомандаяПанельТоварыДругогоКачества" id="389">
-															<Type>CommandBarButton</Type>
-															<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
-															<ExtendedTooltip name="СтандартныйПоискКомандаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="390"/>
-														</Button>
-														<Button name="СтандартныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствами" id="391">
-															<Type>CommandBarButton</Type>
-															<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
-															<ExtendedTooltip name="СтандартныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="392"/>
-														</Button>
-													</ChildItems>
-												</Popup>
-												<Button name="СписокСтандартныйПоискНоменклатураНастроитьПоиск" id="201">
-													<Type>CommandBarButton</Type>
-													<OnlyInAllActions>false</OnlyInAllActions>
-													<CommandName>Form.Command.НастроитьПоиск</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="225"/>
-												</Button>
-												<Button name="ИзменитьФорму" id="210">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-													<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="226"/>
-												</Button>
-												<Button name="СписокСтандартныйПоискНоменклатураСправка" id="165">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.StandardCommand.Help</CommandName>
-													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСправкаExtendedTooltip" id="227"/>
-												</Button>
-											</ChildItems>
-										</CommandBar>
-									</ChildItems>
-								</UsualGroup>
+									<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="395"/>
+								</CommandBar>
 								<Table name="СписокСтандартныйПоискНоменклатура" id="180">
 									<Representation>List</Representation>
 									<ChoiceMode>true</ChoiceMode>
@@ -207,26 +77,29 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>СписокНоменклатура</DataPath>
-									<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 									<RowsPicture>
 										<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</RowsPicture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Список стандартный поиск номенклатура</v8:content>
+										</v8:item>
+									</Title>
 									<CommandSet>
-										<ExcludedCommand>HierarchicalList</ExcludedCommand>
-										<ExcludedCommand>Tree</ExcludedCommand>
-										<ExcludedCommand>List</ExcludedCommand>
-										<ExcludedCommand>LevelUp</ExcludedCommand>
-										<ExcludedCommand>ListSettings</ExcludedCommand>
-										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 										<ExcludedCommand>Choose</ExcludedCommand>
 										<ExcludedCommand>CreateFolder</ExcludedCommand>
+										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+										<ExcludedCommand>HierarchicalList</ExcludedCommand>
 										<ExcludedCommand>LevelDown</ExcludedCommand>
+										<ExcludedCommand>LevelUp</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
+										<ExcludedCommand>ListSettings</ExcludedCommand>
+										<ExcludedCommand>Tree</ExcludedCommand>
 									</CommandSet>
-									<SearchStringLocation>None</SearchStringLocation>
-									<ViewStatusLocation>None</ViewStatusLocation>
-									<SearchControlLocation>None</SearchControlLocation>
 									<AutoRefresh>false</AutoRefresh>
 									<AutoRefreshPeriod>60</AutoRefreshPeriod>
 									<Period>
@@ -240,6 +113,7 @@
 									<ShowRoot>true</ShowRoot>
 									<AllowRootChoice>false</AllowRootChoice>
 									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<UserSettingsGroup>ГруппаПользовательскихНастроек</UserSettingsGroup>
 									<ContextMenu name="СписокСтандартныйПоискНоменклатураКонтекстноеМеню" id="181">
 										<ChildItems>
 											<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюНоменклатураСАналогичнымиСвойствами" id="189">
@@ -255,7 +129,77 @@
 										</ChildItems>
 									</ContextMenu>
 									<AutoCommandBar name="СписокСтандартныйПоискНоменклатураКоманднаяПанель" id="182">
-										<Autofill>false</Autofill>
+										<ChildItems>
+											<Button name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="193">
+												<Type>CommandBarButton</Type>
+												<DefaultButton>true</DefaultButton>
+												<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="216"/>
+											</Button>
+											<Button name="СписокСтандартныйПоискНоменклатураСоздать" id="195">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Create</CommandName>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСоздатьExtendedTooltip" id="218"/>
+											</Button>
+											<Button name="СписокСтандартныйПоискНоменклатураСкопировать" id="196">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Copy</CommandName>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСкопироватьExtendedTooltip" id="219"/>
+											</Button>
+											<Button name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаления" id="198">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.SetDeletionMark</CommandName>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="221"/>
+											</Button>
+											<Popup name="СтандартныйПоискКоманднаяПанельУстановитьФильтр" id="416">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить фильтр</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Расширенный поиск командная панель установить фильтр</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Picture>
+													<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
+												</Picture>
+												<Representation>Picture</Representation>
+												<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="418"/>
+												<ChildItems>
+													<Button name="СтандартныйПоискКоманднаяПанельТоварыДругогоКачества" id="414">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
+														<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="419"/>
+													</Button>
+													<Button name="СтандартныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствами" id="412">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
+														<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="420"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+											<Button name="СписокСтандартныйПоискНоменклатураНастроитьПоиск" id="201">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.НастроитьПоиск</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="225"/>
+											</Button>
+											<Button name="ИзменитьФорму" id="210">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+												<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="226"/>
+											</Button>
+											<Button name="СписокСтандартныйПоискНоменклатураСправка" id="165">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.StandardCommand.Help</CommandName>
+												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСправкаExtendedTooltip" id="227"/>
+											</Button>
+										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураExtendedTooltip" id="230"/>
 									<SearchStringAddition name="СписокСтандартныйПоискНоменклатураСтрокаПоиска" id="294">
@@ -271,6 +215,7 @@
 											<Item>СписокСтандартныйПоискНоменклатура</Item>
 											<Type>ViewStatusRepresentation</Type>
 										</AdditionSource>
+										<HorizontalLocation>Left</HorizontalLocation>
 										<ContextMenu name="СписокСтандартныйПоискНоменклатураСостояниеПросмотраКонтекстноеМеню" id="298"/>
 										<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="299"/>
 									</ViewStatusAddition>
@@ -284,7 +229,7 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="СписокСтандартныйПоискНоменклатураНаименование" id="183">
-											<DataPath>СписокНоменклатура.Description</DataPath>
+											<DataPath>~СписокНоменклатура.Description</DataPath>
 											<ContextMenu name="СписокСтандартныйПоискНоменклатураНаименованиеКонтекстноеМеню" id="184"/>
 											<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНаименованиеExtendedTooltip" id="231"/>
 										</LabelField>
@@ -313,28 +258,17 @@
 									<v8:content>Страница расширенный поиск номенклатура</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Страница расширенный поиск номенклатура</v8:content>
-								</v8:item>
-							</ToolTip>
 							<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураExtendedTooltip" id="234"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаПоиск" id="84">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Группа поиск</v8:content>
+											<v8:content>Поиск</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа поиск</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПоискExtendedTooltip" id="235"/>
@@ -346,13 +280,8 @@
 													<v8:content>Расширенный поиск</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Расширенный поиск</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Horizontal</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="РасширенныйПоискExtendedTooltip" id="236"/>
@@ -369,16 +298,10 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа командная панель поиск</v8:content>
+															<v8:content>Командная панель поиск</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа командная панель поиск</v8:content>
-														</v8:item>
-													</ToolTip>
-													<Width>5</Width>
+													<Width>3</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ExtendedTooltip name="ГруппаКоманднаяПанельПоискExtendedTooltip" id="238"/>
 													<ChildItems>
@@ -408,13 +331,8 @@
 											<v8:content>Командная панель списка расширенного поиска, кнопка "Выбрать"</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Командная панель списка расширенного поиска, кнопка "Выбрать"</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаКоманднаяПанельСписокРасширенныйПоискНоменклатураКнопкаВыбораExtendedTooltip" id="241"/>
@@ -422,7 +340,6 @@
 										<Button name="СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="194">
 											<Type>UsualButton</Type>
 											<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
-											<Font bold="true" kind="AutoFont"/>
 											<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="242"/>
 										</Button>
 										<CommandBar name="КоманднаяПанельСписокРасширенныйПоискНоменклатура" id="206">
@@ -432,12 +349,6 @@
 													<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
-												</v8:item>
-											</ToolTip>
 											<CommandSource>Item.СписокРасширенныйПоискНоменклатура</CommandSource>
 											<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураExtendedTooltip" id="243"/>
 											<ChildItems>
@@ -461,42 +372,36 @@
 													<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.SetDeletionMark</CommandName>
 													<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="247"/>
 												</Button>
-												<Popup name="РасширенныйПоискКомандаяПанельУстановитьФильтр" id="381">
+												<Popup name="РасширенныйПоискКоманднаяПанельУстановитьФильтр" id="410">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
+															<v8:content>Установить фильтр</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-														</v8:item>
-													</ToolTip>
 													<Picture>
 														<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
 													<Representation>Picture</Representation>
-													<ExtendedTooltip name="РасширенныйПоискКомандаяПанельУстановитьФильтрРасширеннаяПодсказка" id="382"/>
+													<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="421"/>
 													<ChildItems>
-														<Button name="РасширенныйПоискКомандаяПанельТоварыДругогоКачества" id="383">
+														<Button name="РасширенныйПоискКоманднаяПанельТоварыДругогоКачества" id="408">
 															<Type>CommandBarButton</Type>
 															<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
-															<ExtendedTooltip name="РасширенныйПоискКомандаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="384"/>
+															<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="422"/>
 														</Button>
-														<Button name="РасширенныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствами" id="385">
+														<Button name="РасширенныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствами" id="406">
 															<Type>CommandBarButton</Type>
 															<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
-															<ExtendedTooltip name="РасширенныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="386"/>
+															<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="423"/>
 														</Button>
 													</ChildItems>
 												</Popup>
 												<Button name="СписокРасширенныйПоискНоменклатураНастроитьПоиск" id="155">
 													<Type>CommandBarButton</Type>
-													<OnlyInAllActions>false</OnlyInAllActions>
 													<CommandName>Form.Command.НастроитьПоиск</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="249"/>
 												</Button>
 												<Popup name="СписокРасширенныйПоискНоменклатураГруппаГорячиеКлавиши" id="191">
@@ -506,18 +411,12 @@
 															<v8:content>Горячие клавиши</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Горячие клавиши</v8:content>
-														</v8:item>
-													</ToolTip>
 													<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураГруппаГорячиеКлавишиExtendedTooltip" id="250"/>
 													<ChildItems>
 														<Button name="УстановитьТекущийЭлементСтрокаПоиска" id="192">
 															<Type>CommandBarButton</Type>
-															<OnlyInAllActions>false</OnlyInAllActions>
 															<CommandName>Form.Command.УстановитьТекущийЭлементСтрокаПоиска</CommandName>
+															<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 															<ExtendedTooltip name="УстановитьТекущийЭлементСтрокаПоискаExtendedTooltip" id="251"/>
 														</Button>
 													</ChildItems>
@@ -544,28 +443,31 @@
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<SearchOnInput>DontUse</SearchOnInput>
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>СписокНоменклатура</DataPath>
-									<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 									<RowsPicture>
 										<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</RowsPicture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Список расширенный поиск номенклатура</v8:content>
+										</v8:item>
+									</Title>
 									<CommandSet>
-										<ExcludedCommand>HierarchicalList</ExcludedCommand>
-										<ExcludedCommand>Tree</ExcludedCommand>
-										<ExcludedCommand>List</ExcludedCommand>
-										<ExcludedCommand>LevelUp</ExcludedCommand>
-										<ExcludedCommand>ListSettings</ExcludedCommand>
 										<ExcludedCommand>CancelSearch</ExcludedCommand>
-										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 										<ExcludedCommand>Choose</ExcludedCommand>
-										<ExcludedCommand>Find</ExcludedCommand>
 										<ExcludedCommand>CreateFolder</ExcludedCommand>
+										<ExcludedCommand>Find</ExcludedCommand>
+										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+										<ExcludedCommand>HierarchicalList</ExcludedCommand>
 										<ExcludedCommand>LevelDown</ExcludedCommand>
+										<ExcludedCommand>LevelUp</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
+										<ExcludedCommand>ListSettings</ExcludedCommand>
+										<ExcludedCommand>Tree</ExcludedCommand>
 									</CommandSet>
-									<SearchStringLocation>None</SearchStringLocation>
-									<ViewStatusLocation>None</ViewStatusLocation>
-									<SearchControlLocation>None</SearchControlLocation>
 									<AutoRefresh>false</AutoRefresh>
 									<AutoRefreshPeriod>60</AutoRefreshPeriod>
 									<Period>
@@ -610,6 +512,7 @@
 											<Item>СписокРасширенныйПоискНоменклатура</Item>
 											<Type>ViewStatusRepresentation</Type>
 										</AdditionSource>
+										<HorizontalLocation>Left</HorizontalLocation>
 										<ContextMenu name="СписокРасширенныйПоискНоменклатураСостояниеПросмотраКонтекстноеМеню" id="307"/>
 										<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="308"/>
 									</ViewStatusAddition>
@@ -623,7 +526,7 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="СписокРасширенныйПоискНоменклатураНаименование" id="95">
-											<DataPath>СписокНоменклатура.Description</DataPath>
+											<DataPath>СписокНоменклатура.Наименование</DataPath>
 											<ContextMenu name="СписокРасширенныйПоискНоменклатураНаименованиеКонтекстноеМеню" id="96"/>
 											<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураНаименованиеExtendedTooltip" id="257"/>
 										</LabelField>
@@ -651,16 +554,12 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа панель категорий</v8:content>
+							<v8:content>Панель категорий</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа панель категорий</v8:content>
-						</v8:item>
-					</ToolTip>
+					<Width>35</Width>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПанельКатегорийExtendedTooltip" id="260"/>
@@ -669,16 +568,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа фильтры номенклатуры</v8:content>
+									<v8:content>Фильтры номенклатуры</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа фильтры номенклатуры</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="261"/>
@@ -703,14 +597,7 @@
 											<v8:content>Командная панель вариант навигации</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Командная панель вариант навигации</v8:content>
-										</v8:item>
-									</ToolTip>
-									<Width>7</Width>
-									<HorizontalStretch>false</HorizontalStretch>
+									<Width>10</Width>
 									<HorizontalLocation>Right</HorizontalLocation>
 									<ExtendedTooltip name="КоманднаяПанельВариантНавигацииРасширеннаяПодсказка" id="280"/>
 									<ChildItems>
@@ -719,14 +606,57 @@
 											<CommandName>Form.Command.СброситьОтборыПоСвойствам</CommandName>
 											<ExtendedTooltip name="СброситьОтборыПоСвойствамExtendedTooltip" id="281"/>
 										</Button>
+										<Popup name="ПодменюСоздать" id="396">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Создать</v8:content>
+												</v8:item>
+											</Title>
+											<Picture>
+												<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<Representation>Picture</Representation>
+											<ExtendedTooltip name="ПодменюСоздатьРасширеннаяПодсказка" id="397"/>
+											<ChildItems>
+												<Button name="СоздатьВидНоменклатуры" id="398">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Вид номенклатуры</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="СоздатьВидНоменклатурыРасширеннаяПодсказка" id="399"/>
+												</Button>
+												<Button name="СоздатьГруппуВидовНоменклатуры" id="400">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группу видов номенклатуры</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="СоздатьГруппуВидовНоменклатурыРасширеннаяПодсказка" id="401"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+										<Button name="СоздатьГруппуНоменклатуры" id="402">
+											<Type>CommandBarButton</Type>
+											<Representation>Picture</Representation>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="СоздатьГруппуНоменклатурыРасширеннаяПодсказка" id="403"/>
+										</Button>
 										<Button name="ИзменитьВариантНавигации" id="342">
 											<Type>CommandBarButton</Type>
 											<Representation>Picture</Representation>
-											<Width>2</Width>
 											<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 											<Picture>
 												<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="343"/>
 										</Button>
@@ -741,12 +671,6 @@
 									<v8:content>Варианты навигации</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Варианты навигации</v8:content>
-								</v8:item>
-							</ToolTip>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ВариантыНавигацииExtendedTooltip" id="264"/>
 							<ChildItems>
@@ -757,12 +681,6 @@
 											<v8:content>Навигация иерархия номенклатуры</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Навигация иерархия номенклатуры</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияИерархияНоменклатурыExtendedTooltip" id="265"/>
 									<ChildItems>
@@ -773,12 +691,6 @@
 													<v8:content>Командная панель фильтры</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Командная панель фильтры</v8:content>
-												</v8:item>
-											</ToolTip>
 											<ExtendedTooltip name="КоманднаяПанельФильтрыExtendedTooltip" id="266"/>
 											<ChildItems>
 												<Button name="СоздатьГруппу" id="116">
@@ -814,25 +726,28 @@
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ИерархияНоменклатуры</DataPath>
 											<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Иерархия номенклатуры</v8:content>
+												</v8:item>
+											</Title>
 											<CommandSet>
-												<ExcludedCommand>HierarchicalList</ExcludedCommand>
-												<ExcludedCommand>Tree</ExcludedCommand>
-												<ExcludedCommand>List</ExcludedCommand>
-												<ExcludedCommand>LevelUp</ExcludedCommand>
-												<ExcludedCommand>MoveItem</ExcludedCommand>
 												<ExcludedCommand>CancelSearch</ExcludedCommand>
-												<ExcludedCommand>Choose</ExcludedCommand>
-												<ExcludedCommand>Find</ExcludedCommand>
-												<ExcludedCommand>LevelDown</ExcludedCommand>
 												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>HierarchicalList</ExcludedCommand>
+												<ExcludedCommand>LevelDown</ExcludedCommand>
+												<ExcludedCommand>LevelUp</ExcludedCommand>
+												<ExcludedCommand>List</ExcludedCommand>
+												<ExcludedCommand>MoveItem</ExcludedCommand>
+												<ExcludedCommand>Tree</ExcludedCommand>
 											</CommandSet>
-											<SearchStringLocation>None</SearchStringLocation>
-											<ViewStatusLocation>None</ViewStatusLocation>
-											<SearchControlLocation>None</SearchControlLocation>
 											<AutoRefresh>false</AutoRefresh>
-											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<AutoRefreshPeriod>58</AutoRefreshPeriod>
 											<Period>
 												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
 												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
@@ -886,6 +801,7 @@
 													<Item>ИерархияНоменклатуры</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
+												<HorizontalLocation>Left</HorizontalLocation>
 												<ContextMenu name="ИерархияНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="316"/>
 												<ExtendedTooltip name="ИерархияНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="317"/>
 											</ViewStatusAddition>
@@ -920,12 +836,6 @@
 											<v8:content>Навигация виды номенклатуры</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Навигация виды номенклатуры</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="НавигацияВидыНоменклатурыExtendedTooltip" id="277"/>
 									<ChildItems>
@@ -947,29 +857,32 @@
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<EnableStartDrag>true</EnableStartDrag>
 											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ВидыНоменклатуры</DataPath>
 											<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Виды номенклатуры</v8:content>
+												</v8:item>
+											</Title>
 											<CommandSet>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 												<ExcludedCommand>HierarchicalList</ExcludedCommand>
-												<ExcludedCommand>Tree</ExcludedCommand>
 												<ExcludedCommand>List</ExcludedCommand>
 												<ExcludedCommand>ListSettings</ExcludedCommand>
 												<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-												<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-												<ExcludedCommand>Refresh</ExcludedCommand>
-												<ExcludedCommand>CancelSearch</ExcludedCommand>
-												<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 												<ExcludedCommand>OutputList</ExcludedCommand>
-												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-												<ExcludedCommand>Choose</ExcludedCommand>
+												<ExcludedCommand>Refresh</ExcludedCommand>
 												<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-												<ExcludedCommand>Find</ExcludedCommand>
 												<ExcludedCommand>SearchHistory</ExcludedCommand>
-												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>Tree</ExcludedCommand>
 											</CommandSet>
-											<SearchStringLocation>None</SearchStringLocation>
-											<ViewStatusLocation>None</ViewStatusLocation>
-											<SearchControlLocation>None</SearchControlLocation>
 											<AutoRefresh>false</AutoRefresh>
 											<AutoRefreshPeriod>60</AutoRefreshPeriod>
 											<Period>
@@ -983,49 +896,31 @@
 											<ShowRoot>false</ShowRoot>
 											<AllowRootChoice>false</AllowRootChoice>
 											<UpdateOnDataChange>Auto</UpdateOnDataChange>
-											<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="345"/>
-											<AutoCommandBar name="ВидыНоменклатурыКоманднаяПанель" id="346">
+											<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="345">
 												<Autofill>false</Autofill>
 												<ChildItems>
-													<Popup name="ВидыНоменклатурыГруппаСоздать" id="369">
+													<Button name="ВидыНоменклатурыСоздать" id="371">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Создать</v8:content>
+																<v8:content>Вид номенклатуры</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
+														<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="372"/>
+													</Button>
+													<Button name="ВидыНоменклатурыСоздатьГруппу" id="373">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
+														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Виды номенклатуры группа создать</v8:content>
+																<v8:content>Группу видов номенклатуры</v8:content>
 															</v8:item>
-														</ToolTip>
-														<ExtendedTooltip name="ВидыНоменклатурыГруппаСоздатьРасширеннаяПодсказка" id="370"/>
-														<ChildItems>
-															<Button name="ВидыНоменклатурыСоздать" id="371">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Вид номенклатуры</v8:content>
-																	</v8:item>
-																</Title>
-																<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="372"/>
-															</Button>
-															<Button name="ВидыНоменклатурыСоздатьГруппу" id="373">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Группу видов номенклатуры</v8:content>
-																	</v8:item>
-																</Title>
-																<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="374"/>
-															</Button>
-														</ChildItems>
-													</Popup>
+														</Title>
+														<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="374"/>
+													</Button>
 													<Button name="ВидыНоменклатурыИзменить" id="375">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Change</CommandName>
@@ -1038,11 +933,24 @@
 													</Button>
 													<Button name="ВидыНоменклатурыУстановитьПометкуУдаления" id="379">
 														<Type>CommandBarButton</Type>
-														<OnlyInAllActions>false</OnlyInAllActions>
 														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ВидыНоменклатурыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="380"/>
 													</Button>
+													<ButtonGroup name="ВидыНоменклатурыКонтекстноеМенюСтандартныеКоманды" id="404">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Виды номенклатуры контекстное меню стандартные команды</v8:content>
+															</v8:item>
+														</Title>
+														<CommandSource>Item.ВидыНоменклатуры</CommandSource>
+														<ExtendedTooltip name="ВидыНоменклатурыКонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка" id="405"/>
+													</ButtonGroup>
 												</ChildItems>
+											</ContextMenu>
+											<AutoCommandBar name="ВидыНоменклатурыКоманднаяПанель" id="346">
+												<Autofill>false</Autofill>
 											</AutoCommandBar>
 											<ExtendedTooltip name="ВидыНоменклатурыРасширеннаяПодсказка" id="347"/>
 											<SearchStringAddition name="ВидыНоменклатурыСтрокаПоиска" id="348">
@@ -1058,6 +966,7 @@
 													<Item>ВидыНоменклатуры</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
+												<HorizontalLocation>Left</HorizontalLocation>
 												<ContextMenu name="ВидыНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="356"/>
 												<ExtendedTooltip name="ВидыНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="357"/>
 											</ViewStatusAddition>
@@ -1092,27 +1001,31 @@
 											<HorizontalLines>false</HorizontalLines>
 											<VerticalLines>false</VerticalLines>
 											<InitialTreeView>ExpandAllLevels</InitialTreeView>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>ДеревоОтборов</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дерево отборов</v8:content>
+												</v8:item>
+											</Title>
 											<CommandSet>
-												<ExcludedCommand>HierarchicalList</ExcludedCommand>
-												<ExcludedCommand>Tree</ExcludedCommand>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
 												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>List</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
-												<ExcludedCommand>OutputList</ExcludedCommand>
-												<ExcludedCommand>SelectAll</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
 												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 												<ExcludedCommand>Delete</ExcludedCommand>
 												<ExcludedCommand>EndEdit</ExcludedCommand>
-												<ExcludedCommand>Add</ExcludedCommand>
-												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>HierarchicalList</ExcludedCommand>
+												<ExcludedCommand>List</ExcludedCommand>
 												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+												<ExcludedCommand>Tree</ExcludedCommand>
 											</CommandSet>
-											<SearchStringLocation>None</SearchStringLocation>
-											<ViewStatusLocation>None</ViewStatusLocation>
-											<SearchControlLocation>None</SearchControlLocation>
 											<ContextMenu name="ДеревоОтборовКонтекстноеМеню" id="51">
 												<Autofill>false</Autofill>
 											</ContextMenu>
@@ -1133,6 +1046,7 @@
 													<Item>ДеревоОтборов</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
+												<HorizontalLocation>Left</HorizontalLocation>
 												<ContextMenu name="ДеревоОтборовСостояниеПросмотраКонтекстноеМеню" id="325"/>
 												<ExtendedTooltip name="ДеревоОтборовСостояниеПросмотраРасширеннаяПодсказка" id="326"/>
 											</ViewStatusAddition>
@@ -1152,12 +1066,6 @@
 															<v8:content>Дерево отборов группа представление</v8:content>
 														</v8:item>
 													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Дерево отборов группа представление</v8:content>
-														</v8:item>
-													</ToolTip>
 													<Group>InCell</Group>
 													<ExtendedTooltip name="ДеревоОтборовГруппаПредставлениеExtendedTooltip" id="284"/>
 													<ChildItems>
@@ -1181,7 +1089,9 @@
 													<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<CellHyperlink>true</CellHyperlink>
-													<TextColor>style:ЦветГиперссылки</TextColor>
+													<Width>15</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<TextColor>style:ГиперссылкаЦвет</TextColor>
 													<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="67"/>
 													<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораExtendedTooltip" id="287"/>
 												</LabelField>
@@ -1196,19 +1106,10 @@
 											<v8:content>Страница товары другого качества</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница товары другого качества</v8:content>
-										</v8:item>
-									</ToolTip>
 									<ExtendedTooltip name="СтраницаТоварыДругогоКачестваExtendedTooltip" id="288"/>
 									<ChildItems>
 										<InputField name="НоменклатураИсходногоКачества" id="129">
 											<DataPath>НоменклатураИсходногоКачества</DataPath>
-											<DropListButton>false</DropListButton>
-											<ChoiceButton>true</ChoiceButton>
-											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 											<ChoiceParameters>
 												<app:item name="Отбор.ЕстьТоварыДругогоКачества">
@@ -1229,27 +1130,30 @@
 											<VerticalLines>false</VerticalLines>
 											<UseAlternationRowColor>true</UseAlternationRowColor>
 											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<FileDragMode>AsFile</FileDragMode>
 											<DataPath>СписокКачества</DataPath>
-											<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Список качества</v8:content>
+												</v8:item>
+											</Title>
 											<CommandSet>
-												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
 												<ExcludedCommand>CheckAll</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
-												<ExcludedCommand>UncheckAll</ExcludedCommand>
-												<ExcludedCommand>SelectAll</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
-												<ExcludedCommand>Pickup</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
 												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 												<ExcludedCommand>Delete</ExcludedCommand>
 												<ExcludedCommand>EndEdit</ExcludedCommand>
-												<ExcludedCommand>Add</ExcludedCommand>
-												<ExcludedCommand>Change</ExcludedCommand>
 												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>Pickup</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+												<ExcludedCommand>UncheckAll</ExcludedCommand>
 											</CommandSet>
-											<SearchStringLocation>None</SearchStringLocation>
-											<ViewStatusLocation>None</ViewStatusLocation>
-											<SearchControlLocation>None</SearchControlLocation>
 											<ContextMenu name="СписокКачестваКонтекстноеМеню" id="132"/>
 											<AutoCommandBar name="СписокКачестваКоманднаяПанель" id="133">
 												<Autofill>false</Autofill>
@@ -1268,6 +1172,7 @@
 													<Item>СписокКачества</Item>
 													<Type>ViewStatusRepresentation</Type>
 												</AdditionSource>
+												<HorizontalLocation>Left</HorizontalLocation>
 												<ContextMenu name="СписокКачестваСостояниеПросмотраКонтекстноеМеню" id="334"/>
 												<ExtendedTooltip name="СписокКачестваСостояниеПросмотраРасширеннаяПодсказка" id="335"/>
 											</ViewStatusAddition>
@@ -1333,7 +1238,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="СписокНоменклатура" id="1">
+		<Attribute name="СписокНоменклатура" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1345,28 +1250,28 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>СписокНоменклатура.Ссылка</Field>
-				<Field>СписокНоменклатура.ПометкаУдаления</Field>
-				<Field>СписокНоменклатура.ИндексКартинки</Field>
+				<Field>~СписокНоменклатура.Description</Field>
+				<Field>~СписокНоменклатура.Parent</Field>
+				<Field>~СписокНоменклатура.Ref</Field>
 				<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-				<Field>СписокНоменклатура.АБ_СнятоСПроизводства</Field>
-				<Field>СписокНоменклатура.Parent</Field>
-				<Field>СписокНоменклатура.Description</Field>
+				<Field>СписокНоменклатура.ИндексКартинки</Field>
+				<Field>СписокНоменклатура.ПометкаУдаления</Field>
+				<Field>СписокНоменклатура.СнятоСПроизводства</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	СпрНоменклатура.Ссылка КАК Ссылка,
-	СпрНоменклатура.Код,
+	СпрНоменклатура.Код КАК Код,
 	СпрНоменклатура.ПометкаУдаления КАК ПометкаУдаления,
-	СпрНоменклатура.Наименование,
-	СпрНоменклатура.Артикул,
-	СпрНоменклатура.ВидНоменклатуры,
-	СпрНоменклатура.ЕдиницаИзмерения,
-	СпрНоменклатура.СтавкаНДС,
-	СпрНоменклатура.ТипНоменклатуры,
-	СпрНоменклатура.Родитель,
+	СпрНоменклатура.Наименование КАК Наименование,
+	СпрНоменклатура.Артикул КАК Артикул,
+	СпрНоменклатура.ВидНоменклатуры КАК ВидНоменклатуры,
+	СпрНоменклатура.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СпрНоменклатура.СтавкаНДС КАК СтавкаНДС,
+	СпрНоменклатура.ТипНоменклатуры КАК ТипНоменклатуры,
+	СпрНоменклатура.Родитель КАК Родитель,
 	ВЫБОР
 		КОГДА СпрНоменклатура.ЕстьТоварыДругогоКачества
 			ТОГДА 4 + ВЫБОР
@@ -1390,9 +1295,8 @@
 	КОНЕЦ КАК ИндексКартинки,
 	ЕСТЬNULL(ВариантыКомплектацииНоменклатуры.СодержитТовары, ЛОЖЬ) КАК СодержитТовары,
 	ЕСТЬNULL(ВариантыКомплектацииНоменклатуры.СодержитУслуги, ЛОЖЬ) КАК СодержитУслуги,
-	СпрНоменклатура.ВидНоменклатуры.ВариантОказанияУслуг КАК ВариантОказанияУслуг,
 	СпрНоменклатура.ВестиУчетСертификатовНоменклатуры КАК ВестиУчетСертификатовНоменклатуры,
-	СпрНоменклатура.АБ_СнятоСПроизводства
+	СпрНоменклатура.СнятоСПроизводства КАК СнятоСПроизводства
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВариантыКомплектацииНоменклатуры КАК ВариантыКомплектацииНоменклатуры
@@ -1437,7 +1341,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ВидыНоменклатуры" id="2">
+		<Attribute name="ВидыНоменклатуры" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1448,8 +1352,8 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ВидыНоменклатуры.Ref</Field>
 				<Field>ВидыНоменклатуры.IsFolder</Field>
+				<Field>ВидыНоменклатуры.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1479,7 +1383,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="СтрокаПоискаНоменклатура" id="7">
+		<Attribute name="СтрокаПоискаНоменклатура" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1494,7 +1398,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИерархияНоменклатуры" id="8">
+		<Attribute name="ИерархияНоменклатуры" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1505,8 +1409,8 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ИерархияНоменклатуры.Ref</Field>
 				<Field>ИерархияНоменклатуры.Parent</Field>
+				<Field>ИерархияНоменклатуры.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -1535,7 +1439,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ДеревоОтборов" id="11">
+		<Attribute name="ДеревоОтборов" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1727,7 +1631,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ВидНоменклатуры" id="3">
+		<Attribute name="ВидНоменклатуры" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1738,7 +1642,7 @@
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьПолнотекстовыйПоиск" id="4">
+		<Attribute name="ИспользоватьПолнотекстовыйПоиск" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1749,7 +1653,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИндексПолнотекстовогоПоискаАктуален" id="5">
+		<Attribute name="ИндексПолнотекстовогоПоискаАктуален" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1760,7 +1664,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СегментНоменклатуры" id="9">
+		<Attribute name="СегментНоменклатуры" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1774,7 +1678,7 @@
 				<Item>FunctionalOption.ИспользоватьСегментыНоменклатуры</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ВариантНавигации" id="10">
+		<Attribute name="ВариантНавигации" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1785,7 +1689,7 @@
 				<v8:Type>cfg:EnumRef.ВариантыНавигацииВФормахНоменклатуры</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьФильтры" id="13">
+		<Attribute name="ИспользоватьФильтры" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1796,7 +1700,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СписокОбязательныхОтборов" id="15">
+		<Attribute name="СписокОбязательныхОтборов" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1806,8 +1710,9 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
-		<Attribute name="НаименованиеНоменклатурыПоставщика" id="17">
+		<Attribute name="НаименованиеНоменклатурыПоставщика" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1822,7 +1727,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АртикулНоменклатурыПоставщика" id="18">
+		<Attribute name="АртикулНоменклатурыПоставщика" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1833,7 +1738,7 @@
 				<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
 			</Type>
 		</Attribute>
-		<Attribute name="НайтиНоменклатуруПоТочномуСоответствию" id="20">
+		<Attribute name="НайтиНоменклатуруПоТочномуСоответствию" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1844,7 +1749,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИнформационнаяБазаФайловая" id="21">
+		<Attribute name="ИнформационнаяБазаФайловая" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1855,7 +1760,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КодОшибкиПоиска" id="22">
+		<Attribute name="КодОшибкиПоиска" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1870,7 +1775,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПоискНоменклатурыНеУдачный" id="19">
+		<Attribute name="ПоискНоменклатурыНеУдачный" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1881,7 +1786,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущаяИерархияНоменклатуры" id="23">
+		<Attribute name="ТекущаяИерархияНоменклатуры" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1892,7 +1797,7 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КодФормы" id="6">
+		<Attribute name="КодФормы" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1907,7 +1812,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НоменклатураИсходногоКачества" id="24">
+		<Attribute name="НоменклатураИсходногоКачества" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1918,7 +1823,7 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СписокКачества" id="25">
+		<Attribute name="СписокКачества" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1928,8 +1833,9 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
-		<Attribute name="ТаблицаПараметровОтбора" id="14">
+		<Attribute name="ТаблицаПараметровОтбора" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2117,9 +2023,71 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="ИнтервалДо" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интервал до</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИнтервалОт" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интервал от</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОтборХарактеристик" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор характеристик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЭтоДопРеквизит" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это доп реквизит</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="НоменклатураЭлементПриОткрытии" id="26">
+		<Attribute name="НоменклатураЭлементПриОткрытии" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2130,7 +2098,7 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НоменклатураРодительПриОткрытии" id="27">
+		<Attribute name="НоменклатураРодительПриОткрытии" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2141,7 +2109,7 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьХарактеристикиНоменклатуры" id="28">
+		<Attribute name="ИспользоватьХарактеристикиНоменклатуры" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2152,7 +2120,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидНоменклатурыДоИзменения" id="29">
+		<Attribute name="ВидНоменклатурыДоИзменения" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2163,7 +2131,7 @@
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВыборТовараДругогоКачества" id="30">
+		<Attribute name="ВыборТовараДругогоКачества" id="1000028">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2174,7 +2142,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВариантПоискаТоваров" id="31">
+		<Attribute name="ВариантПоискаТоваров" id="1000029">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2189,7 +2157,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьСтандартныйПоискПриПодбореТоваров" id="32">
+		<Attribute name="ИспользоватьСтандартныйПоискПриПодбореТоваров" id="1000030">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2200,7 +2168,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЕстьФильтрПоПоискуНоменклатуры" id="33">
+		<Attribute name="ЕстьФильтрПоПоискуНоменклатуры" id="1000031">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2211,7 +2179,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЕстьПравоНастройкиВидовНоменклатуры" id="12">
+		<Attribute name="ЕстьПравоНастройкиВидовНоменклатуры" id="1000032">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2222,7 +2190,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЦветТекстаФормы" id="16">
+		<Attribute name="ЦветТекстаФормы" id="1000033">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2233,7 +2201,7 @@
 				<v8:Type>v8ui:Color</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьВариантНавигации" id="35">
+		<Attribute name="НадписьВариантНавигации" id="1000034">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2244,7 +2212,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИмпортерЕГАИС" id="36">
+		<Attribute name="ИмпортерЕГАИС" id="1000035">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2255,7 +2223,7 @@
 				<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НаименованиеНоменклатурыЕГАИС" id="37">
+		<Attribute name="НаименованиеНоменклатурыЕГАИС" id="1000036">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2270,7 +2238,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НоменклатураЕГАИС" id="38">
+		<Attribute name="НоменклатураЕГАИС" id="1000037">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2281,7 +2249,7 @@
 				<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОбъемЕГАИС" id="39">
+		<Attribute name="ОбъемЕГАИС" id="1000038">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2297,7 +2265,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПолноеНаименованиеНоменклатурыЕГАИС" id="40">
+		<Attribute name="ПолноеНаименованиеНоменклатурыЕГАИС" id="1000039">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2312,7 +2280,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПроизводительЕГАИС" id="41">
+		<Attribute name="ПроизводительЕГАИС" id="1000040">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2323,7 +2291,7 @@
 				<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидАлкогольнойПродукцииЕГАИС" id="42">
+		<Attribute name="ВидАлкогольнойПродукцииЕГАИС" id="1000041">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2334,7 +2302,7 @@
 				<v8:Type>cfg:CatalogRef.ВидыАлкогольнойПродукции</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КрепостьЕГАИС" id="43">
+		<Attribute name="КрепостьЕГАИС" id="1000042">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2350,7 +2318,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РегистрироватьШтрихкод" id="44">
+		<Attribute name="РегистрироватьШтрихкод" id="1000043">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2370,7 +2338,7 @@
 				</dcsset:selection>
 				<dcsset:filter>
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
-						<dcsset:left xsi:type="dcscor:Field">СписокНоменклатура.АБ_СнятоСПроизводства</dcsset:left>
+						<dcsset:left xsi:type="dcscor:Field">СписокНоменклатура.СнятоСПроизводства</dcsset:left>
 						<dcsset:comparisonType>Equal</dcsset:comparisonType>
 						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
 					</dcsset:item>
@@ -2385,7 +2353,7 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
-		<Command name="Поиск" id="1">
+		<Command name="Поиск" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2402,8 +2370,9 @@
 				<xr:Ref>StdPicture.Find</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НоменклатураСАналогичнымиСвойствами" id="3">
+		<Command name="НоменклатураСАналогичнымиСвойствами" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2420,8 +2389,9 @@
 				<xr:Ref>CommonPicture.ФильтрПоВидамИСвойствамНоменклатуры</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ТоварыДругогоКачества" id="4">
+		<Command name="ТоварыДругогоКачества" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2441,8 +2411,9 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьКачествоТоваров</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СброситьОтборыПоСвойствам" id="5">
+		<Command name="СброситьОтборыПоСвойствам" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2460,8 +2431,9 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НастроитьПоиск" id="6">
+		<Command name="НастроитьПоиск" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2474,8 +2446,9 @@
 					<v8:content>Настроить поиск</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="7">
+		<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2489,8 +2462,9 @@
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Alt+1</Shortcut>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыбратьЗначениеНоменклатуры" id="8">
+		<Command name="ВыбратьЗначениеНоменклатуры" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2508,8 +2482,9 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ИзменитьВариантНавигации" id="9">
+		<Command name="ИзменитьВариантНавигации" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2522,12 +2497,17 @@
 					<v8:content>Изменить вариант навигации</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
 	<Parameters>
 		<Parameter name="НоменклатураПоставщика">
 			<Type>
-				<v8:Type>cfg:CatalogRef.НоменклатураПоставщиков</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Parameter>
 		<Parameter name="АртикулНоменклатурыПоставщика">
@@ -2625,24 +2605,24 @@
 			</Type>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.4">
+	<BaseForm version="2.13">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<CommandSet>
-			<ExcludedCommand>Tree</ExcludedCommand>
-			<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-			<ExcludedCommand>Copy</ExcludedCommand>
-			<ExcludedCommand>Delete</ExcludedCommand>
-			<ExcludedCommand>Create</ExcludedCommand>
+			<ExcludedCommand>CancelSearch</ExcludedCommand>
 			<ExcludedCommand>Change</ExcludedCommand>
 			<ExcludedCommand>Choose</ExcludedCommand>
-			<ExcludedCommand>CancelSearch</ExcludedCommand>
-			<ExcludedCommand>List</ExcludedCommand>
-			<ExcludedCommand>LevelDown</ExcludedCommand>
-			<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
-			<ExcludedCommand>Find</ExcludedCommand>
+			<ExcludedCommand>Copy</ExcludedCommand>
+			<ExcludedCommand>Create</ExcludedCommand>
 			<ExcludedCommand>CreateFolder</ExcludedCommand>
-			<ExcludedCommand>LevelUp</ExcludedCommand>
+			<ExcludedCommand>Delete</ExcludedCommand>
+			<ExcludedCommand>Find</ExcludedCommand>
+			<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 			<ExcludedCommand>HierarchicalList</ExcludedCommand>
+			<ExcludedCommand>LevelDown</ExcludedCommand>
+			<ExcludedCommand>LevelUp</ExcludedCommand>
+			<ExcludedCommand>List</ExcludedCommand>
+			<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+			<ExcludedCommand>Tree</ExcludedCommand>
 		</CommandSet>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
@@ -2652,16 +2632,11 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Группа форма таблицы</v8:content>
+						<v8:content>Форма таблицы</v8:content>
 					</v8:item>
 				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа форма таблицы</v8:content>
-					</v8:item>
-				</ToolTip>
 				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
 				<Representation>None</Representation>
 				<ChildItemsWidth>LeftWide</ChildItemsWidth>
 				<ShowTitle>false</ShowTitle>
@@ -2674,12 +2649,6 @@
 								<v8:content>Страницы списков</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Страницы списков</v8:content>
-							</v8:item>
-						</ToolTip>
 						<PagesRepresentation>None</PagesRepresentation>
 						<ExtendedTooltip name="СтраницыСписковExtendedTooltip" id="213"/>
 						<ChildItems>
@@ -2690,136 +2659,17 @@
 										<v8:content>Страница стандартный поиск номенклатура</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Страница стандартный поиск номенклатура</v8:content>
-									</v8:item>
-								</ToolTip>
 								<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураExtendedTooltip" id="214"/>
 								<ChildItems>
-									<UsualGroup name="ГруппаКоманднаяПанельСписокСтандартныйПоискНоменклатураКнопкаВыбора" id="209">
+									<CommandBar name="ГруппаПользовательскихНастроек" id="394">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Группа командная панель список стандартный поиск номенклатура кнопка выбора</v8:content>
+												<v8:content>Группа пользовательских настроек</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа командная панель список стандартный поиск номенклатура кнопка выбора</v8:content>
-											</v8:item>
-										</ToolTip>
-										<Group>Horizontal</Group>
-										<Representation>None</Representation>
-										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="ГруппаКоманднаяПанельСписокСтандартныйПоискНоменклатураКнопкаВыбораExtendedTooltip" id="215"/>
-										<ChildItems>
-											<Button name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="193">
-												<Type>UsualButton</Type>
-												<DefaultButton>true</DefaultButton>
-												<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
-												<Font bold="true" kind="AutoFont"/>
-												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="216"/>
-											</Button>
-											<CommandBar name="КоманднаяПанельСписокСтандартныйПоискНоменклатура" id="208">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Командная панель списка стандартного поиска по номенклатуре</v8:content>
-													</v8:item>
-												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Командная панель списка стандартного поиска по номенклатуре</v8:content>
-													</v8:item>
-												</ToolTip>
-												<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураExtendedTooltip" id="217"/>
-												<ChildItems>
-													<Button name="СписокСтандартныйПоискНоменклатураСоздать" id="195">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Create</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСоздатьExtendedTooltip" id="218"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураСкопировать" id="196">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Copy</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСкопироватьExtendedTooltip" id="219"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураИзменить" id="197">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Change</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураИзменитьExtendedTooltip" id="220"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаления" id="198">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.SetDeletionMark</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="221"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураНайти" id="199">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.Find</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНайтиExtendedTooltip" id="222"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураОтменитьПоиск" id="200">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокСтандартныйПоискНоменклатура.StandardCommand.CancelSearch</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураОтменитьПоискExtendedTooltip" id="223"/>
-													</Button>
-													<Popup name="СтандартныйПоискКомандаяПанельУстановитьФильтр" id="387">
-														<Title>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-															</v8:item>
-														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-															</v8:item>
-														</ToolTip>
-														<Picture>
-															<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
-														</Picture>
-														<Representation>Picture</Representation>
-														<ExtendedTooltip name="СтандартныйПоискКомандаяПанельУстановитьФильтрРасширеннаяПодсказка" id="388"/>
-														<ChildItems>
-															<Button name="СтандартныйПоискКомандаяПанельТоварыДругогоКачества" id="389">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
-																<ExtendedTooltip name="СтандартныйПоискКомандаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="390"/>
-															</Button>
-															<Button name="СтандартныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствами" id="391">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
-																<ExtendedTooltip name="СтандартныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="392"/>
-															</Button>
-														</ChildItems>
-													</Popup>
-													<Button name="СписокСтандартныйПоискНоменклатураНастроитьПоиск" id="201">
-														<Type>CommandBarButton</Type>
-														<OnlyInAllActions>false</OnlyInAllActions>
-														<CommandName>Form.Command.НастроитьПоиск</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="225"/>
-													</Button>
-													<Button name="ИзменитьФорму" id="210">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-														<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="226"/>
-													</Button>
-													<Button name="СписокСтандартныйПоискНоменклатураСправка" id="165">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.StandardCommand.Help</CommandName>
-														<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСправкаExtendedTooltip" id="227"/>
-													</Button>
-												</ChildItems>
-											</CommandBar>
-										</ChildItems>
-									</UsualGroup>
+										<ExtendedTooltip name="ГруппаПользовательскихНастроекРасширеннаяПодсказка" id="395"/>
+									</CommandBar>
 									<Table name="СписокСтандартныйПоискНоменклатура" id="180">
 										<Representation>List</Representation>
 										<ChoiceMode>true</ChoiceMode>
@@ -2830,26 +2680,29 @@
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>СписокНоменклатура</DataPath>
-										<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 										<RowsPicture>
 											<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</RowsPicture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Список стандартный поиск номенклатура</v8:content>
+											</v8:item>
+										</Title>
 										<CommandSet>
-											<ExcludedCommand>HierarchicalList</ExcludedCommand>
-											<ExcludedCommand>Tree</ExcludedCommand>
-											<ExcludedCommand>List</ExcludedCommand>
-											<ExcludedCommand>LevelUp</ExcludedCommand>
-											<ExcludedCommand>ListSettings</ExcludedCommand>
-											<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 											<ExcludedCommand>Choose</ExcludedCommand>
 											<ExcludedCommand>CreateFolder</ExcludedCommand>
+											<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+											<ExcludedCommand>HierarchicalList</ExcludedCommand>
 											<ExcludedCommand>LevelDown</ExcludedCommand>
+											<ExcludedCommand>LevelUp</ExcludedCommand>
+											<ExcludedCommand>List</ExcludedCommand>
+											<ExcludedCommand>ListSettings</ExcludedCommand>
+											<ExcludedCommand>Tree</ExcludedCommand>
 										</CommandSet>
-										<SearchStringLocation>None</SearchStringLocation>
-										<ViewStatusLocation>None</ViewStatusLocation>
-										<SearchControlLocation>None</SearchControlLocation>
 										<AutoRefresh>false</AutoRefresh>
 										<AutoRefreshPeriod>60</AutoRefreshPeriod>
 										<Period>
@@ -2863,6 +2716,7 @@
 										<ShowRoot>true</ShowRoot>
 										<AllowRootChoice>false</AllowRootChoice>
 										<UpdateOnDataChange>Auto</UpdateOnDataChange>
+										<UserSettingsGroup>ГруппаПользовательскихНастроек</UserSettingsGroup>
 										<ContextMenu name="СписокСтандартныйПоискНоменклатураКонтекстноеМеню" id="181">
 											<ChildItems>
 												<Button name="СписокСтандартныйПоискНоменклатураКонтекстноеМенюНоменклатураСАналогичнымиСвойствами" id="189">
@@ -2878,7 +2732,77 @@
 											</ChildItems>
 										</ContextMenu>
 										<AutoCommandBar name="СписокСтандартныйПоискНоменклатураКоманднаяПанель" id="182">
-											<Autofill>false</Autofill>
+											<ChildItems>
+												<Button name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="193">
+													<Type>CommandBarButton</Type>
+													<DefaultButton>true</DefaultButton>
+													<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="216"/>
+												</Button>
+												<Button name="СписокСтандартныйПоискНоменклатураСоздать" id="195">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСоздатьExtendedTooltip" id="218"/>
+												</Button>
+												<Button name="СписокСтандартныйПоискНоменклатураСкопировать" id="196">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСкопироватьExtendedTooltip" id="219"/>
+												</Button>
+												<Button name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаления" id="198">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="221"/>
+												</Button>
+												<Popup name="СтандартныйПоискКоманднаяПанельУстановитьФильтр" id="387">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Установить фильтр</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Расширенный поиск командная панель установить фильтр</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Picture>
+														<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<Representation>Picture</Representation>
+													<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="388"/>
+													<ChildItems>
+														<Button name="СтандартныйПоискКоманднаяПанельТоварыДругогоКачества" id="389">
+															<Type>CommandBarButton</Type>
+															<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
+															<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="390"/>
+														</Button>
+														<Button name="СтандартныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствами" id="391">
+															<Type>CommandBarButton</Type>
+															<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
+															<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="392"/>
+														</Button>
+													</ChildItems>
+												</Popup>
+												<Button name="СписокСтандартныйПоискНоменклатураНастроитьПоиск" id="201">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.НастроитьПоиск</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="225"/>
+												</Button>
+												<Button name="ИзменитьФорму" id="210">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="226"/>
+												</Button>
+												<Button name="СписокСтандартныйПоискНоменклатураСправка" id="165">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСправкаExtendedTooltip" id="227"/>
+												</Button>
+											</ChildItems>
 										</AutoCommandBar>
 										<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураExtendedTooltip" id="230"/>
 										<SearchStringAddition name="СписокСтандартныйПоискНоменклатураСтрокаПоиска" id="294">
@@ -2894,6 +2818,7 @@
 												<Item>СписокСтандартныйПоискНоменклатура</Item>
 												<Type>ViewStatusRepresentation</Type>
 											</AdditionSource>
+											<HorizontalLocation>Left</HorizontalLocation>
 											<ContextMenu name="СписокСтандартныйПоискНоменклатураСостояниеПросмотраКонтекстноеМеню" id="298"/>
 											<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="299"/>
 										</ViewStatusAddition>
@@ -2918,7 +2843,7 @@
 												<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураАртикулExtendedTooltip" id="232"/>
 											</LabelField>
 											<LabelField name="СписокСтандартныйПоискНоменклатураСсылка" id="187">
-												<DataPath>СписокНоменклатура.Ссылка</DataPath>
+												<DataPath>СписокНоменклатура.Ref</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2936,28 +2861,17 @@
 										<v8:content>Страница расширенный поиск номенклатура</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Страница расширенный поиск номенклатура</v8:content>
-									</v8:item>
-								</ToolTip>
 								<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураExtendedTooltip" id="234"/>
 								<ChildItems>
 									<UsualGroup name="ГруппаПоиск" id="84">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Группа поиск</v8:content>
+												<v8:content>Поиск</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Группа поиск</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПоискExtendedTooltip" id="235"/>
@@ -2969,13 +2883,8 @@
 														<v8:content>Расширенный поиск</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Расширенный поиск</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Horizontal</Group>
+												<Behavior>Usual</Behavior>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="РасширенныйПоискExtendedTooltip" id="236"/>
@@ -2992,16 +2901,10 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа командная панель поиск</v8:content>
+																<v8:content>Командная панель поиск</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Группа командная панель поиск</v8:content>
-															</v8:item>
-														</ToolTip>
-														<Width>5</Width>
+														<Width>3</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ExtendedTooltip name="ГруппаКоманднаяПанельПоискExtendedTooltip" id="238"/>
 														<ChildItems>
@@ -3031,13 +2934,8 @@
 												<v8:content>Командная панель списка расширенного поиска, кнопка "Выбрать"</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Командная панель списка расширенного поиска, кнопка "Выбрать"</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Horizontal</Group>
+										<Behavior>Usual</Behavior>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаКоманднаяПанельСписокРасширенныйПоискНоменклатураКнопкаВыбораExtendedTooltip" id="241"/>
@@ -3045,7 +2943,6 @@
 											<Button name="СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатуры" id="194">
 												<Type>UsualButton</Type>
 												<CommandName>Form.Command.ВыбратьЗначениеНоменклатуры</CommandName>
-												<Font bold="true" kind="AutoFont"/>
 												<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатурыExtendedTooltip" id="242"/>
 											</Button>
 											<CommandBar name="КоманднаяПанельСписокРасширенныйПоискНоменклатура" id="206">
@@ -3055,71 +2952,59 @@
 														<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
-													</v8:item>
-												</ToolTip>
 												<CommandSource>Item.СписокРасширенныйПоискНоменклатура</CommandSource>
 												<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураExtendedTooltip" id="243"/>
 												<ChildItems>
 													<Button name="СписокРасширенныйПоискНоменклатураСоздать" id="202">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.Create</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСоздатьExtendedTooltip" id="244"/>
 													</Button>
 													<Button name="СписокРасширенныйПоискНоменклатураСкопировать" id="203">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.Copy</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСкопироватьExtendedTooltip" id="245"/>
 													</Button>
 													<Button name="СписокРасширенныйПоискНоменклатураИзменить" id="204">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.Change</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураИзменитьExtendedTooltip" id="246"/>
 													</Button>
 													<Button name="СписокРасширенныйПоискНоменклатураУстановитьПометкуУдаления" id="205">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.СписокРасширенныйПоискНоменклатура.StandardCommand.SetDeletionMark</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураУстановитьПометкуУдаленияExtendedTooltip" id="247"/>
 													</Button>
-													<Popup name="РасширенныйПоискКомандаяПанельУстановитьФильтр" id="381">
+													<Popup name="РасширенныйПоискКоманднаяПанельУстановитьФильтр" id="381">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
+																<v8:content>Установить фильтр</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Расширенный поиск командая панель установить фильтр</v8:content>
-															</v8:item>
-														</ToolTip>
 														<Picture>
 															<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
 														<Representation>Picture</Representation>
-														<ExtendedTooltip name="РасширенныйПоискКомандаяПанельУстановитьФильтрРасширеннаяПодсказка" id="382"/>
+														<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="382"/>
 														<ChildItems>
-															<Button name="РасширенныйПоискКомандаяПанельТоварыДругогоКачества" id="383">
+															<Button name="РасширенныйПоискКоманднаяПанельТоварыДругогоКачества" id="383">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.ТоварыДругогоКачества</CommandName>
-																<ExtendedTooltip name="РасширенныйПоискКомандаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="384"/>
+																<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельТоварыДругогоКачестваРасширеннаяПодсказка" id="384"/>
 															</Button>
-															<Button name="РасширенныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствами" id="385">
+															<Button name="РасширенныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствами" id="385">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.НоменклатураСАналогичнымиСвойствами</CommandName>
-																<ExtendedTooltip name="РасширенныйПоискКомандаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="386"/>
+																<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельНоменклатураСАналогичнымиСвойствамиРасширеннаяПодсказка" id="386"/>
 															</Button>
 														</ChildItems>
 													</Popup>
 													<Button name="СписокРасширенныйПоискНоменклатураНастроитьПоиск" id="155">
 														<Type>CommandBarButton</Type>
-														<OnlyInAllActions>false</OnlyInAllActions>
 														<CommandName>Form.Command.НастроитьПоиск</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураНастроитьПоискExtendedTooltip" id="249"/>
 													</Button>
 													<Popup name="СписокРасширенныйПоискНоменклатураГруппаГорячиеКлавиши" id="191">
@@ -3129,30 +3014,24 @@
 																<v8:content>Горячие клавиши</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Горячие клавиши</v8:content>
-															</v8:item>
-														</ToolTip>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураГруппаГорячиеКлавишиExtendedTooltip" id="250"/>
 														<ChildItems>
 															<Button name="УстановитьТекущийЭлементСтрокаПоиска" id="192">
 																<Type>CommandBarButton</Type>
-																<OnlyInAllActions>false</OnlyInAllActions>
 																<CommandName>Form.Command.УстановитьТекущийЭлементСтрокаПоиска</CommandName>
+																<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="УстановитьТекущийЭлементСтрокаПоискаExtendedTooltip" id="251"/>
 															</Button>
 														</ChildItems>
 													</Popup>
 													<Button name="СписокРасширенныйПоискНоменклатураИзменитьФорму" id="211">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураИзменитьФормуExtendedTooltip" id="252"/>
 													</Button>
 													<Button name="СписокРасширенныйПоискНоменклатураСправка" id="168">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.StandardCommand.Help</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСправкаExtendedTooltip" id="253"/>
 													</Button>
 												</ChildItems>
@@ -3167,28 +3046,31 @@
 										<UseAlternationRowColor>true</UseAlternationRowColor>
 										<SearchOnInput>DontUse</SearchOnInput>
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>СписокНоменклатура</DataPath>
-										<RowPictureDataPath>СписокНоменклатура.ИндексКартинки</RowPictureDataPath>
 										<RowsPicture>
 											<xr:Ref>CommonPicture.Номенклатура</xr:Ref>
 											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</RowsPicture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Список расширенный поиск номенклатура</v8:content>
+											</v8:item>
+										</Title>
 										<CommandSet>
-											<ExcludedCommand>HierarchicalList</ExcludedCommand>
-											<ExcludedCommand>Tree</ExcludedCommand>
-											<ExcludedCommand>List</ExcludedCommand>
-											<ExcludedCommand>LevelUp</ExcludedCommand>
-											<ExcludedCommand>ListSettings</ExcludedCommand>
 											<ExcludedCommand>CancelSearch</ExcludedCommand>
-											<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 											<ExcludedCommand>Choose</ExcludedCommand>
-											<ExcludedCommand>Find</ExcludedCommand>
 											<ExcludedCommand>CreateFolder</ExcludedCommand>
+											<ExcludedCommand>Find</ExcludedCommand>
+											<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+											<ExcludedCommand>HierarchicalList</ExcludedCommand>
 											<ExcludedCommand>LevelDown</ExcludedCommand>
+											<ExcludedCommand>LevelUp</ExcludedCommand>
+											<ExcludedCommand>List</ExcludedCommand>
+											<ExcludedCommand>ListSettings</ExcludedCommand>
+											<ExcludedCommand>Tree</ExcludedCommand>
 										</CommandSet>
-										<SearchStringLocation>None</SearchStringLocation>
-										<ViewStatusLocation>None</ViewStatusLocation>
-										<SearchControlLocation>None</SearchControlLocation>
 										<AutoRefresh>false</AutoRefresh>
 										<AutoRefreshPeriod>60</AutoRefreshPeriod>
 										<Period>
@@ -3233,6 +3115,7 @@
 												<Item>СписокРасширенныйПоискНоменклатура</Item>
 												<Type>ViewStatusRepresentation</Type>
 											</AdditionSource>
+											<HorizontalLocation>Left</HorizontalLocation>
 											<ContextMenu name="СписокРасширенныйПоискНоменклатураСостояниеПросмотраКонтекстноеМеню" id="307"/>
 											<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="308"/>
 										</ViewStatusAddition>
@@ -3257,7 +3140,7 @@
 												<ExtendedTooltip name="СписокРасширенныйПоискНоменклатураАртикулExtendedTooltip" id="258"/>
 											</LabelField>
 											<LabelField name="СписокРасширенныйПоискНоменклатураСсылка" id="59">
-												<DataPath>СписокНоменклатура.Ссылка</DataPath>
+												<DataPath>СписокНоменклатура.Ref</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3274,16 +3157,12 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Группа панель категорий</v8:content>
+								<v8:content>Панель категорий</v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа панель категорий</v8:content>
-							</v8:item>
-						</ToolTip>
+						<Width>35</Width>
 						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
 						<ExtendedTooltip name="ГруппаПанельКатегорийExtendedTooltip" id="260"/>
@@ -3292,16 +3171,11 @@
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Группа фильтры номенклатуры</v8:content>
+										<v8:content>Фильтры номенклатуры</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа фильтры номенклатуры</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаФильтрыНоменклатурыExtendedTooltip" id="261"/>
@@ -3326,14 +3200,7 @@
 												<v8:content>Командная панель вариант навигации</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Командная панель вариант навигации</v8:content>
-											</v8:item>
-										</ToolTip>
-										<Width>7</Width>
-										<HorizontalStretch>false</HorizontalStretch>
+										<Width>10</Width>
 										<HorizontalLocation>Right</HorizontalLocation>
 										<ExtendedTooltip name="КоманднаяПанельВариантНавигацииРасширеннаяПодсказка" id="280"/>
 										<ChildItems>
@@ -3342,14 +3209,57 @@
 												<CommandName>Form.Command.СброситьОтборыПоСвойствам</CommandName>
 												<ExtendedTooltip name="СброситьОтборыПоСвойствамExtendedTooltip" id="281"/>
 											</Button>
+											<Popup name="ПодменюСоздать" id="396">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Создать</v8:content>
+													</v8:item>
+												</Title>
+												<Picture>
+													<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<Representation>Picture</Representation>
+												<ExtendedTooltip name="ПодменюСоздатьРасширеннаяПодсказка" id="397"/>
+												<ChildItems>
+													<Button name="СоздатьВидНоменклатуры" id="398">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Вид номенклатуры</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СоздатьВидНоменклатурыРасширеннаяПодсказка" id="399"/>
+													</Button>
+													<Button name="СоздатьГруппуВидовНоменклатуры" id="400">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группу видов номенклатуры</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СоздатьГруппуВидовНоменклатурыРасширеннаяПодсказка" id="401"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+											<Button name="СоздатьГруппуНоменклатуры" id="402">
+												<Type>CommandBarButton</Type>
+												<Representation>Picture</Representation>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СоздатьГруппуНоменклатурыРасширеннаяПодсказка" id="403"/>
+											</Button>
 											<Button name="ИзменитьВариантНавигации" id="342">
 												<Type>CommandBarButton</Type>
 												<Representation>Picture</Representation>
-												<Width>2</Width>
 												<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 												<Picture>
 													<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-													<xr:LoadTransparent>true</xr:LoadTransparent>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</Picture>
 												<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="343"/>
 											</Button>
@@ -3364,12 +3274,6 @@
 										<v8:content>Варианты навигации</v8:content>
 									</v8:item>
 								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Варианты навигации</v8:content>
-									</v8:item>
-								</ToolTip>
 								<PagesRepresentation>None</PagesRepresentation>
 								<ExtendedTooltip name="ВариантыНавигацииExtendedTooltip" id="264"/>
 								<ChildItems>
@@ -3380,12 +3284,6 @@
 												<v8:content>Навигация иерархия номенклатуры</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Навигация иерархия номенклатуры</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="НавигацияИерархияНоменклатурыExtendedTooltip" id="265"/>
 										<ChildItems>
@@ -3396,33 +3294,27 @@
 														<v8:content>Командная панель фильтры</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Командная панель фильтры</v8:content>
-													</v8:item>
-												</ToolTip>
 												<ExtendedTooltip name="КоманднаяПанельФильтрыExtendedTooltip" id="266"/>
 												<ChildItems>
 													<Button name="СоздатьГруппу" id="116">
 														<Type>CommandBarButton</Type>
 														<Representation>PictureAndText</Representation>
-														<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СоздатьГруппуExtendedTooltip" id="267"/>
 													</Button>
 													<Button name="Изменить" id="117">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Change</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ИзменитьExtendedTooltip" id="268"/>
 													</Button>
 													<Button name="Скопировать" id="118">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Copy</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СкопироватьExtendedTooltip" id="269"/>
 													</Button>
 													<Button name="УстановитьПометкуУдаления" id="119">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="УстановитьПометкуУдаленияExtendedTooltip" id="270"/>
 													</Button>
 												</ChildItems>
@@ -3437,25 +3329,28 @@
 												<InitialTreeView>ExpandTopLevel</InitialTreeView>
 												<EnableStartDrag>true</EnableStartDrag>
 												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ИерархияНоменклатуры</DataPath>
 												<RowPictureDataPath>ИерархияНоменклатуры.DefaultPicture</RowPictureDataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Иерархия номенклатуры</v8:content>
+													</v8:item>
+												</Title>
 												<CommandSet>
-													<ExcludedCommand>HierarchicalList</ExcludedCommand>
-													<ExcludedCommand>Tree</ExcludedCommand>
-													<ExcludedCommand>List</ExcludedCommand>
-													<ExcludedCommand>LevelUp</ExcludedCommand>
-													<ExcludedCommand>MoveItem</ExcludedCommand>
 													<ExcludedCommand>CancelSearch</ExcludedCommand>
-													<ExcludedCommand>Choose</ExcludedCommand>
-													<ExcludedCommand>Find</ExcludedCommand>
-													<ExcludedCommand>LevelDown</ExcludedCommand>
 													<ExcludedCommand>Delete</ExcludedCommand>
+													<ExcludedCommand>Find</ExcludedCommand>
+													<ExcludedCommand>HierarchicalList</ExcludedCommand>
+													<ExcludedCommand>LevelDown</ExcludedCommand>
+													<ExcludedCommand>LevelUp</ExcludedCommand>
+													<ExcludedCommand>List</ExcludedCommand>
+													<ExcludedCommand>MoveItem</ExcludedCommand>
+													<ExcludedCommand>Tree</ExcludedCommand>
 												</CommandSet>
-												<SearchStringLocation>None</SearchStringLocation>
-												<ViewStatusLocation>None</ViewStatusLocation>
-												<SearchControlLocation>None</SearchControlLocation>
 												<AutoRefresh>false</AutoRefresh>
-												<AutoRefreshPeriod>60</AutoRefreshPeriod>
+												<AutoRefreshPeriod>58</AutoRefreshPeriod>
 												<Period>
 													<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
 													<v8:startDate>0001-01-01T00:00:00</v8:startDate>
@@ -3472,22 +3367,22 @@
 													<ChildItems>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппу" id="120">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппуExtendedTooltip" id="271"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюИзменить" id="121">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Change</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюИзменитьExtendedTooltip" id="272"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюСкопировать" id="122">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Copy</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСкопироватьExtendedTooltip" id="273"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаления" id="123">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip" id="274"/>
 														</Button>
 													</ChildItems>
@@ -3509,6 +3404,7 @@
 														<Item>ИерархияНоменклатуры</Item>
 														<Type>ViewStatusRepresentation</Type>
 													</AdditionSource>
+													<HorizontalLocation>Left</HorizontalLocation>
 													<ContextMenu name="ИерархияНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="316"/>
 													<ExtendedTooltip name="ИерархияНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="317"/>
 												</ViewStatusAddition>
@@ -3543,12 +3439,6 @@
 												<v8:content>Навигация виды номенклатуры</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Навигация виды номенклатуры</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="НавигацияВидыНоменклатурыExtendedTooltip" id="277"/>
 										<ChildItems>
@@ -3570,29 +3460,32 @@
 												<UseAlternationRowColor>true</UseAlternationRowColor>
 												<EnableStartDrag>true</EnableStartDrag>
 												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ВидыНоменклатуры</DataPath>
 												<RowPictureDataPath>ВидыНоменклатуры.DefaultPicture</RowPictureDataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Виды номенклатуры</v8:content>
+													</v8:item>
+												</Title>
 												<CommandSet>
+													<ExcludedCommand>CancelSearch</ExcludedCommand>
+													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+													<ExcludedCommand>Delete</ExcludedCommand>
+													<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+													<ExcludedCommand>Find</ExcludedCommand>
+													<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 													<ExcludedCommand>HierarchicalList</ExcludedCommand>
-													<ExcludedCommand>Tree</ExcludedCommand>
 													<ExcludedCommand>List</ExcludedCommand>
 													<ExcludedCommand>ListSettings</ExcludedCommand>
 													<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-													<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-													<ExcludedCommand>Refresh</ExcludedCommand>
-													<ExcludedCommand>CancelSearch</ExcludedCommand>
-													<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 													<ExcludedCommand>OutputList</ExcludedCommand>
-													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-													<ExcludedCommand>Choose</ExcludedCommand>
+													<ExcludedCommand>Refresh</ExcludedCommand>
 													<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-													<ExcludedCommand>Find</ExcludedCommand>
 													<ExcludedCommand>SearchHistory</ExcludedCommand>
-													<ExcludedCommand>Delete</ExcludedCommand>
+													<ExcludedCommand>Tree</ExcludedCommand>
 												</CommandSet>
-												<SearchStringLocation>None</SearchStringLocation>
-												<ViewStatusLocation>None</ViewStatusLocation>
-												<SearchControlLocation>None</SearchControlLocation>
 												<AutoRefresh>false</AutoRefresh>
 												<AutoRefreshPeriod>60</AutoRefreshPeriod>
 												<Period>
@@ -3606,66 +3499,61 @@
 												<ShowRoot>false</ShowRoot>
 												<AllowRootChoice>false</AllowRootChoice>
 												<UpdateOnDataChange>Auto</UpdateOnDataChange>
-												<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="345"/>
-												<AutoCommandBar name="ВидыНоменклатурыКоманднаяПанель" id="346">
+												<ContextMenu name="ВидыНоменклатурыКонтекстноеМеню" id="345">
 													<Autofill>false</Autofill>
 													<ChildItems>
-														<Popup name="ВидыНоменклатурыГруппаСоздать" id="369">
+														<Button name="ВидыНоменклатурыСоздать" id="371">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Создать</v8:content>
+																	<v8:content>Вид номенклатуры</v8:content>
 																</v8:item>
 															</Title>
-															<ToolTip>
+															<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="372"/>
+														</Button>
+														<Button name="ВидыНоменклатурыСоздатьГруппу" id="373">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Виды номенклатуры группа создать</v8:content>
+																	<v8:content>Группу видов номенклатуры</v8:content>
 																</v8:item>
-															</ToolTip>
-															<ExtendedTooltip name="ВидыНоменклатурыГруппаСоздатьРасширеннаяПодсказка" id="370"/>
-															<ChildItems>
-																<Button name="ВидыНоменклатурыСоздать" id="371">
-																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Вид номенклатуры</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="372"/>
-																</Button>
-																<Button name="ВидыНоменклатурыСоздатьГруппу" id="373">
-																	<Type>CommandBarButton</Type>
-																	<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группу видов номенклатуры</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="374"/>
-																</Button>
-															</ChildItems>
-														</Popup>
+															</Title>
+															<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="374"/>
+														</Button>
 														<Button name="ВидыНоменклатурыИзменить" id="375">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Change</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ВидыНоменклатурыИзменитьРасширеннаяПодсказка" id="376"/>
 														</Button>
 														<Button name="ВидыНоменклатурыСкопировать" id="377">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Copy</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ВидыНоменклатурыСкопироватьРасширеннаяПодсказка" id="378"/>
 														</Button>
 														<Button name="ВидыНоменклатурыУстановитьПометкуУдаления" id="379">
 															<Type>CommandBarButton</Type>
-															<OnlyInAllActions>false</OnlyInAllActions>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+															<CommandName>0</CommandName>
+															<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 															<ExtendedTooltip name="ВидыНоменклатурыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="380"/>
 														</Button>
+														<ButtonGroup name="ВидыНоменклатурыКонтекстноеМенюСтандартныеКоманды" id="404">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Виды номенклатуры контекстное меню стандартные команды</v8:content>
+																</v8:item>
+															</Title>
+															<CommandSource>Item.ВидыНоменклатуры</CommandSource>
+															<ExtendedTooltip name="ВидыНоменклатурыКонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка" id="405"/>
+														</ButtonGroup>
 													</ChildItems>
+												</ContextMenu>
+												<AutoCommandBar name="ВидыНоменклатурыКоманднаяПанель" id="346">
+													<Autofill>false</Autofill>
 												</AutoCommandBar>
 												<ExtendedTooltip name="ВидыНоменклатурыРасширеннаяПодсказка" id="347"/>
 												<SearchStringAddition name="ВидыНоменклатурыСтрокаПоиска" id="348">
@@ -3681,6 +3569,7 @@
 														<Item>ВидыНоменклатуры</Item>
 														<Type>ViewStatusRepresentation</Type>
 													</AdditionSource>
+													<HorizontalLocation>Left</HorizontalLocation>
 													<ContextMenu name="ВидыНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="356"/>
 													<ExtendedTooltip name="ВидыНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="357"/>
 												</ViewStatusAddition>
@@ -3715,27 +3604,31 @@
 												<HorizontalLines>false</HorizontalLines>
 												<VerticalLines>false</VerticalLines>
 												<InitialTreeView>ExpandAllLevels</InitialTreeView>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>ДеревоОтборов</DataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дерево отборов</v8:content>
+													</v8:item>
+												</Title>
 												<CommandSet>
-													<ExcludedCommand>HierarchicalList</ExcludedCommand>
-													<ExcludedCommand>Tree</ExcludedCommand>
+													<ExcludedCommand>Add</ExcludedCommand>
+													<ExcludedCommand>Change</ExcludedCommand>
 													<ExcludedCommand>Copy</ExcludedCommand>
-													<ExcludedCommand>List</ExcludedCommand>
-													<ExcludedCommand>SortListAsc</ExcludedCommand>
-													<ExcludedCommand>MoveUp</ExcludedCommand>
-													<ExcludedCommand>OutputList</ExcludedCommand>
-													<ExcludedCommand>SelectAll</ExcludedCommand>
-													<ExcludedCommand>SortListDesc</ExcludedCommand>
 													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 													<ExcludedCommand>Delete</ExcludedCommand>
 													<ExcludedCommand>EndEdit</ExcludedCommand>
-													<ExcludedCommand>Add</ExcludedCommand>
-													<ExcludedCommand>Change</ExcludedCommand>
+													<ExcludedCommand>HierarchicalList</ExcludedCommand>
+													<ExcludedCommand>List</ExcludedCommand>
 													<ExcludedCommand>MoveDown</ExcludedCommand>
+													<ExcludedCommand>MoveUp</ExcludedCommand>
+													<ExcludedCommand>OutputList</ExcludedCommand>
+													<ExcludedCommand>SelectAll</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
+													<ExcludedCommand>Tree</ExcludedCommand>
 												</CommandSet>
-												<SearchStringLocation>None</SearchStringLocation>
-												<ViewStatusLocation>None</ViewStatusLocation>
-												<SearchControlLocation>None</SearchControlLocation>
 												<ContextMenu name="ДеревоОтборовКонтекстноеМеню" id="51">
 													<Autofill>false</Autofill>
 												</ContextMenu>
@@ -3756,6 +3649,7 @@
 														<Item>ДеревоОтборов</Item>
 														<Type>ViewStatusRepresentation</Type>
 													</AdditionSource>
+													<HorizontalLocation>Left</HorizontalLocation>
 													<ContextMenu name="ДеревоОтборовСостояниеПросмотраКонтекстноеМеню" id="325"/>
 													<ExtendedTooltip name="ДеревоОтборовСостояниеПросмотраРасширеннаяПодсказка" id="326"/>
 												</ViewStatusAddition>
@@ -3775,12 +3669,6 @@
 																<v8:content>Дерево отборов группа представление</v8:content>
 															</v8:item>
 														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Дерево отборов группа представление</v8:content>
-															</v8:item>
-														</ToolTip>
 														<Group>InCell</Group>
 														<ExtendedTooltip name="ДеревоОтборовГруппаПредставлениеExtendedTooltip" id="284"/>
 														<ChildItems>
@@ -3804,7 +3692,9 @@
 														<DataPath>ДеревоОтборов.ПредставлениеОтбора</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<CellHyperlink>true</CellHyperlink>
-														<TextColor>style:ЦветГиперссылки</TextColor>
+														<Width>15</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<TextColor>style:ГиперссылкаЦвет</TextColor>
 														<ContextMenu name="ДеревоОтборовПредставлениеОтбораКонтекстноеМеню" id="67"/>
 														<ExtendedTooltip name="ДеревоОтборовПредставлениеОтбораExtendedTooltip" id="287"/>
 													</LabelField>
@@ -3819,19 +3709,10 @@
 												<v8:content>Страница товары другого качества</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница товары другого качества</v8:content>
-											</v8:item>
-										</ToolTip>
 										<ExtendedTooltip name="СтраницаТоварыДругогоКачестваExtendedTooltip" id="288"/>
 										<ChildItems>
 											<InputField name="НоменклатураИсходногоКачества" id="129">
 												<DataPath>НоменклатураИсходногоКачества</DataPath>
-												<DropListButton>false</DropListButton>
-												<ChoiceButton>true</ChoiceButton>
-												<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 												<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 												<ChoiceParameters>
 													<app:item name="Отбор.ЕстьТоварыДругогоКачества">
@@ -3852,27 +3733,30 @@
 												<VerticalLines>false</VerticalLines>
 												<UseAlternationRowColor>true</UseAlternationRowColor>
 												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<FileDragMode>AsFile</FileDragMode>
 												<DataPath>СписокКачества</DataPath>
-												<RowPictureDataPath>СписокКачества.Picture</RowPictureDataPath>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Список качества</v8:content>
+													</v8:item>
+												</Title>
 												<CommandSet>
-													<ExcludedCommand>Copy</ExcludedCommand>
+													<ExcludedCommand>Add</ExcludedCommand>
+													<ExcludedCommand>Change</ExcludedCommand>
 													<ExcludedCommand>CheckAll</ExcludedCommand>
-													<ExcludedCommand>SortListAsc</ExcludedCommand>
-													<ExcludedCommand>MoveUp</ExcludedCommand>
-													<ExcludedCommand>UncheckAll</ExcludedCommand>
-													<ExcludedCommand>SelectAll</ExcludedCommand>
-													<ExcludedCommand>SortListDesc</ExcludedCommand>
-													<ExcludedCommand>Pickup</ExcludedCommand>
+													<ExcludedCommand>Copy</ExcludedCommand>
 													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 													<ExcludedCommand>Delete</ExcludedCommand>
 													<ExcludedCommand>EndEdit</ExcludedCommand>
-													<ExcludedCommand>Add</ExcludedCommand>
-													<ExcludedCommand>Change</ExcludedCommand>
 													<ExcludedCommand>MoveDown</ExcludedCommand>
+													<ExcludedCommand>MoveUp</ExcludedCommand>
+													<ExcludedCommand>Pickup</ExcludedCommand>
+													<ExcludedCommand>SelectAll</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
+													<ExcludedCommand>UncheckAll</ExcludedCommand>
 												</CommandSet>
-												<SearchStringLocation>None</SearchStringLocation>
-												<ViewStatusLocation>None</ViewStatusLocation>
-												<SearchControlLocation>None</SearchControlLocation>
 												<ContextMenu name="СписокКачестваКонтекстноеМеню" id="132"/>
 												<AutoCommandBar name="СписокКачестваКоманднаяПанель" id="133">
 													<Autofill>false</Autofill>
@@ -3891,6 +3775,7 @@
 														<Item>СписокКачества</Item>
 														<Type>ViewStatusRepresentation</Type>
 													</AdditionSource>
+													<HorizontalLocation>Left</HorizontalLocation>
 													<ContextMenu name="СписокКачестваСостояниеПросмотраКонтекстноеМеню" id="334"/>
 													<ExtendedTooltip name="СписокКачестваСостояниеПросмотраРасширеннаяПодсказка" id="335"/>
 												</ViewStatusAddition>
@@ -3956,7 +3841,124 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="СписокНоменклатура" id="1">
+			<Attribute name="АртикулНоменклатурыПоставщика" id="1000014">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Артикул номенклатуры поставщика</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
+				</Type>
+			</Attribute>
+			<Attribute name="ИмпортерЕГАИС" id="1000035">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Импортер ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="НаименованиеНоменклатурыЕГАИС" id="1000036">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Наименование номенклатуры ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="НоменклатураЕГАИС" id="1000037">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номенклатура ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ОбъемЕГАИС" id="1000038">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Объем ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ПолноеНаименованиеНоменклатурыЕГАИС" id="1000039">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Полное наименование номенклатуры ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ПроизводительЕГАИС" id="1000040">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Производитель ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ВидАлкогольнойПродукцииЕГАИС" id="1000041">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид алкогольной продукции ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.ВидыАлкогольнойПродукции</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="КрепостьЕГАИС" id="1000042">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Крепость ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>5</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="СписокНоменклатура" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3968,13 +3970,12 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>СписокНоменклатура.Ссылка</Field>
-					<Field>СписокНоменклатура.ПометкаУдаления</Field>
-					<Field>СписокНоменклатура.ИндексКартинки</Field>
-					<Field>СписокНоменклатура.ВидНоменклатуры</Field>
-					<Field>СписокНоменклатура.Parent</Field>
 					<Field>СписокНоменклатура.Description</Field>
-					<Field>~СписокНоменклатура.АБ_СнятоСПроизводства</Field>
+					<Field>СписокНоменклатура.Parent</Field>
+					<Field>СписокНоменклатура.Ref</Field>
+					<Field>СписокНоменклатура.ВидНоменклатуры</Field>
+					<Field>СписокНоменклатура.ИндексКартинки</Field>
+					<Field>СписокНоменклатура.ПометкаУдаления</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -4013,8 +4014,11 @@
 	КОНЕЦ КАК ИндексКартинки,
 	ЕСТЬNULL(ВариантыКомплектацииНоменклатуры.СодержитТовары, ЛОЖЬ) КАК СодержитТовары,
 	ЕСТЬNULL(ВариантыКомплектацииНоменклатуры.СодержитУслуги, ЛОЖЬ) КАК СодержитУслуги,
-	СпрНоменклатура.ВидНоменклатуры.ВариантОказанияУслуг КАК ВариантОказанияУслуг,
-	СпрНоменклатура.ВестиУчетСертификатовНоменклатуры КАК ВестиУчетСертификатовНоменклатуры
+	СпрНоменклатура.ОсобенностьУчета КАК ОсобенностьУчета,
+	СпрНоменклатура.ИспользованиеХарактеристик КАК ИспользованиеХарактеристик,
+	СпрНоменклатура.Качество КАК Качество,
+	СпрНоменклатура.ВестиУчетСертификатовНоменклатуры КАК ВестиУчетСертификатовНоменклатуры,
+	СпрНоменклатура.ПродукцияМаркируемаяДляГИСМ КАК ПродукцияМаркируемаяДляГИСМ
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВариантыКомплектацииНоменклатуры КАК ВариантыКомплектацииНоменклатуры
@@ -4023,6 +4027,9 @@
 			И (ВариантыКомплектацииНоменклатуры.Основной)
 ГДЕ
 	НЕ СпрНоменклатура.ЭтоГруппа
+{ГДЕ
+	СпрНоменклатура.Ссылка.*}
+
 {ГДЕ
 	(СпрНоменклатура.Ссылка В
 			(ВЫБРАТЬ
@@ -4059,7 +4066,7 @@
 					</ListSettings>
 				</Settings>
 			</Attribute>
-			<Attribute name="ВидыНоменклатуры" id="2">
+			<Attribute name="ВидыНоменклатуры" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4070,8 +4077,8 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ВидыНоменклатуры.Ref</Field>
 					<Field>ВидыНоменклатуры.IsFolder</Field>
+					<Field>ВидыНоменклатуры.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -4101,7 +4108,7 @@
 					</ListSettings>
 				</Settings>
 			</Attribute>
-			<Attribute name="СтрокаПоискаНоменклатура" id="7">
+			<Attribute name="СтрокаПоискаНоменклатура" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4116,7 +4123,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ИерархияНоменклатуры" id="8">
+			<Attribute name="ИерархияНоменклатуры" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4127,8 +4134,8 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ИерархияНоменклатуры.Ref</Field>
 					<Field>ИерархияНоменклатуры.Parent</Field>
+					<Field>ИерархияНоменклатуры.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
@@ -4157,7 +4164,7 @@
 					</ListSettings>
 				</Settings>
 			</Attribute>
-			<Attribute name="ДеревоОтборов" id="11">
+			<Attribute name="ДеревоОтборов" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4349,7 +4356,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ВидНоменклатуры" id="3">
+			<Attribute name="ВидНоменклатуры" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4360,7 +4367,7 @@
 					<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьПолнотекстовыйПоиск" id="4">
+			<Attribute name="ИспользоватьПолнотекстовыйПоиск" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4371,7 +4378,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИндексПолнотекстовогоПоискаАктуален" id="5">
+			<Attribute name="ИндексПолнотекстовогоПоискаАктуален" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4382,7 +4389,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="СегментНоменклатуры" id="9">
+			<Attribute name="СегментНоменклатуры" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4396,7 +4403,7 @@
 					<Item>FunctionalOption.ИспользоватьСегментыНоменклатуры</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ВариантНавигации" id="10">
+			<Attribute name="ВариантНавигации" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4407,7 +4414,7 @@
 					<v8:Type>cfg:EnumRef.ВариантыНавигацииВФормахНоменклатуры</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьФильтры" id="13">
+			<Attribute name="ИспользоватьФильтры" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4418,7 +4425,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="СписокОбязательныхОтборов" id="15">
+			<Attribute name="СписокОбязательныхОтборов" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4428,8 +4435,9 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
-			<Attribute name="НаименованиеНоменклатурыПоставщика" id="17">
+			<Attribute name="НаименованиеНоменклатурыПоставщика" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4444,18 +4452,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="АртикулНоменклатурыПоставщика" id="18">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Артикул номенклатуры поставщика</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
-				</Type>
-			</Attribute>
-			<Attribute name="НайтиНоменклатуруПоТочномуСоответствию" id="20">
+			<Attribute name="НайтиНоменклатуруПоТочномуСоответствию" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4466,7 +4463,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИнформационнаяБазаФайловая" id="21">
+			<Attribute name="ИнформационнаяБазаФайловая" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4477,7 +4474,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="КодОшибкиПоиска" id="22">
+			<Attribute name="КодОшибкиПоиска" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4492,7 +4489,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПоискНоменклатурыНеУдачный" id="19">
+			<Attribute name="ПоискНоменклатурыНеУдачный" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4503,7 +4500,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущаяИерархияНоменклатуры" id="23">
+			<Attribute name="ТекущаяИерархияНоменклатуры" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4514,7 +4511,7 @@
 					<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="КодФормы" id="6">
+			<Attribute name="КодФормы" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4529,7 +4526,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НоменклатураИсходногоКачества" id="24">
+			<Attribute name="НоменклатураИсходногоКачества" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4540,7 +4537,7 @@
 					<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="СписокКачества" id="25">
+			<Attribute name="СписокКачества" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4550,8 +4547,9 @@
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
-			<Attribute name="ТаблицаПараметровОтбора" id="14">
+			<Attribute name="ТаблицаПараметровОтбора" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4739,9 +4737,71 @@
 							<v8:Type>xs:boolean</v8:Type>
 						</Type>
 					</Column>
+					<Column name="ОтборХарактеристик" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отбор характеристик</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ЭтоДопРеквизит" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Это доп реквизит</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ИнтервалОт" id="15">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Интервал от</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+							<v8:DateQualifiers>
+								<v8:DateFractions>Date</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+					</Column>
+					<Column name="ИнтервалДо" id="16">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Интервал до</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+							<v8:DateQualifiers>
+								<v8:DateFractions>Date</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="НоменклатураЭлементПриОткрытии" id="26">
+			<Attribute name="НоменклатураЭлементПриОткрытии" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4752,7 +4812,7 @@
 					<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НоменклатураРодительПриОткрытии" id="27">
+			<Attribute name="НоменклатураРодительПриОткрытии" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4763,7 +4823,7 @@
 					<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьХарактеристикиНоменклатуры" id="28">
+			<Attribute name="ИспользоватьХарактеристикиНоменклатуры" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4774,7 +4834,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ВидНоменклатурыДоИзменения" id="29">
+			<Attribute name="ВидНоменклатурыДоИзменения" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4785,7 +4845,7 @@
 					<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ВыборТовараДругогоКачества" id="30">
+			<Attribute name="ВыборТовараДругогоКачества" id="1000028">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4796,7 +4856,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ВариантПоискаТоваров" id="31">
+			<Attribute name="ВариантПоискаТоваров" id="1000029">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4811,7 +4871,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьСтандартныйПоискПриПодбореТоваров" id="32">
+			<Attribute name="ИспользоватьСтандартныйПоискПриПодбореТоваров" id="1000030">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4822,7 +4882,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЕстьФильтрПоПоискуНоменклатуры" id="33">
+			<Attribute name="ЕстьФильтрПоПоискуНоменклатуры" id="1000031">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4833,7 +4893,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЕстьПравоНастройкиВидовНоменклатуры" id="12">
+			<Attribute name="ЕстьПравоНастройкиВидовНоменклатуры" id="1000032">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4844,7 +4904,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЦветТекстаФормы" id="16">
+			<Attribute name="ЦветТекстаФормы" id="1000033">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4855,7 +4915,7 @@
 					<v8:Type>v8ui:Color</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьВариантНавигации" id="35">
+			<Attribute name="НадписьВариантНавигации" id="1000034">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4866,113 +4926,7 @@
 					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИмпортерЕГАИС" id="36">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Импортер ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="НаименованиеНоменклатурыЕГАИС" id="37">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Наименование номенклатуры ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>0</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="НоменклатураЕГАИС" id="38">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Номенклатура ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ОбъемЕГАИС" id="39">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Объем ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>10</v8:Digits>
-						<v8:FractionDigits>3</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="ПолноеНаименованиеНоменклатурыЕГАИС" id="40">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Полное наименование номенклатуры ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>0</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="ПроизводительЕГАИС" id="41">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Производитель ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ВидАлкогольнойПродукцииЕГАИС" id="42">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Вид алкогольной продукции ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>cfg:CatalogRef.ВидыАлкогольнойПродукции</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="КрепостьЕГАИС" id="43">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Крепость ЕГАИС</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>5</v8:Digits>
-						<v8:FractionDigits>3</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Attribute>
-			<Attribute name="РегистрироватьШтрихкод" id="44">
+			<Attribute name="РегистрироватьШтрихкод" id="1000043">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5007,7 +4961,7 @@
 			</ConditionalAppearance>
 		</Attributes>
 		<Commands>
-			<Command name="Поиск" id="1">
+			<Command name="Поиск" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5024,8 +4978,9 @@
 					<xr:Ref>StdPicture.Find</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НоменклатураСАналогичнымиСвойствами" id="3">
+			<Command name="НоменклатураСАналогичнымиСвойствами" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5042,8 +4997,9 @@
 					<xr:Ref>CommonPicture.ФильтрПоВидамИСвойствамНоменклатуры</xr:Ref>
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ТоварыДругогоКачества" id="4">
+			<Command name="ТоварыДругогоКачества" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5063,8 +5019,9 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьКачествоТоваров</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СброситьОтборыПоСвойствам" id="5">
+			<Command name="СброситьОтборыПоСвойствам" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5082,8 +5039,9 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастроитьПоиск" id="6">
+			<Command name="НастроитьПоиск" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5096,8 +5054,9 @@
 						<v8:content>Настроить поиск</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="7">
+			<Command name="УстановитьТекущийЭлементСтрокаПоиска" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5111,8 +5070,9 @@
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Alt+1</Shortcut>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыбратьЗначениеНоменклатуры" id="8">
+			<Command name="ВыбратьЗначениеНоменклатуры" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5130,8 +5090,9 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ИзменитьВариантНавигации" id="9">
+			<Command name="ИзменитьВариантНавигации" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -5144,12 +5105,17 @@
 						<v8:content>Изменить вариант навигации</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 		<Parameters>
 			<Parameter name="НоменклатураПоставщика">
 				<Type>
-					<v8:Type>cfg:CatalogRef.НоменклатураПоставщиков</v8:Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
 				</Type>
 			</Parameter>
 			<Parameter name="АртикулНоменклатурыПоставщика">
@@ -5168,19 +5134,6 @@
 						<v8:Length>0</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
 					</v8:StringQualifiers>
-				</Type>
-			</Parameter>
-			<Parameter name="ВыборТовараДругогоКачества">
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Parameter>
-			<Parameter name="ВариантыРасчетаЦеныНабора">
-				<Type/>
-			</Parameter>
-			<Parameter name="ЗапретРедактированияСегментаНоменклатуры">
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Parameter>
 			<Parameter name="НаименованиеНоменклатурыЕГАИС">
@@ -5242,6 +5195,19 @@
 				</Type>
 			</Parameter>
 			<Parameter name="РегистрироватьШтрихкод">
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Parameter>
+			<Parameter name="ВыборТовараДругогоКачества">
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Parameter>
+			<Parameter name="ВариантыРасчетаЦеныНабора">
+				<Type/>
+			</Parameter>
+			<Parameter name="ЗапретРедактированияСегментаНоменклатуры">
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>

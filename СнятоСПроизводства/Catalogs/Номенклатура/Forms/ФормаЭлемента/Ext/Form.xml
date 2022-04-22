@@ -439,9 +439,6 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
-	<Events>
-		<Event name="OnCreateAtServer" callType="After">Снято_ПриСозданииНаСервереПосле</Event>
-	</Events>
 	<ChildItems>
 		<Pages name="СтраницыКарточкаНоменклатуры" id="682">
 			<Title>

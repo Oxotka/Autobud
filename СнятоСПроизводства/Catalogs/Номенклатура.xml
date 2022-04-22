@@ -974,22 +974,6 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7ce8c44e-c0ed-4072-b566-36597b903886">
-				<InternalInfo/>
-				<Properties>
-					<Name>АртикулВендора</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>f2353579-982b-4560-8dc5-5bbdeaaa3927</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
 			<Attribute uuid="ca8a1d53-f083-4599-a7b2-ea763366680d">
 				<Properties>
 					<Name>СнятоСПроизводства</Name>

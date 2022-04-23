@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="Catalog.СкладскиеПомещения" id="86b03fdd-14cc-41f6-819a-723146a56f0c" configVersion="369370a81553259133b049b159679174bd8a9434"/>
+		<Metadata name="Catalog.СкладскиеПомещения.Form.ФормаВыбораСОстатками" id="05b323a6-2fa3-4c92-8db0-38f7f2b59899" configVersion="e4dac3ba843abd778b367730e8b6cadbadb96eee"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="f989b89a-3ca0-42a8-a7a6-938fad8ddac7" configVersion="924c10473b4e6583ea217306465155cecee6b17c"/>
+		<Metadata name="CommonPicture.Набор" id="8ed5fce3-2ce5-49fd-b94e-fe38ad91b4d1" configVersion="45115efd0370e34888c6fcf9bf01a4cc76b68c88"/>
+		<Metadata name="CommonPicture.Наборы" id="66c5f690-d7a9-4232-b85c-1051c1781549" configVersion="5edb3238c66d6fc8c45e5894107406699547157e"/>
+		<Metadata name="CommonPicture.СерииНоменклатурыКолонкаСтатусов" id="d9b47cf3-721c-41ba-ac01-5eaf141ceaaf" configVersion="cbe324e4351d2ab0d026acb301df52d9aa164d55"/>
+		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="bad9e7c6-ca25-4ce8-b2d6-637b029b2adb" configVersion="1bf2e0c76b3e63d96f3865883a09f5ea358bef9a"/>
+		<Metadata name="Configuration.ИзменениеЦеныВРМК" id="b8738543-7fc5-4323-9c3f-7cdfffb645ea" configVersion="f19bb20c56c897077b13abb4fe438d9c4e06fce4"/>
+		<Metadata name="Document.ЧекККМ" id="6c6e0277-350a-4ca9-a9f7-ad5f0cc6130b" configVersion="3ce104b16d7245e22a524d249722e6ccf7d55be1"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокументаРМК" id="4ecc8767-0263-46f8-98d3-78a6edf8cdd3" configVersion="2a02da4f01726641c7d7acdd0d28489962e850bd"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокументаРМК.Form" id="4ecc8767-0263-46f8-98d3-78a6edf8cdd3.0" configVersion="23834d12cff0cb053713f282fa88ec909f08f507"/>
+		<Metadata name="Language.Русский" id="ba08ef4d-9d08-4ef4-9f87-b7e081ea9823" configVersion="7ceab9543d8aef21e13586aa3f0dcbaa600cf8d2"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

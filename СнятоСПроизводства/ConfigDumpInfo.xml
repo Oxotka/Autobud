@@ -119,7 +119,7 @@
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="a5893c25-ff5c-45e8-b77a-2813028c2efa" configVersion="1daf2d782498132ba5117b9822a168dc9b4835ad"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="a5893c25-ff5c-45e8-b77a-2813028c2efa.0" configVersion="82dd1c0dfc3f6fb2c32384437571290820fe2267"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="0f4c8678-86cd-4d75-b84a-b55e3210672f" configVersion="ea9cb5d6d286e14fdc6a50482eca260717956653"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="0f4c8678-86cd-4d75-b84a-b55e3210672f.0" configVersion="74814fdc6d2c66aba538dee462bdf214f2ba252c"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="0f4c8678-86cd-4d75-b84a-b55e3210672f.0" configVersion="909dd0bdffc132109fa5e2f60dcbb6239028438f"/>
 		<Metadata name="Catalog.ОбщероссийскийКлассификаторПродукции" id="cb683f38-529f-4fab-9d3f-b75ca7309d6d" configVersion="62a9f78e3389a50bddcde07de8a12059a80eaedf"/>
 		<Metadata name="Catalog.Производители" id="c9079a5b-8781-4ac8-b6fa-96bdebfd3c53" configVersion="1b53075472f7e53938fbc622a7a01a8f08cb4f8d"/>
 		<Metadata name="Catalog.РейтингиПродажНоменклатуры" id="8a9dbcb6-7ff0-4d14-ae33-abf7d93ef43e" configVersion="0956e0e0e9e8b25f53e751438dc025eabd672acf"/>

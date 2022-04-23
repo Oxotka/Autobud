@@ -1392,22 +1392,6 @@
 																<Event name="OnChange" callType="Before">Снято_АБ_СнятоСПроизводстваПриИзмененииПеред</Event>
 															</Events>
 														</CheckBoxField>
-														<CheckBoxField name="АБ_СнятоСПроизводства" id="1414">
-															<DataPath>Объект.АБ_СнятоСПроизводства</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Снято с производства</v8:content>
-																</v8:item>
-															</Title>
-															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="АБ_СнятоСПроизводстваКонтекстноеМеню" id="1415"/>
-															<ExtendedTooltip name="АБ_СнятоСПроизводстваРасширеннаяПодсказка" id="1416"/>
-															<Events>
-																<Event name="OnChange" callType="Before">Снято_АБ_СнятоСПроизводстваПриИзмененииПеред</Event>
-															</Events>
-														</CheckBoxField>
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаЗаголовокПланированиеИМаркетинг" id="1086">

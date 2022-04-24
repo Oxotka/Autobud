@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="Catalog.БизнесРегионы" id="81dfe7ce-b017-4189-a87d-9b6357e3ffce" configVersion="f45f260f832aaa6f36723e272e6fd9461bf70090"/>
+		<Metadata name="Catalog.Партнеры" id="0dd40676-0bcd-41a4-ac8d-5bb11a4229ab" configVersion="2dc0b53a49d21d334c4d79a8184c200f46478424">
+			<Metadata name="Catalog.Партнеры.Attribute.БизнесРегион" id="91e167b1-7575-45f1-92b8-278dbc7dfe7f"/>
+		</Metadata>
+		<Metadata name="Catalog.Партнеры.Form.ПомощникНового" id="b5fba54a-eb33-425d-abda-07de3781c9c3" configVersion="437a6eb3b9e031bb6311aea17036229423c67e7f"/>
+		<Metadata name="Catalog.Партнеры.Form.ПомощникНового.Form" id="b5fba54a-eb33-425d-abda-07de3781c9c3.0" configVersion="8f770fad681e27384eb1eb4cc4a2000792f4abbb"/>
+		<Metadata name="Catalog.Партнеры.ObjectModule" id="0dd40676-0bcd-41a4-ac8d-5bb11a4229ab.0" configVersion="6bc546a5adc926461c7382eb9183d56995af323d"/>
+		<Metadata name="Configuration.ПроверятьБизнесРегион" id="4672a1e4-0d35-49ad-9962-85078a6c5241" configVersion="93ce65029a009ab6eb6a15faa30d08aa33b3e431"/>
+		<Metadata name="Enum.СпособыФормированияСегментов" id="513280d9-1777-48c9-8cf1-449d9d9dea8d" configVersion="060c2c467fde122082c612a789eeb9d17a7622b3">
+			<Metadata name="Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную" id="04f76585-bf62-4240-89b6-6f0f41563782"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="9c0e7da1-431c-41a6-a65d-9124258439e5" configVersion="3b304477a4e69fefd8fc47e96dd9e65723312819"/>
+		<Metadata name="StyleItem.ПолеСОшибкойФон" id="dd165d6c-537a-43f0-bc5e-e163b51507bb" configVersion="7a15ea7b572cd05122be4468473911ec2cbb518f"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="3fae334e-88bb-4e23-8e42-0eb150cfdca6" configVersion="981dfe81ecfe79fe8c1a6b2acaa4c70386363e4c"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

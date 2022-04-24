@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="CommonModule.МенеджерОборудованияКлиент" id="e74cc2da-6ed8-4c68-a320-48c9dc5cd246" configVersion="507c11f186a7ee301382f8c715ea7ae73b3a3927"/>
+		<Metadata name="CommonModule.МенеджерОборудованияКлиент.Module" id="e74cc2da-6ed8-4c68-a320-48c9dc5cd246.0" configVersion="e1bac56bfe9f9ee0df0e894226d8931a0370caa7"/>
+		<Metadata name="CommonModule.МенеджерОборудованияКлиентПереопределяемый" id="3b1ba04e-eb9b-42fb-bd90-e4671ed97136" configVersion="36cedd2ffb085fe7cf6ec757a01b7eb89bedcdf6"/>
+		<Metadata name="CommonModule.МенеджерОборудованияКлиентПереопределяемый.Module" id="3b1ba04e-eb9b-42fb-bd90-e4671ed97136.0" configVersion="9f3088223451ebe214c4997a1aa84165af106713"/>
+		<Metadata name="Configuration.ПР_ЗаменаЭмулятораНаПринтерЧеков" id="e12f1716-b802-4ee8-bcf9-738023d46088" configVersion="24557837424aff544e52724876ab759328dbbd05"/>
+		<Metadata name="Language.Русский" id="cee77951-832b-4033-9c4e-698a4708c3da" configVersion="e3d280d6bc03831679c4bbf0a32e8b220c7d9c17"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

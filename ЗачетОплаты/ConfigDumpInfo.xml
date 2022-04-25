@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="4496fa6b-d8e7-464c-b712-d9d08f4431e1" configVersion="e1434d92f4439e9c8b29a72d2dbbfb13ca25410f"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="2bae3421-6f5b-4936-97fd-b0cb9520df03" configVersion="86dd14f643a83eab8b70b11fa556afd465d191a2"/>
+		<Metadata name="CommonPicture.Отчеты" id="ae3dea9e-6d9d-425d-8a59-2e1d729be1f1" configVersion="ac321fbfb2a6b1b594e3a97923524d743d69a165"/>
+		<Metadata name="Configuration.ЗачетОплаты" id="366f0276-25dc-4dc6-988b-1d18c9ce50ec" configVersion="b7cde9e7845702b4b27bb5ea97dd41949ac095b6"/>
+		<Metadata name="Document.ЗаказПоставщику" id="7f0cb3c3-44a1-4f7c-a2aa-c909d982f6be" configVersion="264c02d0e3d29add956afec5bc25d4ec9d91ddbe"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="f6ce759a-aa61-4842-a2d4-e321f3c5a68e" configVersion="69c85b5e7a4d41a68ed378a1705a88e609482231"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="f6ce759a-aa61-4842-a2d4-e321f3c5a68e.0" configVersion="84f212952a1f4cac03ad2e00a5f48a9bfec88774"/>
+		<Metadata name="Enum.СпособыДоставки" id="1feb2b32-8f03-44f5-b629-8ba68fbf62e8" configVersion="c79f1abf35f013b8c29609d4d0c7ca3f46c640b0">
+			<Metadata name="Enum.СпособыДоставки.EnumValue.ОтОтправителяОпределяетСлужбаДоставки" id="287d534c-aa31-4056-b3cb-a3605483580a"/>
+			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПоставщикаДоНашегоСклада" id="7378437c-23a6-4273-8541-625aa03f726f"/>
+			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчикаДоНашегоСклада" id="86d3fbd6-18a2-4180-a894-b7028c2121b2"/>
+			<Metadata name="Enum.СпособыДоставки.EnumValue.НашимиСиламиСАдресаОтправителя" id="960d1fac-3269-4ccb-878d-c738cafed196"/>
+			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчикаДоПунктаПередачи" id="dfd1658b-d966-441e-a573-97eb9a0c3c84"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыНалогообложенияНДС" id="f936c605-b3e9-4435-b991-46eb0b9fb588" configVersion="7a39bef8740b77db2f8a873f4f805af1c81bc228">
+			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.НалоговыйАгентПоНДС" id="52e9c127-6479-4c4d-8c6f-a295ed416a51"/>
+			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ОблагаетсяНДСУПокупателя" id="93c0cc5c-d7bd-4131-a725-629cbd1060eb"/>
+			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаОблагаетсяНДС" id="dc7db8d6-266b-41af-a0ec-0da9f513a4f6"/>
+			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаНеОблагаетсяНДС" id="e6853153-9fbc-4940-9d4e-0c953377639d"/>
+		</Metadata>
+		<Metadata name="Enum.ХозяйственныеОперации" id="047c8bee-bfee-45af-8ed4-20498db6f35b" configVersion="2ba69baf4a896765b8772ae7e42cc18e2b3ec98a">
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭСТоварыВПути" id="0c0f90eb-fd00-4e5a-9b96-09fa67028e6b"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщикаФактуровкаПоставки" id="18dd1cbe-3753-4527-9695-1618837ce015"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПриемНаХранениеСПравомПродажи" id="1a81708f-89bc-445b-8a27-95618959e254"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭС" id="28dbfc2d-4bf5-4855-a3a9-624e005a049c"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭСФактуровкаПоставки" id="35e631f9-b28e-4d18-adf4-530fb67551f1"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаПоИмпорту" id="52f117d3-a8e7-42bf-98b8-73657efae29e"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаПоИмпортуТоварыВПути" id="6b8cb4a3-1fa1-49d1-b392-b4aac67e9e43"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПриемНаКомиссию" id="9c62f759-862f-4159-a5d5-247c2e42e380"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщикаТоварыВПути" id="eea311e9-e642-4ecf-b6a0-a9963ee040a5"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщика" id="f018acd5-0480-4500-b56f-84a3c5666483"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="2534c4d9-a049-4af6-9595-1712f3d23b7f" configVersion="8aee50ccab9ca0b1f96b8f69d6f8c8ac4fd15c27"/>
+		<Metadata name="StyleItem.ИтогиФон" id="af43a18a-c19a-42f8-9c7d-ff28c76d2079" configVersion="5741e0b3c2a54a0e07a5b536609c735fb71d53a0"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
